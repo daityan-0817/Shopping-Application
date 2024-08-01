@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>seson2_assignment</title>
+        <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+        >
+        <link
+        rel="stylesheet"
+        type="text/css"
+        href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css"
+        >
+        <link rel="stylesheet" href="./index.css">
+    </head>
+    <body>
+        <div class="Layout" id="Layout">
+            <button id="return" class="decoration"><img src="https://kadai-1-9fce0.web.app/images/ec_logo1.png"></button>
+            <div class="Content">ShoppingCart</div>
+            <div class="imagecart"><img src="https://kadai-1-9fce0.web.app/images/feather-shopping-cart.svg"></div>
+        </div>
+        <p class="border"></p>
+        <div id="item_display"></div>
+        <div class="Customer_Information">
+            <div id="Customer_text">お客様情報入力</div>
+            <p id="Customer_name_text">お名前<span class="asterisk">※</span></p>
+            <input type="text" id="input_name">
+            <p id="Customer_email_text">メールアドレス<span class="asterisk">※</span></p>
+            <input type="text" id="input_email">
+            <p id="addres_text">ご住所<span class="asterisk">※</span></p>
+            <p id="post_code_text">郵便番号</p>
+            <input type="text" id="input_PostCode">
+            <p id="prefectures_text">都道府県</p>
+            <input type="text" id="input_prefectures">
+            <p id="municipalities_text">市区町村番号 建物名・部屋番号</p>
+            <input type="text" id="input_municipalities">
+            <fieldset>
+            <legend id="Payment_method_text">お支払い方法<span class="asterisk">※</span></legend>
+
+            <input type="radio" name="radio_button" id="credit_card">
+            <label for="credit_card" id="credit_card_text">クレジットカード</label>
+
+            <input type="radio" name="radio_button" id="Bank_transfer">
+            <label for="Bank_transfer" id="Bank_transfer_text">銀行振込</label>
+
+            <input type="radio" name="radio_button" id="cash_on_delivery">
+            <label for="cash_on_delivery" id="cash_on_delivery_text">代金引換</label>
+            </fieldset>
+        </div>
+        <button type="button" id="confirm_button">入力内容を確認する</button>
+        <p class="decoration2"><img src="https://kadai-1-9fce0.web.app/images/ec_logo1.png"></p>
+        <p class="text">Copyright(C) 20XX kids design All Rights Reserved.</p>
+        <script src="https://kadai-1-9fce0.web.app/scripts/data.js"></script>
+        <script src="../common/index.js"></script>
+        <script src="./index.js"></script>
+    </body>  
+</html>
