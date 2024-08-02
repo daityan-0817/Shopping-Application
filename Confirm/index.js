@@ -170,4 +170,3 @@ cart_button.addEventListener('click', () => {
     history.back()
     localStorage.removeItem(Item_stock)
 })
-

@@ -181,8 +181,8 @@
     }
     
     .sold_out_message {
-        position: relative;
-        bottom: 270px;
+        position: absolute;
+        top: 40px;
         width: 70px;
         height: 30px;
         color: #fff;
@@ -382,8 +382,8 @@
     }
 
     .sold_out_message {
-        position: relative;
-        bottom: 270px;
+        position: absolute;
+        top: 40px;
         width: 70px;
         height: 30px;
         color: #fff;
@@ -576,8 +576,8 @@
     }
 
     .sold_out_message {
-        position: relative;
-        bottom: 280px;
+        position: absolute;
+        top: 40px;
         width: 70px;
         height: 30px;
         color: #fff;

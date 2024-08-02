@@ -6,7 +6,6 @@ const cart_button = qs('#imagecart')
 const Cart_num = 'cartnum'
 const Item_stock = 'item_stock'
 
-
 function get_Cart_num() {
   const date = localStorage.getItem(Cart_num)
 
@@ -71,6 +70,7 @@ search_button.addEventListener('click', () => {
         })
       }
     } 
+    
     const No_item = item_name_list.some(elem => elem[0] === search_input.value)
     
     if(search_input.value !== '' && !No_item) {
@@ -109,34 +109,34 @@ search_button.addEventListener('click', () => {
         sold_out_message.setAttribute('class','sold_out_message')
         sold_out_message.innerText = 'sold out'
         listItem.appendChild(sold_out_message)
-    } else {
+      } else {
       
-          listItem.addEventListener('click', () => {
+        listItem.addEventListener('click', () => {
           location.href =  `http://127.0.0.1:5500/assignment/detail/?detail?id=${item.id}=/?detail?imgsrc=${item.image}=/?detail?name=${item.itemName}=/?detail?price=${item.price}`
       })
     }
   } else if(item.itemName.includes(search_input.value)){
     
-    const listItem = document.createElement('div')
-    listItem.setAttribute('class','items')
-    listItem.innerHTML = 
-    ` 
-    <img src="${item.image}"/>
-    <di>${item.itemName}</div>
-    <div>￥${item.price}</div>
-    `
-    items.appendChild(listItem)
+      const listItem = document.createElement('div')
+      listItem.setAttribute('class','items')
+      listItem.innerHTML = 
+      ` 
+      <img src="${item.image}"/>
+      <di>${item.itemName}</div>
+      <div>￥${item.price}</div>
+      `
+      items.appendChild(listItem)
 
-    if(sold_out_item) {
+      if(sold_out_item) {
       
-      const sold_out_message = document.createElement('span')
-      sold_out_message.setAttribute('class','sold_out_message')
-      sold_out_message.innerText = 'sold out'
-      listItem.appendChild(sold_out_message)
+        const sold_out_message = document.createElement('span')
+        sold_out_message.setAttribute('class','sold_out_message')
+        sold_out_message.innerText = 'sold out'
+        listItem.appendChild(sold_out_message)
     } else {
       
-      listItem.addEventListener('click', () => {
-        location.href =  `http://127.0.0.1:5500/assignment/detail/?detail?id=${item.id}=/?detail?imgsrc=${item.image}=/?detail?name=${item.itemName}=/?detail?price=${item.price}`
+        listItem.addEventListener('click', () => {
+          location.href =  `http://127.0.0.1:5500/assignment/detail/?detail?id=${item.id}=/?detail?imgsrc=${item.image}=/?detail?name=${item.itemName}=/?detail?price=${item.price}`
       })
     }
   }
@@ -146,10 +146,10 @@ search_button.addEventListener('click', () => {
 
   if(search_input.value !== '' && !No_item) {
 
-    const No_item_Display = document.createElement('span')
-    No_item_Display.setAttribute('class', 'No_item_Display')
-    No_item_Display.innerText = '検索条件に該当する商品がありません'
-    items.appendChild(No_item_Display) 
+      const No_item_Display = document.createElement('span')
+      No_item_Display.setAttribute('class', 'No_item_Display')
+      No_item_Display.innerText = '検索条件に該当する商品がありません'
+      items.appendChild(No_item_Display) 
 }
 }
 })
