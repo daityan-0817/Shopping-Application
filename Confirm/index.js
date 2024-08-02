@@ -148,7 +148,7 @@ function item_stock_minus() {
 item_stock_minus()
 
 Order_confirmed_button.addEventListener('click', () => {
-    location.href = 'http://127.0.0.1:5500/assignment/completed/index.html'
+    location.href = 'http://127.0.0.1:5500/Shopping_application/completed/index.html'
 
     localStorage.removeItem(Cartdate)
     localStorage.removeItem(Cart_num)
@@ -162,7 +162,7 @@ Return_to_cart_button.addEventListener('click', () => {
 })
 
 return_.addEventListener('click', () => {
-    location.replace('http://127.0.0.1:5500/assignment/index.html')
+    location.replace('http://127.0.0.1:5500/Shopping_application/index.html')
     localStorage.removeItem(Item_stock)
 })
 

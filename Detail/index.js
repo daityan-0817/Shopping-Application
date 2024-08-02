@@ -66,7 +66,7 @@ function save_num_date(quantity_date) {
 
 button.addEventListener('click', () => {
 
-    location.href = 'http://127.0.0.1:5500/assignment/Cart/index.html'
+    location.href = 'http://127.0.0.1:5500/Shopping_application/Cart/index.html'
 
     const items = {
         item_id:`${Date.now()}`,
@@ -101,13 +101,13 @@ quantity.addEventListener('click', () => {
 
 
 return_button.addEventListener('click', () => {
-    location.replace('http://127.0.0.1:5500/assignment/index.html')
+    location.replace('http://127.0.0.1:5500/Shopping_application/index.html')
 })
 
 cart_button.addEventListener('click', () => {
     const date = localStorage.getItem(Cart_num)
 
   if(date) {
-    location.href = 'http://127.0.0.1:5500/assignment/Cart/index.html'
+    location.href = 'http://127.0.0.1:5500/Shopping_application/Cart/index.html'
   }
 })

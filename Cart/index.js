@@ -29,7 +29,7 @@ function getTotalPrice() {
     }
 
     if(total === 0) {
-        location.href = 'http://127.0.0.1:5500/assignment/Cart_delete_all/index.html'
+        location.href = 'http://127.0.0.1:5500/Shopping_application/Cart_delete_all/index.html'
 
         localStorage.removeItem(Cartdate)
         localStorage.removeItem(Cart_num)
@@ -140,7 +140,7 @@ function Screen_drawingItem() {
     items.appendChild(Continue_shopping_button)
 
     Continue_shopping_button.addEventListener('click', () => {
-        location.href = 'http://127.0.0.1:5500/assignment/index.html'
+        location.href = 'http://127.0.0.1:5500/Shopping_application/index.html'
     })
 
     const lastborder = document.createElement('p')
@@ -268,7 +268,7 @@ Confirmation_button.addEventListener('click', () => {
         } 
         
         if(postcode_check && /^\d{3}-\d{4}$/.test(confirmation.userpostcode) && /^[A-Za-z0-9]{1}[A-Za-z0-9_.-]*@{1}[A-Za-z0-9_.-]+.[A-Za-z0-9]+$/.test(confirmation.usermail) && confirmation.username && address_check && credit_card_radio || Bank_transfer_radio || cash_on_delivery_radio) {
-                location.href = 'http://127.0.0.1:5500/assignment/confirm/index.html'
+                location.href = 'http://127.0.0.1:5500/Shopping_application/confirm/index.html'
         }
     }
 })
@@ -278,7 +278,7 @@ function Customer_save_date(date) {
 }
 
 return_button.addEventListener('click', () => {
-    location.replace('http://127.0.0.1:5500/assignment/index.html')
+    location.replace('http://127.0.0.1:5500/Shopping_application/index.html')
 })
 
 
