@@ -101,7 +101,7 @@ quantity.addEventListener('click', () => {
 
 
 return_button.addEventListener('click', () => {
-    location.replace('http://127.0.0.1:5500/Shopping_application/index.html')
+    location.replace('http://127.0.0.1:5500/Shopping_application/Productpage/index.html')
 })
 
 cart_button.addEventListener('click', () => {
