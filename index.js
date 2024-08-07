@@ -7,6 +7,7 @@ const Cart_num = 'cartnum'
 const Item_stock = 'item_stock'
 
 function get_Cart_num() {
+  
   const date = localStorage.getItem(Cart_num)
 
   if(date) {

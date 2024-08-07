@@ -40,6 +40,7 @@ function get_Cart_num() {
 get_Cart_num()
 
 function Display_num_date(quantity) {
+    
     const date = localStorage.getItem(Cart_num)
 
     if(date === null) {
@@ -51,6 +52,7 @@ function Display_num_date(quantity) {
 }
 
 function get_date() {
+   
     const get_items = localStorage.getItem(Cartdate)
 
     return get_items ? JSON.parse(get_items) : []
@@ -86,7 +88,6 @@ button.addEventListener('click', () => {
     return items
 })
 
-
 Size.addEventListener('click', () => {
     size_date = Size.value
 })
@@ -98,7 +99,6 @@ quantity.addEventListener('click', () => {
         button.disabled = false
     }
 })
-
 
 return_button.addEventListener('click', () => {
     location.replace('http://127.0.0.1:5500/Productpage/index.html')

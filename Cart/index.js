@@ -214,7 +214,6 @@ Confirmation_button.addEventListener('click', () => {
     const InputPrefeCtures = qs('#input_prefectures').value
     const InputMunicipalities = qs('#input_municipalities').value
 
-    
     const userinformation = [{
         username: InputName,
         usermail: InputEmail,
@@ -225,7 +224,6 @@ Confirmation_button.addEventListener('click', () => {
     }]
 
     Customer_save_date(userinformation)
-
 
     for(let confirmation of userinformation) {
 
