@@ -81,7 +81,7 @@ search_button.addEventListener('click', () => {
       No_item_Display.innerText = '検索条件に該当する商品がありません'
       items.appendChild(No_item_Display) 
     }
-}
+  }
 
   if(new_data) {
 
@@ -151,8 +151,8 @@ search_button.addEventListener('click', () => {
       No_item_Display.setAttribute('class', 'No_item_Display')
       No_item_Display.innerText = '検索条件に該当する商品がありません'
       items.appendChild(No_item_Display) 
-}
-}
+    }
+  }
 })
 
 cart_button.addEventListener('click', () => {
