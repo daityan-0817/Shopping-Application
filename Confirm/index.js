@@ -148,7 +148,7 @@ function item_stock_minus() {
 item_stock_minus()
 
 Order_confirmed_button.addEventListener('click', () => {
-    location.href = 'http://127.0.0.1:5500/completed/index.html'
+    location.href = 'http://localhost:5500/completed/index.html'
 
     localStorage.removeItem(Cartdate)
     localStorage.removeItem(Cart_num)
@@ -162,7 +162,7 @@ Return_to_cart_button.addEventListener('click', () => {
 })
 
 Push_decoration_Return_to_shopping.addEventListener('click', () => {
-    location.replace('http://127.0.0.1:5500/Productpage/index.html')
+    location.replace('http://localhost:5500/Productpage/index.html')
     localStorage.removeItem(Item_stock)
 })
 

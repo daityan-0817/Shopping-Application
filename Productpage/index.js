@@ -52,7 +52,7 @@ search_button.addEventListener('click', () => {
         items.appendChild(listItem)
 
         listItem.addEventListener('click', () => {
-        location.href =  `http://127.0.0.1:5500/Detail/?Detail?id=${item.id}=/?Detail?imgsrc=${item.image}=/?Detail?name=${item.itemName}=/?Detail?price=${item.price}`
+        location.href =  `http://localhost:5500/Detail/?Detail?id=${item.id}=/?Detail?imgsrc=${item.image}=/?Detail?name=${item.itemName}=/?Detail?price=${item.price}`
         })
       } else if(item.itemName.includes(search_input.value)){
         
@@ -67,7 +67,7 @@ search_button.addEventListener('click', () => {
         items.appendChild(listItem)
 
         listItem.addEventListener('click', () => {
-        location.href =  `http://127.0.0.1:5500/Detail/?Detail?id=${item.id}=/?Detail?imgsrc=${item.image}=/?Detail?name=${item.itemName}=/?Detail?price=${item.price}`
+        location.href =  `http://localhost:5500/Detail/?Detail?id=${item.id}=/?Detail?imgsrc=${item.image}=/?Detail?name=${item.itemName}=/?Detail?price=${item.price}`
         })
       }
     } 
@@ -113,7 +113,7 @@ search_button.addEventListener('click', () => {
       } else {
       
         listItem.addEventListener('click', () => {
-          location.href =  `http://127.0.0.1:5500/Detail/?Detail?id=${item.id}=/?Detail?imgsrc=${item.image}=/?Detail?name=${item.itemName}=/?Detail?price=${item.price}`
+          location.href =  `http://localhost:5500/Detail/?Detail?id=${item.id}=/?Detail?imgsrc=${item.image}=/?Detail?name=${item.itemName}=/?Detail?price=${item.price}`
       })
     }
   } else if(item.itemName.includes(search_input.value)){
@@ -137,7 +137,7 @@ search_button.addEventListener('click', () => {
     } else {
       
         listItem.addEventListener('click', () => {
-          location.href =  `http://127.0.0.1:5500/Detail/?Detail?id=${item.id}=/?Detail?imgsrc=${item.image}=/?Detail?name=${item.itemName}=/?Detail?price=${item.price}`
+          location.href =  `http://localhost:5500/Detail/?Detail?id=${item.id}=/?Detail?imgsrc=${item.image}=/?Detail?name=${item.itemName}=/?Detail?price=${item.price}`
       })
     }
   }
@@ -160,6 +160,6 @@ cart_button.addEventListener('click', () => {
   const date = localStorage.getItem(Cart_num)
 
   if(date) {
-    location.href = 'http://127.0.0.1:5500/Cart/index.html'
+    location.href = 'http://localhost:5500/Cart/index.html'
   }
 })
