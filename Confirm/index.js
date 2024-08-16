@@ -162,7 +162,7 @@ Return_to_cart_button.addEventListener('click', () => {
 })
 
 Push_decoration_Return_to_shopping.addEventListener('click', () => {
-    location.replace('http://localhost:5500/Productpage/index.html')
+    location.replace('http://localhost:5500/index.html')
     localStorage.removeItem(Item_stock)
 })
 

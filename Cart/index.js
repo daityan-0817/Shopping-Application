@@ -140,7 +140,7 @@ function Screen_drawingItem() {
     items.appendChild(Continue_shopping_button)
 
     Continue_shopping_button.addEventListener('click', () => {
-        location.href = 'http://localhost:5500/Productpage/index.html'
+        location.href = 'http://localhost:5500/index.html'
     })
 
     const lastborder = document.createElement('p')
@@ -276,7 +276,7 @@ function Customer_save_date(date) {
 }
 
 return_button.addEventListener('click', () => {
-    location.replace('http://localhost:5500/Productpage/index.html')
+    location.replace('http://localhost:5500/index.html')
 })
 
 

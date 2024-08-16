@@ -20,7 +20,7 @@ function get_Cart_num() {
 
 get_Cart_num()
 
-function new_arr_data() {
+function Item_stock_data() {
 
   const data = localStorage.getItem(Item_stock)
 
@@ -29,7 +29,7 @@ function new_arr_data() {
  
 search_button.addEventListener('click', () => {
 
-  const new_data = new_arr_data()
+  const new_data = Item_stock_data()
 
   if(!new_data) {
 
