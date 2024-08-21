@@ -20,18 +20,18 @@ function get_Cart_num() {
 
 get_Cart_num()
 
-function Item_stock_data() {
+function Item_stock_date() {
 
-  const data = localStorage.getItem(Item_stock)
+  const date = localStorage.getItem(Item_stock)
 
-  return JSON.parse(data)
+  return JSON.parse(date)
 }
  
 search_button.addEventListener('click', () => {
 
-  const new_data = Item_stock_data()
+  const new_date = Item_stock_date()
 
-  if(!new_data) {
+  if(!new_date) {
 
     const item_name_list = []
 
@@ -52,7 +52,7 @@ search_button.addEventListener('click', () => {
         items.appendChild(listItem)
 
         listItem.addEventListener('click', () => {
-        location.href =  `http://localhost:5500/Detail/?Detail?id=${item.id}=/?Detail?imgsrc=${item.image}=/?Detail?name=${item.itemName}=/?Detail?price=${item.price}`
+        location.href =  `http://127.0.0.1:5500/detail/?detail?id=${item.id}=/?detail?imgsrc=${item.image}=/?detail?name=${item.itemName}=/?detail?price=${item.price}`
         })
       } else if(item.itemName.includes(search_input.value)){
         
@@ -67,7 +67,7 @@ search_button.addEventListener('click', () => {
         items.appendChild(listItem)
 
         listItem.addEventListener('click', () => {
-        location.href =  `http://localhost:5500/Detail/?Detail?id=${item.id}=/?Detail?imgsrc=${item.image}=/?Detail?name=${item.itemName}=/?Detail?price=${item.price}`
+        location.href =  `http://127.0.0.1:5500/detail/?detail?id=${item.id}=/?detail?imgsrc=${item.image}=/?detail?name=${item.itemName}=/?detail?price=${item.price}`
         })
       }
     } 
@@ -83,11 +83,11 @@ search_button.addEventListener('click', () => {
     }
   }
 
-  if(new_data) {
+  if(new_date) {
 
     const item_name_list = []
 
-    for(let item of new_data) {
+    for(let item of new_date) {
 
       item_name_list.push(item.itemName)
       const sold_out_item = [item.stock].includes(0)
@@ -113,7 +113,7 @@ search_button.addEventListener('click', () => {
       } else {
       
         listItem.addEventListener('click', () => {
-          location.href =  `http://localhost:5500/Detail/?Detail?id=${item.id}=/?Detail?imgsrc=${item.image}=/?Detail?name=${item.itemName}=/?Detail?price=${item.price}`
+          location.href =  `http://127.0.0.1:5500/detail/?detail?id=${item.id}=/?detail?imgsrc=${item.image}=/?detail?name=${item.itemName}=/?detail?price=${item.price}`
       })
     }
   } else if(item.itemName.includes(search_input.value)){
@@ -137,7 +137,7 @@ search_button.addEventListener('click', () => {
     } else {
       
         listItem.addEventListener('click', () => {
-          location.href =  `http://localhost:5500/Detail/?Detail?id=${item.id}=/?Detail?imgsrc=${item.image}=/?Detail?name=${item.itemName}=/?Detail?price=${item.price}`
+          location.href =  `http://127.0.0.1:5500/detail/?detail?id=${item.id}=/?detail?imgsrc=${item.image}=/?detail?name=${item.itemName}=/?detail?price=${item.price}`
       })
     }
   }
@@ -160,6 +160,6 @@ cart_button.addEventListener('click', () => {
   const date = localStorage.getItem(Cart_num)
 
   if(date) {
-    location.href = 'http://localhost:5500/Cart/index.html'
+    location.href = 'http://127.0.0.1:5500/cart/index.html'
   }
 })

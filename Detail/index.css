@@ -1,7 +1,7 @@
 @media all and (max-width: 1440px) {
+    
     .Layout {
         width: 920px;
-        height: 145px;
         margin-top: 42px;
         margin-left: 260px;
         display: flex;
@@ -12,7 +12,7 @@
         height: 145px;
         position: relative;
         right: 20px;
-        top: 100px;
+        top: 10px;
         background-color: #fff;
         border:none;
     }
@@ -21,14 +21,15 @@
         width: 92px;
         height: 19px;
         position: relative;
-        top: 220px;
+        top: 120px;
         left: 610px;
     }
 
     .Name_text {
+        height: 36px;
         position: relative;
-        left: 850px;
-        bottom: 150px;
+        bottom: 330px;
+        margin-left: 830px;
         font-family: sans-serif;
         font-size: 26px;
         font-weight: 400;
@@ -40,8 +41,8 @@
         width: 35px;
         height: 25px;
         position: relative;
-        left: 850px;
-        bottom: 100px;
+        left: 830px;
+        bottom: 290px;
         font-weight: 400px;
         font-size: 18px;
         font-family: sans-serif;
@@ -51,8 +52,8 @@
         width: 35px;
         height: 25px;
         position: relative;
-        left: 850px;
-        bottom: 120px;
+        left: 830px;
+        bottom: 300px;
         font-weight: 400px;
         font-size: 18px;
         font-family: sans-serif;
@@ -62,34 +63,34 @@
         width: 167px;
         height: 39px;
         position: relative;
-        left: 850px;
-        bottom: 100px;
+        left: 825px;
+        bottom: 320px;
         font-weight: 500;
         font-size: 23px;
     }
 
-    .numdisplay {
+    .NumDisplay_Size {
         width: 80px;
         height: 45px;
         position: relative;
-        left: 1000px;
-        bottom: 140px;
+        left: 950px;
+        bottom: 320px;
         border-radius: 10px;
     }
 
-    .numdisplay2 {
+    .NumDisplay_quantity {
         width: 80px;
         height: 45px;
         position: relative;
-        left: 1000px;
-        bottom: 150px;
+        left: 950px;
+        bottom: 330px;
         border-radius: 10px;
     }
 
     #imagecart {
         position: relative;
         left: 635px;
-        top: 155px;
+        top: 55px;
         border: none;
         background-color: #fff;
     }
@@ -103,8 +104,8 @@
         width: 10px;
         height: 10px;
         position: relative;
-        top: 195px;
-        left: 615px;
+        top: 95px;
+        left: 613px;
         padding: 5px 5px 5px 5px;
         border: 2px solid #333;
         border-radius: 50%;
@@ -121,7 +122,7 @@
         width: 920px;
         position: relative;
         left: 250px;
-        top: 100px;
+        top: 10px;
         border: 1px solid #656565;
     }
 
@@ -129,7 +130,7 @@
         width: 448px;
         height: 448px;
         position: relative;
-        top: 200px;
+        top: 70px;
         left: 250px;
         border-radius: 10px;
     }
@@ -138,8 +139,8 @@
         width: 330px;
         height: 70px;
         position: relative;
-        left: 850px;
-        bottom: 60px;
+        left: 830px;
+        bottom: 300px;
         background-color: #deb089;
         color: #fff;
         border: none;
@@ -153,7 +154,7 @@
     .border2 {
         width: 920px;
         position: relative;
-        top: 100px;
+        bottom: 50px;
         left: 250px;
         border: 1px solid #656565;
     }
@@ -162,7 +163,7 @@
         width: 145px;
         height: 145px;
         position: relative;
-        top: 200px;
+        top: 10px;
         left: 650px;
     }
 
@@ -170,7 +171,7 @@
         width: 292px;
         height: 16px;
         position: relative;
-        top: 250px;
+        top: 50px;
         left: 580px;
         font-weight: 400;
         font-size: 12px;
@@ -188,7 +189,7 @@
     
     .decoration {
         position: relative;
-        right: 140px;
+        right: 160px;
         top: 0px;
         background-color: #fff;
         border:none;
@@ -204,10 +205,10 @@
     }
     
     .Name_text {
+        width: 300px;
         position: relative;
-        top: 130px;
-        left: 0px;
-        left: 280px;
+        top: 110px;
+        right: 520px;
         font-family: sans-serif;
         font-size: 26px;
         font-weight: 400;
@@ -221,7 +222,7 @@
         position: relative;
         left: 0px;
         left: 280px;
-        top: 180px;
+        top: 150px;
         font-weight: 400px;
         font-size: 18px;
         font-family: sans-serif;
@@ -233,7 +234,7 @@
         position: relative;
         left: 0px;
         left: 280px;
-        top: 180px;
+        top: 150px;
         font-weight: 400px;
         font-size: 18px;
         font-family: sans-serif;
@@ -245,28 +246,28 @@
         position: relative;
         left: 0px;
         left: 320px;
-        top: 200px;
+        top: 150px;
         font-weight: 500;
         font-size: 23px;
     }
     
-    .numdisplay {
+    .NumDisplay_Size {
         width: 80px;
         height: 45px;
         position: relative;
         left: 0px;
         left: 400px;
-        top: 150px;
+        top: 120px;
         border-radius: 10px;
     }
     
-    .numdisplay2 {
+    .NumDisplay_quantity {
         width: 80px;
         height: 45px;
         position: relative;
         left: 0px;
         left: 400px;
-        top: 150px;
+        top: 110px;
         border-radius: 10px;
     }
 
@@ -275,7 +276,7 @@
         top: 0px;
         left: 0px;
         top: 40px;
-        left: 240px;
+        left: 210px;
         border: none;
         background-color: #fff;
     }
@@ -289,7 +290,7 @@
         width: 10px;
         height: 10px;
         position: relative;
-        left: 220px;
+        left: 190px;
         top: 62px;
         padding: 5px 5px 5px 5px;
         border: 2px solid #333;
@@ -306,7 +307,7 @@
     .border {
         width: 534px;
         position: relative;
-        left: 150px;
+        left: 120px;
         top: 10px;
         border: 1px solid #656565;
         }
@@ -316,7 +317,7 @@
         height: 348px;
         position: relative;
         top: 70px;
-        left: 250px;
+        left: 230px;
         border-radius: 10px;
         }
         
@@ -325,8 +326,8 @@
         height: 70px;
         position: relative;
         left: 0px;
-        left: 250px;
-        top: 250px;
+        left: 230px;
+        top: 200px;
         background-color: #deb089;
         color: #fff;
         border: none;
@@ -336,14 +337,14 @@
     .border2 {
         width: 534px;
         position: relative;
-        top: 350px;
-        left: 150px;
+        top: 380px;
+        left: 120px;
         border: 1px solid #656565;
     }
     
     .decoration2 {
         position: relative;
-        top: 400px;
+        top: 450px;
         left: 350px;
     }
 
@@ -367,16 +368,16 @@
     @media all and (max-width: 390px) {
     
         .Layout {
-            width: 358px;
+            width: 130px;
             height: 54px;
             display: flex;
         }
         
         .decoration {
             position: relative;
-            top: 0px;
+            top: -50px;
             right: 0px;
-            right: 160px;
+            right: 280px;
             background-color: #fff;
             border: none;
         }
@@ -392,8 +393,9 @@
         
         .Name_text {
             position: relative;
-            top: 200px;
-            left: 250px;
+            top: 60px;
+            right: 0px;
+            right: 720px;
             font-family: sans-serif;
             font-size: 26px;
             font-weight: 400;
@@ -406,8 +408,8 @@
             height: 25px;
             position: relative;
             left: 0px;
-            left: 250px;
-            top: 250px;
+            left: 80px;
+            top: 90px;
             font-weight: 400px;
             font-size: 18px;
             font-family: sans-serif;
@@ -418,8 +420,8 @@
             height: 25px;
             position: relative;
             left: 0px;
-            left: 250px;
-            top: 250px;
+            left: 80px;
+            top: 80px;
             font-weight: 400px;
             font-size: 18px;
             font-family: sans-serif;
@@ -430,38 +432,38 @@
             height: 39px;
             position: relative;
             left: 0px;
-            left: 270px;
-            top: 300px;
+            left: 120px;
+            top: 70px;
             font-weight: 500;
             font-size: 23px;
         }
         
-        .numdisplay {
+        .NumDisplay_Size {
             width: 80px;
             height: 45px;
             position: relative;
             left: 0px;
-            left: 370px;
-            top: 220px;
+            left: 200px;
+            top: 60px;
             border-radius: 10px;
         }
         
-        .numdisplay2 {
+        .NumDisplay_quantity {
             width: 80px;
             height: 45px;
             position: relative;
             left: 0px;
-            left: 370px;
-            top: 210px;
+            left: 200px;
+            top: 45px;
             border-radius: 10px;
         }
         
         #imagecart {
             width: 37px;
             height: 41px;
-            position: relative;
+            position: absolute;
             top: 55px;
-            left: 70px;
+            left: 343px;
             border: none;
             background-color: #fff;
         }
@@ -475,9 +477,9 @@
             width: 10px;
             height: 10px;
             position: relative;
-            left: 50px;
-            top: 45px;
-            padding: 5px 5px 5px 5px;
+            left: -5px;
+            top: 6px;
+            padding: 5px 7px 5px 7px;
             border: 2px solid #333;
             border-radius: 50%;
             color: #fff;
@@ -492,14 +494,15 @@
         .border {
             width: 358px;
             position: relative;
-            left: 150px;
-            top: 50px;
+            left: 15px;
+            top: -5px;
             border: 1px solid #656565;
             }
         
         #img {
             position: relative;
-            top: 70px;
+            top: -30px;
+            right: 120px;
             border-radius: 10px;
         }
 
@@ -512,8 +515,8 @@
             width: 348px;
             height: 70px;
             position: relative;
-            left: 150px;
-            top: 350px;
+            left: 15px;
+            top: 100px;
             background-color: #deb089;
             color: #fff;
             border: none;
@@ -523,8 +526,8 @@
         .border2 {
             width: 358px;
             position: relative;
-            top: 450px;
-            left: 150px;
+            top: 200px;
+            left: 15px;
             border: 1px solid #656565;
         }
         
@@ -532,8 +535,8 @@
             width: 54px;
             height: 54px;
             position: relative;
-            top: 500px;
-            left: 300px;
+            top: 250px;
+            left: 170px;
         }
 
         .decoration2 img {
@@ -545,8 +548,8 @@
             width: 232px;
             height: 16px;
             position: relative;
-            top: 550px;
-            left: 200px;
+            top: 300px;
+            left: 60px;
             font-weight: 400;
             font-size: 12px;
             font-family: sans-serif; 

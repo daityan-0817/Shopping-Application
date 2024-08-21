@@ -1,10 +1,10 @@
 const Cartdate = 'cartdate'
 const Cart_num = 'cartnum'
-const button = qs('#cart_button')
+const Add_To_Cart_button = qs('#cart_button')
 const cart_button = qs('#imagecart')
-const quantity = qs('#Select_num')
-const Size = qs('#Select_size')
-const return_button = qs('#return')
+const quantity_Value = qs('#Select_num')
+const Size_Value = qs('#Select_size')
+const Return_to_ShoppingScreen = qs('#return')
 const layout = qs('#Layout')
 let quantity_date = ''
 let size_date = ''
@@ -27,19 +27,20 @@ const decodeitem_price = decodeURIComponent(itemprice)
 qs('#price').innerText = `￥${decodeitem_price}(税込)`
 
 function get_Cart_num() {
+    
     const date = localStorage.getItem(Cart_num)
 
     if(date) {
-        const display = document.createElement('span')
-        display.setAttribute('class','num_cart' )
-        display.innerText = parseInt(date)
-        layout.appendChild(display)
+        const NumDisplay = document.createElement('span')
+        NumDisplay.setAttribute('class','num_cart' )
+        NumDisplay.innerText = parseInt(date)
+        layout.appendChild(NumDisplay)
       } 
 }
 
 get_Cart_num()
 
-function Display_num_date(quantity) {
+function Add_Items_To_Cart(quantity) {
     
     const date = localStorage.getItem(Cart_num)
 
@@ -51,7 +52,7 @@ function Display_num_date(quantity) {
     }
 }
 
-function get_date() {
+function getDate() {
    
     const get_items = localStorage.getItem(Cartdate)
 
@@ -66,9 +67,9 @@ function save_num_date(quantity_date) {
     localStorage.setItem(Cart_num, quantity_date)
 }
 
-button.addEventListener('click', () => {
+Add_To_Cart_button.addEventListener('click', () => {
 
-    location.href = 'http://localhost:5500/Cart/index.html'
+    location.href = 'http://127.0.0.1:5500/cart/index.html'
 
     const items = {
         item_id:`${Date.now()}`,
@@ -79,35 +80,37 @@ button.addEventListener('click', () => {
         item_size: size_date
     }
 
-    const item_date = get_date()
+    const item_date = getDate()
     item_date.push(items)
     saveDate(item_date)
 
-    Display_num_date(quantity_date)
+    Add_Items_To_Cart(quantity_date)
 
     return items
 })
 
-Size.addEventListener('click', () => {
-    size_date = Size.value
+Size_Value.addEventListener('click', () => {
+     size_date = Size_Value.value
 })
 
-quantity.addEventListener('click', () => {
-    quantity_date = quantity.value
+quantity_Value.addEventListener('click', () => {
+    
+    quantity_date = quantity_Value.value
     
     if(quantity_date !== '' && size_date !== '') {
-        button.disabled = false
+        Add_To_Cart_button.disabled = false
     }
 })
 
-return_button.addEventListener('click', () => {
-    location.replace('http://localhost:5500/index.html')
+Return_to_ShoppingScreen.addEventListener('click', () => {
+    location.replace('http://127.0.0.1:5500/index.html')
 })
 
-cart_button.addEventListener('click', () => {
+Add_To_Cart_button.addEventListener('click', () => {
+    
     const date = localStorage.getItem(Cart_num)
 
   if(date) {
-    location.href = 'http://localhost:5500/Cart/index.html'
+    location.href = 'http://127.0.0.1:5500/cart/index.html'
   }
 })

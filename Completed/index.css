@@ -112,13 +112,13 @@
         width: 534px;
         border: 1px solid #656565;
         position: relative;
-        left: 150px;
+        left: 120px;
         top: 20px;
 }
 
     .decoration {
         position: relative;
-        left: 110px;
+        left: 90px;
         top: 0px;
 }
 
@@ -133,7 +133,7 @@
 
     .imagecart {
         position: relative;
-        left: -400px;
+        left: -420px;
         top: -60px;
 }
 
@@ -159,13 +159,13 @@
         border: 1px solid #656565;
         position: relative;
         top: 700px;
-        left: 150px;
+        left: 120px;
 }
 
     .decoration2 {
         position: relative;
         top: 750px;
-        left: 350px;
+        left: 330px;
 }
 
     .decoration2 img {
@@ -182,7 +182,7 @@
         line-height: 16px;
         text-align: left;
         position: relative;
-        left: 280px;
+        left: 260px;
         top: 800px;
 }
 

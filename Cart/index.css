@@ -205,9 +205,8 @@
     }
 
     .text{
-        position: relative;
-        left: 580px;
-        top: 600px;
+        margin-left: 580px;
+        margin-top: 600px;
         width: 292;
         height: 16px;
         font-size: 12px;
@@ -708,9 +707,8 @@
     
     .text{
         position: relative;
-        left: 230px;
-        top: 600px;
-        width: 292;
+        right: 360px;
+        width: 310px;
         height: 16px;
         font-size: 12px;
     }
@@ -916,16 +914,20 @@
 
 @media all and (max-width: 390px) {
 
+    body {
+        height: 1500px;
+    }
+
     .Layout {
-        width: 358px;
+        width: 390px;
         height: 54px;
         display: flex;
     }
     
     .decoration {
         position: relative;
-        left: 110px;
-        top: 60px;
+        left: -30px;
+        top: -10px;
         border: none;
         background-color: white;
     }
@@ -939,8 +941,7 @@
         width: 358px;
         border: 1px solid #656565;
         position: relative;
-        left: 150px;
-        top: 100px;
+        left: 15px;
     }
     
     .Content {
@@ -949,8 +950,8 @@
     
     .imagecart {
         position: relative;
-        left: 340px;
-        top: 125px;
+        left: 200px;
+        top: 55px;
     }
 
     .imagecart img {
@@ -959,10 +960,9 @@
     }
     
     .itemlist {
-        margin-top: 20px;
         position: relative;
-        top: 130px;
-        left: 150px;
+        top: 70px;
+        left: 15px;
     }
 
     .itemlist img {
@@ -972,10 +972,9 @@
     
     .listItemborder {
         width: 162px;
-        height:0px;
         border: 1px solid #656565;
         position: relative;
-        left: 200px;
+        left: 190px;
         bottom: 70px;
     }
     
@@ -988,10 +987,11 @@
         color: #333333;
         position: relative;
         bottom: 210px;
-        left: 200px;
+        left: 190px;
     }
     
     .Itemsize {
+        width: 180px;
         font-family: YuGothic;
         font-size: 14px;
         font-weight: 500;
@@ -999,7 +999,7 @@
         text-align: left;
         position: relative;
         bottom: 200px;
-        left: 230px;
+        left: 220px;
     }
     
     .Itemsize_text {
@@ -1009,13 +1009,13 @@
         line-height: 19.12px;
         text-align: left;
         position: relative;
-        left: 200px;
+        left: 190px;
         bottom: 220px;
     }
     
     .Itemquantity {
         position: relative;
-        left: 200px;
+        left: 190px;
         bottom: 40px;
         font-family: YuGothic;
         font-size: 14px;
@@ -1028,7 +1028,7 @@
         width: 56px;
         height: 27px;
         position: relative;
-        left: 300px;
+        left: 290px;
         bottom: 70px;
         font-family: YuGothic;
         font-size: 18px;
@@ -1038,12 +1038,13 @@
     }
     
     #delbutton {
+        width: 120px;
         border: none;
         background-color: white;
         color: #DEB089;
         position: relative;
         bottom: 65px;
-        left: 240px;
+        left: 280px;
         font-family: YuGothic;
         font-size: 14px;
         font-weight: 500;
@@ -1054,8 +1055,8 @@
         width: 59px;
         height: 36px;
         position: relative;
-        top: 220px;
-        left: 150px;
+        top: 100px;
+        left: 15px;
         font-family: sans-serif;
         font-size: 26px;
         font-weight: 900;
@@ -1068,8 +1069,8 @@
         width: 98px;
         height: 39px;
         position: relative;
-        left: 390px;
-        top: 180px;
+        left: 260px;
+        top: 65px;
         font-family: YuGothic;
         font-size: 26px;
         font-weight: 700;
@@ -1079,11 +1080,10 @@
     
     #totalborder {
         width: 358px;
-        height: 0px;
         border: 1px solid #656565;
         position: relative;
-        top: 220px;
-        left: 150px;
+        top: 100px;
+        left: 15px;
     }
     
     #Continue_shopping_button {
@@ -1092,8 +1092,8 @@
         background-color: white;
         color: #DEB089;
         position: relative;
-        top: 210px;
-        left: 260px;
+        top: 90px;
+        left: 115px;
         font-family: YuGothic;
         font-size: 14px;
         font-weight: 700;
@@ -1105,14 +1105,14 @@
         border: 1px solid #656565;
         width: 358px;
         position: relative;
-        top: 1200px;
-        left: 150px;
+        top: 1050px;
+        left: 15px;
     }
     
     .decoration2 {
         position:relative;
-        left: 290px;
-        top: 550px;
+        left: 170px;
+        top: 350px;
     }
 
     .decoration2 img {
@@ -1122,19 +1122,17 @@
     
     .text{
         position: relative;
-        left: 180px;
-        top: 500px;
-        width: 292;
-        height: 16px;
-        font-size: 12px;
+        right: 0px;
+        right: 530px;
+        top: -280px;
     }
     
     .num_cart {
         width: 10px;
         height: 10px;
         position: relative;
-        left: 326px;
-        top: 110px;
+        left: 185px;
+        top: 40px;
         padding: 5px 5px 5px 5px;
         border: 2px solid #333;
         border-radius: 50%;
@@ -1155,15 +1153,15 @@
         width: 358px;
         height: 662px;
         position: relative;
-        top: 350px;
-        left: 150px;
+        top: 0px;
+        left: 15px;
     }
     
     #Customer_text {
-        width:126px;
-        height:27px;
-        position:relative;
-        bottom: 70px;
+        width: 126px;
+        height: 27px;
+        position: relative;
+        top: 190px;
         left: 110px;
         font-size: 18px;
     }
@@ -1171,7 +1169,7 @@
     #Customer_name_text {
         font-size: 14px;
         position: relative;
-        bottom: 30px;
+        top: 240px;
         left: 15px;
     }
     
@@ -1179,15 +1177,15 @@
         width: 330px;
         height: 40px;
         border-radius: 10px;
-        position:relative;
-        bottom: 20px;
+        position: relative;
+        top: 240px;
         left: 15px;
     }
     
     #Customer_email_text {
         font-size: 14px;
         position: relative;
-        top: 20px;
+        top: 280px;
         left: 15px;
     }
     
@@ -1195,22 +1193,23 @@
         width: 330px;
         height: 40px;
         border-radius: 10px;
-        position:relative;
-        top: 30px;
+        position: relative;
+        top: 280px;
         left: 15px;
     }
     
     #addres_text {
         font-size: 14px;
         position: relative;
-        top: 50px;
+        top: 320px;
         left: 15px;
     }
     
     #post_code_text {
+        width: 150px;
         font-size: 12px;
         position: relative;
-        top: 60px;
+        top: 340px;
         left: 15px;
     }
     
@@ -1218,15 +1217,17 @@
         width: 150px;
         height: 40px;
         border-radius: 10px;
-        position:relative;
-        top: 60px;
+        position: relative;
+        top: 340px;
         left: 15px;
     }
     
     #prefectures_text {
-        font-size:12px;
-        position:relative;
+        width: 145px;
+        font-size: 12px;
+        position: relative;
         left: 195px;
+        top: 280px;
     }
     
     #input_prefectures {
@@ -1235,13 +1236,14 @@
         border-radius: 10px;
         position: relative;
         left: 190px;
-        bottom: 1px;
+        top: 278px;
     }
     
     #municipalities_text {
+        width: 340px;
         font-size: 12px;
         position: relative;
-        top: 30px;
+        top: 300px;
         left: 15px; 
     }
     
@@ -1250,13 +1252,13 @@
         height: 40px;
         border-radius: 10px;
         position: relative;
-        top: 30px;
+        top: 300px;
         left: 15px;
     }
     
     #Payment_method_text {
         position: relative;
-        top: 80px; 
+        top: 330px; 
         left: 15px;
     }
     
@@ -1265,14 +1267,14 @@
         height: 18px;
         font-size: 12px;
         font-weight: 500px;
-        position:relative;
-        top: 100px;
+        position: relative;
+        top: 350px;
         left: 15px;
     }
     
     #credit_card {
-        position:relative;
-        width:20px;
+        position: relative;
+        width: 20px;
         height: 20px;
         top: 150px;
     }
@@ -1282,8 +1284,8 @@
         height: 18px;
         font-size: 12px;
         font-weight: 500px;
-        position:relative;
-        top: 100px;
+        position: relative;
+        top: 350px;
         left: 15px;
     }
     
@@ -1295,12 +1297,12 @@
     }
     
     #cash_on_delivery_text {
-        width: 97px;
+        width: 57px;
         height: 18px;
         font-size: 12px;
         font-weight: 500px;
         position: relative;
-        top: 72px;
+        top: 325px;
         left: 260px;
     } 
     
@@ -1316,8 +1318,8 @@
         width: 344px;
         height: 70px;
         position: relative;
-        left: 160px;
-        top: 350px;
+        left: 15px;
+        top: 190px;
         border: none;
         border-radius: 10px;
         color: #ffff;
@@ -1326,6 +1328,10 @@
         font-weight: 400;
         line-height: 16.94px;
         background-color: #DEB089;
+    }
+
+    #postcode_message {
+        width: 180px;
     }
 }
 

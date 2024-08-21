@@ -214,15 +214,14 @@
     .Layout {
         width: 358px;
         height: 54px;
-        margin-top: 42px;
         display: flex;
     }
     
     .decoration {
         width: 54px;
         position: relative;
-        top: 35px;
-        left: 140px;
+        top: -60px;
+        left: 5px;
         border: none;
         background-color: white;
     }
@@ -236,8 +235,8 @@
         width: 358px;
         border: 1px solid #656565;
         position: relative;
-        left: 150px;
-        top: 80px;
+        left: 15px;
+        top: -10px;
     }
     
     .Content {
@@ -248,8 +247,8 @@
         width: 26px;
         height: 24px;
         position: relative;
-        left: 420px;
-        top: 100px;
+        left: 290px;
+        top: 0px;
     }
 
     .imagecart img {
@@ -258,6 +257,7 @@
     }
     
     .text {
+        width: 360px;
         height: 21px;
         font-family: YuGothic;
         font-size: 20px;
@@ -265,22 +265,22 @@
         line-height: 39px;
         text-align: left;
         position: relative;
-        top: 400px;
-        left: 150px;
+        top: 200px;
+        left: 20px;
     }
      
     .border2 {
         width: 358px;
         border: 1px solid #656565;
         position: relative;
-        top: 800px;
-        left: 150px;
+        top: 500px;
+        left: 15px;
     }
     
     .decoration2 {
         position: relative;
-        top: 850px;
-        left: 300px;
+        top: 550px;
+        left: 180px;
     }
 
     .decoration2 img {
@@ -297,8 +297,8 @@
         line-height: 16px;
         text-align: left;
         position: relative;
-        left: 190px;
-        top: 800px;
+        left: 70px;
+        top: 500px;
     }
     
     #Return_to_shopping {
@@ -313,7 +313,7 @@
         border: none;
         border-radius: 10px;
         position: relative;
-        left: 150px;
-        top: 500px;
+        left: 15px;
+        top: 300px;
     }   
 }

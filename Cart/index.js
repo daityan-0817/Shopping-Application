@@ -7,12 +7,19 @@ const items = qs('#item_display')
 const Continue_shopping = qs('#continue_shopping')
 const Calculation_result = qs('#result')
 const Confirmation_button = qs('#confirm_button')
-const return_button = qs('#return')
+const Return_to_ShoppingScreen = qs('#return')
 const layout = qs('#Layout')
+
+function getDate() {
+    
+    const get_items = localStorage.getItem(Cartdate)
+
+    return JSON.parse(get_items)
+}
 
 function getTotalPrice() {
     
-    const itemprice = get_date()
+    const itemprice = getDate()
     const arr = []
     let total = 0
 
@@ -29,8 +36,7 @@ function getTotalPrice() {
     }
 
     if(total === 0) {
-        location.href = 'http://localhost:5500/Cart-delete-all/index.html'
-
+        location.href = 'http://127.0.0.1:5500/cart-delete-all/index.html'
         localStorage.removeItem(Cartdate)
         localStorage.removeItem(Cart_num)
         localStorage.removeItem(Total_cash)
@@ -41,21 +47,13 @@ function getTotalPrice() {
 
 getTotalPrice()
 
-
-function get_date() {
-    
-    const get_items = localStorage.getItem(Cartdate)
-
-    return JSON.parse(get_items)
-}
-
 function get_Cart_num() {
     
     const date = localStorage.getItem(Cart_num)
 
     if(date) {
         const display = document.createElement('span')
-        display.setAttribute('class','num_cart' )
+        display.setAttribute('class','num_cart')
         display.innerText = JSON.parse(date)
         layout.appendChild(display)
       }
@@ -71,10 +69,9 @@ function get_Total_Cash_Date() {
     return total
 }
 
-
 function Screen_drawingItem() {
     
-    const item_date = get_date()
+    const item_date = getDate()
     const total_cash = get_Total_Cash_Date()
 
     for(let item of item_date) {
@@ -118,8 +115,7 @@ function Screen_drawingItem() {
             removeItem(item.item_id)
             getItemQuantity(item.item_quantity)
             location.reload()
-       })
-        
+       }) 
     }    
 
     const Total_text = document.createElement('p')
@@ -140,7 +136,7 @@ function Screen_drawingItem() {
     items.appendChild(Continue_shopping_button)
 
     Continue_shopping_button.addEventListener('click', () => {
-        location.href = 'http://localhost:5500/index.html'
+        location.href = 'http://127.0.0.1:5500/index.html'
     })
 
     const lastborder = document.createElement('p')
@@ -151,7 +147,7 @@ function Screen_drawingItem() {
 Screen_drawingItem()
 
 function getItemById(id) {
-    const item = get_date()
+    const item = getDate()
     const index = item.findIndex((el) => el.item_id === id)
     
     return {
@@ -177,7 +173,6 @@ function removeItem(id) {
 function getItemQuantity(quantity) {
     let itemquantity = get_Cart_num()
     let minus = parseInt(itemquantity) - parseInt(quantity)
-    console.log(minus, typeof minus)
     save_num_date(minus)
 }
 
@@ -266,7 +261,7 @@ Confirmation_button.addEventListener('click', () => {
         } 
         
         if(postcode_check && /^\d{3}-\d{4}$/.test(confirmation.userpostcode) && /^[A-Za-z0-9]{1}[A-Za-z0-9_.-]*@{1}[A-Za-z0-9_.-]+.[A-Za-z0-9]+$/.test(confirmation.usermail) && confirmation.username && address_check && credit_card_radio || Bank_transfer_radio || cash_on_delivery_radio) {
-                location.href = 'http://localhost:5500/confirm/index.html'
+                location.href = 'http://127.0.0.1:5500/confirm/index.html'
         }
     }
 })
@@ -275,8 +270,8 @@ function Customer_save_date(date) {
     localStorage.setItem(Customer_date, JSON.stringify(date))
 }
 
-return_button.addEventListener('click', () => {
-    location.replace('http://localhost:5500/index.html')
+Return_to_ShoppingScreen.addEventListener('click', () => {
+    location.replace('http://127.0.0.1:5500/index.html')
 })
 
 

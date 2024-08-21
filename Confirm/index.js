@@ -6,7 +6,7 @@ const Customer_date = 'customer_date'
 const Item_stock = 'item_stock'
 const Order_confirmed_button = qs('#Order_confirmed')
 const Return_to_cart_button = qs('#Return_to_cart')
-const Push_decoration_Return_to_shopping = qs('#return')
+const Return_to_ShoppingScreen = qs('#return')
 const cart_button = qs('#imagecart')
 
 const addition_stock = __item_data.map((elem) => {
@@ -17,6 +17,7 @@ const addition_stock = __item_data.map((elem) => {
 })
 
 function save_addition_stock_date() {
+    
     const addition_stock_date = localStorage.setItem(Item_stock, JSON.stringify(addition_stock))
 
     return addition_stock_date
@@ -25,18 +26,21 @@ function save_addition_stock_date() {
 save_addition_stock_date()
 
 function get_item_stock() {
+    
     const date = localStorage.getItem(Item_stock)
 
     return JSON.parse(date)
 }
 
 function get_Cart_date() {
+    
     const date = localStorage.getItem(Cartdate)
 
     return JSON.parse(date)
 }
 
 function get_Cart_num() {
+    
     const date = localStorage.getItem(Cart_num)
 
     return qs('.num_cart').innerText = date
@@ -45,12 +49,14 @@ function get_Cart_num() {
 get_Cart_num()
 
 function get_Total_Cash_Date() {
+    
     const date = localStorage.getItem(Total_cash)
 
     return date
 }
 
 function get_Customer_Date() {
+    
     const date = localStorage.getItem(Customer_date)
 
     return JSON.parse(date)
@@ -130,12 +136,14 @@ function Screen_drawingItem() {
 Screen_drawingItem()
 
 function item_stock_minus() {
+    
     const stock_date = get_item_stock()
     const item_date = get_Cart_date()
 
     for(let item of item_date) {
 
         const minus = stock_date.map((elem) => {
+           
             elem.stock = elem.itemName === item.item_name ? parseInt(elem.stock) - parseInt(item.item_quantity) : elem.stock
 
             return elem
@@ -148,8 +156,8 @@ function item_stock_minus() {
 item_stock_minus()
 
 Order_confirmed_button.addEventListener('click', () => {
-    location.href = 'http://localhost:5500/completed/index.html'
-
+    
+    location.href = 'http://127.0.0.1:5500/completed/index.html'
     localStorage.removeItem(Cartdate)
     localStorage.removeItem(Cart_num)
     localStorage.removeItem(Customer_date)
@@ -157,16 +165,19 @@ Order_confirmed_button.addEventListener('click', () => {
 })
 
 Return_to_cart_button.addEventListener('click', () => {
+    
     history.back()
     localStorage.removeItem(Item_stock)
 })
 
-Push_decoration_Return_to_shopping.addEventListener('click', () => {
-    location.replace('http://localhost:5500/index.html')
+Return_to_ShoppingScreen.addEventListener('click', () => {
+    
+    location.replace('http://127.0.0.1:5500/index.html')
     localStorage.removeItem(Item_stock)
 })
 
 cart_button.addEventListener('click', () => {
+    
     history.back()
     localStorage.removeItem(Item_stock)
 })
