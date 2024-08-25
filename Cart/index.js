@@ -239,14 +239,14 @@ confirmationButton.addEventListener('click', () => {
             const message = document.createElement('div')
             message.setAttribute('id', 'email_message')
             message.innerText = '正しいメールアドレスを入力してください。'
-            qs('#Customer_email_text').appendChild(message)
+            qs('#customer_email_text').appendChild(message)
         } 
         
         if(confirmation.username === '') {
             const message = document.createElement('div')
             message.setAttribute('id', 'username_message')
             message.innerText = 'お名前を入力してください。'
-            qs('#Customer_name_text').appendChild(message)
+            qs('#customer_name_text').appendChild(message)
         } 
         
         if(!addressCheck) {
@@ -260,10 +260,10 @@ confirmationButton.addEventListener('click', () => {
             const message = document.createElement('div')
             message.setAttribute('id', 'paymentmethod_message')
             message.innerText = 'お支払い方法を選択してください。'
-            qs('#Payment_method_text').appendChild(message)
+            qs('#paymentmethod_text').appendChild(message)
         } 
         
-        if(postcodeCheck && /^\d{3}-\d{4}$/.test(confirmation.userpostcode) && /^[A-Za-z0-9]{1}[A-Za-z0-9_.-]*@{1}[A-Za-z0-9_.-]+.[A-Za-z0-9]+$/.test(confirmation.usermail) && confirmation.username && addressCheck && creditCardRadio || BankTransferRadio || cashOnDeliveryRadio) {
+        if(postcodeCheck && /^\d{3}-\d{4}$/.test(confirmation.userpostcode) && /^[A-Za-z0-9]{1}[A-Za-z0-9_.-]*@{1}[A-Za-z0-9_.-]+.[A-Za-z0-9]+$/.test(confirmation.usermail) && confirmation.username && addressCheck && creditCardRadio || bankTransferRadio || cashOnDeliveryRadio) {
                 location.href = '/confirm'
         }
     }

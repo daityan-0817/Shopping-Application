@@ -97,7 +97,7 @@
         margin-top: 40px;
     }
 
-    .list_itemborder {
+    .listitem_border {
         width: 150px;
         border: 1px solid #656565;
         position: relative;
@@ -169,7 +169,7 @@
     .customer_information {
         position: absolute;
         left: 980px;
-        bottom: 450px;
+        bottom: 480px;
     }
 
     #customer_information_text {
@@ -244,13 +244,14 @@
     }
 
     .customer_postcode {
-        position: relative;
-        top: 230px;
+        width: 90px;
+        position: absolute;
+        top: 310px;
         font-family: YuGothic;
         font-size: 14px;
         font-weight: 500;
         line-height: 21px;
-        right: 315px;
+        right: 460px;
     }
 
     .customer_address {
@@ -589,9 +590,10 @@
 }
 
     .customer_postcode {
-        position: relative;
-        top: 230px;
-        right: 310px;
+        width: 90px;
+        position: absolute;
+        top: 310px;
+        right: 340px;
         font-family: YuGothic;
         font-size: 14px;
         font-weight: 500;
@@ -940,10 +942,11 @@
 }
 
     .customer_postcode {
-        position: relative;
-        top: 230px;
+        width: 90px;
+        position: absolute;
+        top: 310px;
         right: 0px;
-        right: 230px;
+        right: 265px;
         font-family: YuGothic;
         font-size: 14px;
         font-weight: 500;
