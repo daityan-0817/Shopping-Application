@@ -1,6 +1,6 @@
 @media all and (max-width: 1440px) {
     
-    .Layout {
+    .layout {
         width: 920px;
         margin-top: 42px;
         margin-left: 260px;
@@ -17,7 +17,7 @@
         border:none;
     }
 
-    .ShoppingCart_text {
+    .shoppingcart_text {
         width: 92px;
         height: 19px;
         position: relative;
@@ -25,7 +25,7 @@
         left: 610px;
     }
 
-    .Name_text {
+    .name_text {
         height: 36px;
         position: relative;
         bottom: 330px;
@@ -37,7 +37,7 @@
         text-align: left;
     }
 
-    .Size_text {
+    .size_text {
         width: 35px;
         height: 25px;
         position: relative;
@@ -59,7 +59,7 @@
         font-family: sans-serif;
     }
 
-    .Price_text {
+    .price_text {
         width: 167px;
         height: 39px;
         position: relative;
@@ -69,7 +69,7 @@
         font-size: 23px;
     }
 
-    .NumDisplay_Size {
+    .numdisplay_size {
         width: 80px;
         height: 45px;
         position: relative;
@@ -78,7 +78,7 @@
         border-radius: 10px;
     }
 
-    .NumDisplay_quantity {
+    .numdisplay_quantity {
         width: 80px;
         height: 45px;
         position: relative;
@@ -87,17 +87,12 @@
         border-radius: 10px;
     }
 
-    #imagecart {
+    .image_cart {
         position: relative;
         left: 635px;
         top: 55px;
         border: none;
         background-color: #fff;
-    }
-
-    #imagecart img {
-        width: 33px;
-        height: 31px;
     }
 
     .num_cart {
@@ -181,7 +176,7 @@
 
 @media all and (max-width: 768px) {
     
-    .Layout {
+    .layout {
         width: 534px;
         height: 110px;
         display: flex;
@@ -200,11 +195,11 @@
         height: 100px;
     }
     
-    .ShoppingCart_text {
+    .shoppingcart_text {
         display: none;
     }
     
-    .Name_text {
+    .name_text {
         width: 300px;
         position: relative;
         top: 110px;
@@ -216,7 +211,7 @@
         text-align: left;
     }
     
-    .Size_text {
+    .size_text {
         width: 35px;
         height: 25px;
         position: relative;
@@ -240,7 +235,7 @@
         font-family: sans-serif;
     }
     
-    .Price_text {
+    .price_text {
         width: 167px;
         height: 39px;
         position: relative;
@@ -251,7 +246,7 @@
         font-size: 23px;
     }
     
-    .NumDisplay_Size {
+    .numdisplay_size {
         width: 80px;
         height: 45px;
         position: relative;
@@ -261,7 +256,7 @@
         border-radius: 10px;
     }
     
-    .NumDisplay_quantity {
+    .numdisplay_quantity {
         width: 80px;
         height: 45px;
         position: relative;
@@ -271,7 +266,7 @@
         border-radius: 10px;
     }
 
-    #imagecart {
+    .image_cart {
         position: relative;
         top: 0px;
         left: 0px;
@@ -279,11 +274,6 @@
         left: 210px;
         border: none;
         background-color: #fff;
-    }
-    
-    #imagecart img {
-        width: 33px;
-        height: 31px;
     }
     
     .num_cart {
@@ -367,7 +357,7 @@
 
     @media all and (max-width: 390px) {
     
-        .Layout {
+        .layout {
             width: 130px;
             height: 54px;
             display: flex;
@@ -387,11 +377,12 @@
             height: 54px;
         }
         
-        .ShoppingCart_text {
+        .shoppingcart_text {
             display: none;
         }
         
-        .Name_text {
+        .name_text {
+            width: 280px;
             position: relative;
             top: 60px;
             right: 0px;
@@ -403,7 +394,7 @@
             text-align: left;
         }
         
-        .Size_text {
+        .size_text {
             width: 35px;
             height: 25px;
             position: relative;
@@ -427,7 +418,7 @@
             font-family: sans-serif;
         }
         
-        .Price_text {
+        .price_text {
             width: 167px;
             height: 39px;
             position: relative;
@@ -438,7 +429,7 @@
             font-size: 23px;
         }
         
-        .NumDisplay_Size {
+        .numdisplay_size {
             width: 80px;
             height: 45px;
             position: relative;
@@ -448,7 +439,7 @@
             border-radius: 10px;
         }
         
-        .NumDisplay_quantity {
+        .numdisplay_quantity {
             width: 80px;
             height: 45px;
             position: relative;
@@ -458,17 +449,15 @@
             border-radius: 10px;
         }
         
-        #imagecart {
-            width: 37px;
-            height: 41px;
+        .image_cart {
             position: absolute;
-            top: 55px;
-            left: 343px;
+            top: 60px;
+            left: 340px;
             border: none;
             background-color: #fff;
         }
 
-        #imagecart img {
+        .image_cart img {
             width: 26px;
             height: 24px;
         }
@@ -478,7 +467,7 @@
             height: 10px;
             position: relative;
             left: -5px;
-            top: 6px;
+            top: 3px;
             padding: 5px 7px 5px 7px;
             border: 2px solid #333;
             border-radius: 50%;

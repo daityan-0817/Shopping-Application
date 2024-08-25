@@ -1,183 +1,183 @@
 const items = qs('#item_display')
-const Cartdate = 'cartdate'
-const Cart_num = 'cartnum'
-const Total_cash = 'total_cash'
-const Customer_date = 'customer_date'
-const Item_stock = 'item_stock'
-const Order_confirmed_button = qs('#Order_confirmed')
-const Return_to_cart_button = qs('#Return_to_cart')
-const Return_to_ShoppingScreen = qs('#return')
-const cart_button = qs('#imagecart')
+const cartDate = 'cartdate'
+const cartNum = 'cartnum'
+const totalCash = 'total_cash'
+const customerDate = 'customer_date'
+const itemStock = 'item_stock'
+const orderConfirmedButton = qs('#order_confirmed')
+const returnToCartButton = qs('#return_cart')
+const returnToShoppingScreen = qs('#return')
+const cartButton = qs('#image_cart')
 
-const addition_stock = __item_data.map((elem) => {
+const additionStock = __item_data.map((elem) => {
     
     elem.stock = 3
 
     return elem
 })
 
-function save_addition_stock_date() {
+function saveAdditionStockDate() {
     
-    const addition_stock_date = localStorage.setItem(Item_stock, JSON.stringify(addition_stock))
+    const additionStockDate = localStorage.setItem(itemStock, JSON.stringify(additionStock))
 
-    return addition_stock_date
+    return additionStockDate
 }
 
-save_addition_stock_date()
+saveAdditionStockDate()
 
-function get_item_stock() {
+function getItemStock() {
     
-    const date = localStorage.getItem(Item_stock)
+    const date = localStorage.getItem(itemStock)
 
     return JSON.parse(date)
 }
 
-function get_Cart_date() {
+function getCartDate() {
     
-    const date = localStorage.getItem(Cartdate)
+    const date = localStorage.getItem(cartDate)
 
     return JSON.parse(date)
 }
 
-function get_Cart_num() {
+function getCartNum() {
     
-    const date = localStorage.getItem(Cart_num)
+    const date = localStorage.getItem(cartNum)
 
     return qs('.num_cart').innerText = date
 } 
 
-get_Cart_num()
+getCartNum()
 
-function get_Total_Cash_Date() {
+function getTotalCashDate() {
     
-    const date = localStorage.getItem(Total_cash)
+    const date = localStorage.getItem(totalCash)
 
     return date
 }
 
-function get_Customer_Date() {
+function getCustomerDate() {
     
-    const date = localStorage.getItem(Customer_date)
+    const date = localStorage.getItem(customerDate)
 
     return JSON.parse(date)
 }
 
-function Screen_drawingItem() {
+function screenDrawingItem() {
     
-    const item_date = get_Cart_date()
-    const total_cash = get_Total_Cash_Date()
-    const customer_date = get_Customer_Date()
+    const itemdate = getCartDate()
+    const totalCashDate = getTotalCashDate()
+    const customerdate = getCustomerDate()
 
-    for(let item of item_date) {
+    for(let item of itemdate) {
         
         const listItem = document.createElement('div')
         listItem.setAttribute('class', 'itemlist')
         listItem.innerHTML =  `<img src="${item.item_image}"/>`
-        const Item_price = document.createElement('span')
-        Item_price.setAttribute('class', 'Itemprice')
-        Item_price.innerText = `￥${item.item_price}`
-        Item_size = document.createElement('div')
-        Item_size.setAttribute('class', 'Item_size')
-        Item_size.innerText = `size ${item.item_size}`
-        const Item_name = document.createElement('div')
-        Item_name.setAttribute('class', 'Item_name')
-        Item_name.innerText = `${item.item_name}`
-        const listItemborder = document.createElement('p')
-        listItemborder.setAttribute('class', 'listItemborder')
-        const Itemquantity = document.createElement('span')
-        Itemquantity.innerText = `${item.item_quantity}点`
-        Itemquantity.setAttribute('class', 'Itemquantity')
+        const itemPrice = document.createElement('span')
+        itemPrice.setAttribute('class', 'item_price')
+        itemPrice.innerText = `￥${item.item_price}`
+        itemSize = document.createElement('div')
+        itemSize.setAttribute('class', 'item_size')
+        itemSize.innerText = `size ${item.item_size}`
+        const itemName = document.createElement('div')
+        itemName.setAttribute('class', 'item_name')
+        itemName.innerText = `${item.item_name}`
+        const listItemBorder = document.createElement('p')
+        listItemBorder.setAttribute('class', 'listitem_border')
+        const itemQuantity = document.createElement('span')
+        itemQuantity.innerText = `${item.item_quantity}点`
+        itemQuantity.setAttribute('class', 'item_quantity')
         
         items.appendChild(listItem)
-        items.appendChild(Item_price)
-        items.appendChild(Item_size)
-        items.appendChild(listItemborder)
-        items.appendChild(Itemquantity)
-        items.appendChild(Item_name)
+        items.appendChild(itemPrice)
+        items.appendChild(itemSize)
+        items.appendChild(listItemBorder)
+        items.appendChild(itemQuantity)
+        items.appendChild(itemName)
     }
 
-    const Total_text = document.createElement('p')
-    Total_text.setAttribute('id', 'totaltext')  
-    Total_text.innerText = 'Total'
-    items.appendChild(Total_text)
-    const Total_border = document.createElement('p')
-    Total_border.setAttribute('id', 'totalborder')
-    items.appendChild(Total_border)
-    const TotalCash = document.createElement('span')
-    TotalCash.setAttribute('id', 'totalcash')
-    items.appendChild(TotalCash)
-    TotalCash.innerText = `￥${total_cash}`
+    const totaltext = document.createElement('p')
+    totaltext.setAttribute('id', 'totaltext')  
+    totaltext.innerText = 'Total'
+    items.appendChild(totaltext)
+    const totalborder = document.createElement('p')
+    totalborder.setAttribute('id', 'totalborder')
+    items.appendChild(totalborder)
+    const totalCashText = document.createElement('span')
+    totalCashText.setAttribute('id', 'totalcash')
+    items.appendChild(totalCashText)
+    totalCashText.innerText = `￥${totalCashDate}`
 
-    for(let customer of customer_date) {
+    for(let customer of customerdate) {
         
-        const customer_name = document.createElement('span')
-        customer_name.setAttribute('class', 'customer_name')
-        customer_name.innerText = `${customer.username}`
-        qs('#Customer_Information_text_name').appendChild(customer_name)
-        const customer_mail = document.createElement('span')
-        customer_mail.setAttribute('class', 'customer_mail')
-        customer_mail.innerText = `${customer.usermail}`
-        qs('#Customer_Information_text_mail').appendChild(customer_mail)
-        const customer_postcode = document.createElement('span')
-        customer_postcode.setAttribute('class', 'customer_postcode')
-        customer_postcode.innerText = `〒 ${customer.userpostcode}`
-        qs('#Customer_Information_text_postcode').appendChild(customer_postcode)
-        const customer_address = document.createElement('span')
-        customer_address.setAttribute('class', 'customer_address')
-        customer_address.innerText = `${customer.usermunicipalities}`
-        qs('#Customer_Information_text_address').appendChild(customer_address)
-        const customer_Payment_method = document.createElement('span')
-        customer_Payment_method.setAttribute('class', 'customer_Payment_method')
-        customer_Payment_method.innerText = `${customer.userPayment_method}`
-        qs('#Customer_Information_Payment_method').appendChild(customer_Payment_method)
+        const customername = document.createElement('span')
+        customername.setAttribute('class', 'customer_name')
+        customername.innerText = `${customer.username}`
+        qs('#customer_informationtext_name').appendChild(customername)
+        const customermail = document.createElement('span')
+        customermail.setAttribute('class', 'customer_mail')
+        customermail.innerText = `${customer.usermail}`
+        qs('#customer_informationtext_mail').appendChild(customermail)
+        const customerpostcode = document.createElement('span')
+        customerpostcode.setAttribute('class', 'customer_postcode')
+        customerpostcode.innerText = `〒 ${customer.userpostcode}`
+        qs('#customer_informationtext_postcode').appendChild(customerpostcode)
+        const customerAddress = document.createElement('span')
+        customerAddress.setAttribute('class', 'customer_address')
+        customerAddress.innerText = `${customer.usermunicipalities}`
+        qs('#customer_informationtext_address').appendChild(customerAddress)
+        const customerPaymentMethod = document.createElement('span')
+        customerPaymentMethod.setAttribute('class', 'customer_paymentmethod')
+        customerPaymentMethod.innerText = `${customer.userPaymentMethod}`
+        qs('#customer_information_paymentmethod').appendChild(customerPaymentMethod)
     }
 }
 
-Screen_drawingItem()
+screenDrawingItem()
 
-function item_stock_minus() {
+function itemStockMinus() {
     
-    const stock_date = get_item_stock()
-    const item_date = get_Cart_date()
+    const stockDate = getItemStock()
+    const itemDate = getCartDate()
 
-    for(let item of item_date) {
+    for(let item of itemDate) {
 
-        const minus = stock_date.map((elem) => {
+        const minus = stockDate.map((elem) => {
            
             elem.stock = elem.itemName === item.item_name ? parseInt(elem.stock) - parseInt(item.item_quantity) : elem.stock
 
             return elem
         })     
         
-        localStorage.setItem(Item_stock, JSON.stringify(minus))
+        localStorage.setItem(itemStock, JSON.stringify(minus))
     }
 }
 
-item_stock_minus()
+itemStockMinus()
 
-Order_confirmed_button.addEventListener('click', () => {
+orderConfirmedButton.addEventListener('click', () => {
     
-    location.href = 'http://127.0.0.1:5500/completed/index.html'
-    localStorage.removeItem(Cartdate)
-    localStorage.removeItem(Cart_num)
-    localStorage.removeItem(Customer_date)
-    localStorage.removeItem(Total_cash)
+    location.href = '/completed'
+    localStorage.removeItem(cartDate)
+    localStorage.removeItem(cartNum)
+    localStorage.removeItem(customerDate)
+    localStorage.removeItem(totalCash)
 })
 
-Return_to_cart_button.addEventListener('click', () => {
+returnToCartButton.addEventListener('click', () => {
     
     history.back()
-    localStorage.removeItem(Item_stock)
+    localStorage.removeItem(itemStock)
 })
 
-Return_to_ShoppingScreen.addEventListener('click', () => {
+returnToShoppingScreen.addEventListener('click', () => {
     
-    location.replace('http://127.0.0.1:5500/index.html')
-    localStorage.removeItem(Item_stock)
+    location.href = '/'
+    localStorage.removeItem(itemStock)
 })
 
-cart_button.addEventListener('click', () => {
+cartButton.addEventListener('click', () => {
     
     history.back()
-    localStorage.removeItem(Item_stock)
+    localStorage.removeItem(itemStock)
 })
