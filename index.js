@@ -1,45 +1,45 @@
-const search_button = qs('#magnifyingglass')
-const search_input = qs('#searchwindow')
+const searchButton = qs('#magnifyingglass')
+const searchInput = qs('#search_window')
 const items = qs('#item_display')
-const layout = qs('#Layout')
-const cart_button = qs('#imagecart')
-const Cart_num = 'cartnum'
-const Item_stock = 'item_stock'
+const layout = qs('#layout')
+const cartButton = qs('#image_cart')
+const cartNum = 'cartnum'
+const itemStock = 'item_stock'
 
-function get_Cart_num() {
+function getCartNum() {
   
-  const date = localStorage.getItem(Cart_num)
+  const date = localStorage.getItem(cartNum)
 
   if(date) {
     const display = document.createElement('span')
-    display.setAttribute('class','num_cart' )
+    display.setAttribute('class','num_cart')
     display.innerText = date
     layout.appendChild(display)
   }
 }
 
-get_Cart_num()
+getCartNum()
 
-function Item_stock_date() {
+function itemStockDate() {
 
-  const date = localStorage.getItem(Item_stock)
+  const date = localStorage.getItem(itemStock)
 
   return JSON.parse(date)
 }
  
-search_button.addEventListener('click', () => {
+searchButton.addEventListener('click', () => {
 
-  const new_date = Item_stock_date()
+  const newDate = itemStockDate()
 
-  if(!new_date) {
+  if(!newDate) {
 
-    const item_name_list = []
+    const itemNameList = []
 
     for(let item of __item_data) {
 
-      item_name_list.push(item.itemName)
+      itemNameList.push(item.itemName)
 
-      if(search_input.value === '') {
+      if(searchInput.value === '') {
         
         const listItem = document.createElement('div')
         listItem.setAttribute('class','items')
@@ -52,9 +52,9 @@ search_button.addEventListener('click', () => {
         items.appendChild(listItem)
 
         listItem.addEventListener('click', () => {
-        location.href =  `http://127.0.0.1:5500/detail/?detail?id=${item.id}=/?detail?imgsrc=${item.image}=/?detail?name=${item.itemName}=/?detail?price=${item.price}`
+        location.href =  `/detail/?id=${item.id}&imgsrc=${item.image}=${item.itemName}=${item.price}`
         })
-      } else if(item.itemName.includes(search_input.value)){
+      } else if(item.itemName.includes(searchInput.value)){
         
         const listItem = document.createElement('div')
         listItem.setAttribute('class','items')
@@ -67,32 +67,32 @@ search_button.addEventListener('click', () => {
         items.appendChild(listItem)
 
         listItem.addEventListener('click', () => {
-        location.href =  `http://127.0.0.1:5500/detail/?detail?id=${item.id}=/?detail?imgsrc=${item.image}=/?detail?name=${item.itemName}=/?detail?price=${item.price}`
+        location.href =  `/detail/?id=${item.id}&imgsrc=${item.image}=${item.itemName}=${item.price}`
         })
       }
     } 
     
-    const No_item = item_name_list.some(elem => elem[0] === search_input.value)
+    const noItem = itemNameList.some(elem => elem[0] === searchInput.value)
     
-    if(search_input.value !== '' && !No_item) {
+    if(searchInput.value !== '' && !noItem) {
 
-      const No_item_Display = document.createElement('span')
-      No_item_Display.setAttribute('class', 'No_item_Display')
-      No_item_Display.innerText = '検索条件に該当する商品がありません'
-      items.appendChild(No_item_Display) 
+      const noItemDisplay = document.createElement('span')
+      noItemDisplay.setAttribute('class', 'noitem_display')
+      noItemDisplay.innerText = '検索条件に該当する商品がありません'
+      items.appendChild(noItemDisplay) 
     }
   }
 
-  if(new_date) {
+  if(newDate) {
 
-    const item_name_list = []
+    const itemNameList = []
 
-    for(let item of new_date) {
+    for(let item of newDate) {
 
-      item_name_list.push(item.itemName)
-      const sold_out_item = [item.stock].includes(0)
+      itemNameList.push(item.itemName)
+      const soldOutItem = [item.stock].includes(0)
 
-      if(search_input.value === '') {
+      if(searchInput.value === '') {
     
         const listItem = document.createElement('div')
         listItem.setAttribute('class','items')
@@ -104,19 +104,19 @@ search_button.addEventListener('click', () => {
         `
         items.appendChild(listItem)
 
-      if(sold_out_item) {
+      if(soldOutItem) {
       
-        const sold_out_message = document.createElement('div')
-        sold_out_message.setAttribute('class','sold_out_message')
-        sold_out_message.innerText = 'sold out'
-        listItem.appendChild(sold_out_message)
+        const soldOutMessage = document.createElement('div')
+        soldOutMessage.setAttribute('class','soldout_message')
+        soldOutMessage.innerText = 'sold out'
+        listItem.appendChild(soldOutMessage)
       } else {
       
         listItem.addEventListener('click', () => {
-          location.href =  `http://127.0.0.1:5500/detail/?detail?id=${item.id}=/?detail?imgsrc=${item.image}=/?detail?name=${item.itemName}=/?detail?price=${item.price}`
+          location.href =  `/detail/?id=${item.id}&imgsrc=${item.image}=${item.itemName}=${item.price}`
       })
     }
-  } else if(item.itemName.includes(search_input.value)){
+  } else if(item.itemName.includes(searchInput.value)){
     
       const listItem = document.createElement('div')
       listItem.setAttribute('class','items')
@@ -128,38 +128,38 @@ search_button.addEventListener('click', () => {
       `
       items.appendChild(listItem)
 
-      if(sold_out_item) {
+      if(soldOutItem) {
       
-        const sold_out_message = document.createElement('span')
-        sold_out_message.setAttribute('class','sold_out_message')
-        sold_out_message.innerText = 'sold out'
-        listItem.appendChild(sold_out_message)
+        const soldOutMessage = document.createElement('span')
+        soldOutMessage.setAttribute('class','soldout_message')
+        soldOutMessage.innerText = 'sold out'
+        listItem.appendChild(soldOutMessage)
     } else {
       
         listItem.addEventListener('click', () => {
-          location.href =  `http://127.0.0.1:5500/detail/?detail?id=${item.id}=/?detail?imgsrc=${item.image}=/?detail?name=${item.itemName}=/?detail?price=${item.price}`
+          location.href =  `/detail/?id=${item.id}&imgsrc=${item.image}=${item.itemName}=${item.price}`
       })
     }
   }
 } 
 
-  const No_item = item_name_list.some(elem => elem[0] === search_input.value)
+  const noItem = itemNameList.some(elem => elem[0] === searchInput.value)
 
-  if(search_input.value !== '' && !No_item) {
+  if(searchInput.value !== '' && !noItem) {
 
-      const No_item_Display = document.createElement('span')
-      No_item_Display.setAttribute('class', 'No_item_Display')
-      No_item_Display.innerText = '検索条件に該当する商品がありません'
-      items.appendChild(No_item_Display) 
+      const noItemDisplay = document.createElement('span')
+      noItemDisplay.setAttribute('class', 'noitem_display')
+      noItemDisplay.innerText = '検索条件に該当する商品がありません'
+      items.appendChild(noItemDisplay) 
     }
   }
 })
 
-cart_button.addEventListener('click', () => {
+cartButton.addEventListener('click', () => {
 
-  const date = localStorage.getItem(Cart_num)
+  const date = localStorage.getItem(cartNum)
 
   if(date) {
-    location.href = 'http://127.0.0.1:5500/cart/index.html'
+    location.href = '/cart'
   }
 })

@@ -2,46 +2,39 @@
 <html>
     <head>
         <title>season2_assignment</title>
-        <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1.0"
-        >
-        <link
-        rel="stylesheet"
-        type="text/css"
-        href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css"
-        >
+        <meta name="viewport"content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet"type="text/css"href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css">
         <link rel="stylesheet" href="./index.css">
     </head>
     <body>
-        <div class="Layout" id="Layout">
+        <div class="layout" id="layout">
             <button id="return" class="decoration"><img src="https://kadai-1-9fce0.web.app/images/ec_logo1.png"></button>
-            <div class="Content">ShoppingCart</div>
-            <div class="imagecart"><img src="https://kadai-1-9fce0.web.app/images/feather-shopping-cart.svg"></div>
+            <div class="content">ShoppingCart</div>
+            <div class="image_cart"><img src="https://kadai-1-9fce0.web.app/images/feather-shopping-cart.svg"></div>
         </div>
         <p class="border"></p>
         <div id="item_display"></div>
-        <div class="Customer_Information">
-            <div id="Customer_text">お客様情報入力</div>
-            <p id="Customer_name_text">お名前<span class="asterisk">※</span></p>
+        <div class="customer_information">
+            <div id="customer_text">お客様情報入力</div>
+            <p id="customer_name_text">お名前<span class="asterisk">※</span></p>
             <input type="text" id="input_name">
-            <p id="Customer_email_text">メールアドレス<span class="asterisk">※</span></p>
+            <p id="customer_email_text">メールアドレス<span class="asterisk">※</span></p>
             <input type="text" id="input_email">
             <p id="addres_text">ご住所<span class="asterisk">※</span></p>
             <p id="post_code_text">郵便番号</p>
-            <input type="text" id="input_PostCode">
+            <input type="text" id="input_postcode">
             <p id="prefectures_text">都道府県</p>
             <input type="text" id="input_prefectures">
             <p id="municipalities_text">市区町村番号 建物名・部屋番号</p>
             <input type="text" id="input_municipalities">
             <fieldset>
-            <legend id="Payment_method_text">お支払い方法<span class="asterisk">※</span></legend>
+            <legend id="paymentmethod_text">お支払い方法<span class="asterisk">※</span></legend>
 
             <input type="radio" name="radio_button" id="credit_card">
             <label for="credit_card" id="credit_card_text">クレジットカード</label>
 
-            <input type="radio" name="radio_button" id="Bank_transfer">
-            <label for="Bank_transfer" id="Bank_transfer_text">銀行振込</label>
+            <input type="radio" name="radio_button" id="bank_transfer">
+            <label for="bank_transfer" id="bank_transfer_text">銀行振込</label>
 
             <input type="radio" name="radio_button" id="cash_on_delivery">
             <label for="cash_on_delivery" id="cash_on_delivery_text">代金引換</label>

@@ -1,6 +1,6 @@
 @media all and (max-width: 1440px) {
 
-    .Layout {
+    .layout {
         width: 920px;
         height: 145px;
         display: flex;
@@ -66,7 +66,7 @@
         top: 40px;
     }
 
-    .Content {
+    .content {
         width: 92px;
         height: 19px;
         position: relative;
@@ -74,7 +74,7 @@
         top: 160px;
     }
 
-    .imagecart {
+    .image_cart {
         position: relative;
         left: 925px;
         top: 95px;
@@ -82,7 +82,7 @@
         border: none;
     }
 
-    .imagecart img {
+    .image_cart img {
         width: 33px;
         height: 31px;
     }
@@ -97,7 +97,7 @@
         margin-top: 40px;
     }
 
-    .listItemborder {
+    .listitem_border {
         width: 150px;
         border: 1px solid #656565;
         position: relative;
@@ -105,18 +105,18 @@
         bottom: 25px;
     }
 
-    .Itemquantity {
+    .item_quantity {
         position: relative;
         left: 550px;
         bottom: 50px;
     }
 
-    .Itemprice {
+    .item_price {
         position: relative;
         left: 435px;
     }
 
-    .Item_name {
+    .item_name {
         margin-left: 550px;
         position: relative;
         bottom: 170px;
@@ -124,7 +124,7 @@
         font-size: 18px;
     }
 
-    .Item_size {
+    .item_size {
         margin-left: 550px;
         position: relative;
         bottom: 80px;
@@ -166,13 +166,13 @@
         left: 280px;
     }
 
-    .Customer_Information {
+    .customer_information {
         position: absolute;
         left: 980px;
-        bottom: 450px;
+        bottom: 480px;
     }
 
-    #Customer_Information_text {
+    #customer_information_text {
         position: relative;
         right: 15px;
         width: 126px;
@@ -185,7 +185,7 @@
         text-align: left;
     }
 
-    #Mr{
+    #mr{
         position: relative;
         left: 200px;
         top: 130px;
@@ -244,13 +244,14 @@
     }
 
     .customer_postcode {
-        position: relative;
-        top: 230px;
+        width: 90px;
+        position: absolute;
+        top: 310px;
         font-family: YuGothic;
         font-size: 14px;
         font-weight: 500;
         line-height: 21px;
-        right: 250px;
+        right: 460px;
     }
 
     .customer_address {
@@ -258,7 +259,7 @@
         height: 24px;
         position: relative; 
         top: 230px;
-        left: 20px;
+        left: 0px;
     }
 
     .text_address_border {
@@ -269,7 +270,7 @@
         right: 109px
     }
 
-    .customer_Payment_method {
+    .customer_paymentmethod {
         width: 128px;
         height: 24px;
         position: relative;
@@ -282,7 +283,7 @@
         color: #333333
     }
 
-    .text_Payment_method_border {
+    .text_paymentmethod_border {
         width: 330px;
         position: relative;
         border: 1px solid #656565;
@@ -290,7 +291,7 @@
         right: 110px;
     }
 
-    #Order_confirmed {
+    #order_confirmed {
         width: 330px;
         height: 70px;
         position: relative;
@@ -302,7 +303,7 @@
         color: white;
     }
 
-    #Return_to_cart {
+    #return_cart {
         width: 330px;
         height: 70px;
         position: relative;
@@ -319,7 +320,7 @@
 
 @media all and (max-width: 768px) {
     
-    .Layout {
+    .layout {
         width: 534px;
         height: 110px;
         display: flex;
@@ -400,11 +401,11 @@
         top: 10px;
 }
 
-    .Content {
+    .content {
         display: none;
 }
 
-    .imagecart {
+    .image_cart {
         position: relative;
         left: 470px;
         top: 40px;
@@ -412,7 +413,7 @@
         border: none;
 }
 
-    .imagecart img {
+    .image_cart img {
         width: 33px;
         height: 31px;
     }
@@ -436,7 +437,7 @@
         height: 162px;
     }
 
-    .listItemborder {
+    .listitem_border {
         width: 162px;
         border: 1px solid #656565;
         position: relative;
@@ -444,19 +445,19 @@
         top: 40px;
 }
 
-    .Itemquantity {
+    .item_quantity {
         position: relative;
         left: 410px;
         top: 15px
 }
 
-    .Itemprice {
+    .item_price {
         position: relative;
         left: 355px;
         top: 60px;
 }
 
-    .Item_name {
+    .item_name {
         height: 25px;
         position: relative;
         right: 140px;
@@ -464,7 +465,7 @@
         font-size: 18px;
 }
 
-    .Item_size {
+    .item_size {
         height: 21px;
         position: relative;
         right: 140px;
@@ -506,7 +507,7 @@
         left: 225px;
 }
 
-    .Customer_Information {
+    .customer_information {
         width: 348px;
         height: 583px;
         display: inline-block;
@@ -515,7 +516,7 @@
         left: 320px;
 }
 
-    #Customer_Information_text {
+    #customer_information_text {
         position: relative;
         left: 0px;
         width: 126px;
@@ -528,7 +529,7 @@
         text-align: left;
 }
 
-    #Mr{
+    #mr{
         position: relative;
         left: 203px;
         top: 130px;
@@ -589,8 +590,10 @@
 }
 
     .customer_postcode {
-        position: relative;
-        top: 230px;
+        width: 90px;
+        position: absolute;
+        top: 310px;
+        right: 340px;
         font-family: YuGothic;
         font-size: 14px;
         font-weight: 500;
@@ -603,7 +606,7 @@
         height: 24px;
         position: relative; 
         top: 230px;
-        left: 30px;
+        left: 10px;
 }
 
     .text_address_border {
@@ -614,7 +617,7 @@
         right: 109px
 }
 
-    .customer_Payment_method {
+    .customer_paymentmethod {
         width: 128px;
         height: 24px;
         position: relative;
@@ -627,7 +630,7 @@
         color: #333333
 }
 
-    .text_Payment_method_border {
+    .text_paymentmethod_border {
         width: 348px;
         position: relative;
         border: 1px solid #656565;
@@ -635,7 +638,7 @@
         right: 110px;
 }
 
-    #Order_confirmed {
+    #order_confirmed {
         width: 348px;
         height: 70px;
         position: relative;
@@ -647,7 +650,7 @@
         color: white;
 }
 
-    #Return_to_cart {
+    #return_cart {
         width: 348px;
         height: 70px;
         position: relative;
@@ -668,7 +671,7 @@
         height: 1000px;
     }
     
-    .Layout {
+    .layout {
         width: 358px;
         height: 54px;
 }
@@ -694,7 +697,7 @@
         border: 1px solid #656565;
         position: relative;
         top: 350px;
-        left: 15px;
+        left: 20px;
 }
 
     .decoration2 {
@@ -725,7 +728,7 @@
         height: 10px;
         position: relative;
         left: 180px;
-        top: 20px;
+        top: 15px;
         padding: 5px 5px 5px 5px;
         border: 2px solid #333;
         border-radius: 50%;
@@ -742,23 +745,23 @@
         width: 358px;
         border: 1px solid #656565;
         position: relative;
-        left: 15px;
+        left: 20px;
         top: 10px;
 }
 
-    .Content {
+    .content {
         display: none;
 }
 
-    .imagecart {
+    .image_cart {
         position: relative;
         left: 200px;
-        top: 25px;
+        top: 20px;
         background-color: white;
         border: none;
 }
 
-    .imagecart img {
+    .image_cart img {
         width: 26px;
         height: 24px;
     }
@@ -771,7 +774,7 @@
     .itemlist {
         position: relative;
         left: 0px;
-        left: 15px;
+        left: 20px;
         top:0px;
         top: 100px;
         margin-top: -40px;
@@ -782,7 +785,7 @@
         height: 171px;
     }
     
-    .listItemborder {
+    .listitem_border {
         width: 162px;
         border: 1px solid #656565;
         position: relative;
@@ -790,19 +793,19 @@
         top: 40px
 }
 
-    .Itemquantity {
+    .item_quantity {
         position: relative;
         left: 200px;
         top: 15px;
 }
 
-    .Itemprice {
+    .item_price {
         position: relative;
         left: 145px;
         top: 65px;
 }
 
-    .Item_name {
+    .item_name {
         width: 200px;
         height: 25px;
         position: relative;
@@ -812,7 +815,7 @@
         font-size: 18px;
 }
 
-    .Item_size {
+    .item_size {
         width: 51px;
         height: 21px;
         position: relative;
@@ -826,7 +829,7 @@
         height: 36px;
         position: relative;
         top: 180px;
-        left: 15px;
+        left: 20px;
         font-family: Avenir;
         font-size: 26px;
         font-weight: 900;
@@ -838,7 +841,7 @@
         width: 98px;
         height: 39px;
         position: relative;
-        left: 265px;
+        left: 255px;
         top: 140px;
         font-family: YuGothic;
         font-size: 26px;
@@ -852,22 +855,22 @@
         border: 1px solid #656565;
         position: relative;
         top: 180px;
-        left: 15px;
+        left: 20px;
 }
 
-    .Customer_Information {
+    .customer_information {
         width: 348px;
         height: 583px;
         display: inline-block;
         position: relative;
         left: 0px;
-        left: 120px;
+        left: 50px;
         top: 150px;
 }
 
-    #Customer_Information_text {
+    #customer_information_text {
         position: relative;
-        left: 10px;
+        left: 80px;
         width: 126px;
         height: 27px;
         top: 80px;
@@ -878,9 +881,9 @@
         text-align: left;
 }
 
-    #Mr{
+    #mr{
         position: relative;
-        left: 235px;
+        left: 300px;
         top: 130px;
         width: 16px;
         height: 24px;
@@ -898,7 +901,7 @@
         width: 348px;
         height: 0px;
         top: 130px;
-        right: 90px;
+        right: 30px;
 }
 
     .customer_name {
@@ -906,7 +909,7 @@
         top:125px;
         width: 85px;
         height: 24px;
-        left: 20px;
+        left: 90px;
         font-family: YuGothic;
         font-size: 16px;
         font-weight: 500;
@@ -918,8 +921,8 @@
     .customer_mail {
         position: relative;
         top: 190px;
-        right: 15px;
-        width: 143;
+        left: 60px;
+        width: 143px;
         height: 24px;
         font-family: YuGothic;
         font-size: 16px;
@@ -935,12 +938,15 @@
         width: 348px;
         height:0px;
         top: 190px;
-        right: 90px;
+        right: 30px;
 }
 
     .customer_postcode {
-        position: relative;
-        top: 230px;
+        width: 90px;
+        position: absolute;
+        top: 310px;
+        right: 0px;
+        right: 265px;
         font-family: YuGothic;
         font-size: 14px;
         font-weight: 500;
@@ -953,7 +959,7 @@
         height: 24px;
         position: relative; 
         top: 230px;
-        left: 30px;
+        left: 85px;
 }
 
     .text_address_border {
@@ -961,15 +967,15 @@
         position: relative;
         border: 1px solid #656565;
         top: 230px;
-        right: 90px
+        right: 30px
 }
 
-    .customer_Payment_method {
+    .customer_paymentmethod {
         width: 128px;
         height: 24px;
         position: relative;
         top: 280px;
-        left: 5px;
+        left: 70px;
         font-family: YuGothic;
         font-size: 16px;
         font-weight: 500;
@@ -978,32 +984,32 @@
         color: #333333
 }
 
-    .text_Payment_method_border {
+    .text_paymentmethod_border {
         width: 348px;
         position: relative;
         border: 1px solid #656565;
         top: 280px;
-        right: 90px;
+        right: 30px;
 }
 
-    #Order_confirmed {
+    #order_confirmed {
         width: 358px;
         height: 70px;
         position: relative;
         top: 350px;
-        right: 100px;
+        right: 30px;
         background-color: #deb089;
         border: none;
         border-radius: 10px;
         color: white;
 }
 
-    #Return_to_cart {
+    #return_cart {
         width: 358px;
         height: 70px;
         position: relative;
         top: 400px;
-        right: 100px;
+        right: 30px;
         background-color: white;
         border-radius: 10px;
         font-family: YuGothic;

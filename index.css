@@ -1,6 +1,6 @@
 @media all and (max-width: 1440px) {
 
-    .Layout {
+    .layout {
         width: 920px;
         height: 145px;
         margin-top: 42px;
@@ -58,7 +58,7 @@
         border: none;
     }
         
-    .ShoppingCart_text {
+    .shoppingcart_text {
         height: 19px;
         position: relative;
         top: 160px;
@@ -70,7 +70,7 @@
         text-align: left;
     }
         
-    .imagecart {
+    .image_cart {
         width: 33px;
         height: 31px;
         position: relative;
@@ -80,7 +80,7 @@
         background-color: white;
     }
 
-    .imagecart img {
+    .image_cart img {
         width: 33px;
         height: 31px;
     }
@@ -116,7 +116,7 @@
         top: 42px;
     }
         
-    .Itemlist_text {
+    .itemlist_text {
         width: 100px;
         height: 36px;
         position: relative;
@@ -169,7 +169,7 @@
         left: 650px;
     }
         
-    .Content3 {
+    .content3 {
         width: 292px;
         height: 16px;
         font-weight: 400px;
@@ -179,7 +179,7 @@
         left: 580px;   
     }
     
-    .sold_out_message {
+    .soldout_message {
         position: absolute;
         top: 40px;
         width: 70px;
@@ -195,7 +195,7 @@
         padding: 10px 10px 0px 10px;
     }
     
-    .No_item_Display {
+    .noitem_display {
         position: relative;
         top: 50px;
         left: 250px;
@@ -210,7 +210,7 @@
     
 @media all and (max-width: 768px) {
 
-    .Layout {
+    .layout {
         width: 534px;
         height:110px; 
     }
@@ -265,22 +265,19 @@
         top: 0px;
     }
 
-    .ShoppingCart_text {
+    .shoppingcart_text {
         display:none;
     }
 
-    .imagecart {
+    .image_cart {
+        width: 33px;
+        height: 31px;
         position: relative;
         left: 0px;
         left: 205px;
         top: 70px;
         border: none;
         background-color: white;
-    }
-
-    .imagecart img {
-        width: 33px;
-        height: 31px;
     }
 
     .num_cart {
@@ -310,7 +307,7 @@
         left: 120px;
     }
 
-    .Itemlist_text {
+    .itemlist_text {
         width: 106px;
         height: 25px;
         position: relative;
@@ -371,7 +368,7 @@
         height: 100px;
     }
 
-    .Content3 {
+    .content3 {
         width: 292px;
         height: 16px;
         font-weight: 400px;
@@ -381,7 +378,7 @@
         left: 240px;
     }
 
-    .sold_out_message {
+    .soldout_message {
         position: absolute;
         top: 40px;
         width: 70px;
@@ -397,7 +394,7 @@
         padding: 7px 10px 0px 10px;
     }
 
-    .No_item_Display {
+    .noitem_display {
         position: relative;
         top: 0px;
         left: 50px;
@@ -412,7 +409,7 @@
 
 @media all and (max-width: 390px) {
 
-    .Layout {
+    .layout {
         width: 390px;
         height: 110px; 
     }
@@ -460,10 +457,10 @@
         border-radius: 8px;
 }
 
-    .magnifyingglass img {
+    .magnifyingglass_image {
         width: 10px;
         height: 12px;
-}
+    }
 
     .border {
         width: 358px;
@@ -473,28 +470,28 @@
         top: -45px;
 }
 
-    .ShoppingCart_text {
+    .shoppingcart_text {
         display: none;
 }
 
-    .imagecart {
+    .image_cart {
         position: absolute;
         top: 75px;
-        left: 340px;
+        left: 335px;
         border: none;
         background-color: white;
 }
 
-    .imagecart img {
+    .image_cart img {
         width: 26px;
         height: 24px;
-    }
+}
 
     .num_cart {
         width: 10px;
         height: 10px;
         position: relative;
-        left: -8px;
+        left: -12px;
         top: 18px;
         border: 2px solid #333;
         border-radius: 50%;
@@ -516,7 +513,7 @@
         left: 15px;
 }
 
-    .Itemlist_text {
+    .itemlist_text {
         width: 106px;
         height: 25px;
         position: relative;
@@ -570,7 +567,7 @@
         height: 54px;
     }
 
-    .Content3 {
+    .content3 {
         width: 292px;
         height: 16px;
         font-weight: 400px;
@@ -579,7 +576,8 @@
         top: 300px;
         left: 60px;
     }
-    .sold_out_message {
+
+    .soldout_message {
         position: absolute;
         top: 40px;
         width: 70px;
@@ -595,7 +593,7 @@
         padding: 10px 8px 1px 8px;
 }
 
-    .No_item_Display {
+    .noitem_display {
         position: relative;
         left: 60px;
         width: 228px;

@@ -1,116 +1,116 @@
-const Cartdate = 'cartdate'
-const Cart_num = 'cartnum'
-const Add_To_Cart_button = qs('#cart_button')
-const cart_button = qs('#imagecart')
-const quantity_Value = qs('#Select_num')
-const Size_Value = qs('#Select_size')
-const Return_to_ShoppingScreen = qs('#return')
-const layout = qs('#Layout')
-let quantity_date = ''
-let size_date = ''
+const cartDate = 'cartdate'
+const cartNum = 'cartnum'
+const addToCartButton = qs('#cart_button')
+const cartButton = qs('#image_cart')
+const quantityValue = qs('#select_num')
+const sizeValue = qs('#select_size')
+const returnToShoppingScreen = qs('#return')
+const layout = qs('#layout')
+let quantityDate = ''
+let sizeDate = ''
 
-const queryString_image = location.search
-const image = queryString_image.split('=')[3]
-const decode_img = decodeURIComponent(image)
+const queryStringImage = location.search
+const image = queryStringImage.split('=')[2]
+const decodeImage = decodeURIComponent(image)
 const listItem = document.createElement('div')
-listItem.innerHTML = `<img src="${decode_img}"/>`
+listItem.innerHTML = `<img src="${decodeImage}"/>`
 qs('#img').appendChild(listItem)
 
-const queryString_name = location.search
-const itemname = queryString_name.split('=')[5]
-const decodeitem_name = decodeURIComponent(itemname)
-qs('#Content_name').innerText = decodeitem_name
+const queryStringName = location.search
+const itemName = queryStringName.split('=')[3]
+const decodeItemName = decodeURIComponent(itemName)
+qs('#content_name').innerText = decodeItemName
 
-const queryString_price = location.search
-const itemprice = queryString_price.split('=')[7]
-const decodeitem_price = decodeURIComponent(itemprice)
-qs('#price').innerText = `￥${decodeitem_price}(税込)`
+const queryStringPrice = location.search
+const itemPrice = queryStringPrice.split('=')[4]
+const decodeItemPrice = decodeURIComponent(itemPrice)
+qs('#price').innerText = `￥${decodeItemPrice}(税込)`
 
-function get_Cart_num() {
+function getCartNum() {
     
-    const date = localStorage.getItem(Cart_num)
+    const date = localStorage.getItem(cartNum)
 
     if(date) {
-        const NumDisplay = document.createElement('span')
-        NumDisplay.setAttribute('class','num_cart' )
-        NumDisplay.innerText = parseInt(date)
-        layout.appendChild(NumDisplay)
+        const numDisplay = document.createElement('span')
+        numDisplay.setAttribute('class','num_cart')
+        numDisplay.innerText = parseInt(date)
+        layout.appendChild(numDisplay)
       } 
 }
 
-get_Cart_num()
+getCartNum()
 
-function Add_Items_To_Cart(quantity) {
+function addItemsToCart(quantity) {
     
-    const date = localStorage.getItem(Cart_num)
+    const date = localStorage.getItem(cartNum)
 
     if(date === null) {
-        save_num_date(quantity)
+        saveNumDate(quantity)
     } else {
         let plus = parseInt(date) + parseInt(quantity)
-        save_num_date(plus)
+        saveNumDate(plus)
     }
 }
 
 function getDate() {
    
-    const get_items = localStorage.getItem(Cartdate)
+    const getItems = localStorage.getItem(cartDate)
 
-    return get_items ? JSON.parse(get_items) : []
+    return getItems ? JSON.parse(getItems) : []
 }
 
 function saveDate(itemdate) {
-    localStorage.setItem(Cartdate, JSON.stringify(itemdate))
+    localStorage.setItem(cartDate, JSON.stringify(itemdate))
 }
 
-function save_num_date(quantity_date) {
-    localStorage.setItem(Cart_num, quantity_date)
+function saveNumDate(quantityDate) {
+    localStorage.setItem(cartNum, quantityDate)
 }
 
-Add_To_Cart_button.addEventListener('click', () => {
+addToCartButton.addEventListener('click', () => {
 
-    location.href = 'http://127.0.0.1:5500/cart/index.html'
+    location.href = '/cart'
 
     const items = {
         item_id:`${Date.now()}`,
-        item_image: decode_img,
-        item_name: decodeitem_name,
-        item_price: decodeitem_price,
-        item_quantity: quantity_date,
-        item_size: size_date
+        item_image: decodeImage,
+        item_name: decodeItemName,
+        item_price: decodeItemPrice,
+        item_quantity: quantityDate,
+        item_size: sizeDate
     }
 
-    const item_date = getDate()
-    item_date.push(items)
-    saveDate(item_date)
+    const itemDate = getDate()
+    itemDate.push(items)
+    saveDate(itemDate)
 
-    Add_Items_To_Cart(quantity_date)
+    addItemsToCart(quantityDate)
 
     return items
 })
 
-Size_Value.addEventListener('click', () => {
-     size_date = Size_Value.value
+sizeValue.addEventListener('click', () => {
+     sizeDate = sizeValue.value
 })
 
-quantity_Value.addEventListener('click', () => {
+quantityValue.addEventListener('click', () => {
     
-    quantity_date = quantity_Value.value
+    quantityDate = quantityValue.value
     
-    if(quantity_date !== '' && size_date !== '') {
-        Add_To_Cart_button.disabled = false
+    if(quantityDate !== '' && sizeDate !== '') {
+        addToCartButton.disabled = false
     }
 })
 
-Return_to_ShoppingScreen.addEventListener('click', () => {
-    location.replace('http://127.0.0.1:5500/index.html')
+returnToShoppingScreen.addEventListener('click', () => {
+    location.href = '/'
 })
 
-Add_To_Cart_button.addEventListener('click', () => {
+addToCartButton.addEventListener('click', () => {
     
-    const date = localStorage.getItem(Cart_num)
+    const date = localStorage.getItem(cartNum)
 
   if(date) {
-    location.href = 'http://127.0.0.1:5500/cart/index.html'
+    location.href = '/cart'
   }
 })

@@ -1,34 +1,34 @@
-const Cashresult = qs('#Cash_result')
-const Cartdate = 'cartdate'
-const Cart_num = 'cartnum'
-const Total_cash = 'total_cash'
-const Customer_date = 'customer_date'
+const cashResult = qs('#cash_result')
+const cartDate = 'cartdate'
+const cartNum = 'cartnum'
+const totalCash = 'total_cash'
+const customerDate = 'customer_date'
 const items = qs('#item_display')
-const Continue_shopping = qs('#continue_shopping')
-const Calculation_result = qs('#result')
-const Confirmation_button = qs('#confirm_button')
-const Return_to_ShoppingScreen = qs('#return')
-const layout = qs('#Layout')
+const continueShopping = qs('#continue_shopping')
+const calculationResult = qs('#result')
+const confirmationButton = qs('#confirm_button')
+const returnToShoppingScreen = qs('#return')
+const layout = qs('#layout')
 
 function getDate() {
     
-    const get_items = localStorage.getItem(Cartdate)
+    const getItems = localStorage.getItem(cartDate)
 
-    return JSON.parse(get_items)
+    return JSON.parse(getItems)
 }
 
 function getTotalPrice() {
     
-    const itemprice = getDate()
+    const itemPrice = getDate()
     const arr = []
     let total = 0
 
-    for(let item of itemprice) {
+    for(let item of itemPrice) {
         
         const price = parseInt(item.item_price)
         const quantity = parseInt(item.item_quantity)
-        const total_price = price * quantity
-        arr.push(total_price)
+        const totalPrice = price * quantity
+        arr.push(totalPrice)
     }
 
     for(let i = 0; i < arr.length; i++) {
@@ -36,10 +36,10 @@ function getTotalPrice() {
     }
 
     if(total === 0) {
-        location.href = 'http://127.0.0.1:5500/cart-delete-all/index.html'
-        localStorage.removeItem(Cartdate)
-        localStorage.removeItem(Cart_num)
-        localStorage.removeItem(Total_cash)
+        location.href = '/cart-delete-all'
+        localStorage.removeItem(cartDate)
+        localStorage.removeItem(cartNum)
+        localStorage.removeItem(totalCash)
     }
 
     saveTotalCashDate(total)
@@ -47,9 +47,9 @@ function getTotalPrice() {
 
 getTotalPrice()
 
-function get_Cart_num() {
+function getCartNum() {
     
-    const date = localStorage.getItem(Cart_num)
+    const date = localStorage.getItem(cartNum)
 
     if(date) {
         const display = document.createElement('span')
@@ -61,54 +61,55 @@ function get_Cart_num() {
     return JSON.parse(date)
 }
 
-get_Cart_num()
+getCartNum()
 
-function get_Total_Cash_Date() {
-    const total = localStorage.getItem(Total_cash)
+function getTotalCashDate() {
+    
+    const total = localStorage.getItem(totalCash)
 
     return total
 }
 
-function Screen_drawingItem() {
+function screenDrawingItem() {
     
-    const item_date = getDate()
-    const total_cash = get_Total_Cash_Date()
+    const itemDate = getDate()
+    const totalCashDate = getTotalCashDate()
 
-    for(let item of item_date) {
+    for(let item of itemDate) {
        
         const listItem = document.createElement('div')
         listItem.setAttribute('class', 'itemlist')
         listItem.innerHTML = `<img src="${item.item_image}"/>`
         const listItemborder = document.createElement('p')
-        listItemborder.setAttribute('class', 'listItemborder')
-        const Itemname = document.createElement('span')
-        Itemname.setAttribute('class', 'Itemname')
-        Itemname.innerText = `${item.item_name}`
-        const Itemsize_text = document.createElement('span')
-        Itemsize_text.setAttribute('class', 'Itemsize_text')
-        Itemsize_text.innerText = 'size'
-        const Itemsize = document.createElement('span')
-        Itemsize.setAttribute('class', 'Itemsize')
-        Itemsize.innerText = `${item.item_size}`
-        const Itemquantity = document.createElement('span')
-        Itemquantity.innerText = `${item.item_quantity}点`
-        Itemquantity.setAttribute('class', 'Itemquantity')
-        const Itemprice = document.createElement('span')
-        Itemprice.innerText = `￥${item.item_price}`
-        Itemprice.setAttribute('class', 'Itemprice')
+        listItemborder.setAttribute('class', 'listitem_border')
+        const itemName = document.createElement('span')
+        itemName.setAttribute('class', 'item_name')
+        itemName.innerText = `${item.item_name}`
+        const itemSizeText = document.createElement('span')
+        itemSizeText.setAttribute('class', 'itemsize_text')
+        itemSizeText.innerText = 'size'
+        const itemSize = document.createElement('span')
+        itemSize.setAttribute('class', 'item_size')
+        itemSize.innerText = `${item.item_size}`
+        const itemQuantity = document.createElement('span')
+        itemQuantity.innerText = `${item.item_quantity}点`
+        itemQuantity.setAttribute('class', 'item_quantity')
+        const itemPrice = document.createElement('span')
+        itemPrice.innerText = `￥${item.item_price}`
+        itemPrice.setAttribute('class', 'item_price')
         const delbutton = document.createElement('button')
         delbutton.setAttribute('type', 'button')
         delbutton.setAttribute('id', 'delbutton')
         
         items.appendChild(listItem)
-        listItem.appendChild(Itemquantity)
-        listItem.appendChild(Itemprice)
+        listItem.appendChild(itemQuantity)
+        listItem.appendChild(itemPrice)
         listItem.appendChild(listItemborder)
         listItem.appendChild(delbutton)
         delbutton.innerText = '削除'
-        listItem.appendChild(Itemname)
-        listItem.appendChild(Itemsize)
-        listItem.appendChild(Itemsize_text)
+        listItem.appendChild(itemName)
+        listItem.appendChild(itemSize)
+        listItem.appendChild(itemSizeText)
         
         delbutton.addEventListener('click', () => {
             items.removeChild(listItem)
@@ -118,25 +119,25 @@ function Screen_drawingItem() {
        }) 
     }    
 
-    const Total_text = document.createElement('p')
-    Total_text.setAttribute('id', 'totaltext')  
-    Total_text.innerText = 'Total'
-    items.appendChild(Total_text)
-    const Total_border = document.createElement('p')
-    Total_border.setAttribute('id', 'totalborder')
-    items.appendChild(Total_border)
-    const TotalCash = document.createElement('span')
-    TotalCash.setAttribute('id', 'totalcash')
-    items.appendChild(TotalCash)
-    TotalCash.innerText = `￥${total_cash}`
-    const Continue_shopping_button = document.createElement('button')
-    Continue_shopping_button.setAttribute('type', 'button')
-    Continue_shopping_button.setAttribute('id', 'Continue_shopping_button')
-    Continue_shopping_button.innerText = 'ショッピングを続ける'
-    items.appendChild(Continue_shopping_button)
+    const totalText = document.createElement('p')
+    totalText.setAttribute('id', 'totaltext')  
+    totalText.innerText = 'Total'
+    items.appendChild(totalText)
+    const totalBorder = document.createElement('p')
+    totalBorder.setAttribute('id', 'totalborder')
+    items.appendChild(totalBorder)
+    const totalCash = document.createElement('span')
+    totalCash.setAttribute('id', 'totalcash')
+    items.appendChild(totalCash)
+    totalCash.innerText = `￥${totalCashDate}`
+    const continueShoppingButton = document.createElement('button')
+    continueShoppingButton.setAttribute('type', 'button')
+    continueShoppingButton.setAttribute('id', 'continue_shopping_button')
+    continueShoppingButton.innerText = 'ショッピングを続ける'
+    items.appendChild(continueShoppingButton)
 
-    Continue_shopping_button.addEventListener('click', () => {
-        location.href = 'http://127.0.0.1:5500/index.html'
+    continueShoppingButton.addEventListener('click', () => {
+        location.href = '/'
     })
 
     const lastborder = document.createElement('p')
@@ -144,9 +145,10 @@ function Screen_drawingItem() {
     items.appendChild(lastborder)
 }
 
-Screen_drawingItem()
+screenDrawingItem()
 
 function getItemById(id) {
+    
     const item = getDate()
     const index = item.findIndex((el) => el.item_id === id)
     
@@ -171,61 +173,62 @@ function removeItem(id) {
 }
 
 function getItemQuantity(quantity) {
-    let itemquantity = get_Cart_num()
+    
+    let itemquantity = getCartNum()
     let minus = parseInt(itemquantity) - parseInt(quantity)
-    save_num_date(minus)
+    saveNumDate(minus)
 }
 
 function saveDate(itemdate) {
-    localStorage.setItem(Cartdate, JSON.stringify(itemdate))
+    localStorage.setItem(cartDate, JSON.stringify(itemdate))
 }
 
-function save_num_date(quantity) {
-    localStorage.setItem(Cart_num, quantity)
+function saveNumDate(quantity) {
+    localStorage.setItem(cartNum, quantity)
 }
 
 function saveTotalCashDate(price) {
-    localStorage.setItem(Total_cash, price)
+    localStorage.setItem(totalCash, price)
 }
 
-Confirmation_button.addEventListener('click', () => {
+confirmationButton.addEventListener('click', () => {
 
-    let radiobutton_element = ''
-    const credit_card_radio = qs('#credit_card').checked
-    const Bank_transfer_radio = qs('#Bank_transfer').checked
-    const cash_on_delivery_radio = qs('#cash_on_delivery').checked
+    let radioButtonElement = ''
+    const creditCardRadio = qs('#credit_card').checked
+    const bankTransferRadio = qs('#bank_transfer').checked
+    const cashOnDeliveryRadio = qs('#cash_on_delivery').checked
 
-    if(credit_card_radio) {
-        radiobutton_element = 'クレジットカード'
-    } else if(Bank_transfer_radio) {
-        radiobutton_element = '銀行振込'
-    } else if(cash_on_delivery_radio) {
-        radiobutton_element = '代金引換'
+    if(creditCardRadio) {
+        radioButtonElement = 'クレジットカード'
+    } else if(bankTransferRadio) {
+        radioButtonElement = '銀行振込'
+    } else if(cashOnDeliveryRadio) {
+        radioButtonElement = '代金引換'
     }
 
-    const InputName = qs('#input_name').value
-    const InputEmail = qs('#input_email').value
-    const InputPostCode = qs('#input_PostCode').value
-    const InputPrefeCtures = qs('#input_prefectures').value
-    const InputMunicipalities = qs('#input_municipalities').value
+    const inputName = qs('#input_name').value
+    const inputEmail = qs('#input_email').value
+    const inputPostCode = qs('#input_postcode').value
+    const inputPrefeCtures = qs('#input_prefectures').value
+    const inputMunicipalities = qs('#input_municipalities').value
 
     const userinformation = [{
-        username: InputName,
-        usermail: InputEmail,
-        userpostcode: InputPostCode,
-        userprefectures: InputPrefeCtures,
-        usermunicipalities: InputMunicipalities,
-        userPayment_method: radiobutton_element,
+        username: inputName,
+        usermail: inputEmail,
+        userpostcode: inputPostCode,
+        userprefectures: inputPrefeCtures,
+        usermunicipalities: inputMunicipalities,
+        userPaymentMethod: radioButtonElement,
     }]
 
-    Customer_save_date(userinformation)
+    customerSaveDate(userinformation)
 
     for(let confirmation of userinformation) {
 
-        const postcode_check = userinformation.every(elem => elem.userpostcode && elem.userprefectures && elem.usermunicipalities)
-        const address_check = userinformation.some(elem => elem.userpostcode && elem.userprefectures && elem.usermunicipalities)
+        const postcodeCheck = userinformation.every(elem => elem.userpostcode && elem.userprefectures && elem.usermunicipalities)
+        const addressCheck = userinformation.some(elem => elem.userpostcode && elem.userprefectures && elem.usermunicipalities)
 
-        if(postcode_check && !/^\d{3}-\d{4}$/.test(confirmation.userpostcode)) {
+        if(postcodeCheck && !/^\d{3}-\d{4}$/.test(confirmation.userpostcode)) {
             const message = document.createElement('div')
             message.setAttribute('id', 'postcode_message')
             message.innerText = 'もう一度郵便番号を確認してください。'
@@ -236,42 +239,42 @@ Confirmation_button.addEventListener('click', () => {
             const message = document.createElement('div')
             message.setAttribute('id', 'email_message')
             message.innerText = '正しいメールアドレスを入力してください。'
-            qs('#Customer_email_text').appendChild(message)
+            qs('#customer_email_text').appendChild(message)
         } 
         
         if(confirmation.username === '') {
             const message = document.createElement('div')
             message.setAttribute('id', 'username_message')
             message.innerText = 'お名前を入力してください。'
-            qs('#Customer_name_text').appendChild(message)
+            qs('#customer_name_text').appendChild(message)
         } 
         
-        if(!address_check) {
+        if(!addressCheck) {
             const message = document.createElement('div')
             message.setAttribute('id', 'address_message')
             message.innerText = 'ご住所を入力してください。'
             qs('#municipalities_text').appendChild(message)
         } 
         
-        if(!credit_card_radio && !Bank_transfer_radio && !cash_on_delivery_radio) {
+        if(!creditCardRadio && !bankTransferRadio && !cashOnDeliveryRadio) {
             const message = document.createElement('div')
-            message.setAttribute('id', 'Payment_method_message')
+            message.setAttribute('id', 'paymentmethod_message')
             message.innerText = 'お支払い方法を選択してください。'
-            qs('#Payment_method_text').appendChild(message)
+            qs('#paymentmethod_text').appendChild(message)
         } 
         
-        if(postcode_check && /^\d{3}-\d{4}$/.test(confirmation.userpostcode) && /^[A-Za-z0-9]{1}[A-Za-z0-9_.-]*@{1}[A-Za-z0-9_.-]+.[A-Za-z0-9]+$/.test(confirmation.usermail) && confirmation.username && address_check && credit_card_radio || Bank_transfer_radio || cash_on_delivery_radio) {
-                location.href = 'http://127.0.0.1:5500/confirm/index.html'
+        if(postcodeCheck && /^\d{3}-\d{4}$/.test(confirmation.userpostcode) && /^[A-Za-z0-9]{1}[A-Za-z0-9_.-]*@{1}[A-Za-z0-9_.-]+.[A-Za-z0-9]+$/.test(confirmation.usermail) && confirmation.username && addressCheck && creditCardRadio || bankTransferRadio || cashOnDeliveryRadio) {
+                location.href = '/confirm'
         }
     }
 })
 
-function Customer_save_date(date) {
-    localStorage.setItem(Customer_date, JSON.stringify(date))
+function customerSaveDate(date) {
+    localStorage.setItem(customerDate, JSON.stringify(date))
 }
 
-Return_to_ShoppingScreen.addEventListener('click', () => {
-    location.replace('http://127.0.0.1:5500/index.html')
+returnToShoppingScreen.addEventListener('click', () => {
+    location.href = '/'
 })
 
 

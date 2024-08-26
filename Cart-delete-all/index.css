@@ -1,6 +1,6 @@
 @media all and (max-width: 1440px) {
 
-    .Layout {
+    .layout {
         width: 920px;
         height: 145px;
         margin-top: 42px;
@@ -25,7 +25,7 @@
         top: 50px;
     }
 
-    .Content {
+    .content {
         width: 92px;
         height: 19px;
         position: relative;
@@ -74,7 +74,7 @@
         left: 650px;
     }
 
-    .Content2 {
+    .content2 {
         width: 292px;
         height: 16px;
         font-family: sans-serif;
@@ -87,7 +87,7 @@
         top: 500px;
     }
 
-    #Return_to_shopping {
+    #return_shopping {
         width: 330px;
         height: 70px;
         background-color: #deb089;
@@ -106,7 +106,7 @@
 
 @media all and (max-width: 768px) {
 
-    .Layout {
+    .layout {
         width: 534px;
         height: 110px;
         display: flex;
@@ -133,7 +133,7 @@
         top: 20px;
     }
     
-    .Content {
+    .content {
         display: none;
     }
     
@@ -179,7 +179,7 @@
         height: 100px;
     }
     
-    .Content2 {
+    .content2 {
         width: 292px;
         height: 16px;
         font-family: sans-serif;
@@ -192,7 +192,7 @@
         top: 800px;
     }
     
-    #Return_to_shopping {
+    #return_shopping {
         width: 348px;
         height: 70px;
         background-color: #deb089;
@@ -211,7 +211,7 @@
 
 @media all and (max-width: 390px) {
 
-    .Layout {
+    .layout {
         width: 358px;
         height: 54px;
         display: flex;
@@ -239,7 +239,7 @@
         top: -10px;
     }
     
-    .Content {
+    .content {
         display: none;
     }
     
@@ -248,7 +248,7 @@
         height: 24px;
         position: relative;
         left: 290px;
-        top: 0px;
+        top: 10px;
     }
 
     .imagecart img {
@@ -288,7 +288,7 @@
         height: 54px;
     }
     
-    .Content2 {
+    .content2 {
         width: 232px;
         height: 16px;
         font-family: sans-serif;
@@ -301,7 +301,7 @@
         top: 500px;
     }
     
-    #Return_to_shopping {
+    #return_shopping {
         width: 358px;
         height: 70px;
         background-color: #deb089;
