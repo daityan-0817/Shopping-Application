@@ -6,6 +6,68 @@ const cartButton = qs('#image_cart')
 const cartNum = 'cartnum'
 const itemStock = 'item_stock'
 
+function itemDisplay() {
+
+  const newDate = itemStockDate()
+
+  if(!newDate) {
+    
+    for(let item of __item_data) {
+
+        const listItem = document.createElement('div')
+        listItem.setAttribute('class','items')
+        listItem.innerHTML = 
+        ` 
+        <img src="${item.image}"/>
+        <di>${item.itemName}</div>
+        <div>￥${item.price}</div>
+        `
+        items.appendChild(listItem)
+
+        listItem.addEventListener('click', () => {
+          location.href =  `/detail/?id=${item.id}&imgsrc=${item.image}=${item.itemName}=${item.price}`
+        })
+    } 
+  } else {
+
+    for(let item of newDate) {
+
+        const soldOutItem = [item.stock].includes(0)
+
+        const listItem = document.createElement('div')
+        listItem.setAttribute('class','items')
+        listItem.innerHTML = 
+        ` 
+        <img src="${item.image}"/>
+        <di>${item.itemName}</div>
+        <div>￥${item.price}</div>
+        `
+        items.appendChild(listItem)
+
+        if(soldOutItem) {
+
+          const soldOutMessage = document.createElement('div')
+          soldOutMessage.setAttribute('class','soldout_message')
+          soldOutMessage.innerText = 'sold out'
+          listItem.appendChild(soldOutMessage)
+      } else {
+
+        listItem.addEventListener('click', () => {
+          location.href =  `/detail/?id=${item.id}&imgsrc=${item.image}=${item.itemName}=${item.price}`
+        })
+      }
+        function itemDisplayClose() {
+          
+          items.removeChild(listItem)
+          searchButton.removeEventListener('click', itemDisplayClose)
+      }
+          searchButton.addEventListener('click', itemDisplayClose)
+    }
+  }
+}
+
+itemDisplay()
+
 function getCartNum() {
   
   const date = localStorage.getItem(cartNum)
@@ -51,8 +113,15 @@ searchButton.addEventListener('click', () => {
         `
         items.appendChild(listItem)
 
+        function itemDisplayClose() {
+          
+          items.removeChild(listItem)
+          searchButton.removeEventListener('click', itemDisplayClose)
+        }
+          searchButton.addEventListener('click', itemDisplayClose)
+
         listItem.addEventListener('click', () => {
-        location.href =  `/detail/?id=${item.id}&imgsrc=${item.image}=${item.itemName}=${item.price}`
+          location.href =  `/detail/?id=${item.id}&imgsrc=${item.image}=${item.itemName}=${item.price}`
         })
       } else if(item.itemName.includes(searchInput.value)){
         
@@ -66,8 +135,15 @@ searchButton.addEventListener('click', () => {
         `
         items.appendChild(listItem)
 
+        function itemDisplayClose() {
+          
+          items.removeChild(listItem)
+          searchButton.removeEventListener('click', itemDisplayClose)
+          }
+          searchButton.addEventListener('click', itemDisplayClose)
+
         listItem.addEventListener('click', () => {
-        location.href =  `/detail/?id=${item.id}&imgsrc=${item.image}=${item.itemName}=${item.price}`
+          location.href =  `/detail/?id=${item.id}&imgsrc=${item.image}=${item.itemName}=${item.price}`
         })
       }
     } 
@@ -80,6 +156,13 @@ searchButton.addEventListener('click', () => {
       noItemDisplay.setAttribute('class', 'noitem_display')
       noItemDisplay.innerText = '検索条件に該当する商品がありません'
       items.appendChild(noItemDisplay) 
+
+      function noItemDisplayClose() {
+          
+        items.removeChild(noItemDisplay)
+        searchButton.removeEventListener('click', noItemDisplayClose)
+    }
+        searchButton.addEventListener('click', noItemDisplayClose)
     }
   }
 
@@ -104,16 +187,23 @@ searchButton.addEventListener('click', () => {
         `
         items.appendChild(listItem)
 
-      if(soldOutItem) {
+        function itemDisplayClose() {
+          
+          items.removeChild(listItem)
+          searchButton.removeEventListener('click', itemDisplayClose)
+        }
+          searchButton.addEventListener('click', itemDisplayClose)
+
+        if(soldOutItem) {
       
-        const soldOutMessage = document.createElement('div')
-        soldOutMessage.setAttribute('class','soldout_message')
-        soldOutMessage.innerText = 'sold out'
-        listItem.appendChild(soldOutMessage)
+          const soldOutMessage = document.createElement('div')
+          soldOutMessage.setAttribute('class','soldout_message')
+          soldOutMessage.innerText = 'sold out'
+          listItem.appendChild(soldOutMessage)
       } else {
       
-        listItem.addEventListener('click', () => {
-          location.href =  `/detail/?id=${item.id}&imgsrc=${item.image}=${item.itemName}=${item.price}`
+          listItem.addEventListener('click', () => {
+            location.href =  `/detail/?id=${item.id}&imgsrc=${item.image}=${item.itemName}=${item.price}`
       })
     }
   } else if(item.itemName.includes(searchInput.value)){
@@ -127,6 +217,13 @@ searchButton.addEventListener('click', () => {
       <div>￥${item.price}</div>
       `
       items.appendChild(listItem)
+
+      function itemDisplayClose() {
+          
+        items.removeChild(listItem)
+        searchButton.removeEventListener('click', itemDisplayClose)
+    }
+        searchButton.addEventListener('click', itemDisplayClose)
 
       if(soldOutItem) {
       
@@ -151,6 +248,13 @@ searchButton.addEventListener('click', () => {
       noItemDisplay.setAttribute('class', 'noitem_display')
       noItemDisplay.innerText = '検索条件に該当する商品がありません'
       items.appendChild(noItemDisplay) 
+
+      function noItemDisplayClose() {
+          
+        items.removeChild(noItemDisplay)
+        searchButton.removeEventListener('click', noItemDisplayClose)
+    }
+        searchButton.addEventListener('click', noItemDisplayClose)
     }
   }
 })
