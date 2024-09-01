@@ -1,106 +1,327 @@
-@media all and (max-width: 1440px) {
+.layout {
+    width: 920px;
+    height: 145px;
+    margin-top: 42px;
+    display: flex;
+}
 
-    .layout {
-        width: 920px;
-        height: 145px;
-        margin-top: 42px;
-        display: flex;
-    }
+.border {
+    width: 920px;
+    border: 1px solid #656565;
+    position: relative;
+    left: 250px;
+    top: 50px;
+}
+
+.decoration {
+    width: 145px;
+    height: 145px;
+    position: relative;
+    left: 210px;
+    top: 70px;
+    background-color: white;
+    border: none;
+}
+
+.content {
+    width: 92px;
+    height: 19px;
+    position: relative;
+    left: 850px;
+    top: 170px;
+}
+
+.imagecart img {
+    width: 33px;
+    height: 31px;
+    position: relative;
+    left: 900px;
+    top: 155px;
+}
+
+.text {
+    width: 543px;
+    height: 39px;
+    font-family: YuGothic;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 39px;
+    text-align: left;
+    position: relative;
+    top: 200px;
+    left: 460px;
+}
+
+.border2 {
+    width: 920px;
+    border: 1px solid #656565;
+    position: relative;
+    top: 400px;
+    left: 250px;
+}
+
+.decoration2 {
+    width: 145px;
+    height: 145px;
+    position: relative;
+    top: 450px;
+    left: 650px;
+}
+
+.content2 {
+    width: 292px;
+    height: 16px;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    position: relative;
+    left: 580px;
+    top: 500px;
+}
+
+#returntocart {
+    width: 330px;
+    height: 70px;
+    background-color: #deb089;
+    color: #fff;
+    font-family: YuGothic;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+    left: 550px;
+    top: 250px;
+}
+
+@media all and (max-width: 1280px) {
 
     .border {
-        width: 920px;
-        border: 1px solid #656565;
         position: relative;
-        left: 250px;
-        top: 50px;
-    }
-
-    .decoration {
-        width: 145px;
-        height: 145px;
-        position: relative;
-        left: 210px;
-        top: 70px;
-        background-color: white;
-        border: none;
-    }
-
-    .content {
-        width: 92px;
-        height: 19px;
-        position: relative;
-        left: 850px;
-        top: 170px;
-    }
-
-    .imagecart img {
-        width: 33px;
-        height: 31px;
-        position: relative;
-        left: 900px;
-        top: 155px;
-    }
-
-    .text {
-        width: 543px;
-        height: 39px;
-        font-family: YuGothic;
-        font-size: 26px;
-        font-weight: 500;
-        line-height: 39px;
-        text-align: left;
-        position: relative;
-        top: 200px;
-        left: 460px;
+        top: 0px;
+        left: 180px;
     }
 
     .border2 {
-        width: 920px;
-        border: 1px solid #656565;
         position: relative;
         top: 400px;
-        left: 250px;
+        left: 180px;
+    }
+
+    .decoration {
+        position: relative;
+        top: 10px;
+        left: 140px;
     }
 
     .decoration2 {
-        width: 145px;
-        height: 145px;
         position: relative;
-        top: 450px;
-        left: 650px;
+        left: 560px;
     }
 
-    .content2 {
-        width: 292px;
-        height: 16px;
-        font-family: sans-serif;
-        font-size: 12px;
-        font-weight: 400;
-        line-height: 16px;
-        text-align: left;
+    .content {
         position: relative;
-        left: 580px;
-        top: 500px;
+        top: 115px;
+        left: 750px;
+    }
+
+    .imagecart {
+        position: relative;
+        bottom: 45px;
+        right: 75px;
+    }
+
+    .text {
+        position: relative;
+        top: 150px;
+        left: 380px;
     }
 
     #returntocart {
-        width: 330px;
-        height: 70px;
-        background-color: #deb089;
-        color: #fff;
-        font-family: YuGothic;
-        font-size: 14px;
-        font-weight: 500;
-        line-height: 21px;
-        border: none;
-        border-radius: 10px;
         position: relative;
-        left: 550px;
-        top: 250px;
+        top: 200px;
+        left: 470px;
+    }
+
+    .content2 {
+        position: relative;
+        left: 500px;
     }
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 1024px) {
+
+    .border {
+        position: relative;
+        top: 0px;
+        left: 60px;
+    }
+
+    .border2 {
+        position: relative;
+        top: 400px;
+        left: 60px;
+    }
+
+    .decoration {
+        position: relative;
+        top: 10px;
+        left: 30px;
+    }
+
+    .decoration2 {
+        position: relative;
+        left: 450px;
+    }
+
+    .content {
+        position: relative;
+        top: 115px;
+        left: 630px;
+    }
+
+    .imagecart {
+        position: relative;
+        bottom: 45px;
+        right: 190px;
+    }
+
+    .text {
+        position: relative;
+        top: 150px;
+        left: 290px;
+    }
+
+    #returntocart {
+        position: relative;
+        top: 200px;
+        left: 350px;
+    }
+
+    .content2 {
+        position: relative;
+        left: 390px;
+    }
+}
+
+@media all and (max-width: 1024px) and (min-height: 1366px) {
+
+    .border {
+        position: relative;
+        top: 0px;
+        left: 60px;
+    }
+
+    .border2 {
+        position: relative;
+        top: 750px;
+        left: 60px;
+    }
+
+    .decoration {
+        position: relative;
+        top: 10px;
+        left: 30px;
+    }
+
+    .decoration2 {
+        position: relative;
+        top: 850px;
+        left: 450px;
+    }
+
+    .content {
+        position: relative;
+        top: 115px;
+        left: 630px;
+    }
+
+    .imagecart {
+        position: relative;
+        bottom: 45px;
+        right: 190px;
+    }
+
+    .text {
+        position: relative;
+        top: 350px;
+        left: 290px;
+    }
+
+    #returntocart {
+        position: relative;
+        top: 400px;
+        left: 350px;
+    }
+
+    .content2 {
+        position: relative;
+        top: 880px;
+        left: 390px;
+    }
+}
+
+@media all and (max-width: 912px) {
+
+    .border {
+        position: relative;
+        top: 0px;
+        left: 10px;
+    }
+
+    .border2 {
+        position: relative;
+        top: 750px;
+        left: 10px;
+    }
+
+    .decoration {
+        position: relative;
+        top: 10px;
+        left: 0px;
+    }
+
+    .decoration2 {
+        position: relative;
+        top: 850px;
+        left: 400px;
+    }
+
+    .content {
+        position: relative;
+        top: 115px;
+        left: 600px;
+    }
+
+    .imagecart {
+        position: relative;
+        bottom: 45px;
+        right: 245px;
+    }
+
+    .text {
+        position: relative;
+        top: 350px;
+        left: 240px;
+    }
+
+    #returntocart {
+        position: relative;
+        top: 400px;
+        left: 310px;
+    }
+
+    .content2 {
+        position: relative;
+        top: 930px;
+        left: 330px;
+    }
+}
+
+@media all and (max-width: 854px) {
     
     .layout {
         width: 534px;
@@ -112,13 +333,13 @@
         width: 534px;
         border: 1px solid #656565;
         position: relative;
-        left: 120px;
+        left: 150px;
         top: 20px;
 }
 
     .decoration {
         position: relative;
-        left: 90px;
+        left: 110px;
         top: 0px;
 }
 
@@ -133,7 +354,7 @@
 
     .imagecart {
         position: relative;
-        left: -420px;
+        left: -400px;
         top: -60px;
 }
 
@@ -159,13 +380,13 @@
         border: 1px solid #656565;
         position: relative;
         top: 700px;
-        left: 120px;
+        left: 150px;
 }
 
     .decoration2 {
         position: relative;
-        top: 750px;
-        left: 330px;
+        top: 800px;
+        left: 350px;
 }
 
     .decoration2 img {
@@ -183,7 +404,7 @@
         text-align: left;
         position: relative;
         left: 260px;
-        top: 800px;
+        top: 830px;
 }
 
     #returntocart {
@@ -203,7 +424,62 @@
     }
 }
 
-@media all and (max-width: 390px) {
+@media all and (max-width: 540px) {
+
+    .border {
+        position: relative;
+        top: 0px;
+        left: 60px;
+    }
+
+    .border2 {
+        position: relative;
+        top: 750px;
+        left: 60px;
+    }
+
+    .decoration {
+        position: relative;
+        top: 0px;
+        left: 20px;
+    }
+
+    .decoration2 {
+        position: relative;
+        top: 800px;
+        left: 280px;
+    }
+
+    .imagecart {
+        position: relative;
+        top: -80px;
+        left: -480px;
+    }
+
+    .text {
+        position: relative;
+        top: 350px;
+        left: 100px;
+    }
+
+    #returntocart {
+        position: relative;
+        top: 400px;
+        left: 165px;
+    }
+
+    .content2 {
+        position: relative;
+        top: 800px;
+        left: 190px;
+    }
+}
+
+@media all and (max-width: 430px) {
+
+    body {
+        height: 1000px;
+    }
     
     .layout {
         width: 358px;
@@ -215,19 +491,18 @@
         position: relative;
         top: -10px;
         left: 0px;
-        left: -30px;
+        left: -20px;
     }
 
     .decoration img {
         width: 54px;
         height: 54px;
-
     }
 
     .imagecart {
         position: relative;
         left: 0px;
-        left: -690px;
+        left: -675px;
         top: 0px;
         top: -100px;
     }
@@ -241,8 +516,7 @@
         width: 358px;
         position: relative; 
         top: 30px;
-        left: 0px;
-        left: 20px 
+        left: 35px;
     }
 
     .text {
@@ -256,29 +530,26 @@
         text-align: left;
         position: relative;
         left: 0px;
-        left: 80px;
+        left: 90px;
     }
 
     #returntocart {
         width: 358px;
         height: 70px;
         position: relative;
-        left: 0px;
-        left: 15px;
+        left: 35px;
     }
 
     .border2 {
         width: 358px;
         position: relative;
-        left: 20px;
-
+        left: 35px;
     }
 
     .decoration2 {
         position: relative;
         left: 0px;
         left: 180px;
-
     }
 
     .decoration2 img {
@@ -297,7 +568,112 @@
         position: relative;
         left: 0px;
         left: 90px;
+        top: 770px;
+    }
+}
+
+@media all and (max-width: 390px) {
+
+    body {
+        height: 1000px;
+    }
+
+    .border {
+        position: relative;
         top: 0px;
+        left: 20px;
+    }
+
+    .border2 {
+        position: relative;
         top: 700px;
+        left: 20px;
+    }
+
+    .decoration {
+        position: relative;
+        top: -40px;
+        left: -30px;
+    }
+
+    .decoration2 {
+        position: relative;
+        top: 780px;
+        left: 160px;
+    }
+
+    .imagecart {
+        position: relative;
+        top: -130px;
+        left: -690px;
+    }
+
+    .text {
+        position: relative;
+        top: 350px;
+        left: 70px;
+    }
+
+    #returntocart {
+        position: relative;
+        top: 400px;
+        left: 20px;
+    }
+
+    .content2 {
+        position: relative;
+        top: 750px;
+        left: 80px;
+    }
+}
+
+@media all and (max-width: 376px) {
+
+    .border {
+        position: relative;
+        top: 0px;
+        left: 10px;
+    }
+
+    .border2 {
+        position: relative;
+        top: 700px;
+        left: 10px;
+    }
+
+    .decoration {
+        position: relative;
+        top: -40px;
+        left: -40px;
+    }
+
+    .decoration2 {
+        position: relative;
+        top: 780px;
+        left: 150px;
+    }
+
+    .imagecart {
+        position: relative;
+        top: -130px;
+        left: -700px;
+    }
+
+    .text {
+        position: relative;
+        top: 350px;
+        left: 70px;
+    }
+
+    #returntocart {
+        position: relative;
+        top: 400px;
+        left: 10px;
+    }
+
+    .content2 {
+        position: relative;
+        top: 750px;
+        left: 70px;
     }
 }

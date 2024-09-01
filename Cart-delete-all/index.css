@@ -1,110 +1,278 @@
-@media all and (max-width: 1440px) {
-
-    .layout {
+.layout {
         width: 920px;
         height: 145px;
         margin-top: 42px;
         display: flex;
+}
+
+.decoration {
+    width: 145px;
+    height: 145px;
+    position: relative;
+    left: 210px;
+    top: 70px;
+    border: none;
+    background-color: white;
+}
+
+.border {
+    width: 920px;
+    border: 1px solid #656565;
+    position: relative;
+    left: 250px;
+    top: 50px;
+}
+
+.content {
+    width: 92px;
+    height: 19px;
+    position: relative;
+    left: 860px;
+    top: 170px;
+}
+
+.imagecart {
+    position: relative;
+    left: 890px;
+    top: 155px;
+}
+
+.imagecart img {
+    width: 33px;
+    height: 31px;
+}
+
+.text {
+    width: 543px;
+    height: 39px;
+    font-family: YuGothic;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 39px;
+    text-align: left;
+    position: relative;
+    top: 200px;
+    left: 480px;
+}
+
+.border2 {
+    width: 920px;
+    border: 1px solid #656565;
+    position: relative;
+    top: 400px;
+    left: 250px;
+}
+
+.decoration2 {
+    width: 145px;
+    height: 145px;
+    position: relative;
+    top: 450px;
+    left: 650px;
+}
+
+.content2 {
+    width: 292px;
+    height: 16px;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    position: relative;
+    left: 580px;
+    top: 500px;
+}
+
+#return_shopping {
+    width: 330px;
+    height: 70px;
+    background-color: #deb089;
+    color: #fff;
+    font-family: YuGothic;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+    left: 550px;
+    top: 250px;
+}
+
+@media all and (max-width: 1280px) {
+
+    .border {
+        position: relative;
+        left: 180px;
     }
 
     .decoration {
-        width: 145px;
-        height: 145px;
         position: relative;
-        left: 210px;
-        top: 70px;
-        border: none;
-        background-color: white;
-    }
-
-    .border {
-        width: 920px;
-        border: 1px solid #656565;
-        position: relative;
-        left: 250px;
-        top: 50px;
+        left: 145px;
     }
 
     .content {
-        width: 92px;
-        height: 19px;
         position: relative;
-        left: 860px;
-        top: 170px;
+        left: 750px;
     }
 
     .imagecart {
         position: relative;
-        left: 890px;
-        top: 155px;
-    }
-
-    .imagecart img {
-        width: 33px;
-        height: 31px;
+        left: 825px;
     }
 
     .text {
-        width: 543px;
-        height: 39px;
-        font-family: YuGothic;
-        font-size: 26px;
-        font-weight: 500;
-        line-height: 39px;
-        text-align: left;
         position: relative;
-        top: 200px;
-        left: 480px;
-    }
-
-
-    .border2 {
-        width: 920px;
-        border: 1px solid #656565;
-        position: relative;
-        top: 400px;
-        left: 250px;
-    }
-
-    .decoration2 {
-        width: 145px;
-        height: 145px;
-        position: relative;
-        top: 450px;
-        left: 650px;
-    }
-
-    .content2 {
-        width: 292px;
-        height: 16px;
-        font-family: sans-serif;
-        font-size: 12px;
-        font-weight: 400;
-        line-height: 16px;
-        text-align: left;
-        position: relative;
-        left: 580px;
-        top: 500px;
+        left: 400px;
     }
 
     #return_shopping {
-        width: 330px;
-        height: 70px;
-        background-color: #deb089;
-        color: #fff;
-        font-family: YuGothic;
-        font-size: 14px;
-        font-weight: 500;
-        line-height: 21px;
-        border: none;
-        border-radius: 10px;
         position: relative;
-        left: 550px;
-        top: 250px;
+        left: 470px;
+    }
+
+    .border2 {
+        position: relative;
+        left: 180px;
+    }
+
+    .decoration2 {
+        position: relative;
+        left: 560px;
+    }
+
+    .content2 {
+        position: relative;
+        left: 500px;
     }
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 1024px) {
+
+    .border {
+        position: relative;
+        left: 50px;
+    }
+
+    .decoration {
+        position: relative;
+        left: 10px;
+    }
+
+    .content {
+        position: relative;
+        left: 650px;
+    }
+
+    .imagecart {
+        position: relative;
+        left: 700px;
+    }
+
+    .text {
+        position: relative;
+        left: 320px;
+    }
+
+    #return_shopping {
+        position: relative;
+        left: 400px;
+    }
+
+    .border2 {
+        position: relative;
+        left: 50px;
+    }
+
+    .decoration2 {
+        position: relative;
+        left: 480px
+    }
+
+    .content2 {
+        position: relative;
+        left: 420px;
+    }
+}
+
+@media all and (max-width: 1024px) and (min-height: 1366px){
+
+    .text {
+        position: relative;
+        top: 400px;
+    }
+
+    #return_shopping {
+        position: relative;
+        top: 460px;
+    }
+
+    .border2 {
+        position: relative;
+        top: 750px;
+    }
+
+    .decoration2 {
+        position: relative;
+        top: 800px;
+    }
+
+    .content2 {
+        position: relative;
+        top: 880px;
+    }
+}
+
+@media all and (max-width: 912px) {
+
+    .border {
+        position: relative;
+        left: 10px;
+    }
+
+    .decoration {
+        position: relative;
+        left: 0px;
+    }
+
+    .content {
+        position: relative;
+        left: 600px;
+    }
+
+    .imagecart {
+        position: relative;
+        left: 660px;
+    }
+
+    .text {
+        position: relative;
+        left: 260px;
+    }
+
+    #return_shopping {
+        position: relative;
+        left: 330px;
+    }
+
+    .border2 {
+        position: relative;
+        left: 10px;
+    }
+
+    .decoration2 {
+        position: relative;
+        left: 420px
+    }
+
+    .content2 {
+        position: relative;
+        left: 360px;
+    }
+}
+
+@media all and (max-width: 854px) {
 
     .layout {
         width: 534px;
@@ -114,7 +282,7 @@
     
     .decoration {
         position: relative;
-        left: 90px;
+        left: 110px;
         top: 0px;
         border: none;
         background-color: white;
@@ -129,7 +297,7 @@
         width: 534px;
         border: 1px solid #656565;
         position: relative;
-        left: 120px;
+        left: 150px;
         top: 20px;
     }
     
@@ -139,7 +307,7 @@
     
     .imagecart {
         position: relative;
-        left: 480px;
+        left: 495px;
         top: 90px;
     }
 
@@ -157,7 +325,7 @@
         text-align: left;
         position: relative;
         top: 300px;
-        left: 220px;
+        left: 230px;
     }
     
     .border2 {
@@ -165,13 +333,13 @@
         border: 1px solid #656565;
         position: relative;
         top: 700px;
-        left: 120px;
+        left: 150px;
     }
     
     .decoration2 {
         position: relative;
         top: 750px;
-        left: 320px;
+        left: 350px;
     }
 
     .decoration2 img {
@@ -188,7 +356,7 @@
         line-height: 16px;
         text-align: left;
         position: relative;
-        left: 240px;
+        left: 270px;
         top: 800px;
     }
     
@@ -204,12 +372,12 @@
         border: none;
         border-radius: 10px;
         position: relative;
-        left: 220px;
+        left: 250px;
         top: 400px;
     }
 }
 
-@media all and (max-width: 390px) {
+@media all and (max-width: 430px) {
 
     .layout {
         width: 358px;
@@ -221,7 +389,7 @@
         width: 54px;
         position: relative;
         top: -60px;
-        left: 5px;
+        left: 15px;
         border: none;
         background-color: white;
     }
@@ -235,7 +403,7 @@
         width: 358px;
         border: 1px solid #656565;
         position: relative;
-        left: 15px;
+        left: 35px;
         top: -10px;
     }
     
@@ -247,7 +415,7 @@
         width: 26px;
         height: 24px;
         position: relative;
-        left: 290px;
+        left: 315px;
         top: 10px;
     }
 
@@ -266,7 +434,7 @@
         text-align: left;
         position: relative;
         top: 200px;
-        left: 20px;
+        left: 40px;
     }
      
     .border2 {
@@ -274,7 +442,7 @@
         border: 1px solid #656565;
         position: relative;
         top: 500px;
-        left: 15px;
+        left: 35px;
     }
     
     .decoration2 {
@@ -297,8 +465,8 @@
         line-height: 16px;
         text-align: left;
         position: relative;
-        left: 70px;
-        top: 500px;
+        left: 80px;
+        top: 550px;
     }
     
     #return_shopping {
@@ -313,7 +481,93 @@
         border: none;
         border-radius: 10px;
         position: relative;
-        left: 15px;
+        left: 35px;
         top: 300px;
     }   
+}
+
+@media all and (max-width: 390px) {
+
+    .border {
+        position: relative;
+        left: 15px;
+    }
+
+    .decoration {
+        position: relative;
+        left: 0px;
+    }
+
+    .imagecart {
+        position: relative;
+        left: 295px;
+    }
+
+    .text {
+        position: relative;
+        left: 15px;
+    }
+
+    #return_shopping {
+        position: relative;
+        left: 15px;
+    }
+
+    .border2 {
+        position: relative;
+        left: 15px;
+    }
+
+    .decoration2 {
+        position: relative;
+        left: 170px;
+    }
+
+    .content2 {
+        position: relative;
+        left: 60px;
+    }
+}
+
+@media all and (max-width: 376px) {
+
+    .border {
+        position: relative;
+        left: 10px;
+    }
+
+    .decoration {
+        position: relative;
+        left: 0px;
+    }
+
+    .imagecart {
+        position: relative;
+        left: 290px;
+    }
+
+    .text {
+        position: relative;
+        left: 10px;
+    }
+
+    #return_shopping {
+        position: relative;
+        left: 10px;
+    }
+
+    .border2 {
+        position: relative;
+        left: 15px;
+    }
+
+    .decoration2 {
+        position: relative;
+        left: 160px;
+    }
+
+    .content2 {
+        position: relative;
+        left: 50px;
+    }
 }

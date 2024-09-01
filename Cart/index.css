@@ -1,506 +1,684 @@
-@media all and (max-width: 1440px) {
-    
-    .layout {
-        width: 920px;
-        height: 145px;
-        display: flex;
+.layout {
+    width: 920px;
+    height: 145px;
+    display: flex;
+}
+
+.decoration {
+    width: 145px;
+    height: 145px;
+    position: relative;
+    left: 210px;
+    top: 100px;
+    border: none;
+    background-color: white;
+}
+
+.border {
+    width: 920px;
+    border: 1px solid #656565;
+    position: relative;
+    left: 250px;
+    top: 100px;
+}
+
+.content {
+    font-family: Avenir;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.12px;
+    text-align: left;
+    width: 92px;
+    height: 19px;
+    position: relative;
+    left: 880px;
+    top: 220px;
+}
+
+.image_cart {
+    position: relative;
+    left: 900px;
+    top: 210px;
+}
+
+.image_cart img {
+    width: 33px;
+    height: 31px;
+}
+
+.itemlist {
+    width: 212px;
+    height: 212px;
+    display: grid;
+    position: relative;
+    top: 70px;
+    left: 250px;
+    margin-top: 100px;
+}
+
+.listitem_border {
+    width: 150px;
+    height:0px;
+    border: 1px solid #656565;
+    position: relative;
+    left: 250px;
+    bottom: 100px;
+}
+
+.item_name {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.59px;
+    text-align: left;
+    color: #333333;
+    position: relative;
+    bottom: 220px;
+    left: 250px;
+}
+
+.item_size {
+    font-family: YuGothic;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: left;
+    position: relative;
+    bottom: 220px;
+    left: 280px;
+}
+
+.itemsize_text {
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.12px;
+    text-align: left;
+    position: relative;
+    left: 250px;
+    bottom: 240px;
+}
+
+.item_quantity {
+    position: relative;
+    left: 250px;
+    bottom: 80px;
+    font-family: YuGothic;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: left;
+}
+
+.item_price {
+    width: 56px;
+    height: 27px;
+    position: relative;
+    left: 335px;
+    bottom: 100px;
+    font-family: YuGothic;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: left;
+}
+
+#delbutton {
+    border: none;
+    background-color: white;
+    color: #DEB089;
+    position: relative;
+    bottom: 100px;
+    left: 280px;
+    font-family: YuGothic;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+}
+
+#totaltext {
+    width: 59px;
+    height: 36px;
+    position: relative;
+    top: 270px;
+    left: 250px;
+    font-family: sans-serif;
+    font-size: 26px;
+    font-weight: 900;
+    line-height: 35.52px;
+    text-align: left;
+    color:#333333;
+}
+
+#totalcash {
+    width: 98px;
+    height: 39px;
+    position: relative;
+    left: 580px;
+    top: 230px;
+    font-family: YuGothic;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 39px;
+    text-align: left;
+}
+
+#totalborder {
+    width: 448px;
+    border: 1px solid #656565;
+    position: relative;
+    top: 270px;
+    left: 250px;
+}
+
+#continue_shopping_button {
+    font-size: 14px;
+    border: none;
+    background-color: white;
+    color: #DEB089;
+    position: relative;
+    top: 260px;
+    left: 440px;
+    font-family: YuGothic;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    text-align: left;
+}
+
+#lastborder {
+    border: 1px solid #656565;
+    width: 920px;
+    position: relative;
+    top: 500px;
+    left: 250px;
+}
+
+.decoration2 {
+    width: 145px;
+    height: 145px;
+    position: relative;
+    left: 650px;
+    top: 550px
+}
+
+.text{
+    margin-left: 580px;
+    margin-top: 600px;
+    width: 292;
+    height: 16px;
+    font-size: 12px;
+}
+
+.num_cart {
+    width: 10px;
+    height: 10px;
+    position: relative;
+    left: 885px;
+    top: 195px;
+    padding: 5px 5px 5px 5px;
+    border: 2px solid #333;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #deb089;
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12.1px;
+    text-align: center;
+}
+
+.asterisk {
+    color: red;
+}
+
+.customer_information {
+    width: 330px;
+    height: 662px;
+    position: absolute;
+    top: 370px;
+    left: 820px;
+}
+
+#customer_text {
+    width:126px;
+    height:27px;
+    position:relative;
+    bottom: 70px;
+    left: 110px;
+    font-size: 18px;
+}
+
+#customer_name_text {
+    font-size:14px;
+    position:relative;
+    bottom:30px;
+}
+
+#input_name {
+    width: 330px;
+    height: 40px;
+    border-radius: 10px;
+    position:relative;
+    bottom: 20px;
+}
+
+#customer_email_text {
+    font-size:14px;
+    position:relative;
+    top:20px;
+}
+
+#input_email {
+    width: 330px;
+    height: 40px;
+    border-radius: 10px;
+    position:relative;
+    top: 30px;
+}
+
+#addres_text {
+    font-size:14px;
+    position:relative;
+    top:50px;
+}
+
+#post_code_text {
+    font-size: 12px;
+    position:relative;
+    top: 60px;
+}
+
+#input_postcode {
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    position:relative;
+    top:60px;
+}
+
+#prefectures_text {
+    font-size:12px;
+    position:relative;
+    left:180px;
+}
+
+#input_prefectures {
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    position: relative;
+    left:180px;
+    bottom: 1px;
+}
+
+#municipalities_text {
+    font-size:12px;
+    position:relative;
+    top:30px;
+}
+
+#input_municipalities {
+    width: 330px;
+    height: 40px;
+    border-radius: 10px;
+    position:relative;
+    top:30px;
+}
+
+#paymentmethod_text {
+    position:relative;
+    top: 80px; 
+}
+
+#credit_card_text {
+    width:97px;
+    height:18px;
+    font-size:12px;
+    font-weight:500px;
+    position:relative;
+    top:100px;
+}
+
+#credit_card {
+    position:relative;
+    width:20px;
+    height: 20px;
+    top:150px;
+}
+
+#bank_transfer_text {
+    width:97px;
+    height:18px;
+    font-size:12px;
+    font-weight:500px;
+    position:relative;
+    top: 100px;
+    left: 20px;
+}
+
+#bank_transfer {
+    position:relative;
+    width:20px;
+    height: 20px;
+    top:150px;
+}
+
+#cash_on_delivery_text {
+    width:97px;
+    height:18px;
+    font-size:12px;
+    font-weight:500px;
+    position:relative;
+    top: 72px;
+    left: 265px;
+}
+
+#cash_on_delivery {
+    position:relative;
+    width:20px;
+    height: 20px;
+    top:150px;
+    right: 5px;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+input[type="radio"] + label {
+    position: relative;
+    padding: 5px 16px 5px 22px;
+    display: inline-block;
+}
+
+input[type="radio"] + label::before,input[type="radio"] + label::after {
+    content: "";
+    position: absolute;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    box-shadow: none;
+}
+
+input[type="radio"] + label::before {
+    width: 20px;
+    height: 20px;
+    border: solid 1px #656565;
+}
+
+input[type="radio"] + label::after {
+    border: solid 1px #656565;
+    width: 12px;
+    height: 12px;
+    left: 4px;
+}
+
+input[type="radio"]:checked + label::after {
+    background-color: #656565;
+}
+
+#confirm_button {
+    width: 344px;
+    height: 70px;
+    position: absolute;
+    left: 820px;
+    top: 950px;
+    border: none;
+    border-radius: 10px;
+    color: #ffff;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.94px;
+    background-color: #DEB089;
+}
+
+#postcode_message {
+    color: #FF8D8D;
+    font-family: YuGothic;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 15px;
+    text-align: left;
+    position: absolute;
+    top: 70px;
+}
+
+#email_message {
+    color: #FF8D8D;
+    font-family: YuGothic;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 15px;
+    text-align: left;
+    position: absolute;
+    top: 80px;
+}
+
+#username_message {
+    color: #FF8D8D;
+    font-family: YuGothic;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 15px;
+    text-align: left;
+    position: absolute;
+    top: 80px;
+}
+
+#address_message {
+    color: #FF8D8D;
+    font-family: YuGothic;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 15px;
+    text-align: left;
+    position: absolute;
+    top: 70px;
+}
+
+#paymentmethod_message {
+    width: 165.87px;
+    height: 15.12px;
+    color: #FF8D8D;
+    font-family: YuGothic;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 15px;
+    text-align: left;
+    position: absolute;
+    top: 70px;
+}
+
+@media all and (max-width: 1280px) {
+
+    .border {
+        position: relative;
+        left: 200px;
     }
 
     .decoration {
-        width: 145px;
-        height: 145px;
         position: relative;
-        left: 210px;
-        top: 100px;
-        border: none;
-        background-color: white;
-    }
-
-    .border {
-        width: 920px;
-        border: 1px solid #656565;
-        position: relative;
-        left: 250px;
-        top: 100px;
+        left: 170px;
     }
 
     .content {
-        font-family: Avenir;
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 19.12px;
-        text-align: left;
-        width: 92px;
-        height: 19px;
         position: relative;
-        left: 880px;
-        top: 220px;
+        left: 780px;
     }
 
     .image_cart {
         position: relative;
-        left: 900px;
-        top: 210px;
+        left: 850px;
     }
 
-    .image_cart img {
-        width: 33px;
-        height: 31px;
-    }
-
-    .itemlist {
-        width: 212px;
-        height: 212px;
-        display: grid;
+    .num_cart {
         position: relative;
-        top: 70px;
-        left: 250px;
-        margin-top: 100px;
+        left: 835px;
     }
 
-    .listitem_border {
-        width: 150px;
-        height:0px;
-        border: 1px solid #656565;
-        position: relative;
-        left: 250px;
-        bottom: 100px;
+    .customer_information {
+        position: absolute;
+        top: 360px;
+        left: 775px;
     }
 
-    .item_name {
-        font-family: sans-serif;
-        font-size: 18px;
-        font-weight: 400;
-        line-height: 24.59px;
-        text-align: left;
-        color: #333333;
+    #item_display {
         position: relative;
-        bottom: 220px;
-        left: 250px;
+        right: 50px;
     }
 
-    .item_size {
-        font-family: YuGothic;
-        font-size: 14px;
-        font-weight: 500;
-        line-height: 21px;
-        text-align: left;
-        position: relative;
-        bottom: 220px;
-        left: 280px;
-    }
-
-    .itemsize_text {
-        font-family: sans-serif;
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 19.12px;
-        text-align: left;
-        position: relative;
-        left: 250px;
-        bottom: 240px;
-    }
-
-    .item_quantity {
-        position: relative;
-        left: 250px;
-        bottom: 80px;
-        font-family: YuGothic;
-        font-size: 14px;
-        font-weight: 500;
-        line-height: 21px;
-        text-align: left;
-    }
-
-    .item_price {
-        width: 56px;
-        height: 27px;
-        position: relative;
-        left: 335px;
-        bottom: 100px;
-        font-family: YuGothic;
-        font-size: 18px;
-        font-weight: 500;
-        line-height: 27px;
-        text-align: left;
-    }
-
-    #delbutton {
-        border: none;
-        background-color: white;
-        color: #DEB089;
-        position: relative;
-        bottom: 100px;
-        left: 280px;
-        font-family: YuGothic;
-        font-size: 14px;
-        font-weight: 500;
-        line-height: 21px;
-    }
-
-    #totaltext {
-        width: 59px;
-        height: 36px;
-        position: relative;
-        top: 270px;
-        left: 250px;
-        font-family: sans-serif;
-        font-size: 26px;
-        font-weight: 900;
-        line-height: 35.52px;
-        text-align: left;
-        color:#333333;
-    }
-
-    #totalcash {
-        width: 98px;
-        height: 39px;
-        position: relative;
-        left: 580px;
-        top: 230px;
-        font-family: YuGothic;
-        font-size: 26px;
-        font-weight: 700;
-        line-height: 39px;
-        text-align: left;
-    }
-
-    #totalborder {
-        width: 448px;
-        border: 1px solid #656565;
-        position: relative;
-        top: 270px;
-        left: 250px;
-    }
-
-    #continue_shopping_button {
-        font-size: 14px;
-        border: none;
-        background-color: white;
-        color: #DEB089;
-        position: relative;
-        top: 260px;
-        left: 440px;
-        font-family: YuGothic;
-        font-size: 14px;
-        font-weight: 700;
-        line-height: 21px;
-        text-align: left;
+    #confirm_button {
+        position: absolute;
+        left: 775px;
+        top: 920px;
     }
 
     #lastborder {
-        border: 1px solid #656565;
-        width: 920px;
         position: relative;
-        top: 500px;
         left: 250px;
     }
 
     .decoration2 {
-        width: 145px;
-        height: 145px;
         position: relative;
-        left: 650px;
-        top: 550px
+        left: 600px;
     }
 
-    .text{
-        margin-left: 580px;
-        margin-top: 600px;
-        width: 292;
-        height: 16px;
-        font-size: 12px;
-    }
-
-    .num_cart {
-        width: 10px;
-        height: 10px;
+    .text {
         position: relative;
-        left: 885px;
-        top: 195px;
-        padding: 5px 5px 5px 5px;
-        border: 2px solid #333;
-        border-radius: 50%;
-        color: #fff;
-        background-color: #deb089;
-        font-family: Inter;
-        font-size: 10px;
-        font-weight: 400;
-        line-height: 12.1px;
-        text-align: center;
-    }
-
-    .asterisk {
-        color: red;
-    }
-
-    .customer_information {
-        width: 330px;
-        height: 662px;
-        position: absolute;
-        top: 370px;
-        left: 820px;
-    }
-
-    #customer_text {
-        width:126px;
-        height:27px;
-        position:relative;
-        bottom: 70px;
-        left: 110px;
-        font-size: 18px;
-    }
-
-    #customer_name_text {
-        font-size:14px;
-        position:relative;
-        bottom:30px;
-    }
-
-    #input_name {
-        width: 330px;
-        height: 40px;
-        border-radius: 10px;
-        position:relative;
-        bottom: 20px;
-    }
-
-    #customer_email_text {
-        font-size:14px;
-        position:relative;
-        top:20px;
-    }
-
-    #input_email {
-        width: 330px;
-        height: 40px;
-        border-radius: 10px;
-        position:relative;
-        top: 30px;
-    }
-
-    #addres_text {
-        font-size:14px;
-        position:relative;
-        top:50px;
-    }
-
-    #post_code_text {
-        font-size: 12px;
-        position:relative;
-        top: 60px;
-    }
-
-    #input_postcode {
-        width: 150px;
-        height: 40px;
-        border-radius: 10px;
-        position:relative;
-        top:60px;
-    }
-
-    #prefectures_text {
-        font-size:12px;
-        position:relative;
-        left:180px;
-    }
-
-    #input_prefectures {
-        width: 150px;
-        height: 40px;
-        border-radius: 10px;
-        position: relative;
-        left:180px;
-        bottom: 1px;
-    }
-
-    #municipalities_text {
-        font-size:12px;
-        position:relative;
-        top:30px;
-    }
-
-    #input_municipalities {
-        width: 330px;
-        height: 40px;
-        border-radius: 10px;
-        position:relative;
-        top:30px;
-    }
-
-    #paymentmethod_text {
-        position:relative;
-        top: 80px; 
-    }
-
-    #credit_card_text {
-        width:97px;
-        height:18px;
-        font-size:12px;
-        font-weight:500px;
-        position:relative;
-        top:100px;
-    }
-
-    #credit_card {
-        position:relative;
-        width:20px;
-        height: 20px;
-        top:150px;
-    }
-
-    #bank_transfer_text {
-        width:97px;
-        height:18px;
-        font-size:12px;
-        font-weight:500px;
-        position:relative;
-        top: 100px;
-        left: 20px;
-    }
-
-    #bank_transfer {
-        position:relative;
-        width:20px;
-        height: 20px;
-        top:150px;
-    }
-
-    #cash_on_delivery_text {
-        width:97px;
-        height:18px;
-        font-size:12px;
-        font-weight:500px;
-        position:relative;
-        top: 72px;
-        left: 265px;
-    }
-
-    #cash_on_delivery {
-        position:relative;
-        width:20px;
-        height: 20px;
-        top:150px;
-        right: 5px;
-    }
-
-    input[type="radio"] {
-        display: none;
-    }
-
-    input[type="radio"] + label {
-        position: relative;
-        padding: 5px 16px 5px 22px;
-        display: inline-block;
-    }
-
-    input[type="radio"] + label::before,input[type="radio"] + label::after {
-        content: "";
-        position: absolute;
-        border: 1px solid #ccc;
-        border-radius: 50%;
-        left: 0;
-        top: 50%;
-        transform: translateY(-50%);
-        box-shadow: none;
-    }
-
-    input[type="radio"] + label::before {
-        width: 20px;
-        height: 20px;
-        border: solid 1px #656565;
-    }
-
-    input[type="radio"] + label::after {
-        border: solid 1px #656565;
-        width: 12px;
-        height: 12px;
-        left: 4px;
-    }
-
-    input[type="radio"]:checked + label::after {
-        background-color: #656565;
-    }
-
-    #confirm_button {
-        width: 344px;
-        height: 70px;
-        position: absolute;
-        left: 820px;
-        top: 950px;
-        border: none;
-        border-radius: 10px;
-        color: #ffff;
-        font-family: Inter;
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 16.94px;
-        background-color: #DEB089;
-    }
-
-    #confirm_button:disabled {
-        background-color: #DEB08999;
-    }
-
-    #postcode_message {
-        color: #FF8D8D;
-        font-family: YuGothic;
-        font-size: 10px;
-        font-weight: 500;
-        line-height: 15px;
-        text-align: left;
-        position: absolute;
-        top: 70px;
-    }
-
-    #email_message {
-        color: #FF8D8D;
-        font-family: YuGothic;
-        font-size: 10px;
-        font-weight: 500;
-        line-height: 15px;
-        text-align: left;
-        position: absolute;
-        top: 80px;
-    }
-
-    #username_message {
-        color: #FF8D8D;
-        font-family: YuGothic;
-        font-size: 10px;
-        font-weight: 500;
-        line-height: 15px;
-        text-align: left;
-        position: absolute;
-        top: 80px;
-    }
-
-    #address_message {
-        color: #FF8D8D;
-        font-family: YuGothic;
-        font-size: 10px;
-        font-weight: 500;
-        line-height: 15px;
-        text-align: left;
-        position: absolute;
-        top: 70px;
-    }
-
-    #paymentmethod_message {
-        width: 165.87px;
-        height: 15.12px;
-        color: #FF8D8D;
-        font-family: YuGothic;
-        font-size: 10px;
-        font-weight: 500;
-        line-height: 15px;
-        text-align: left;
-        position: absolute;
-        top: 70px;
+        right: 60px;
     }
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 1024px) and (min-height: 1366px) {
+
+    .border {
+        position: relative;
+        left: 60px;
+    }
+
+    .decoration {
+        position: relative;
+        left: 30px;
+    }
+
+    .content {
+        position: relative;
+        left: 630px;
+    }
+
+    .image_cart {
+        position: relative;
+        left: 710px;
+    }
+
+    .num_cart {
+        position: relative;
+        left: 695px;
+    }
+
+    #item_display {
+        position: relative;
+        left: -180px;
+    }
+
+    .customer_information {
+        position: absolute;
+        top: 360px;
+        left: 645px;
+    }
+
+    #prefectures_text {
+        width: 150px;
+    }
+
+    #cash_on_delivery_text {
+        width: 50px;
+    }
+
+    #confirm_button {
+        position: absolute;
+        left: 645px;
+        top: 920px;
+    }
+
+    #lastborder {
+        position: relative;
+        left: 235px;
+    }
+
+    .decoration2 {
+        position: relative;
+        top: 580px;
+        left: 500px;
+    }
+
+    .text {
+        position: relative;
+        top: 50px;
+        right: 150px;
+    }
+}
+
+@media all and (max-width: 912px) {
+
+    .border {
+        position: relative;
+        left: 20px;
+    }
+
+    .decoration {
+        position: relative;
+        left: 0px;
+    }
+
+    .image_cart {
+        position: relative;
+        left: 675px;
+    }
+
+    .num_cart {
+        position: relative;
+        left: 660px;
+    }
+
+    #item_display {
+        position: relative;
+        left: -230px;
+    }
+
+    .customer_information {
+        position: absolute;
+        left: 600px;
+    }
+
+    #confirm_button {
+        position: absolute;
+        left: 600px;
+    }
+
+    #lastborder {
+        position: relative;
+        left: 245px;
+    }
+
+    .decoration2 {
+        position: relative;
+        left: 420px;
+        top: 600px;
+    }
+
+    .text {
+        position: relative;
+        left: -220px;
+        top: 100px;
+    } 
+}
+
+@media all and (max-width: 854px) {
 
     .layout {
         width: 534px;
@@ -510,7 +688,7 @@
     
     .decoration {
         position: relative;
-        left: 100px;
+        left: 110px;
         top: 10px;
         border: none;
         background-color: white;
@@ -525,7 +703,7 @@
         width: 534px;
         border: 1px solid #656565;
         position: relative;
-        left: 120px;
+        left: 150px;
         top: 30px;
     }
     
@@ -535,7 +713,7 @@
     
     .image_cart {
         position: relative;
-        left: 480px;
+        left: 510px;
         top: 100px;
     }
 
@@ -548,7 +726,7 @@
         margin-top: 0px;
         position: relative;
         top: 90px;
-        left: 210px;
+        left: 475px;
     }
 
     .itemlist img {
@@ -641,7 +819,7 @@
         height: 36px;
         position: relative;
         top: 180px;
-        left: 210px;
+        left: 475px;
         font-family: sans-serif;
         font-size: 26px;
         font-weight: 900;
@@ -654,7 +832,7 @@
         width: 98px;
         height: 39px;
         position: relative;
-        left: 440px;
+        left: 705px;
         top: 140px;
         font-family: YuGothic;
         font-size: 26px;
@@ -668,7 +846,7 @@
         border: 1px solid #656565;
         position: relative;
         top: 180px;
-        left: 210px;
+        left: 475px;
     }
     
     #continue_shopping_button {
@@ -678,7 +856,7 @@
         color: #DEB089;
         position: relative;
         top: 170px;
-        left: 300px;
+        left: 570px;
         font-family: YuGothic;
         font-size: 14px;
         font-weight: 700;
@@ -691,12 +869,12 @@
         width: 534px;
         position: relative;
         top: 1200px;
-        left: 120px;
+        left: 360px;
     }
     
     .decoration2 {
         position:relative;
-        left: 320px;
+        left: 340px;
         top: 550px;
     }
 
@@ -707,7 +885,8 @@
     
     .text{
         position: relative;
-        right: 360px;
+        top: 0px;
+        left: -330px;
         width: 310px;
         height: 16px;
         font-size: 12px;
@@ -717,7 +896,7 @@
         width: 10px;
         height: 10px;
         position: relative;
-        left: 465px;
+        left: 495px;
         top: 85px;
         padding: 5px 5px 5px 5px;
         border: 2px solid #333;
@@ -740,7 +919,7 @@
         height: 662px;
         position: relative;
         top: 350px;
-        left: 240px;
+        left: 275px;
     }
     
     #customer_text {
@@ -899,7 +1078,7 @@
         width: 344px;
         height: 70px;
         position: relative;
-        left: 210px;
+        left: 235px;
         top: 300px;
         border: none;
         border-radius: 10px;
@@ -912,64 +1091,166 @@
     }
 }
 
-@media all and (max-width: 390px) {
+@media all and (max-width: 768px) {
 
-    body {
-        height: 1500px;
+    .border {
+        position: relative;
+        left: 130px;
     }
 
+    .decoration {
+        position: relative;
+        left: 100px;
+    }
+
+    .image_cart {
+        position: relative;
+        left: 485px;
+    }
+
+    .num_cart {
+        position: relative;
+        left: 470px;
+    }
+}
+
+@media all and (max-width: 540px) {
+
+    .border {
+        position: relative;
+        left: 20px;
+    }
+
+    .decoration {
+        position: relative;
+        left: -10px;
+    }
+
+    .image_cart {
+        position: relative;
+        left: 380px;
+    }
+
+    .num_cart {
+        position: relative;
+        left: 365px;
+    }
+
+    .itemlist {
+        position: relative;
+        left: 360px;
+    }
+
+    #totaltext {
+        position: relative;
+        left: 360px;
+    }
+
+    #totalborder {
+        position: relative;
+        left: 360px;
+    }
+
+    #totalcash {
+        position: relative;
+        left: 590px;
+    }
+
+    #continue_shopping_button {
+        position: relative;
+        left: 450px;
+    }
+
+    .customer_information {
+        position: relative;
+        left: 155px;
+    }
+
+    #prefectures_text {
+        width: 170px;
+    }
+
+    #confirm_button {
+        position: relative;
+        left: 125px;
+    }
+
+    #lastborder {
+        position: relative;
+        left: 255px;
+    }
+
+    .decoration2 {
+        position: relative;
+        left: 250px;
+        top: 550px;
+    }
+
+    .text {
+        position: relative;
+        left: -430px;
+        top: 0px;
+    }   
+}
+
+@media all and (max-width: 431px) {
+
+    body {
+        height: 1600px;
+    }
+    
     .layout {
         width: 390px;
         height: 54px;
         display: flex;
     }
-    
+        
     .decoration {
         position: relative;
-        left: -30px;
+        left: 0px;
         top: -10px;
         border: none;
         background-color: white;
     }
-
+    
     .decoration img {
         width: 54px;
         height: 54px;
     }
-    
+        
     .border {
         width: 358px;
         border: 1px solid #656565;
         position: relative;
-        left: 15px;
+        left: 50px;
     }
-    
+        
     .content {
         display: none;
     }
-    
+        
     .image_cart {
         position: relative;
-        left: 200px;
+        left: 240px;
         top: 55px;
     }
-
+    
     .image_cart img {
         width: 26px;
         height: 24px;
     }
-    
+        
     .itemlist {
         position: relative;
         top: 70px;
-        left: 15px;
+        left: 280px;
     }
-
+    
     .itemlist img {
         width: 171px;
         height: 171px;
     }
-    
+        
     .listitem_border {
         width: 162px;
         border: 1px solid #656565;
@@ -977,7 +1258,7 @@
         left: 190px;
         bottom: 70px;
     }
-    
+        
     .item_name {
         font-family: sans-serif;
         font-size: 18px;
@@ -989,7 +1270,7 @@
         bottom: 210px;
         left: 190px;
     }
-    
+        
     .item_size {
         width: 180px;
         font-family: YuGothic;
@@ -1001,7 +1282,7 @@
         bottom: 200px;
         left: 220px;
     }
-    
+        
     .itemsize_text {
         font-family: sans-serif;
         font-size: 14px;
@@ -1012,7 +1293,7 @@
         left: 190px;
         bottom: 220px;
     }
-    
+        
     .item_quantity {
         position: relative;
         left: 190px;
@@ -1023,7 +1304,7 @@
         line-height: 21px;
         text-align: left;
     }
-    
+        
     .item_price {
         width: 56px;
         height: 27px;
@@ -1036,7 +1317,7 @@
         line-height: 27px;
         text-align: left;
     }
-    
+        
     #delbutton {
         width: 120px;
         border: none;
@@ -1050,13 +1331,13 @@
         font-weight: 500;
         line-height: 21px;
     }
-    
+        
     #totaltext {
         width: 59px;
         height: 36px;
         position: relative;
         top: 100px;
-        left: 15px;
+        left: 280px;
         font-family: sans-serif;
         font-size: 26px;
         font-weight: 900;
@@ -1064,12 +1345,12 @@
         text-align: left;
         color:#333333;
     }
-    
+        
     #totalcash {
         width: 98px;
         height: 39px;
         position: relative;
-        left: 260px;
+        left: 525px;
         top: 65px;
         font-family: YuGothic;
         font-size: 26px;
@@ -1077,15 +1358,15 @@
         line-height: 39px;
         text-align: left;
     }
-    
+        
     #totalborder {
         width: 358px;
         border: 1px solid #656565;
         position: relative;
         top: 100px;
-        left: 15px;
+        left: 280px;
     }
-    
+        
     #continue_shopping_button {
         font-size: 14px;
         border: none;
@@ -1093,45 +1374,45 @@
         color: #DEB089;
         position: relative;
         top: 90px;
-        left: 115px;
+        left: 380px;
         font-family: YuGothic;
         font-size: 14px;
         font-weight: 700;
         line-height: 21px;
         text-align: left;
     }
-    
+        
     #lastborder {
         border: 1px solid #656565;
         width: 358px;
         position: relative;
         top: 1050px;
-        left: 15px;
+        left: 280px;
     }
-    
+        
     .decoration2 {
         position:relative;
-        left: 170px;
-        top: 350px;
+        left: 190px;
+        top: 400px;
     }
-
+    
     .decoration2 img {
         width: 54px;
         height: 54px;
     }
-    
+        
     .text{
         position: relative;
-        right: 0px;
-        right: 530px;
-        top: -280px;
+        left: -500px;
+        top: -220px;
+        
     }
-    
+        
     .num_cart {
         width: 10px;
         height: 10px;
         position: relative;
-        left: 185px;
+        left: 226px;
         top: 38px;
         padding: 5px 5px 5px 5px;
         border: 2px solid #333;
@@ -1144,19 +1425,19 @@
         line-height: 12.1px;
         text-align: center;
     }
-    
+        
     .asterisk {
         color: red;
     }
-    
+        
     .customer_information {
         width: 358px;
         height: 662px;
         position: relative;
         top: 0px;
-        left: 15px;
+        left: 45px;
     }
-    
+        
     #customer_text {
         width: 126px;
         height: 27px;
@@ -1165,14 +1446,14 @@
         left: 110px;
         font-size: 18px;
     }
-    
+        
     #customer_name_text {
         font-size: 14px;
         position: relative;
         top: 240px;
         left: 15px;
     }
-    
+        
     #input_name {
         width: 330px;
         height: 40px;
@@ -1181,14 +1462,14 @@
         top: 240px;
         left: 15px;
     }
-    
+        
     #customer_email_text {
         font-size: 14px;
         position: relative;
         top: 280px;
         left: 15px;
     }
-    
+        
     #input_email {
         width: 330px;
         height: 40px;
@@ -1197,14 +1478,14 @@
         top: 280px;
         left: 15px;
     }
-    
+        
     #addres_text {
         font-size: 14px;
         position: relative;
         top: 320px;
         left: 15px;
     }
-    
+        
     #post_code_text {
         width: 150px;
         font-size: 12px;
@@ -1212,7 +1493,7 @@
         top: 340px;
         left: 15px;
     }
-    
+        
     #input_postcode {
         width: 150px;
         height: 40px;
@@ -1221,7 +1502,7 @@
         top: 340px;
         left: 15px;
     }
-    
+        
     #prefectures_text {
         width: 145px;
         font-size: 12px;
@@ -1229,7 +1510,7 @@
         left: 195px;
         top: 280px;
     }
-    
+        
     #input_prefectures {
         width: 150px;
         height: 40px;
@@ -1238,7 +1519,7 @@
         left: 190px;
         top: 278px;
     }
-    
+        
     #municipalities_text {
         width: 340px;
         font-size: 12px;
@@ -1246,7 +1527,7 @@
         top: 300px;
         left: 15px; 
     }
-    
+        
     #input_municipalities {
         width: 330px;
         height: 40px;
@@ -1255,13 +1536,13 @@
         top: 300px;
         left: 15px;
     }
-    
+        
     #paymentmethod_text {
         position: relative;
         top: 330px; 
         left: 15px;
     }
-    
+        
     #credit_card_text {
         width: 97px;
         height: 18px;
@@ -1271,14 +1552,14 @@
         top: 350px;
         left: 15px;
     }
-    
+        
     #credit_card {
         position: relative;
         width: 20px;
         height: 20px;
         top: 150px;
     }
-    
+        
     #bank_transfer_text {
         width: 97px;
         height: 18px;
@@ -1288,14 +1569,14 @@
         top: 350px;
         left: 15px;
     }
-    
+        
     #bank_transfer {
         position: relative;
         width: 20px;
         height: 20px;
         top: 150px;
     }
-    
+        
     #cash_on_delivery_text {
         width: 57px;
         height: 18px;
@@ -1305,7 +1586,7 @@
         top: 325px;
         left: 260px;
     } 
-    
+        
     #cash_on_delivery {
         position:relative;
         width: 20px;
@@ -1313,12 +1594,12 @@
         top: 150px;
         right: 5px;
     }
-    
+        
     #confirm_button {
         width: 344px;
         height: 70px;
         position: relative;
-        left: 15px;
+        left: 60px;
         top: 190px;
         border: none;
         border-radius: 10px;
@@ -1329,9 +1610,8 @@
         line-height: 16.94px;
         background-color: #DEB089;
     }
-
+    
     #postcode_message {
         width: 180px;
     }
-}
-
+}    
