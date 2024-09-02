@@ -1,324 +1,558 @@
-@media all and (max-width: 1440px) {
+.layout {
+    width: 920px;
+    height: 145px;
+    display: flex;
+}
 
-    .layout {
-        width: 920px;
-        height: 145px;
-        display: flex;
+.decoration {
+    width: 145px;
+    height: 145px;
+    position: relative;
+    top: 50px;
+    left: 240px;
+}
+
+#return {
+    border: none;
+    background-color: white;
+}
+
+.lastborder {
+    width: 920px;
+    border: 1px solid #656565;
+    position: relative;
+    top: 300px;
+    left: 280px;
+}
+
+.decoration2 {
+    width: 145px;
+    height: 145px;
+    position: relative;
+    top: 350px;
+    left: 650px;
+}
+
+.text {
+    margin-top: 400px;
+    margin-left: 520px;
+}
+
+.num_cart {
+    width: 10px;
+    height: 10px;
+    position: relative;
+    left: 905px;
+    top: 135px;
+    padding: 5px 5px 5px 5px;
+    border: 2px solid #333;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #deb089;
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12.1px;
+    text-align: center;
+}
+
+.border {
+    width: 920px;
+    border: 1px solid #656565;
+    position: relative;
+    left: 280px;
+    top: 40px;
+}
+
+.content {
+    width: 92px;
+    height: 19px;
+    position: relative;
+    left: 860px;
+    top: 160px;
+}
+
+.image_cart {
+    position: relative;
+    left: 925px;
+    top: 95px;
+    background-color: white;
+    border: none;
+}
+
+.image_cart img {
+    width: 33px;
+    height: 31px;
+}
+
+.itemlist {
+    width: 212px;
+    height: 212px;
+    display: inline-block;
+    position: relative;
+    top: 50px;
+    left: 280px;
+    margin-top: 40px;
+}
+
+.listitem_border {
+    width: 150px;
+    border: 1px solid #656565;
+    position: relative;
+    left: 550px;
+    bottom: 25px;
+}
+
+.item_quantity {
+    position: relative;
+    left: 550px;
+    bottom: 50px;
+}
+
+.item_price {
+    position: relative;
+    left: 435px;
+}
+
+.item_name {
+    margin-left: 550px;
+    position: relative;
+    bottom: 170px;
+    height: 25px;
+    font-size: 18px;
+}
+
+.item_size {
+    margin-left: 550px;
+    position: relative;
+    bottom: 80px;
+    height: 21px;
+    font-size: 14px;
+}
+
+#totaltext {
+    width: 59px;
+    height: 36px;
+    position: relative;
+    top: 150px;
+    left: 280px;
+    font-family: Avenir;
+    font-size: 26px;
+    font-weight: 900;
+    line-height: 35.52px;
+    text-align: left;
+}
+
+#totalcash {
+    width: 98px;
+    height: 39px;
+    position: relative;
+    left: 615px;
+    top: 120px;
+    font-family: YuGothic;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 39px;
+    text-align: left;
+}
+
+#totalborder {
+    width: 448px;
+    border: 1px solid #656565;
+    position: relative;
+    top: 155px;
+    left: 280px;
+}
+
+.customer_information {
+    position: absolute;
+    left: 980px;
+    bottom: 480px;
+}
+
+#customer_information_text {
+    position: relative;
+    right: 15px;
+    width: 126px;
+    height: 27px;
+    top: 80px;
+    font-family: YuGothic;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: left;
+}
+
+#mr{
+    position: relative;
+    left: 200px;
+    top: 130px;
+    width: 16px;
+    height: 24px;
+    font-family: YuGothic;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #333333;
+}
+
+.text_name_border {
+    position: relative;
+    border: 1px solid #656565;
+    width: 330px;
+    top: 130px;
+    right: 110px;
+}
+
+.customer_name {
+    position: relative;
+    top:125px;
+    width: 85px;
+    height: 24px;
+    font-family: YuGothic;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #333333
+}
+
+.customer_mail {
+    position: relative;
+    top: 190px;
+    right: 15px;
+    width: 143;
+    height: 24px;
+    font-family: YuGothic;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #333333
+}
+
+.text_mail_border {
+    position: relative;
+    border: 1px solid #656565;
+    width: 330px;
+    height:0px;
+    top: 190px;
+    right: 110px;
+}
+
+.customer_postcode {
+    width: 90px;
+    position: relative;
+    top: 230px;
+    font-family: YuGothic;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    right: 250px;
+}
+
+.customer_address {
+    width: 205px;
+    height: 24px;
+    position: relative; 
+    top: 230px;
+    left: 10px;
+}
+
+.text_address_border {
+    width: 330px;
+    position: relative;
+    border: 1px solid #656565;
+    top: 230px;
+    right: 109px
+}
+
+.customer_paymentmethod {
+    width: 128px;
+    height: 24px;
+    position: relative;
+    top: 280px;
+    font-family: YuGothic;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #333333
+}
+
+.text_paymentmethod_border {
+    width: 330px;
+    position: relative;
+    border: 1px solid #656565;
+    top: 280px;
+    right: 110px;
+}
+
+#order_confirmed {
+    width: 330px;
+    height: 70px;
+    position: relative;
+    top: 350px;
+    right: 108px;
+    background-color: #deb089;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+#return_cart {
+    width: 330px;
+    height: 70px;
+    position: relative;
+    top: 400px;
+    right: 108px;
+    background-color: white;
+    border-radius: 10px;
+    font-family: YuGothic;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+}
+
+@media all and (max-width: 1280px) and (min-height: 500px) {
+
+    .border {
+        position: relative;
+        left: 200px;
     }
 
     .decoration {
-        width: 145px;
-        height: 145px;
         position: relative;
-        top: 50px;
-        left: 240px;
-    }
-
-    #return {
-        border: none;
-        background-color: white;
-    }
-
-    .lastborder {
-        width: 920px;
-        border: 1px solid #656565;
-        position: relative;
-        top: 300px;
-        left: 280px;
-    }
-
-    .decoration2 {
-        width: 145px;
-        height: 145px;
-        position: relative;
-        top: 350px;
-        left: 650px;
-    }
-
-    .text {
-        margin-top: 400px;
-        margin-left: 520px;
-    }
-
-    .num_cart {
-        width: 10px;
-        height: 10px;
-        position: relative;
-        left: 905px;
-        top: 135px;
-        padding: 5px 5px 5px 5px;
-        border: 2px solid #333;
-        border-radius: 50%;
-        color: #fff;
-        background-color: #deb089;
-        font-family: Inter;
-        font-size: 10px;
-        font-weight: 400;
-        line-height: 12.1px;
-        text-align: center;
-    }
-
-    .border {
-        width: 920px;
-        border: 1px solid #656565;
-        position: relative;
-        left: 280px;
-        top: 40px;
+        left: 170px;
     }
 
     .content {
-        width: 92px;
-        height: 19px;
         position: relative;
-        left: 860px;
-        top: 160px;
+        left: 790px;
     }
 
     .image_cart {
         position: relative;
-        left: 925px;
-        top: 95px;
-        background-color: white;
-        border: none;
+        left: 840px;
     }
 
-    .image_cart img {
-        width: 33px;
-        height: 31px;
+    .num_cart {
+        position: relative;
+        left: 818px;
     }
 
     .itemlist {
-        width: 212px;
-        height: 212px;
-        display: inline-block;
         position: relative;
-        top: 50px;
-        left: 280px;
-        margin-top: 40px;
+        left: 200px;
     }
 
-    .listitem_border {
-        width: 150px;
-        border: 1px solid #656565;
+    .item_name {
         position: relative;
-        left: 550px;
-        bottom: 25px;
+        right: 80px;
+    }
+
+    .item_size {
+        position: relative;
+        right: 80px;
     }
 
     .item_quantity {
         position: relative;
-        left: 550px;
-        bottom: 50px;
+        left: 470px;
+    }
+
+    .listitem_border {
+        position: relative;
+        left: 470px;
     }
 
     .item_price {
         position: relative;
-        left: 435px;
-    }
-
-    .item_name {
-        margin-left: 550px;
-        position: relative;
-        bottom: 170px;
-        height: 25px;
-        font-size: 18px;
-    }
-
-    .item_size {
-        margin-left: 550px;
-        position: relative;
-        bottom: 80px;
-        height: 21px;
-        font-size: 14px;
+        left: 355px;
     }
 
     #totaltext {
-        width: 59px;
-        height: 36px;
         position: relative;
-        top: 150px;
-        left: 280px;
-        font-family: Avenir;
-        font-size: 26px;
-        font-weight: 900;
-        line-height: 35.52px;
-        text-align: left;
-    }
-
-    #totalcash {
-        width: 98px;
-        height: 39px;
-        position: relative;
-        left: 615px;
-        top: 120px;
-        font-family: YuGothic;
-        font-size: 26px;
-        font-weight: 700;
-        line-height: 39px;
-        text-align: left;
+        left: 200px;
     }
 
     #totalborder {
-        width: 448px;
-        border: 1px solid #656565;
         position: relative;
-        top: 155px;
-        left: 280px;
+        left: 200px;
+    }
+
+    #totalcash {
+        position: relative;
+        left: 530px;
     }
 
     .customer_information {
         position: absolute;
-        left: 980px;
-        bottom: 480px;
-    }
-
-    #customer_information_text {
-        position: relative;
-        right: 15px;
-        width: 126px;
-        height: 27px;
-        top: 80px;
-        font-family: YuGothic;
-        font-size: 18px;
-        font-weight: 500;
-        line-height: 27px;
-        text-align: left;
-    }
-
-    #mr{
-        position: relative;
-        left: 200px;
-        top: 130px;
-        width: 16px;
-        height: 24px;
-        font-family: YuGothic;
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 24px;
-        text-align: left;
-        color: #333333;
-    }
-
-    .text_name_border {
-        position: relative;
-        border: 1px solid #656565;
-        width: 330px;
-        top: 130px;
-        right: 110px;
-    }
-
-    .customer_name {
-        position: relative;
-        top:125px;
-        width: 85px;
-        height: 24px;
-        font-family: YuGothic;
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 24px;
-        text-align: left;
-        color: #333333
-    }
-
-    .customer_mail {
-        position: relative;
-        top: 190px;
-        right: 15px;
-        width: 143;
-        height: 24px;
-        font-family: YuGothic;
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 24px;
-        text-align: left;
-        color: #333333
-    }
-
-    .text_mail_border {
-        position: relative;
-        border: 1px solid #656565;
-        width: 330px;
-        height:0px;
-        top: 190px;
-        right: 110px;
+        top: 180px;
+        left: 900px;
     }
 
     .customer_postcode {
-        width: 90px;
-        position: absolute;
-        top: 310px;
-        font-family: YuGothic;
-        font-size: 14px;
-        font-weight: 500;
-        line-height: 21px;
-        right: 460px;
+        position: relative;
+        right: 250px;
     }
 
     .customer_address {
-        width: 205px;
-        height: 24px;
-        position: relative; 
-        top: 230px;
-        left: 0px;
-    }
-
-    .text_address_border {
-        width: 330px;
         position: relative;
-        border: 1px solid #656565;
-        top: 230px;
-        right: 109px
+        left: 20px;
     }
 
-    .customer_paymentmethod {
-        width: 128px;
-        height: 24px;
-        position: relative;
-        top: 280px;
-        font-family: YuGothic;
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 24px;
-        text-align: left;
-        color: #333333
-    }
-
-    .text_paymentmethod_border {
-        width: 330px;
-        position: relative;
-        border: 1px solid #656565;
-        top: 280px;
-        right: 110px;
-    }
-
-    #order_confirmed {
-        width: 330px;
-        height: 70px;
+    .lastborder {
         position: relative;
         top: 350px;
-        right: 108px;
-        background-color: #deb089;
-        border: none;
-        border-radius: 10px;
-        color: white;
+        left: 200px;
     }
 
-    #return_cart {
-        width: 330px;
-        height: 70px;
+    .decoration2 {
         position: relative;
-        top: 400px;
-        right: 108px;
-        background-color: white;
-        border-radius: 10px;
-        font-family: YuGothic;
-        font-size: 14px;
-        font-weight: 500;
-        line-height: 21px;
+        top: 380px;
+        left: 600px;
+    }
+
+
+    .text {
+        position: relative;
+        right: 40px;
     }
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 1024px) and (max-width: 1366px) {
+
+    .border {
+        position: relative;
+        left: 50px;
+    }
+
+    .content {
+        position: relative;
+        left: 630px;
+    }
+
+    .decoration {
+        position: relative;
+        left: 20px;
+    }
+
+    .image_cart {
+        position: relative;
+        left: 690px;
+    }
+
+    .num_cart {
+        position: relative;
+        left: 668px;
+    }
+
+    .itemlist {
+        position: relative;
+        left: 50px;
+    }
+
+    .item_name {
+        position: relative;
+        right: 230px;
+    }
+
+    .item_size {
+        position: relative;
+        right: 230px;
+    }
+
+    .item_quantity {
+        position: relative;
+        left: 320px;
+    }
+
+    .listitem_border {
+        position: relative;
+        left: 320px;
+    }
+
+    .item_price {
+        position: relative;
+        left: 200px;
+    }
+
+    #totaltext {
+        position: relative;
+        left: 50px;
+    }
+
+    #totalborder {
+        position: relative;
+        left: 50px;
+    }
+
+    #totalcash {
+        position: relative;
+        left: 385px;
+    }
+
+    .customer_information {
+        position: absolute;
+        left: 730px;
+    }
+
+    .customer_postcode {
+        position: relative;
+        right: 245px;
+    }
+
+    .customer_address {
+        position: relative;
+        left: 25px;
+    }
+
+    .lastborder {
+        position: relative;
+        left: 50px;
+    }
+
+    .decoration2 {
+        position: relative;
+        top: 500px;
+        left: 460px;
+    }
+
+    .text {
+        position: relative;
+        top: 190px;
+        right: 180px;
+    }
+}
+
+@media all and (max-width: 912px) {
+
+    .customer_postcode {
+        position: relative;
+        right: 245px;
+    }
+
+    .lastborder {
+        position: relative;
+        top: 600px;
+    }
+
+    .decoration2 {
+        position: relative;
+        top: 700px;
+    }
+
+    .text {
+        width: 600px;
+        position: relative;
+        top: 400px;
+    }
+}
+
+
+@media all and (max-width: 854px) {
     
     .layout {
         width: 534px;
@@ -329,7 +563,7 @@
     .decoration {
         position: relative;
         top: 0px;
-        left: 100px;
+        left: 120px;
 }
 
     .decoration img {
@@ -348,13 +582,13 @@
         border: 1px solid #656565;
         position: relative;
         top: 400px;
-        left: 120px;
+        left: 150px;
 }
 
     .decoration2 {
         position: relative;
         top: 430px;
-        left: 320px;
+        left: 370px;
 }
 
     .decoration2 img {
@@ -367,7 +601,7 @@
         height: 16px;
         position: relative;
         top: 30px;
-        right: 280px;
+        right: 250px;
         font-family: Avenir;
         font-size: 12px;
         font-weight: 400;
@@ -379,8 +613,8 @@
         width: 10px;
         height: 10px;
         position: relative;
-        left: 450px;
-        top: 62px;
+        left: 479px;
+        top: 66px;
         padding: 5px 5px 5px 5px;
         border: 2px solid #333;
         border-radius: 50%;
@@ -397,7 +631,7 @@
         width: 534px;
         border: 1px solid #656565;
         position: relative;
-        left: 120px;
+        left: 150px;
         top: 10px;
 }
 
@@ -407,8 +641,8 @@
 
     .image_cart {
         position: relative;
-        left: 470px;
-        top: 40px;
+        left: 500px;
+        top: 45px;
         background-color: white;
         border: none;
 }
@@ -428,7 +662,7 @@
         height: 162px;
         position: relative;
         top: 100px;
-        left: 220px;
+        left: 250px;
         margin-top: -40px;
 }
 
@@ -441,26 +675,26 @@
         width: 162px;
         border: 1px solid #656565;
         position: relative;
-        left: 410px;
+        left: 430px;
         top: 40px;
 }
 
     .item_quantity {
         position: relative;
-        left: 410px;
+        left: 430px;
         top: 15px
 }
 
     .item_price {
         position: relative;
-        left: 355px;
+        left: 370px;
         top: 60px;
 }
 
     .item_name {
         height: 25px;
         position: relative;
-        right: 140px;
+        right: 120px;
         bottom: 90px;
         font-size: 18px;
 }
@@ -468,7 +702,7 @@
     .item_size {
         height: 21px;
         position: relative;
-        right: 140px;
+        right: 120px;
         top: -15px;
         font-size: 14px;
 }
@@ -478,7 +712,7 @@
         height: 36px;
         position: relative;
         top: 150px;
-        left: 220px;
+        left: 250px;
         font-family: Avenir;
         font-size: 26px;
         font-weight: 900;
@@ -490,7 +724,7 @@
         width: 98px;
         height: 39px;
         position: relative;
-        left: 450px;
+        left: 480px;
         top: 110px;
         font-family: YuGothic;
         font-size: 26px;
@@ -504,7 +738,7 @@
         border: 1px solid #656565;
         position: relative;
         top: 150px;
-        left: 225px;
+        left: 250px;
 }
 
     .customer_information {
@@ -513,7 +747,7 @@
         display: inline-block;
         position: relative;
         top: 150px;
-        left: 320px;
+        left: 360px;
 }
 
     #customer_information_text {
@@ -591,9 +825,9 @@
 
     .customer_postcode {
         width: 90px;
-        position: absolute;
-        top: 310px;
-        right: 340px;
+        position: relative;
+        top: 230px;
+        right: 260px;
         font-family: YuGothic;
         font-size: 14px;
         font-weight: 500;
@@ -665,7 +899,197 @@
     }
 }
 
-@media all and (max-width: 390px) {
+@media all and (max-width: 768px) {
+
+    .border {
+        position: relative;
+        left: 120px;
+    }
+
+    .decoration {
+        position: relative;
+        left: 90px;
+    }
+
+    .image_cart {
+        position: relative;
+        left: 470px;
+    }
+
+    .num_cart {
+        position: relative;
+        left: 450px;
+    }
+
+    .itemlist {
+        position: relative;
+        left: 200px;
+    }
+
+    .item_name {
+        position: relative;
+        right: 170px
+    }
+
+    .item_size {
+        position: relative;
+        right: 170px;
+    }
+
+    .item_quantity {
+        position: relative;
+        left: 380px;
+    }
+
+    .listitem_border {
+        position: relative;
+        left: 380px;
+    }
+
+    .item_price {
+        position: relative;
+        left: 325px;
+    }
+
+    #totaltext {
+        position: relative;
+        left: 200px;
+    }
+
+    #totalborder {
+        position: relative;
+        left: 200px;
+    }
+
+    #totalcash {
+        position: relative;
+        left: 430px;
+    }
+
+    .customer_information {
+        position: relative;
+        left: 315px;
+    }
+
+    .lastborder {
+        position: relative;
+        left: 120px;
+    }
+
+    .decoration2 {
+        position: relative;
+        left: 340px;
+    }
+
+    .text {
+        position: relative;
+        right: 280px;
+    }
+}
+
+@media all and (max-width: 540px) {
+
+    .border {
+        position: relative;
+        left: 35px;
+    }
+
+    .lastborder {
+        position: relative;
+        left: 35px;
+    }
+
+    .decoration {
+        position: relative;
+        left: 0px;
+    }
+
+    .decoration2 {
+        position: relative;
+        left: 260px;
+    }
+
+    .text {
+        position: relative;
+        right: 360px;
+    }
+
+    .image_cart {
+        position: relative;
+        left: 390px;
+    }
+
+    .num_cart {
+        position: relative;
+        left: 368px;
+    }
+
+    .itemlist {
+        position: relative;
+        left: 140px;
+        
+    }
+
+    .item_name {
+        width: 200px;
+        position: relative;
+        right: 200px
+    }
+
+    .item_size {
+        width: 100px;
+        position: relative;
+        right: 200px;
+    }
+
+    .item_quantity {
+        position: relative;
+        left: 345px;
+    }
+
+    .listitem_border {
+        position: relative;
+        left: 345px;
+    }
+
+    .item_price {
+        position: relative;
+        left: 285px;
+    }
+
+    #totaltext {
+        position: relative;
+        left: 140px;
+    }
+
+    #totalborder {
+        position: relative;
+        left: 140px;
+    }
+
+    #totalcash {
+        position: relative;
+        left: 370px;
+    }
+
+    .customer_information {
+        position: relative;
+        left: 250px;
+    }
+
+    .customer_postcode {
+        position: relative;
+        right: 250px;
+        
+}
+
+    .customer_address {
+        position: relative;
+        left: 20px;
+    }
+}
+
+@media all and (max-width: 430px) {
 
     body {
         height: 1000px;
@@ -679,7 +1103,7 @@
     .decoration {
         position: relative;
         top: -30px;
-        left: -30px;
+        left: -20px;
 }
 
     .decoration img {
@@ -697,13 +1121,13 @@
         border: 1px solid #656565;
         position: relative;
         top: 350px;
-        left: 20px;
+        left: 35px;
 }
 
     .decoration2 {
         position: relative;
         top: 410px;
-        left: 170px;
+        left: 180px;
 }
 
     .decoration2 img {
@@ -715,7 +1139,7 @@
         height: 16px;
         position: relative;
         top: -20px;
-        left: -470px;
+        left: -460px;
         font-family: Avenir;
         font-size: 12px;
         font-weight: 400;
@@ -727,7 +1151,7 @@
         width: 10px;
         height: 10px;
         position: relative;
-        left: 180px;
+        left: 200px;
         top: 15px;
         padding: 5px 5px 5px 5px;
         border: 2px solid #333;
@@ -745,7 +1169,7 @@
         width: 358px;
         border: 1px solid #656565;
         position: relative;
-        left: 20px;
+        left: 35px;
         top: 10px;
 }
 
@@ -755,7 +1179,7 @@
 
     .image_cart {
         position: relative;
-        left: 200px;
+        left: 220px;
         top: 20px;
         background-color: white;
         border: none;
@@ -774,7 +1198,7 @@
     .itemlist {
         position: relative;
         left: 0px;
-        left: 20px;
+        left: 35px;
         top:0px;
         top: 100px;
         margin-top: -40px;
@@ -789,19 +1213,19 @@
         width: 162px;
         border: 1px solid #656565;
         position: relative;
-        left: 200px;
+        left: 220px;
         top: 40px
 }
 
     .item_quantity {
         position: relative;
-        left: 200px;
+        left: 220px;
         top: 15px;
 }
 
     .item_price {
         position: relative;
-        left: 145px;
+        left: 165px;
         top: 65px;
 }
 
@@ -810,7 +1234,7 @@
         height: 25px;
         position: relative;
         right: 0px;
-        right: 350px;
+        right: 330px;
         top: -80px;
         font-size: 18px;
 }
@@ -820,7 +1244,7 @@
         height: 21px;
         position: relative;
         top: 0px;
-        right: 350px;
+        right: 330px;
         font-size: 14px;
 }
 
@@ -829,7 +1253,7 @@
         height: 36px;
         position: relative;
         top: 180px;
-        left: 20px;
+        left: 35px;
         font-family: Avenir;
         font-size: 26px;
         font-weight: 900;
@@ -841,7 +1265,7 @@
         width: 98px;
         height: 39px;
         position: relative;
-        left: 255px;
+        left: 270px;
         top: 140px;
         font-family: YuGothic;
         font-size: 26px;
@@ -855,7 +1279,7 @@
         border: 1px solid #656565;
         position: relative;
         top: 180px;
-        left: 20px;
+        left: 35px;
 }
 
     .customer_information {
@@ -864,7 +1288,7 @@
         display: inline-block;
         position: relative;
         left: 0px;
-        left: 50px;
+        left: 70px;
         top: 150px;
 }
 
@@ -943,10 +1367,10 @@
 
     .customer_postcode {
         width: 90px;
-        position: absolute;
-        top: 310px;
+        position: relative;
+        top: 230px;
         right: 0px;
-        right: 265px;
+        right: 165px;
         font-family: YuGothic;
         font-size: 14px;
         font-weight: 500;
@@ -959,7 +1383,7 @@
         height: 24px;
         position: relative; 
         top: 230px;
-        left: 85px;
+        left: 105px;
 }
 
     .text_address_border {
