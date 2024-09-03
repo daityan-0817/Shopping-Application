@@ -27,6 +27,13 @@ function itemDisplay() {
         listItem.addEventListener('click', () => {
           location.href =  `/detail/?id=${item.id}&imgsrc=${item.image}=${item.itemName}=${item.price}`
         })
+
+        function itemDisplayClose() {
+          
+          items.removeChild(listItem)
+          searchButton.removeEventListener('click', itemDisplayClose)
+      }
+          searchButton.addEventListener('click', itemDisplayClose)
     } 
   } else {
 
@@ -92,13 +99,12 @@ function itemStockDate() {
 searchButton.addEventListener('click', () => {
 
   const newDate = itemStockDate()
+  const itemNameList = []
 
   if(!newDate) {
 
-    const itemNameList = []
-
     for(let item of __item_data) {
-
+    
       itemNameList.push(item.itemName)
 
       if(searchInput.value === '') {
@@ -148,7 +154,7 @@ searchButton.addEventListener('click', () => {
       }
     } 
     
-    const noItem = itemNameList.some(elem => elem[0] === searchInput.value)
+    const noItem = itemNameList.some(elem => elem.includes(searchInput.value))
     
     if(searchInput.value !== '' && !noItem) {
 
@@ -163,17 +169,15 @@ searchButton.addEventListener('click', () => {
         searchButton.removeEventListener('click', noItemDisplayClose)
     }
         searchButton.addEventListener('click', noItemDisplayClose)
-    }
   }
+}
 
   if(newDate) {
 
-    const itemNameList = []
-
     for(let item of newDate) {
 
-      itemNameList.push(item.itemName)
       const soldOutItem = [item.stock].includes(0)
+      itemNameList.push(item.itemName)
 
       if(searchInput.value === '') {
     
@@ -240,7 +244,7 @@ searchButton.addEventListener('click', () => {
   }
 } 
 
-  const noItem = itemNameList.some(elem => elem[0] === searchInput.value)
+  const noItem = itemNameList.some(elem => elem.includes(searchInput.value))
 
   if(searchInput.value !== '' && !noItem) {
 
