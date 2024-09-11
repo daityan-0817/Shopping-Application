@@ -5,79 +5,48 @@ const layout = qs('#layout')
 const cartButton = qs('#image_cart')
 const cartNum = 'cartnum'
 const itemStock = 'item_stock'
-const defaultDate = getItemData()
-const newDate = itemStockDate()
+const defaultData = getItemData()
+const newData = itemStockData()
 const itemNameList = []
 
 function itemDisplay() {
 
-  for(let item of defaultDate) {
+  for(let item of defaultData) {
     itemNameList.push(item.itemName)
-  }  
-
-  if(!newDate) {
+  }
+  
+  const changeData = newData ? newData : defaultData
     
-    for(let item of defaultDate) {
+  for(let item of changeData) {
 
-      if(item.itemName.includes(searchInput.value)) {
+    if(item.itemName.includes(searchInput.value)) {
 
-        const listItem = document.createElement('div')
-        listItem.setAttribute('class','items')
-        listItem.innerHTML = 
-        ` 
-        <img src="${item.image}"/>
-        <di>${item.itemName}</div>
-        <div>￥${item.price}</div>
-        `
-        items.appendChild(listItem)
+      const soldOutItem = [item.stock].includes(0)
+
+      const listItem = document.createElement('div')
+      listItem.setAttribute('class','items')
+      listItem.innerHTML = 
+      ` 
+      <img src="${item.image}"/>
+      <di>${item.itemName}</div>
+      <div>￥${item.price}</div>
+      `
+      items.appendChild(listItem)
+
+      if(soldOutItem) {
+
+        const soldOutMessage = document.createElement('div')
+        soldOutMessage.setAttribute('class','soldout_message')
+        soldOutMessage.innerText = 'sold out'
+        listItem.appendChild(soldOutMessage)
+        }else {
 
         listItem.addEventListener('click', () => {
           location.href =  `/detail/?id=${item.id}&imgsrc=${item.image}=${item.itemName}=${item.price}`
         })
       }
     }
-  }else {
-
-    for(let item of newDate) {
-
-      if(item.itemName.includes(searchInput.value)) {
-
-        const soldOutItem = [item.stock].includes(0)
-
-        const listItem = document.createElement('div')
-        listItem.setAttribute('class','items')
-        listItem.innerHTML = 
-        ` 
-        <img src="${item.image}"/>
-        <di>${item.itemName}</div>
-        <div>￥${item.price}</div>
-        `
-        items.appendChild(listItem)
-
-        if(soldOutItem) {
-
-          const soldOutMessage = document.createElement('div')
-          soldOutMessage.setAttribute('class','soldout_message')
-          soldOutMessage.innerText = 'sold out'
-          listItem.appendChild(soldOutMessage)
-        }else {
-
-          listItem.addEventListener('click', () => {
-            location.href =  `/detail/?id=${item.id}&imgsrc=${item.image}=${item.itemName}=${item.price}`
-          })
-        }
-      }    
-    }
   }
-}
-
-itemDisplay()
-
-searchButton.addEventListener('click', () => {
-
-  items.innerHTML = ''
-
-  itemDisplay()
 
   if(!itemNameList.some(elem => elem.includes(searchInput.value))) {
     const noItemDisplay = document.createElement('span')
@@ -85,7 +54,15 @@ searchButton.addEventListener('click', () => {
     noItemDisplay.innerText = '検索条件に該当する商品がありません'
     items.appendChild(noItemDisplay) 
   }
+}
+  
+itemDisplay()
 
+searchButton.addEventListener('click', () => {
+
+  items.innerHTML = ''
+
+  itemDisplay()
 })
 
 function getCartNum() {
@@ -102,7 +79,7 @@ function getCartNum() {
 
 getCartNum()
 
-function itemStockDate() {
+function itemStockData() {
 
   const date = localStorage.getItem(itemStock)
 
