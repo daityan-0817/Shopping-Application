@@ -1,3 +1,7 @@
+body {
+    overflow-x: hidden;
+}
+
 .layout {
     width: 920px;
     margin-top: 42px;
@@ -9,7 +13,7 @@
     width: 145px;
     height: 145px;
     position: relative;
-    right: 20px;
+    left: 10px;
     top: 10px;
     background-color: #fff;
     border:none;
@@ -20,14 +24,14 @@
     height: 19px;
     position: relative;
     top: 120px;
-    left: 610px;
+    left: 620px;
 }
 
 .name_text {
     height: 36px;
     position: relative;
     bottom: 330px;
-    margin-left: 830px;
+    margin-left: 845px;
     font-family: sans-serif;
     font-size: 26px;
     font-weight: 400;
@@ -39,7 +43,7 @@
     width: 35px;
     height: 25px;
     position: relative;
-    left: 830px;
+    left: 845px;
     bottom: 290px;
     font-weight: 400px;
     font-size: 18px;
@@ -50,7 +54,7 @@
     width: 35px;
     height: 25px;
     position: relative;
-    left: 830px;
+    left: 845px;
     bottom: 300px;
     font-weight: 400px;
     font-size: 18px;
@@ -61,7 +65,7 @@
     width: 167px;
     height: 39px;
     position: relative;
-    left: 825px;
+    left: 845px;
     bottom: 320px;
     font-weight: 500;
     font-size: 23px;
@@ -71,7 +75,7 @@
     width: 80px;
     height: 45px;
     position: relative;
-    left: 950px;
+    left: 980px;
     bottom: 320px;
     border-radius: 10px;
 }
@@ -80,14 +84,14 @@
     width: 80px;
     height: 45px;
     position: relative;
-    left: 950px;
+    left: 980px;
     bottom: 330px;
     border-radius: 10px;
 }
 
 .image_cart {
     position: relative;
-    left: 635px;
+    left: 650px;
     top: 55px;
     border: none;
     background-color: #fff;
@@ -98,7 +102,7 @@
     height: 10px;
     position: relative;
     top: 95px;
-    left: 613px;
+    left: 623px;
     padding: 5px 5px 5px 5px;
     border: 2px solid #333;
     border-radius: 50%;
@@ -114,25 +118,28 @@
 .border {
     width: 920px;
     position: relative;
-    left: 250px;
+    left: 270px;
     top: 10px;
     border: 1px solid #656565;
 }
 
-#img img{
-    width: 448px;
-    height: 448px;
+#img {
     position: relative;
     top: 70px;
-    left: 250px;
+    left: 270px;
     border-radius: 10px;
+}
+
+#img img {
+    width: 448px;
+    height: 448px;
 }
 
 #cart_button {
     width: 330px;
     height: 70px;
     position: relative;
-    left: 830px;
+    left: 850px;
     bottom: 300px;
     background-color: #deb089;
     color: #fff;
@@ -148,7 +155,7 @@
     width: 920px;
     position: relative;
     bottom: 50px;
-    left: 250px;
+    left: 270px;
     border: 1px solid #656565;
 }
 
@@ -157,7 +164,7 @@
     height: 145px;
     position: relative;
     top: 10px;
-    left: 650px;
+    left: 690px;
 }
 
 .content6 {
@@ -165,10 +172,180 @@
     height: 16px;
     position: relative;
     top: 50px;
-    left: 580px;
+    left: 630px;
     font-weight: 400;
     font-size: 12px;
     font-family: sans-serif;
+}
+
+@media all and (max-width: 1440px) {
+
+    .border {
+        position: relative;
+        left: 260px;
+    }
+
+    .decoration {
+        position: relative;
+        left: 0px;
+    }
+
+    .shoppingcart_text {
+        position: relative;
+        left: 610px;
+    }
+
+    .image_cart {
+        position: relative;
+        left: 640px;
+    }
+
+    .num_cart {
+        position: relative;
+        left: 614px;
+    }
+
+    #img {
+        width: 450px;
+        position: relative;
+        left: 260px;
+    }
+
+    .name_text {
+        width: 200px;
+        position: relative;
+        left: 10px;
+    }
+
+    .size_text {
+        position: relative;
+        left: 840px;
+    }
+
+    .numdisplay_size {
+        position: relative;
+        left: 960px
+    }
+
+    .quantity_text {
+        position: relative;
+        left: 840px;
+    }
+
+    .numdisplay_quantity {
+        position: relative;
+        left: 960px;
+    }
+
+    .price_text {
+        position: relative;
+        bottom: 300px;
+        left: 840px;
+    }
+
+    #cart_button {
+        position: relative;
+        left: 840px;
+    }
+
+    .border2 {
+        position: relative;
+        left: 260px;
+    }
+
+    .decoration2 {
+        position: relative;
+        left: 650px;
+    }
+
+    .content6 {
+        position: relative;
+        left: 600px;
+    }
+}
+
+@media all and (max-width: 1356px) {
+
+    .border {
+        position: relative;
+        left: 220px;
+    }
+
+    .decoration {
+        position: relative;
+        left: -30px;
+    }
+
+    .shoppingcart_text {
+        position: relative;
+        left: 570px;
+    }
+
+    .image_cart {
+        position: relative;
+        left: 600px;
+    }
+
+    .num_cart {
+        position: relative;
+        left: 575px;
+    }
+
+    #img {
+        position: relative;
+        left: 220px;
+    }
+
+    .name_text {
+        position: relative;
+        left: -20px;
+    }
+
+    .size_text {
+        position: relative;
+        left: 810px;
+    }
+
+    .numdisplay_size {
+        position: relative;
+        left: 930px
+    }
+
+    .quantity_text {
+        position: relative;
+        left: 810px;
+    }
+
+    .numdisplay_quantity {
+        position: relative;
+        left: 930px;
+    }
+
+    .price_text {
+        position: relative;
+        left: 810px;
+    }
+
+    #cart_button {
+        position: relative;
+        bottom: 280px;
+        left: 810px;
+    }
+
+    .border2 {
+        position: relative;
+        left: 220px;
+    }
+
+    .decoration2 {
+        position: relative;
+        left: 620px;
+    }
+
+    .content6 {
+        position: relative;
+        left: 560px;
+    }
 }
 
 @media all and (max-width: 1280px) {
@@ -180,12 +357,12 @@
 
     .decoration {
         position: relative;
-        right: 120px;
+        left: -80px;
     }
 
     .shoppingcart_text {
         position: relative;
-        left: 480px;
+        left: 530px;
     }
 
     .image_cart {
@@ -195,17 +372,17 @@
 
     .num_cart {
         position: relative;
-        left: 537px;
+        left: 534px;
     }
 
-    #img img {
+    #img {
         position: relative;
         left: 180px;
     }
 
     .name_text {
         position: relative;
-        right: 60px;
+        left: -60px;
     }
 
     .size_text {
@@ -254,41 +431,41 @@
     }
 }
 
-@media all and (max-width: 1024px) {
+@media all and (max-width: 1240px) {
 
     .border {
         position: relative;
-        left: 150px;
+        left: 165px;
     }
 
     .decoration {
         position: relative;
-        right: 140px;
+        left: -80px;
     }
 
     .shoppingcart_text {
         position: relative;
-        left: 430px;
+        left: 520px;
     }
 
     .image_cart {
         position: relative;
-        left: 530px;
+        left: 543px;
     }
 
     .num_cart {
         position: relative;
-        left: 508px;
+        left: 518px;
     }
 
-    #img img {
+    #img {
         position: relative;
-        left: 150px;
+        left: 165px;
     }
 
     .name_text {
         position: relative;
-        right: 80px;
+        left: -90px;
     }
 
     .size_text {
@@ -298,7 +475,7 @@
 
     .numdisplay_size {
         position: relative;
-        left: 850px;
+        left: 890px
     }
 
     .quantity_text {
@@ -308,12 +485,100 @@
 
     .numdisplay_quantity {
         position: relative;
-        left: 850px;
+        left: 890px;
     }
 
     .price_text {
         position: relative;
         left: 750px;
+    }
+
+    #cart_button {
+        position: relative;
+        left: 750px;
+    }
+
+    .border2 {
+        position: relative;
+        left: 165px;
+    }
+
+    .decoration2 {
+        position: relative;
+        left: 560px;
+    }
+
+    .content6 {
+        position: relative;
+        left: 500px;
+    }
+}
+
+@media all and (max-width: 1210px) {
+
+    .border {
+        position: relative;
+        left: 150px;
+    }
+
+    .decoration {
+        position: relative;
+        left: -100px;
+    }
+
+    .shoppingcart_text {
+        position: relative;
+        left: 500px;
+    }
+
+    .image_cart {
+        position: relative;
+        left: 528px;
+    }
+
+    .num_cart {
+        position: relative;
+        left: 503px;
+    }
+
+    #img {
+        position: relative;
+        left: 150px;
+    }
+
+    .name_text {
+        position: relative;
+        left: -110px;
+    }
+
+    .size_text {
+        position: relative;
+        left: 730px;
+    }
+
+    .numdisplay_size {
+        position: relative;
+        left: 870px
+    }
+
+    .quantity_text {
+        position: relative;
+        left: 730px;
+    }
+
+    .numdisplay_quantity {
+        position: relative;
+        left: 870px;
+    }
+
+    .price_text {
+        position: relative;
+        left: 730px;
+    }
+
+    #cart_button {
+        position: relative;
+        left: 730px;
     }
 
     .border2 {
@@ -323,55 +588,355 @@
 
     .decoration2 {
         position: relative;
-        left: 550px;
+        left: 560px;
     }
 
     .content6 {
         position: relative;
         left: 500px;
     }
+}
+
+@media all and (max-width: 1202px) {
+
+    .border {
+        position: relative;
+        left: 140px;
+    }
+
+    .decoration {
+        position: relative;
+        left: -120px;
+    }
+
+    .shoppingcart_text {
+        position: relative;
+        left: 490px;
+    }
+
+    .image_cart {
+        position: relative;
+        left: 515px;
+    }
+
+    .num_cart {
+        position: relative;
+        left: 489px;
+    }
+
+    #img {
+        position: relative;
+        left: 140px;
+    }
+
+    .name_text {
+        position: relative;
+        left: -120px;
+    }
+
+    .size_text {
+        position: relative;
+        left: 720px;
+    }
+
+    .numdisplay_size {
+        position: relative;
+        left: 860px
+    }
+
+    .quantity_text {
+        position: relative;
+        left: 720px;
+    }
+
+    .numdisplay_quantity {
+        position: relative;
+        left: 860px;
+    }
+
+    .price_text {
+        position: relative;
+        left: 720px;
+    }
 
     #cart_button {
         position: relative;
-        left: 750px;
+        left: 720px;
+    }
+
+    .border2 {
+        position: relative;
+        left: 140px;
+    }
+
+    .decoration2 {
+        position: relative;
+        left: 530px;
+    }
+
+    .content6 {
+        position: relative;
+        left: 470px;
+    }
+}
+
+@media all and (max-width: 1140px) {
+
+    .border {
+        position: relative;
+        left: 135px;
+    }
+
+    .shoppingcart_text {
+        position: relative;
+        left: 480px;
+    }
+
+    .image_cart {
+        position: relative;
+        left: 512px;
+    }
+
+    .num_cart {
+        position: relative;
+        left: 485px;
+    }
+
+    .border2 {
+        position: relative;
+        left: 135px;
+    }
+
+    #img {
+        position: relative;
+        left: 135px;
+    }
+}
+
+@media all and (max-width: 1100px) {
+
+    .border {
+        position: relative;
+        left: 130px;
+    }
+
+    .decoration {
+        position: relative;
+        left: -125px;
+    }
+
+    .shoppingcart_text {
+        position: relative;
+        left: 480px;
+    }
+
+    .image_cart {
+        position: relative;
+        left: 508px;
+    }
+
+    .num_cart {
+        position: relative;
+        left: 482px;
+    }
+
+    #img {
+        position: relative;
+        left: 130px;
+    }
+
+    .name_text {
+        position: relative;
+        left: -140px;
+    }
+
+    .size_text {
+        position: relative;
+        left: 710px;
+    }
+
+    .numdisplay_size {
+        position: relative;
+        left: 830px;
+    }
+
+    .quantity_text {
+        position: relative;
+        left: 710px;
+    }
+
+    .numdisplay_quantity {
+        position: relative;
+        left: 830px;
+    }
+
+    .price_text {
+        position: relative;
+        left: 710px;
+    }
+
+    #cart_button {
+        position: relative;
+        left: 710px;
+    }
+
+    .border2 {
+        position: relative;
+        left: 130px;
+    }
+
+    .decoration2 {
+        position: relative;
+        left: 550px;
+    }
+
+    .content6 {
+        position: relative;
+        left: 480px;
+    }
+}
+
+@media all and (max-width: 1050px) {
+
+    #img {
+        position: relative;
+        left: 130px;
+    }
+
+    .decoration2 {
+        position: relative;
+        left: 570px;
+    }
+
+    .content6 {
+        position: relative;
+        left: 505px;
+    }
+}
+
+@media all and (max-width: 1024px) {
+
+    .border {
+        position: relative;
+        left: 130px;
+    }
+
+    .decoration {
+        position: relative;
+        left: -130px;
+    }
+
+    .shoppingcart_text {
+        position: relative;
+        left: 475px;
+    }
+
+    .image_cart {
+        position: relative;
+        left: 510px;
+    }
+
+    .num_cart {
+        position: relative;
+        left: 483px;
+    }
+
+    #img {
+        position: relative;
+        left: 130px;
+    }
+
+    .name_text {
+        position: relative;
+        right: 130px;
+    }
+
+    .size_text {
+        position: relative;
+        left: 700px;
+    }
+
+    .numdisplay_size {
+        position: relative;
+        left: 850px;
+    }
+
+    .quantity_text {
+        position: relative;
+        left: 700px;
+    }
+
+    .numdisplay_quantity {
+        position: relative;
+        left: 850px;
+    }
+
+    .price_text {
+        position: relative;
+        left: 700px;
+    }
+
+    .border2 {
+        position: relative;
+        left: 130px;
+    }
+
+    .decoration2 {
+        position: relative;
+        left: 550px;
+    }
+
+    .content6 {
+        position: relative;
+        left: 490px;
+    }
+
+    #cart_button {
+        position: relative;
+        left: 700px;
     }
 }
 
 @media all and (max-width: 1024px) and (min-height: 1366px) {
 
+    .layout {
+        width: 700px
+    }
+
     .border {
         position: relative;
-        left: 60px;
+        left: 50px;
     }
 
     .decoration {
         position: relative;
-        right: 230px;
+        left: -210px;
     }
 
     .shoppingcart_text {
         position: relative;
-        left: 390px;
+        left: 400px;
     }
 
     .image_cart {
         position: relative;
-        left: 440px;
+        left: 435px;
     }
 
     .num_cart {
         position: relative;
-        left: 419px;
+        left: 412px;
     }
 
-    #img img {
+    #img {
+        width: 450px;
         position: relative;
-        left: 60px;
+        left: 50px;
     }
 
     .name_text {
         position: relative;
-        right: 200px;
+        left: -200px;
     }
 
     .size_text {
@@ -402,24 +967,187 @@
     .border2 {
         position: relative;
         top: 100px;
-        left: 60px;
+        left: 50px;
     }
 
     .decoration2 {
         position: relative;
         top: 150px;
-        left: 480px;
+        left: 450px;
     }
 
     .content6 {
         position: relative;
-        top: 230px;
-        left: 420px;
+        top: 240px;
+        left: 380px;
     }
 
     #cart_button {
         position: relative;
         left: 630px;
+    }
+}
+
+@media all and (max-width: 1002px) {
+
+    .name_text {
+        width: 200px;
+    }
+
+    .shoppingcart_text {
+        position: relative;
+        left: 480px;
+    }
+
+    .num_cart {
+        position: relative;
+        left: 484px;
+    }
+}
+
+@media all and (max-width: 990px) {
+
+    .border {
+        position: relative;
+        left: 130px;
+    }
+
+    .decoration {
+        position: relative;
+        left: -130px;
+    }
+
+    .shoppingcart_text {
+        position: relative;
+        left: 480px;
+    }
+
+    .image_cart {
+        position: relative;
+        left: 509px;
+    }
+
+    #img {
+        position: relative;
+        left: 130px;
+    }
+
+    .name_text {
+        position: relative;
+        left: -140px;
+    }
+
+    .size_text {
+        position: relative;
+        left: 710px;
+    }
+
+    .quantity_text {
+        position: relative;
+        left: 710px;
+    }
+
+    .price_text {
+        position: relative;
+        left: 710px;
+    }
+
+    #cart_button {
+        position: relative;
+        left: 710px;
+    }
+
+    .num_cart {
+        position: relative;
+        left: 483px;
+    }
+
+    .border2 {
+        position: relative;
+        left: 130px;
+    }
+
+    .decoration2 {
+        position: relative;
+        left: 560px;
+    }
+
+    .content6 {
+        position: relative;
+        left: 500px;
+    }
+}
+
+@media all and (max-width: 928px) {
+
+    .border {
+        position: relative;
+        left: 130px;
+    }
+
+    .decoration {
+        position: relative;
+        left: -130px;
+    }
+
+    .shoppingcart_text {
+        position: relative;
+        left: 480px;
+    }
+
+    .image_cart {
+        position: relative;
+        left: 508px;
+    }
+
+    #img {
+        position: relative;
+        left: 130px;
+    }
+
+    .name_text {
+        position: relative;
+        left: -140px;
+    }
+
+    .size_text {
+        position: relative;
+        left: 710px;
+    }
+
+    .quantity_text {
+        position: relative;
+        left: 710px;
+    }
+
+    .price_text {
+        position: relative;
+        left: 710px;
+    }
+
+    #cart_button {
+        position: relative;
+        left: 710px;
+    }
+
+    .num_cart {
+        position: relative;
+        left: 483px;
+    }
+
+    .border2 {
+        position: relative;
+        left: 130px;
+    }
+
+    .decoration2 {
+        position: relative;
+        left: 550px;
+    }
+
+    .content6 {
+        position: relative;
+        left: 490px;
     }
 }
 
@@ -436,25 +1164,25 @@
 
     .decoration {
         position: relative;
-        right: 265px;
+        left: -245px;
     }
 
     .shoppingcart_text {
         position: relative;
-        left: 325px;
+        left: 375px;
     }
 
     .image_cart {
         position: relative;
-        left: 405px;
+        left: 410px;
     }
 
     .num_cart {
         position: relative;
-        left: 383px;
+        left: 385px;
     }
 
-    #img img {
+    #img {
         position: relative;
         top: 200px;
         left: 25px;
@@ -464,7 +1192,7 @@
         width: 180px;
         position: relative;
         bottom: 220px;
-        right: 230px;
+        left: -230px;
     }
 
     .size_text {
@@ -513,17 +1241,17 @@
     .decoration2 {
         position: relative;
         top: 350px;
-        left: 400px;
+        left: 440px;
     }
 
     .content6 {
         position: relative;
         top: 400px;
-        left: 340px;
+        left: 380px;
     }
 }
 
-@media all and (max-width: 854px) {
+@media all and (max-width: 856px) {
     
     .layout {
         width: 534px;
@@ -533,7 +1261,7 @@
     
     .decoration {
         position: relative;
-        right: 160px;
+        left: -120px;
         top: 0px;
         background-color: #fff;
         border:none;
@@ -552,7 +1280,7 @@
         width: 300px;
         position: relative;
         top: 110px;
-        right: 520px;
+        left: -500px;
         font-family: sans-serif;
         font-size: 26px;
         font-weight: 400;
@@ -564,8 +1292,7 @@
         width: 35px;
         height: 25px;
         position: relative;
-        left: 0px;
-        left: 280px;
+        left: 320px;
         top: 150px;
         font-weight: 400px;
         font-size: 18px;
@@ -576,8 +1303,7 @@
         width: 35px;
         height: 25px;
         position: relative;
-        left: 0px;
-        left: 280px;
+        left: 320px;
         top: 150px;
         font-weight: 400px;
         font-size: 18px;
@@ -588,8 +1314,7 @@
         width: 167px;
         height: 39px;
         position: relative;
-        left: 0px;
-        left: 320px;
+        left: 350px;
         top: 150px;
         font-weight: 500;
         font-size: 23px;
@@ -599,8 +1324,7 @@
         width: 80px;
         height: 45px;
         position: relative;
-        left: 0px;
-        left: 400px;
+        left: 460px;
         top: 120px;
         border-radius: 10px;
     }
@@ -609,8 +1333,7 @@
         width: 80px;
         height: 45px;
         position: relative;
-        left: 0px;
-        left: 400px;
+        left: 460px;
         top: 110px;
         border-radius: 10px;
     }
@@ -620,7 +1343,7 @@
         top: 0px;
         left: 0px;
         top: 40px;
-        left: 210px;
+        left: 246px;
         border: none;
         background-color: #fff;
     }
@@ -629,7 +1352,7 @@
         width: 10px;
         height: 10px;
         position: relative;
-        left: 190px;
+        left: 220px;
         top: 62px;
         padding: 5px 5px 5px 5px;
         border: 2px solid #333;
@@ -646,26 +1369,28 @@
     .border {
         width: 534px;
         position: relative;
-        left: 120px;
+        left: 160px;
         top: 10px;
         border: 1px solid #656565;
         }
     
-    #img img{
-        width: 348px;
-        height: 348px;
+    #img {
         position: relative;
         top: 70px;
-        left: 230px;
+        left: 250px;
         border-radius: 10px;
-        }
+    }
+
+    #img img {
+        width: 348px;
+        height: 348px;
+    }
         
     #cart_button {
         width: 348px;
         height: 70px;
         position: relative;
-        left: 0px;
-        left: 230px;
+        left: 260px;
         top: 200px;
         background-color: #deb089;
         color: #fff;
@@ -677,8 +1402,311 @@
         width: 534px;
         position: relative;
         top: 380px;
-        left: 120px;
+        left: 150px;
         border: 1px solid #656565;
+    }
+    
+    .decoration2 {
+        width: 100px;
+        height: 100px;
+        position: relative;
+        top: 450px;
+        left: 380px;
+    }
+    
+    .content6 {
+        width: 292px;
+        height: 16px;
+        position: relative;
+        top: 480px;
+        left: 300px;
+        font-weight: 400;
+        font-size: 12px;
+        font-family: sans-serif;
+    }
+}
+
+@media all and (max-width: 830px) {
+
+    .decoration {
+        position: relative;
+        left: -130px;
+        top: -10px;
+    }
+    
+    .name_text {
+        width: 270px;
+        position: relative;
+        top: 110px;
+        left: -510px;
+    }
+    
+    .size_text {
+        position: relative;
+        left: 300px;
+        top: 150px;
+    }
+    
+    .quantity_text {
+        position: relative;
+        left: 300px;
+        top: 150px;
+    }
+    
+    .price_text {
+        position: relative;
+        left: 350px;
+        top: 150px;
+    }
+    
+    .numdisplay_size {
+        position: relative;
+        left: 430px;
+        top: 120px;
+    }
+    
+    .numdisplay_quantity {
+        position: relative;
+        left: 0px;
+        left: 430px;
+        top: 110px;
+    }
+
+    .image_cart {
+        position: relative;
+        top: 40px;
+        left: 235px;
+    }
+    
+    .num_cart {
+        position: relative;
+        left: 210px;
+        top: 62px;
+    }
+    
+    .border {
+        position: relative;
+        left: 150px;
+        top: 10px;
+    }
+    
+    #img {
+        width: 348px;
+        position: relative;
+        top: 70px;
+        left: 250px;
+    }
+        
+    #cart_button {
+        position: relative;
+        left: 250px;
+        top: 200px;
+    }
+
+    .border2 {
+        position: relative;
+        top: 380px;
+        left: 150px;
+    }
+    
+    .decoration2 {
+        position: relative;
+        top: 450px;
+        left: 380px;
+    }
+    
+    .content6 {
+        position: relative;
+        top: 500px;
+        left: 290px;
+    }
+}
+
+@media all and (max-width: 820px) {
+
+    .decoration {
+        position: relative;
+        left: -140px;
+        top: -10px;
+    }
+    
+    .name_text {
+        width: 200px;
+        position: relative;
+        top: 110px;
+        left: -500px;
+    }
+    
+    .size_text {
+        position: relative;
+        left: 300px;
+        top: 150px;
+    }
+    
+    .quantity_text {
+        position: relative;
+        left: 300px;
+        top: 150px;
+    }
+    
+    .price_text {
+        position: relative;
+        left: 340px;
+        top: 150px;
+    }
+    
+    .numdisplay_size {
+        position: relative;
+        left: 430px;
+        top: 120px;
+    }
+    
+    .numdisplay_quantity {
+        position: relative;
+        left: 0px;
+        left: 430px;
+        top: 110px;
+    }
+
+    .image_cart {
+        position: relative;
+        top: 40px;
+        left: 227px;
+    }
+    
+    .num_cart {
+        position: relative;
+        left: 201px;
+        top: 62px;
+    }
+    
+    .border {
+        position: relative;
+        left: 140px;
+        top: 10px;
+    }
+    
+    #img {
+        width: 348px;
+        position: relative;
+        top: 70px;
+        left: 230px;
+    }
+        
+    #cart_button {
+        position: relative;
+        left: 240px;
+        top: 200px;
+    }
+
+    .border2 {
+        position: relative;
+        top: 380px;
+        left: 140px;
+    }
+    
+    .decoration2 {
+        position: relative;
+        top: 450px;
+        left: 360px;
+    }
+    
+    .content6 {
+        position: relative;
+        top: 500px;
+        left: 270px;
+    }
+}
+
+@media all and (max-width: 800px){
+    
+    .decoration {
+        position: relative;
+        left: -150px;
+        top: -10px;
+    }
+
+    .decoration img {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .name_text {
+        width: 200px;
+        position: relative;
+        top: 110px;
+        left: -520px;
+    }
+    
+    .size_text {
+        position: relative;
+        left: 300px;
+        top: 150px;
+    }
+    
+    .quantity_text {
+        position: relative;
+        left: 300px;
+        top: 150px;
+    }
+    
+    .price_text {
+        position: relative;
+        left: 330px;
+        top: 150px;
+    }
+    
+    .numdisplay_size {
+        position: relative;
+        left: 430px;
+        top: 120px;
+    }
+    
+    .numdisplay_quantity {
+        position: relative;
+        left: 430px;
+        top: 110px;
+    }
+
+    .image_cart {
+        position: relative;
+        top: 40px;
+        left: 216px;
+    }
+    
+    .num_cart {
+        position: relative;
+        left: 191px;
+        top: 62px;
+    }
+    
+    .border {
+        position: relative;
+        left: 130px;
+        top: 10px;
+    }
+    
+    #img {
+        position: relative;
+        top: 70px;
+        left: 220px;
+    }
+
+    #img img {
+        width: 348px;
+        height: 348px;
+    }
+        
+    #cart_button {
+        position: relative;
+        left: 230px;
+        top: 200px;
+    }
+
+    .border2 {
+        position: relative;
+        top: 380px;
+        left: 130px;
     }
     
     .decoration2 {
@@ -686,37 +1714,875 @@
         top: 450px;
         left: 350px;
     }
+    
+    .content6 {
+        position: relative;
+        top: 500px;
+        left: 260px;
+    }
+}
 
-    .decoration2 img {
+@media all and (max-width: 712px) {
+
+    .layout {
+        width: 400px;
+    }
+
+    .decoration {
+        position: relative;
+        left: -190px;
+        top: 0p;
+    }
+
+    .decoration img {
         width: 100px;
         height: 100px;
     }
     
-    .content6 {
-        width: 292px;
-        height: 16px;
+    .name_text {
+        width: 200px;
+        position: relative;
+        top: 110px;
+        left: -560px;
+    }
+    
+    .size_text {
+        position: relative;
+        left: 250px;
+        top: 150px;
+    }
+    
+    .quantity_text {
+        position: relative;
+        left: 250px;
+        top: 150px;
+    }
+    
+    .price_text {
+        position: relative;
+        left: 290px;
+        top: 150px;
+    }
+    
+    .numdisplay_size {
+        position: relative;
+        left: 380px;
+        top: 120px;
+    }
+    
+    .numdisplay_quantity {
+        position: relative;
+        left: 380px;
+        top: 110px;
+    }
+
+    .image_cart {
+        position: relative;
+        top: 40px;
+        left: 175px;
+    }
+    
+    .num_cart {
+        position: relative;
+        left: 150px;
+        top: 62px;
+    }
+    
+    .border {
+        position: relative;
+        left: 90px;
+        top: 10px;
+    }
+    
+    #img {
+        position: relative;
+        top: 70px;
+        left: 180px;
+    }
+
+    #img img {
+        width: 348px;
+        height: 348px;
+    }
+        
+    #cart_button {
+        position: relative;
+        left: 190px;
+        top: 200px;
+    }
+
+    .border2 {
+        position: relative;
+        top: 380px;
+        left: 90px;
+    }
+    
+    .decoration2 {
         position: relative;
         top: 450px;
-        left: 260px;
-        font-weight: 400;
-        font-size: 12px;
-        font-family: sans-serif;
+        left: 320px;
+    }
+    
+    .content6 {
+        position: relative;
+        top: 500px;
+        left: 230px;
     }
 }
 
-@media all and (max-width: 430px) {
+@media all and (max-width: 696px) {
+
+    .decoration {
+        position: relative;
+        left: -200px;
+        top: -10px;
+    }
+
+    .decoration img {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .name_text {
+        position: relative;
+        top: 110px;
+        left: -570px;
+    }
+    
+    .size_text {
+        position: relative;
+        left: 240px;
+        top: 150px;
+    }
+    
+    .quantity_text {
+        position: relative;
+        left: 240px;
+        top: 150px;
+    }
+    
+    .price_text {
+        position: relative;
+        left: 270px;
+        top: 150px;
+    }
+    
+    .numdisplay_size {
+        position: relative;
+        left: 390px;
+        top: 120px;
+    }
+    
+    .numdisplay_quantity {
+        position: relative;
+        left: 390px;
+        top: 110px;
+    }
+
+    .image_cart {
+        position: relative;
+        top: 40px;
+        left: 166px;
+    }
+    
+    .num_cart {
+        position: relative;
+        left: 141px;
+        top: 62px;
+    }
+    
+    .border {
+        position: relative;
+        left: 80px;
+        top: 10px;
+    }
+    
+    #img {
+        position: relative;
+        top: 70px;
+        left: 180px;
+    }
+
+    #img img {
+        width: 348px;
+        height: 348px;
+    }
+        
+    #cart_button {
+        position: relative;
+        left: 180px;
+        top: 200px;
+    }
+
+    .border2 {
+        position: relative;
+        top: 380px;
+        left: 80px;
+    }
+    
+    .decoration2 {
+        position: relative;
+        top: 450px;
+        left: 310px;
+    }
+    
+    .content6 {
+        position: relative;
+        top: 500px;
+        left: 220px;
+    }
+}
+
+@media all and (max-width: 680px) {
+
+    .decoration {
+        position: relative;
+        left: -210px;
+        top: -10px;
+    }
+
+    .decoration img {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .name_text {
+        position: relative;
+        top: 110px;
+        left: -570px;
+    }
+    
+    .size_text {
+        position: relative;
+        left: 230px;
+        top: 150px;
+    }
+    
+    .quantity_text {
+        position: relative;
+        left: 230px;
+        top: 150px;
+    }
+    
+    .price_text {
+        position: relative;
+        left: 290px;
+        top: 150px;
+    }
+    
+    .numdisplay_size {
+        position: relative;
+        left: 380px;
+        top: 120px;
+    }
+    
+    .numdisplay_quantity {
+        position: relative;
+        left: 380px;
+        top: 110px;
+    }
+
+    .image_cart {
+        position: relative;
+        top: 40px;
+        left: 160px;
+    }
+    
+    .num_cart {
+        position: relative;
+        left: 135px;
+        top: 62px;
+    }
+    
+    .border {
+        position: relative;
+        left: 75px;
+        top: 10px;
+    }
+    
+    #img {
+        position: relative;
+        top: 70px;
+        left: 180px;
+    }
+
+    #img img {
+        width: 348px;
+        height: 348px;
+    }
+        
+    #cart_button {
+        position: relative;
+        left: 180px;
+        top: 200px;
+    }
+
+    .border2 {
+        position: relative;
+        top: 380px;
+        left: 75px;
+    }
+    
+    .decoration2 {
+        position: relative;
+        top: 450px;
+        left: 310px;
+    }
+    
+    .content6 {
+        position: relative;
+        top: 500px;
+        left: 220px;
+    }
+}
+
+@media all and (max-width: 670px) {
+
+    .decoration {
+        position: relative;
+        left: -210px;
+        top: -10px;
+    }
+
+    .decoration img {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .name_text {
+        position: relative;
+        top: 110px;
+        left: -570px;
+    }
+    
+    .size_text {
+        position: relative;
+        left: 230px;
+        top: 150px;
+    }
+    
+    .quantity_text {
+        position: relative;
+        left: 230px;
+        top: 150px;
+    }
+    
+    .price_text {
+        position: relative;
+        left: 270px;
+        top: 150px;
+    }
+    
+    .numdisplay_size {
+        position: relative;
+        left: 380px;
+        top: 120px;
+    }
+    
+    .numdisplay_quantity {
+        position: relative;
+        left: 380px;
+        top: 110px;
+    }
+
+    .image_cart {
+        position: relative;
+        top: 40px;
+        left: 150px;
+    }
+    
+    .num_cart {
+        position: relative;
+        left: 126px;
+        top: 62px;
+    }
+    
+    .border {
+        position: relative;
+        left: 65px;
+        top: 10px;
+    }
+    
+    #img {
+        position: relative;
+        top: 70px;
+        left: 170px;
+    }
+
+    #img img {
+        width: 348px;
+        height: 348px;
+    }
+        
+    #cart_button {
+        position: relative;
+        left: 170px;
+        top: 200px;
+    }
+
+    .border2 {
+        position: relative;
+        top: 380px;
+        left: 65px;
+    }
+    
+    .decoration2 {
+        position: relative;
+        top: 450px;
+        left: 290px;
+    }
+    
+    .content6 {
+        position: relative;
+        top: 500px;
+        left: 210px;
+    }
+}
+
+@media all and (max-width: 640px) {
+
+    .decoration {
+        position: relative;
+        left: -220px;
+        top: -10px;
+    }
+
+    .decoration img {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .name_text {
+        position: relative;
+        top: 110px;
+        left: -590px;
+    }
+    
+    .size_text {
+        position: relative;
+        left: 220px;
+        top: 150px;
+    }
+    
+    .quantity_text {
+        position: relative;
+        left: 220px;
+        top: 150px;
+    }
+    
+    .price_text {
+        position: relative;
+        left: 270px;
+        top: 150px;
+    }
+    
+    .numdisplay_size {
+        position: relative;
+        left: 380px;
+        top: 120px;
+    }
+    
+    .numdisplay_quantity {
+        position: relative;
+        left: 380px;
+        top: 110px;
+    }
+
+    .image_cart {
+        position: relative;
+        top: 40px;
+        left: 145px;
+    }
+    
+    .num_cart {
+        position: relative;
+        left: 120px;
+        top: 62px;
+    }
+    
+    .border {
+        position: relative;
+        left: 60px;
+        top: 10px;
+    }
+    
+    #img {
+        position: relative;
+        top: 70px;
+        left: 160px;
+    }
+
+    #img img {
+        width: 348px;
+        height: 348px;
+    }
+        
+    #cart_button {
+        position: relative;
+        left: 170px;
+        top: 200px;
+    }
+
+    .border2 {
+        position: relative;
+        top: 380px;
+        left: 60px;
+    }
+    
+    .decoration2 {
+        position: relative;
+        top: 450px;
+        left: 290px;
+    }
+    
+    .content6 {
+        position: relative;
+        top: 500px;
+        left: 200px;
+    }
+}
+
+@media all and (max-width: 600px) and (min-height: 960px) {
+
+    .layout {
+        width: 300px;
+    }
+
+    .decoration {
+        position: relative;
+        left: -270px;
+        top: 0px;
+    }
+
+    .decoration img {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .shoppingcart_text {
+        display: none;
+    }
+    
+    .name_text {
+        position: relative;
+        top: 110px;
+        left: -610px;
+    }
+    
+    .size_text {
+        position: relative;
+        left: 200px;
+        top: 150px;
+    }
+    
+    .quantity_text {
+        position: relative;
+        left: 200px;
+        top: 150px;
+    }
+    
+    .price_text {
+        position: relative;
+        left: 230px;
+        top: 150px;
+    }
+    
+    .numdisplay_size {
+        position: relative;
+        left: 350px;
+        top: 120px;
+    }
+    
+    .numdisplay_quantity {
+        position: relative;
+        left: 350px;
+        top: 110px;
+    }
+
+    .image_cart {
+        position: relative;
+        top: 40px;
+        left: 120px;
+    }
+    
+    .num_cart {
+        position: relative;
+        left: 95px;
+        top: 62px;
+    }
+    
+    .border {
+        position: relative;
+        left: 30px;
+        top: 10px;
+    }
+    
+    #img {
+        position: relative;
+        top: 70px;
+        left: 130px;
+    }
+
+    #img img {
+        width: 348px;
+        height: 348px;
+    }
+        
+    #cart_button {
+        position: relative;
+        left: 130px;
+        top: 200px;
+    }
+
+    .border2 {
+        position: relative;
+        top: 380px;
+        left: 30px;
+    }
+    
+    .decoration2 {
+        position: relative;
+        top: 450px;
+        left: 250px;
+    }
+    
+    .content6 {
+        position: relative;
+        top: 500px;
+        left: 160px;
+    }
+}
+
+@media all and (max-width: 599px) {
+
+    .decoration {
+        position: relative;
+        left: -215px;
+        top: -10px;
+    }
+
+    .decoration img {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .shoppingcart_text {
+        display: none;
+    }
+    
+    .name_text {
+        position: relative;
+        top: 110px;
+        left: -590px;
+    }
+    
+    .size_text {
+        position: relative;
+        left: 230px;
+        top: 150px;
+    }
+    
+    .quantity_text {
+        position: relative;
+        left: 230px;
+        top: 150px;
+    }
+    
+    .price_text {
+        position: relative;
+        left: 260px;
+        top: 150px;
+    }
+    
+    .numdisplay_size {
+        position: relative;
+        left: 360px;
+        top: 120px;
+    }
+    
+    .numdisplay_quantity {
+        position: relative;
+        left: 360px;
+        top: 110px;
+    }
+
+    .image_cart {
+        position: relative;
+        top: 40px;
+        left: 150px;
+    }
+    
+    .num_cart {
+        position: relative;
+        left: 126px;
+        top: 62px;
+    }
+    
+    .border {
+        position: relative;
+        left: 65px;
+        top: 10px;
+    }
+    
+    #img {
+        position: relative;
+        top: 70px;
+        left: 160px;
+    }
+
+    #img img {
+        width: 348px;
+        height: 348px;
+    }
+        
+    #cart_button {
+        position: relative;
+        left: 165px;
+        top: 190px;
+    }
+
+    .border2 {
+        position: relative;
+        top: 380px;
+        left: 65px;
+    }
+    
+    .decoration2 {
+        position: relative;
+        top: 450px;
+        left: 280px;
+    }
+    
+    .content6 {
+        position: relative;
+        top: 500px;
+        left: 200px;
+    }
+}
+
+@media all and (max-width: 540px) {
+
+    .layout {
+        width: 300px;
+    }
+
+    .decoration {
+        position: relative;
+        left: -270px;
+        top: -10px;
+    }
+
+    .decoration img {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .shoppingcart_text {
+        display: none;
+    }
+    
+    .name_text {
+        position: relative;
+        top: 110px;
+        left: -640px;
+    }
+    
+    .size_text {
+        position: relative;
+        left: 170px;
+        top: 150px;
+    }
+    
+    .quantity_text {
+        position: relative;
+        left: 170px;
+        top: 150px;
+    }
+    
+    .price_text {
+        position: relative;
+        left: 210px;
+        top: 150px;
+    }
+    
+    .numdisplay_size {
+        position: relative;
+        left: 300px;
+        top: 120px;
+    }
+    
+    .numdisplay_quantity {
+        position: relative;
+        left: 300px;
+        top: 110px;
+    }
+
+    .image_cart {
+        position: relative;
+        top: 40px;
+        left: 102px;
+    }
+    
+    .num_cart {
+        position: relative;
+        left: 77px;
+        top: 62px;
+    }
+    
+    .border {
+        position: relative;
+        left: 15px;
+        top: 10px;
+    }
+    
+    #img {
+        position: relative;
+        top: 70px;
+        left: 110px;
+    }
+
+    #img img {
+        width: 348px;
+        height: 348px;
+    }
+        
+    #cart_button {
+        position: relative;
+        left: 110px;
+        top: 200px;
+    }
+
+    .border2 {
+        position: relative;
+        top: 380px;
+        left: 15px;
+    }
+    
+    .decoration2 {
+        position: relative;
+        top: 450px;
+        left: 240px;
+    }
+    
+    .content6 {
+        position: relative;
+        top: 500px;
+        left: 150px;
+    }
+}
+
+@media all and (max-width: 470px) {
     
     .layout {
         width: 130px;
         height: 54px;
         display: flex;
-}
+    }
     
     .decoration {
         position: relative;
         top: -50px;
-        right: 0px;
-        right: 260px;
+        left: -200px;
         background-color: #fff;
         border: none;
     }
@@ -734,8 +2600,7 @@
         width: 280px;
         position: relative;
         top: 60px;
-        right: 0px;
-        right: 700px;
+        left: -680px;
         font-family: sans-serif;
         font-size: 26px;
         font-weight: 400;
@@ -747,8 +2612,7 @@
         width: 35px;
         height: 25px;
         position: relative;
-        left: 0px;
-        left: 100px;
+        left: 140px;
         top: 90px;
         font-weight: 400px;
         font-size: 18px;
@@ -759,8 +2623,7 @@
         width: 35px;
         height: 25px;
         position: relative;
-        left: 0px;
-        left: 100px;
+        left: 140px;
         top: 80px;
         font-weight: 400px;
         font-size: 18px;
@@ -771,8 +2634,7 @@
         width: 167px;
         height: 39px;
         position: relative;
-        left: 0px;
-        left: 140px;
+        left: 190px;
         top: 70px;
         font-weight: 500;
         font-size: 23px;
@@ -782,8 +2644,7 @@
         width: 80px;
         height: 45px;
         position: relative;
-        left: 0px;
-        left: 220px;
+        left: 270px;
         top: 60px;
         border-radius: 10px;
     }
@@ -792,16 +2653,15 @@
         width: 80px;
         height: 45px;
         position: relative;
-        left: 0px;
-        left: 220px;
+        left: 270px;
         top: 45px;
         border-radius: 10px;
     }
     
     .image_cart {
         position: absolute;
-        top: 60px;
-        left: 365px;
+        top: 58px;
+        left: 410px;
         border: none;
         background-color: #fff;
     }
@@ -815,8 +2675,8 @@
         width: 10px;
         height: 10px;
         position: relative;
-        left: 18px;
-        top: 3px;
+        left: 60px;
+        top: 0px;
         padding: 5px 7px 5px 7px;
         border: 2px solid #333;
         border-radius: 50%;
@@ -832,15 +2692,15 @@
     .border {
         width: 358px;
         position: relative;
-        left: 35px;
+        left: 85px;
         top: -5px;
         border: 1px solid #656565;
     }
     
     #img {
         position: relative;
-        top: -30px;
-        right: 95px;
+        top: 30px;
+        left: 180px;
         border-radius: 10px;
     }
 
@@ -853,7 +2713,7 @@
         width: 348px;
         height: 70px;
         position: relative;
-        left: 35px;
+        left: 90px;
         top: 100px;
         background-color: #deb089;
         color: #fff;
@@ -865,21 +2725,18 @@
         width: 358px;
         position: relative;
         top: 200px;
-        left: 35px;
+        left: 85px;
         border: 1px solid #656565;
     }
     
     .decoration2 {
         width: 54px;
         height: 54px;
-        position: relative;
-        top: 250px;
-        left: 190px;
-    }
-
-    .decoration2 img {
         width: 54px;
         height: 54px;
+        position: relative;
+        top: 250px;
+        left: 240px;
     }
     
     .content6 {
@@ -887,14 +2744,220 @@
         height: 16px;
         position: relative;
         top: 300px;
-        left: 80px;
+        left: 130px;
         font-weight: 400;
         font-size: 12px;
         font-family: sans-serif; 
     }
 }
 
-@media all and (max-width: 390px) {
+@media all and (max-width: 452px) {
+
+    .decoration {
+        position: relative;
+        left: -240px;
+    }
+
+    .decoration2 {
+        position: relative;
+        left: 200px;
+    }
+
+    .border {
+        position: relative;
+        left: 45px;
+    }
+
+    .border2 {
+        position: relative;
+        left: 45px;
+    }
+
+    .image_cart {
+        position: absolute;
+        top: 60px;
+        left: 372px;
+    }
+
+    .num_cart {
+        position: relative;
+        left: 20px;
+        top: 1px;
+    }
+
+    #img {
+        width: 200px;
+        position: relative;
+        left: 140px;
+    }
+
+    .name_text {
+        width: 200px;
+        position: relative;
+        left: -690px;
+    }
+
+    .price_text {
+        position: relative;
+        left: 150px;
+    }
+
+    #cart_button {
+        position: relative;
+        left: 50px;
+    }
+
+    .content6 {
+        position: relative;
+        left: 90px;
+    }
+}
+
+@media all and (max-width: 440px) {
+
+    .decoration {
+        position: relative;
+        left: -220px;
+    }
+
+    .decoration2 {
+        position: relative;
+        left: 200px;
+    }
+
+    .border {
+        position: relative;
+        left: 40px;
+    }
+
+    .border2 {
+        position: relative;
+        left: 40px;
+    }
+
+    .image_cart {
+        position: relative;
+        top: 5px;
+        left: 40px;
+    }
+
+    .num_cart {
+        position: relative;
+        left: 16px;
+        top: 2px;
+    }
+
+    #cart_button {
+        position: relative;
+        left: 50px;
+    }
+
+    .content6 {
+        position: relative;
+        left: 90px;
+    }   
+}
+
+@media all and (max-width: 432px) {
+
+    .border {
+        position: relative;
+        left: 35px;
+    }
+
+    .decoration {
+        position: relative;
+        left: -230px;
+    }
+
+    .decoration2 {
+        position: relative;
+        left: 195px;
+    }
+
+    .image_cart {
+        position: relative;
+        left: 34px;
+    }
+
+    .num_cart {
+        position: relative;
+        left: 11px;
+    }
+
+    .name_text {
+        width: 200px;
+        position: relative;
+        left: -700px;
+    }
+
+    #img {
+        width: 180px;
+        position: relative;
+        top: 50px;
+        left: 130px;
+    }
+
+    .border2 {
+        position: relative;
+        left: 35px;
+    }
+
+    .content6 {
+        position: relative;
+        top: 290px;
+        left: 85px;
+    }
+}
+
+@media all and (max-width: 430px) {
+
+    .border {
+        position: relative;
+        left: 35px;
+    }
+
+    .decoration {
+        position: relative;
+        left: -230px;
+    }
+
+    .image_cart {
+        position: relative;
+        left: 35px;
+    }
+
+    .num_cart {
+        position: relative;
+        left: 13px;
+    }
+
+    .name_text {
+        width: 200px;
+        position: relative;
+        left: -700px;
+    }
+
+    #img {
+        width: 180px;
+        position: relative;
+        top: 50px;
+        left: 130px;
+    }
+
+    .border2 {
+        position: relative;
+        left: 35px;
+    }
+
+    .content6 {
+        position: relative;
+        top: 290px;
+        left: 80px;
+    }
+}
+
+@media all and (max-width: 415px) {
 
     .border {
         position: relative;
@@ -903,29 +2966,50 @@
 
     .decoration {
         position: relative;
-        right: 270px;
+        left: -250px;
     }
 
     .image_cart {
-        position: absolute;
-        left: 353px;
-        top: 63px;
+        position: relative;
+        left: 26px;
     }
 
     .num_cart {
         position: relative;
-        left: 7px;
-        top: 5px;
+        left: 5px;
     }
 
     #img {
+        width: 200px;
         position: relative;
-        right: 100px;
+        top: 30px;
+        left: 120px;
+    }
+
+    .name_text {
+        width: 200px;
+        position: relative;
+        left: -710px;
+    }
+
+    .size_text {
+        position: relative;
+        left: 100px;
+    }
+
+    .quantity_text {
+        position: relative;
+        left: 100px;
+    }
+
+    .price_text {
+        position: relative;
+        left: 130px;
     }
 
     #cart_button {
         position: relative;
-        left: 25px;
+        left: 33px;
     }
 
     .border2 {
@@ -940,31 +3024,12 @@
 
     .content6 {
         position: relative;
-        left: 68px;
+        top: 300px;
+        left: 70px;
     }
 }
 
-@media all and (max-width: 376px) {
-    
-    .image_cart {
-        position: absolute;
-        left: 355px;
-        top: 63px;
-    }
-
-    .num_cart {
-        position: relative;
-        left: 7px;
-        top: 4px;
-    }
-
-    #cart_button {
-        position: relative;
-        left: 30px;
-    }
-}
-
-@media all and (max-width: 344px) and (min-height: 882px) {
+@media all and (max-width: 412px) {
 
     .border {
         position: relative;
@@ -973,18 +3038,111 @@
 
     .decoration {
         position: relative;
-        right: 270px;
+        left: -270px;
     }
 
     .image_cart {
         position: absolute;
-        left: 355px;
+        left: 353px;
+        top: 60px;
+        
+    }
+
+    .num_cart {
+        position: relative;
+        left: 2px;
+        top: 1px;
+    }
+
+    #img {
+        width: 200px;
+        position: relative;
+        top: 50px;
+        left: 115px;
+    }
+
+    .name_text {
+        width: 200px;
+        position: relative;
+        top: 60px;
+        left: -710px;
+    }
+    
+    .size_text {
+        position: relative;
+        left: 100px;
+        top: 90px;
+    }
+    
+    .quantity_text {
+        position: relative;
+        left: 100px;
+        top: 80px;
+    }
+    
+    .price_text {
+        position: relative;
+        left: 130px;
+        top: 70px;
+    }
+    
+    .numdisplay_size {
+        position: relative;
+        left: 230px;
+        top: 60px;
+    }
+    
+    .numdisplay_quantity {
+        position: relative;
+        left: 230px;
+        top: 45px;
+    }
+
+    #cart_button {
+        position: relative;
+        left: 33px;
+    }
+
+    .border2 {
+        position: relative;
+        top: 250px;
+        left: 25px;
+    }
+
+    .decoration2 {
+        position: relative;
+        left: 180px;
+        top: 300px;
+    }
+
+    .content6 {
+        position: relative;
+        left: 70px;
+        top: 330px;
+    }
+}
+
+@media all and (max-width: 394px) {
+
+    .border {
+        position: relative;
+        left: 20px;
+    }
+
+    .decoration {
+        position: relative;
+        left: -265px;
+    }
+
+    .image_cart {
+        position: absolute;
+        left: 347px;
         top: 60px;
     }
 
     .num_cart {
         position: relative;
-        left: 8px;
+        left: -4px;
         top: 1px;
     }
 
@@ -995,24 +3153,353 @@
 
     #cart_button {
         position: relative;
-        left: 30px;
+        left: 22px;
+    }
+
+    .border2 {
+        position: relative;
+        left: 20px;
+    }
+
+    .decoration2 {
+        position: relative;
+        left: 170px;
+    }
+
+    .content6 {
+        position: relative;
+        left: 60px;
+    }
+}
+
+@media all and (max-width: 384px) {
+
+    .border {
+        position: relative;
+        left: 15px;
+    }
+
+    .decoration {
+        position: relative;
+        left: -268px;
+    }
+
+    .image_cart {
+        position: absolute;
+        left: 343px;
+        top: 60px;
+    }
+
+    .num_cart {
+        position: relative;
+        left: -6px;
+        top: 2px;
+    }
+
+    #img {
+        position: relative;
+        top: 50px;
+        left: 120px;
+    }
+
+    #cart_button {
+        position: relative;
+        left: 20px;
+    }
+
+    .border2 {
+        position: relative;
+        left: 15px;
+    }
+
+    .decoration2 {
+        position: relative;
+        left: 170px;
+    }
+
+    .content6 {
+        position: relative;
+        left: 60px;
+    }
+}
+
+@media all and (max-width: 376px) {
+    
+    .image_cart {
+        position: absolute;
+        left: 342px;
+        top: 60px;
+    }
+
+    .num_cart {
+        position: relative;
+        left: -8px;
+        top: 1px;
+    }
+
+    #cart_button {
+        position: relative;
+        left: 22px;
+    }
+}
+
+@media all and (max-width: 360px) {
+
+    .border {
+        position: relative;
+        left: 15px;
+    }
+
+    .decoration {
+        position: relative;
+        left: -270px;
+    }
+
+    .image_cart {
+        position: absolute;
+        left: 342px;
+        top: 60px;
+    }
+
+    .num_cart {
+        position: relative;
+        left: -8px;
+        top: 1px;
+    }
+
+    #img {
+        width: 200px;
+        position: relative;
+        top: 50px;
+        left: 115px;
+    }
+
+    .name_text {
+        width: 200px;
+        position: relative;
+        top: 60px;
+        left: -710px;
+    }
+    
+    .size_text {
+        position: relative;
+        left: 100px;
+        top: 90px;
+    }
+    
+    .quantity_text {
+        position: relative;
+        left: 100px;
+        top: 80px;
+    }
+    
+    .price_text {
+        position: relative;
+        left: 130px;
+        top: 70px;
+    }
+    
+    .numdisplay_size {
+        position: relative;
+        left: 230px;
+        top: 60px;
+    }
+    
+    .numdisplay_quantity {
+        position: relative;
+        left: 230px;
+        top: 45px;
+    }
+
+    #cart_button {
+        position: relative;
+        left: 21px;
     }
 
     .border2 {
         position: relative;
         top: 250px;
-        left: 25px;
+        left: 15px;
     }
 
     .decoration2 {
         position: relative;
-        left: 180px;
-        top: 350px;
+        left: 170px;
+        top: 300px;
     }
 
     .content6 {
         position: relative;
-        top: 400px;
+        left: 60px;
+        top: 330px;
+    }
+}
+
+@media all and (max-width: 360px) and (min-height: 740px) {
+
+    .decoration2 {
+        position: relative;
+        top: 300px;
+    }
+
+    .content6 {
+        position: relative;
+        top: 350px;
+    }
+}
+
+@media all and (max-width: 354px) and (min-height: 745px) {
+
+    .decoration2 {
+        position: relative;
+        top: 300px;
+    }
+
+    .content6 {
+        position: relative;
+        top: 350px;
+    }
+}
+
+@media all and (max-width: 344px) and (min-height: 882px) {
+
+    .border {
+        position: relative;
+        left: 15px;
+    }
+
+    .decoration {
+        position: relative;
+        left: -265px;
+    }
+
+    .image_cart {
+        position: absolute;
+        left: 342px;
+        top: 60px;
+    }
+
+    .num_cart {
+        position: relative;
+        left: -8px;
+        top: 1px;
+    }
+
+    #img {
+        position: relative;
+        left: 120px;
+    }
+
+    #cart_button {
+        position: relative;
+        left: 20px;
+    }
+
+    .border2 {
+        position: relative;
+        top: 250px;
+        left: 15px;
+    }
+
+    .decoration2 {
+        position: relative;
+        left: 170px;
+        top: 300px;
+    }
+
+    .content6 {
+        position: relative;
+        top: 360px;
+    }
+}
+
+@media all and (max-width: 320px) {
+
+    .border {
+        position: relative;
+        left: 15px;
+    }
+
+    .decoration {
+        position: relative;
+        left: -270px;
+    }
+
+    .image_cart {
+        position: absolute;
+        left: 342px;
+        top: 60px;
+    }
+
+    .num_cart {
+        position: relative;
+        left: -8px;
+        top: 1px;
+    }
+
+    #img {
+        position: relative;
+        top: 50px;
+        left: 110px;
+    }
+
+    .name_text {
+        position: relative;
+        top: 60px;
+        left: -720px;
+    }
+    
+    .size_text {
+        position: relative;
+        left: 100px;
+        top: 90px;
+    }
+    
+    .quantity_text {
+        position: relative;
+        left: 100px;
+        top: 80px;
+    }
+    
+    .price_text {
+        position: relative;
+        left: 120px;
+        top: 70px;
+    }
+    
+    .numdisplay_size {
+        position: relative;
+        left: 200px;
+        top: 60px;
+    }
+    
+    .numdisplay_quantity {
+        position: relative;
+        left: 200px;
+        top: 45px;
+    }
+
+    #cart_button {
+        position: relative;
+        left: 20px;
+    }
+
+    .border2 {
+        position: relative;
+        top: 250px;
+        left: 15px;
+    }
+
+    .decoration2 {
+        position: relative;
+        left: 170px;
+        top: 300px;
+    }
+
+    .content6 {
+        position: relative;
+        left: 60px;
+        top: 330px;
     }
 }
     

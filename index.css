@@ -1,3 +1,7 @@
+body {
+    overflow-x: hidden;
+}
+
 .layout {
     width: 920px;
     height: 145px;
@@ -9,8 +13,8 @@
     width: 145px;
     height: 145px;
     position: relative;
-    left: 220px;
-    top: 50px;
+    left: 245px;
+    top: 45px;
 }
         
 .fastimage {
@@ -60,7 +64,7 @@ input::placeholder {
     height: 19px;
     position: relative;
     top: 160px;
-    left: 460px;
+    left: 480px;
     font-family: sans-serif;
     font-size: 14px;
     font-weight: 400;
@@ -72,8 +76,8 @@ input::placeholder {
     width: 33px;
     height: 31px;
     position: relative;
-    top: 150px;
-    left: 490px;
+    top: 146px;
+    left: 493px;
     border: none;
     background-color: white;
 }
@@ -88,7 +92,7 @@ input::placeholder {
     height: 10px;
     position: relative;
     left: 480px;
-    top: 136px;
+    top: 131px;
     font-family: Inter;
     font-size: 10px;
     font-weight: 400;
@@ -173,13 +177,13 @@ input::placeholder {
     font-weight: 400px;
     font-size: 12px;
     position: relative;
-    top: 450px;
-    left: 580px;   
+    top: 440px;
+    left: 440px;   
 }
     
 .soldout_message {
-    position: absolute;
-    top: 40px;
+    position: relative;
+    bottom: 270px;
     width: 70px;
     height: 30px;
     color: #fff;
@@ -205,6 +209,656 @@ input::placeholder {
     line-height: 39px;
 }
 
+@media all and (max-width: 1440px) {
+
+    .border {
+        position: relative;
+        left: 260px;
+    }
+
+    .decoration1 {
+        position: relative;
+        top: 45px;
+        left: 255px;
+    }
+
+    .item_search {
+        position: relative;
+        left: 360px;
+    }
+
+    .magnifyingglass {
+        position: relative;
+        left: 370px;
+    }
+
+    .shoppingcart_text {
+        position: relative;
+        left: 490px;
+    }
+
+    .image_cart {
+        position: relative;
+        left: 505px;
+    }
+
+    .num_cart {
+        position: relative;
+        left: 493px;
+    }
+
+    .fastimage {
+        position: relative;
+        left: 260px;
+    }
+
+    .itemlist_text {
+        position: relative;
+        left: 260px;
+    }
+
+    .border2 {
+        position: relative;
+        left: 260px;
+    }
+
+    #item_display {
+        position: relative;
+        left: 260px;
+    }
+
+    .border3 {
+        position: relative;
+        left: 260px;
+    }
+
+    .decoration2 {
+        position: relative;
+        top: 350px;
+        left: 650px;
+    }
+
+    .content3 {
+        position: relative;
+        top: 400px;
+        left: 440px;
+    }
+}
+
+@media all and (max-width: 1400px) {
+
+    .border {
+        position: relative;
+        left: 250px;
+    }
+
+    .decoration1 {
+        position: relative;
+        left: 245px;
+    }
+
+    .item_search {
+        position: relative;
+        left: 360px;
+    }
+
+    .magnifyingglass {
+        position: relative;
+        left: 370px;
+    }
+
+    .shoppingcart_text {
+        position: relative;
+        left: 480px;
+    }
+
+    .image_cart {
+        position: relative;
+        left: 495px;
+    }
+
+    .num_cart {
+        position: relative;
+        left: 482px;
+    }
+
+    .fastimage {
+        position: relative;
+        left: 250px;
+    }
+
+    .itemlist_text {
+        position: relative;
+        left: 250px;
+    }
+
+    .border2 {
+        position: relative;
+        left: 250px;
+    }
+
+    #item_display {
+        position: relative;
+        left: 250px;
+    }
+
+    .border3 {
+        position: relative;
+        left: 250px;
+    }
+
+    .decoration2 {
+        position: relative;
+        left: 640px;
+    }
+
+    .content3 {
+        position: relative;
+        left: 430px;
+    }
+}
+
+@media all and (max-width: 1390px) {
+
+    .border {
+        position: relative;
+        left: 240px;
+    }
+
+    .decoration1 {
+        position: relative;
+        left: 235px;
+    }
+
+    .item_search {
+        position: relative;
+        left: 350px;
+    }
+
+    .magnifyingglass {
+        position: relative;
+        left: 360px;
+    }
+
+    .shoppingcart_text {
+        position: relative;
+        left: 470px;
+    }
+
+    .image_cart {
+        position: relative;
+        left: 485px;
+    }
+
+    .num_cart {
+        position: relative;
+        left: 473px;
+    }
+
+    .fastimage {
+        position: relative;
+        left: 240px;
+    }
+
+    .itemlist_text {
+        position: relative;
+        left: 240px;
+    }
+
+    .border2 {
+        position: relative;
+        left: 240px;
+    }
+
+    #item_display {
+        position: relative;
+        left: 240px;
+    }
+
+    .border3 {
+        position: relative;
+        left: 240px;
+    }
+
+    .decoration2 {
+        position: relative;
+        left: 630px;
+    }
+
+    .content3 {
+        position: relative;
+        left: 420px;
+    }
+}
+
+@media all and (max-width: 1370px) {
+
+    .border {
+        position: relative;
+        left: 230px;
+    }
+
+    .decoration1 {
+        position: relative;
+        left: 225px;
+    }
+
+    .item_search {
+        position: relative;
+        left: 340px;
+    }
+
+    .magnifyingglass {
+        position: relative;
+        left: 350px;
+    }
+
+    .shoppingcart_text {
+        position: relative;
+        left: 460px;
+    }
+
+    .image_cart {
+        position: relative;
+        left: 475px;
+    }
+
+    .num_cart {
+        position: relative;
+        left: 463px;
+    }
+
+    .fastimage {
+        position: relative;
+        left: 230px;
+    }
+
+    .itemlist_text {
+        position: relative;
+        left: 230px;
+    }
+
+    .border2 {
+        position: relative;
+        left: 230px;
+    }
+
+    #item_display {
+        position: relative;
+        left: 230px;
+    }
+
+    .border3 {
+        position: relative;
+        left: 230px;
+    }
+
+    .decoration2 {
+        position: relative;
+        left: 620px;
+    }
+
+    .content3 {
+        position: relative;
+        left: 410px;
+    }
+}
+
+@media all and (max-width: 1352px) {
+
+    .border {
+        position: relative;
+        left: 220px;
+    }
+
+    .decoration1 {
+        position: relative;
+        left: 220px;
+    }
+
+    .item_search {
+        position: relative;
+        left: 310px;
+    }
+
+    .magnifyingglass {
+        position: relative;
+        left: 320px;
+    }
+
+    .shoppingcart_text {
+        position: relative;
+        left: 450px;
+    }
+
+    .image_cart {
+        position: relative;
+        left: 465px;
+    }
+
+    .num_cart {
+        position: relative;
+        left: 452px;
+    }
+
+    .fastimage {
+        position: relative;
+        left: 220px;
+    }
+
+    .itemlist_text {
+        position: relative;
+        left: 220px;
+    }
+
+    .border2 {
+        position: relative;
+        left: 220px;
+    }
+
+    #item_display {
+        position: relative;
+        left: 220px;
+    }
+
+    .border3 {
+        position: relative;
+        left: 220px;
+    }
+
+    .decoration2 {
+        position: relative;
+        left: 600px;
+    }
+
+    .content3 {
+        position: relative;
+        left: 400px;
+    }
+}
+
+@media all and (max-width: 1330px) {
+
+    .border {
+        position: relative;
+        left: 210px;
+    }
+
+    .decoration1 {
+        position: relative;
+        left: 210px;
+    }
+
+    .item_search {
+        position: relative;
+        left: 300px;
+    }
+
+    .magnifyingglass {
+        position: relative;
+        left: 310px;
+    }
+
+    .shoppingcart_text {
+        position: relative;
+        left: 440px;
+    }
+
+    .image_cart {
+        position: relative;
+        left: 455px;
+    }
+
+    .num_cart {
+        position: relative;
+        left: 442px;
+    }
+
+    .fastimage {
+        position: relative;
+        left: 210px;
+    }
+
+    .itemlist_text {
+        position: relative;
+        left: 210px;
+    }
+
+    .border2 {
+        position: relative;
+        left: 210px;
+    }
+
+    #item_display {
+        position: relative;
+        left: 210px;
+    }
+
+    .border3 {
+        position: relative;
+        left: 210px;
+    }
+
+    .decoration2 {
+        position: relative;
+        left: 610px;
+    }
+
+    .content3 {
+        position: relative;
+        left: 400px;
+    }
+}
+
+@media all and (max-width: 1320px) {
+
+    .border {
+        position: relative;
+        left: 200px;
+    }
+
+    .decoration1 {
+        position: relative;
+        left: 200px;
+    }
+
+    .shoppingcart_text {
+        position: relative;
+        left: 430px;
+    }
+
+    .image_cart {
+        position: relative;
+        left: 445px;
+    }
+
+    .num_cart {
+        position: relative;
+        left: 432px;
+    }
+
+    .fastimage {
+        position: relative;
+        left: 200px;
+    }
+
+    .itemlist_text {
+        position: relative;
+        left: 200px;
+    }
+
+    .border2 {
+        position: relative;
+        left: 200px;
+    }
+
+    #item_display {
+        position: relative;
+        left: 200px;
+    }
+
+    .border3 {
+        position: relative;
+        left: 200px;
+    }
+
+    .decoration2 {
+        position: relative;
+        left: 600px;
+    }
+
+    .content3 {
+        position: relative;
+        left: 390px;
+    }
+}
+
+@media all and (max-width: 1300px) {
+
+    .border {
+         position: relative;
+         left: 190px;
+     }
+ 
+     .decoration1 {
+         position: relative;
+         left: 190px;
+     }
+ 
+     .item_search {
+         position: relative;
+         left: 270px;
+     }
+ 
+     .magnifyingglass {
+         position: relative;
+         left: 275px;
+     }
+ 
+     .shoppingcart_text {
+         position: relative;
+         left: 420px;
+     }
+ 
+     .image_cart {
+        position: relative;
+        left: 434px;
+    }
+
+    .num_cart {
+        position: relative;
+        left: 421px;
+    }
+ 
+     .fastimage {
+         position: relative;
+         left: 190px;
+     }
+ 
+     .itemlist_text {
+         position: relative;
+         left: 190px;
+     }
+ 
+     .border2 {
+         position: relative;
+         left: 190px;
+     }
+ 
+     #item_display {
+         position: relative;
+         left: 190px;
+     }
+ 
+     .border3 {
+         position: relative;
+         left: 190px;
+     }
+ 
+     .decoration2 {
+         position: relative;
+         left: 600px;
+     }
+ 
+     .content3 {
+         position: relative;
+         left: 390px;
+     }
+} 
+
+@media all and (max-width: 1296px) {
+
+    .border {
+        position: relative;
+        left: 190px;
+    }
+
+    .decoration1 {
+        position: relative;
+        left: 190px;
+    }
+
+    .item_search {
+        position: relative;
+        left: 290px;
+    }
+
+    .magnifyingglass {
+        position: relative;
+        left: 300px;
+    }
+
+    .shoppingcart_text {
+        position: relative;
+        left: 420px;
+    }
+
+    .image_cart {
+        position: relative;
+        left: 435px;
+    }
+
+    .num_cart {
+        position: relative;
+        left: 422px;
+    }
+
+    .fastimage {
+        position: relative;
+        left: 190px;
+    }
+
+    .itemlist_text {
+        position: relative;
+        left: 190px;
+    }
+
+    .border2 {
+        position: relative;
+        left: 190px;
+    }
+
+    #item_display {
+        position: relative;
+        left: 190px;
+    }
+
+    .border3 {
+        position: relative;
+        left: 190px;
+    }
+
+    .decoration2 {
+        position: relative;
+        left: 590px;
+    }
+
+    .content3 {
+        position: relative;
+        left: 380px;
+    }
+}
+
 @media all and (max-width: 1280px) {
 
     .border {
@@ -214,22 +868,22 @@ input::placeholder {
 
     .decoration1 {
         position: relative;
-        left: 150px;
+        left: 180px;
     }
 
     .item_search {
         position: relative;
-        left: 260px;
+        left: 290px;
     }
 
     .magnifyingglass {
         position: relative;
-        left: 280px;
+        left: 300px;
     }
 
     .shoppingcart_text {
         position: relative;
-        left: 380px;
+        left: 410px;
     }
 
     .image_cart {
@@ -239,7 +893,7 @@ input::placeholder {
 
     .num_cart {
         position: relative;
-        left: 415px;
+        left: 412px;
     }
 
     .fastimage {
@@ -274,25 +928,823 @@ input::placeholder {
 
     .content3 {
         position: relative;
-        left: 530px;
+        left: 370px;
     }
 }
 
-@media all and (max-width: 1024px) {
+@media all and (max-width: 1250px) {
 
     .border {
         position: relative;
-        left: 50px;
+        left: 165px;
     }
 
     .decoration1 {
         position: relative;
-        left: 30px;
+        left: 160px;
     }
 
     .item_search {
         position: relative;
-        left: 180px;
+        left: 290px;
+    }
+
+    .magnifyingglass {
+        position: relative;
+        left: 300px;
+    }
+
+    .shoppingcart_text {
+        position: relative;
+        left: 390px;
+    }
+
+    .image_cart {
+        position: relative;
+        left: 410px;
+    }
+
+    .num_cart {
+        position: relative;
+        left: 397px;
+    }
+
+    .fastimage {
+        position: relative;
+        left: 165px;
+    }
+
+    .itemlist_text {
+        position: relative;
+        left: 165px;
+    }
+
+    .border2 {
+        position: relative;
+        left: 165px;
+    }
+
+    #item_display {
+        position: relative;
+        left: 165px;
+    }
+
+    .border3 {
+        position: relative;
+        left: 165px;
+    }
+
+    .decoration2 {
+        position: relative;
+        left: 580px;
+    }
+
+    .content3 {
+        position: relative;
+        left: 370px;
+    }
+}
+
+@media all and (max-width: 1220px) {
+
+    .border {
+        position: relative;
+        left: 155px;
+    }
+
+    .decoration1 {
+        position: relative;
+        left: 150px;
+    }
+
+    .item_search {
+        position: relative;
+        left: 270px;
+    }
+
+    .magnifyingglass {
+        position: relative;
+        left: 280px;
+    }
+
+    .shoppingcart_text {
+        position: relative;
+        left: 380px;
+    }
+
+    .image_cart {
+        position: relative;
+        left: 400px;
+    }
+
+    .num_cart {
+        position: relative;
+        left: 388px;
+    }
+
+    .fastimage {
+        position: relative;
+        left: 155px;
+    }
+
+    .itemlist_text {
+        position: relative;
+        left: 155px;
+    }
+
+    .border2 {
+        position: relative;
+        left: 155px;
+    }
+
+    #item_display {
+        position: relative;
+        left: 155px;
+    }
+
+    .border3 {
+        position: relative;
+        left: 155px;
+    }
+
+    .decoration2 {
+        position: relative;
+        left: 560px;
+    }
+
+    .content3 {
+        position: relative;
+        left: 350px;
+    }
+}
+
+@media all and (max-width: 1210px) {
+
+    .border {
+        position: relative;
+        left: 145px;
+    }
+
+    .decoration1 {
+        position: relative;
+        left: 150px;
+    }
+
+    .magnifyingglass {
+        position: relative;
+        left: 280px;
+    }
+
+    .shoppingcart_text {
+        position: relative;
+        left: 370px;
+    }
+
+    .image_cart {
+        position: relative;
+        left: 390px;
+    }
+
+    .num_cart {
+        position: relative;
+        left: 377px;
+    }
+
+    .fastimage {
+        position: relative;
+        left: 145px;
+    }
+
+    .itemlist_text {
+        position: relative;
+        left: 145px;
+    }
+
+    .border2 {
+        position: relative;
+        left: 145px;
+    }
+
+    #item_display {
+        position: relative;
+        left: 145px;
+    }
+
+    .border3 {
+        position: relative;
+        left: 145px;
+    }
+
+    .decoration2 {
+        position: relative;
+        left: 550px;
+    }
+
+    .content3 {
+        position: relative;
+        left: 340px;
+    }
+}
+
+@media all and (max-width: 1200px) {
+
+    .border {
+        position: relative;
+        left: 140px;
+    }
+
+    .decoration1 {
+        position: relative;
+        left: 140px;
+    }
+
+    .item_search {
+        position: relative;
+        left: 230px;
+    }
+
+    .magnifyingglass {
+        position: relative;
+        left: 240px;
+    }
+
+    .shoppingcart_text {
+        position: relative;
+        left: 365px;
+    }
+
+    .image_cart {
+        position: relative;
+        left: 383px;
+    }
+
+    .num_cart {
+        position: relative;
+        left: 370px;
+    }
+
+    .fastimage {
+        position: relative;
+        left: 140px;
+    }
+
+    .itemlist_text {
+        position: relative;
+        left: 140px;
+    }
+
+    .border2 {
+        position: relative;
+        left: 140px;
+    }
+
+    #item_display {
+        position: relative;
+        left: 140px;
+    }
+
+    .border3 {
+        position: relative;
+        left: 140px;
+    }
+
+    .decoration2 {
+        position: relative;
+        left: 540px;
+    }
+
+    .content3 {
+        position: relative;
+        left: 330px;
+    }
+}
+
+@media all and (max-width: 1180px) {
+
+    .border {
+        position: relative;
+        left: 130px;
+    }
+
+    .decoration1 {
+        position: relative;
+        left: 120px;
+    }
+
+    .item_search {
+        position: relative;
+        left: 220px;
+    }
+
+    .magnifyingglass {
+        position: relative;
+        left: 230px;
+    }
+
+    .shoppingcart_text {
+        position: relative;
+        left: 360px;
+    }
+
+    .image_cart {
+        position: relative;
+        left: 375px;
+    }
+
+    .num_cart {
+        position: relative;
+        left: 362px;
+    }
+
+    .fastimage {
+        position: relative;
+        left: 130px;
+    }
+
+    .itemlist_text {
+        position: relative;
+        left: 130px;
+    }
+
+    .border2 {
+        position: relative;
+        left: 130px;
+    }
+
+    #item_display {
+        position: relative;
+        left: 130px;
+    }
+
+    .border3 {
+        position: relative;
+        left: 130px;
+    }
+
+    .decoration2 {
+        position: relative;
+        left: 510px;
+    }
+
+    .content3 {
+        position: relative;
+        left: 310px;
+    }
+}
+
+@media all and (max-width: 1160px) {
+
+    .border {
+        position: relative;
+        left: 120px;
+    }
+
+    .decoration1 {
+        position: relative;
+        left: 120px;
+    }
+
+    .item_search {
+        position: relative;
+        left: 220px;
+    }
+
+    .magnifyingglass {
+        position: relative;
+        left: 227px;
+    }
+
+    .shoppingcart_text {
+        position: relative;
+        left: 350px;
+    }
+
+    .image_cart {
+        position: relative;
+        left: 367px;
+    }
+
+    .num_cart {
+        position: relative;
+        left: 354px;
+    }
+
+    .fastimage {
+        position: relative;
+        left: 120px;
+    }
+
+    .itemlist_text {
+        position: relative;
+        left: 120px;
+    }
+
+    .border2 {
+        position: relative;
+        left: 120px;
+    }
+
+    #item_display {
+        position: relative;
+        left: 120px;
+    }
+
+    .border3 {
+        position: relative;
+        left: 120px;
+    }
+
+    .decoration2 {
+        position: relative;
+        left: 520px;
+    }
+
+    .content3 {
+        position: relative;
+        left: 310px;
+    }
+}
+
+@media all and (max-width: 1140px) {
+
+    .border {
+        position: relative;
+        left: 110px;
+    }
+
+    .decoration1 {
+        position: relative;
+        left: 110px;
+    }
+
+    .item_search {
+        position: relative;
+        left: 210px;
+    }
+
+    .magnifyingglass {
+        position: relative;
+        left: 220px;
+    }
+
+    .shoppingcart_text {
+        position: relative;
+        left: 340px;
+    }
+
+    .image_cart {
+        position: relative;
+        left: 355px;
+    }
+
+    .num_cart {
+        position: relative;
+        left: 341px;
+    }
+
+    .fastimage {
+        position: relative;
+        left: 110px;
+    }
+
+    .itemlist_text {
+        position: relative;
+        left: 110px;
+    }
+
+    .border2 {
+        position: relative;
+        left: 110px;
+    }
+
+    #item_display {
+        position: relative;
+        left: 110px;
+    }
+
+    .border3 {
+        position: relative;
+        left: 110px;
+    }
+
+    .decoration2 {
+        position: relative;
+        left: 510px;
+    }
+
+    .content3 {
+        position: relative;
+        left: 310px;
+    }
+}
+
+@media all and (max-width: 1120px) {
+
+    .border {
+        position: relative;
+        left: 100px;
+    }
+
+    .decoration1 {
+        position: relative;
+        left: 90px;
+    }
+
+    .item_search {
+        position: relative;
+        left: 200px;
+    }
+
+    .magnifyingglass {
+        position: relative;
+        left: 210px;
+    }
+
+    .shoppingcart_text {
+        position: relative;
+        left: 330px;
+    }
+
+    .image_cart {
+        position: relative;
+        left: 344px;
+    }
+
+    .num_cart {
+        position: relative;
+        left: 331px;
+    }
+
+    .fastimage {
+        position: relative;
+        left: 100px;
+    }
+
+    .itemlist_text {
+        position: relative;
+        left: 100px;
+    }
+
+    .border2 {
+        position: relative;
+        left: 100px;
+    }
+
+    #item_display {
+        position: relative;
+        left: 100px;
+    }
+
+    .border3 {
+        position: relative;
+        left: 100px;
+    }
+
+    .decoration2 {
+        position: relative;
+        left: 500px;
+    }
+
+    .content3 {
+        position: relative;
+        left: 290px;
+    }
+}
+
+@media all and (max-width: 1110px) {
+
+    .border {
+        position: relative;
+        left: 95px;
+    }
+
+    .decoration1 {
+        position: relative;
+        left: 90px;
+    }
+
+    .item_search {
+        position: relative;
+        left: 205px;
+    }
+
+    .magnifyingglass {
+        position: relative;
+        left: 210px;
+    }
+
+    .shoppingcart_text {
+        position: relative;
+        left: 325px;
+    }
+
+    .image_cart {
+        position: relative;
+        left: 340px;
+    }
+
+    .num_cart {
+        position: relative;
+        left: 328px;
+    }
+
+    .fastimage {
+        position: relative;
+        left: 95px;
+    }
+
+    .itemlist_text {
+        position: relative;
+        left: 95px;
+    }
+
+    .border2 {
+        position: relative;
+        left: 95px;
+    }
+
+    #item_display {
+        position: relative;
+        left: 95px;
+    }
+
+    .border3 {
+        position: relative;
+        left: 95px;
+    }
+
+    .decoration2 {
+        position: relative;
+        left: 490px;
+    }
+
+    .content3 {
+        position: relative;
+        left: 280px;
+    }
+}
+
+@media all and (max-width: 1100px) {
+
+    .border {
+        position: relative;
+        left: 90px;
+    }
+
+    .decoration1 {
+        position: relative;
+        left: 90px;
+    }
+
+    .item_search {
+        position: relative;
+        left: 200px;
+    }
+
+    .magnifyingglass {
+        position: relative;
+        left: 210px;
+    }
+
+    .shoppingcart_text {
+        position: relative;
+        left: 320px;
+    }
+
+    .image_cart {
+        position: relative;
+        left: 334px;
+    }
+
+    .num_cart {
+        position: relative;
+        left: 321px;
+    }
+
+    .fastimage {
+        position: relative;
+        left: 90px;
+    }
+
+    .itemlist_text {
+        position: relative;
+        left: 90px;
+    }
+
+    .border2 {
+        position: relative;
+        left: 90px;
+    }
+
+    #item_display {
+        position: relative;
+        left: 90px;
+    }
+
+    .border3 {
+        position: relative;
+        left: 90px;
+    }
+
+    .decoration2 {
+        position: relative;
+        left: 500px;
+    }
+
+    .content3 {
+        position: relative;
+        left: 290px;
+    }
+}
+
+@media all and (max-width: 1090px) {
+
+    .border {
+        position: relative;
+        left: 85px;
+    }
+
+    .decoration1 {
+        position: relative;
+        left: 80px;
+    }
+
+    .item_search {
+        position: relative;
+        left: 195px;
+    }
+
+    .magnifyingglass {
+        position: relative;
+        left: 210px;
+    }
+
+    .shoppingcart_text {
+        position: relative;
+        left: 315px;
+    }
+
+    .image_cart {
+        position: relative;
+        left: 330px;
+    }
+
+    .num_cart {
+        position: relative;
+        left: 318px;
+    }
+
+    .fastimage {
+        position: relative;
+        left: 85px;
+    }
+
+    .itemlist_text {
+        position: relative;
+        left: 85px;
+    }
+
+    .border2 {
+        position: relative;
+        left: 85px;
+    }
+
+    #item_display {
+        position: relative;
+        left: 85px;
+    }
+
+    .border3 {
+        position: relative;
+        left: 85px;
+    }
+
+    .decoration2 {
+        position: relative;
+        left: 470px;
+    }
+
+    .content3 {
+        position: relative;
+        left: 260px;
+    }
+}
+
+@media all and (max-width: 1080px) {
+
+    .border {
+        position: relative;
+        left: 82px;
+    }
+
+    .decoration1 {
+        position: relative;
+        left: 80px;
+    }
+
+    .item_search {
+        position: relative;
+        left: 185px;
     }
 
     .magnifyingglass {
@@ -302,7 +1754,235 @@ input::placeholder {
 
     .shoppingcart_text {
         position: relative;
+        left: 310px;
+    }
+
+    .image_cart {
+        position: relative;
+        left: 327px;
+    }
+
+    .num_cart {
+        position: relative;
+        left: 314px;
+    }
+
+    .fastimage {
+        position: relative;
+        left: 82px;
+    }
+
+    .itemlist_text {
+        position: relative;
+        left: 82px;
+    }
+
+    .border2 {
+        position: relative;
+        left: 82px;
+    }
+
+    #item_display {
+        position: relative;
+        left: 82px;
+    }
+
+    .border3 {
+        position: relative;
+        top: 400px;
+        left: 82px;
+    }
+
+    .decoration2 {
+        position: relative;
+        top: 450px;
+        left: 480px;
+    }
+
+    .content3 {
+        position: relative;
+        top: 500px;
+        left: 280px;
+    }
+}
+
+@media all and (max-width: 1070px) {
+
+    .border {
+        position: relative;
+        left: 75px;
+    }
+
+    .decoration1 {
+        position: relative;
+        left: 71px;
+    }
+
+    .item_search {
+        position: relative;
+        left: 165px;
+    }
+
+    .magnifyingglass {
+        position: relative;
+        left: 173px;
+    }
+
+    .shoppingcart_text {
+        position: relative;
+        left: 310px;
+    }
+
+    .image_cart {
+        position: relative;
+        left: 320px;
+    }
+
+    .num_cart {
+        position: relative;
+        left: 307px;
+    }
+
+    .fastimage {
+        position: relative;
+        left: 75px;
+    }
+
+    .itemlist_text {
+        position: relative;
+        left: 75px;
+    }
+
+    .border2 {
+        position: relative;
+        left: 75px;
+    }
+
+    #item_display {
+        position: relative;
+        left: 75px;
+    }
+
+    .border3 {
+        position: relative;
+        top: 400px;
+        left: 75px;
+    }
+
+    .decoration2 {
+        position: relative;
+        top: 450px;
+        left: 480px;
+    }
+
+    .content3 {
+        position: relative;
+        top: 500px;
+        left: 270px;
+    }
+}
+
+@media all and (max-width: 1040px) {
+
+    .border {
+        position: relative;
+        left: 62px;
+    }
+
+    .decoration1 {
+        position: relative;
+        left: 60px;
+    }
+
+    .item_search {
+        position: relative;
+        left: 170px;
+    }
+
+    .magnifyingglass {
+        position: relative;
+        left: 180px;
+    }
+
+    .shoppingcart_text {
+        position: relative;
+        left: 290px;
+    }
+
+    .image_cart {
+        position: relative;
+        left: 307px;
+    }
+
+    .num_cart {
+        position: relative;
+        left: 294px;
+    }
+
+    .fastimage {
+        position: relative;
+        left: 62px;
+    }
+
+    .itemlist_text {
+        position: relative;
+        left: 62px;
+    }
+
+    .border2 {
+        position: relative;
+        left: 62px;
+    }
+
+    #item_display {
+        position: relative;
+        left: 62px;
+    }
+
+    .border3 {
+        position: relative;
+        top: 400px;
+        left: 62px;
+    }
+
+    .decoration2 {
+        position: relative;
+        top: 450px;
+        left: 460px;
+    }
+
+    .content3 {
+        position: relative;
+        top: 500px;
         left: 250px;
+    }
+}
+
+@media all and (max-width: 1030px) {
+
+    .border {
+        position: relative;
+        left: 50px;
+    }
+
+    .decoration1 {
+        position: relative;
+        left: 50px;
+    }
+
+    .item_search {
+        position: relative;
+        left: 170px;
+    }
+
+    .magnifyingglass {
+        position: relative;
+        left: 180px;
+    }
+
+    .shoppingcart_text {
+        position: relative;
+        left: 280px;
     }
 
     .image_cart {
@@ -312,7 +1992,7 @@ input::placeholder {
 
     .num_cart {
         position: relative;
-        left: 285px;
+        left: 283px;
     }
 
     .fastimage {
@@ -344,26 +2024,102 @@ input::placeholder {
     .decoration2 {
         position: relative;
         top: 450px;
-        left: 430px;
+        left: 450px;
     }
 
     .content3 {
         position: relative;
         top: 500px;
-        left: 360px;
+        left: 240px;
     }
 }
 
-@media all and (max-width: 912px) {
-    
+@media all and (max-width: 1000px) {
+
     .border {
         position: relative;
-        left: 25px;
+        left: 40px;
     }
 
     .decoration1 {
         position: relative;
-        left: -5px;
+        left: 40px;
+    }
+
+    .item_search {
+        position: relative;
+        left: 170px;
+    }
+
+    .magnifyingglass {
+        position: relative;
+        left: 180px;
+    }
+
+    .shoppingcart_text {
+        position: relative;
+        left: 270px;
+    }
+
+    .image_cart {
+        position: relative;
+        left: 284px;
+    }
+
+    .num_cart {
+        position: relative;
+        left: 271px;
+    }
+
+    .fastimage {
+        position: relative;
+        left: 40px;
+    }
+
+    .itemlist_text {
+        position: relative;
+        left: 40px;
+    }
+
+    .border2 {
+        position: relative;
+        left: 40px;
+    }
+
+    #item_display {
+        position: relative;
+        left: 40px;
+    }
+
+    .border3 {
+        position: relative;
+        top: 400px;
+        left: 40px;
+    }
+
+    .decoration2 {
+        position: relative;
+        top: 450px;
+        left: 440px;
+    }
+
+    .content3 {
+        position: relative;
+        top: 500px;
+        left: 230px;
+    }
+}
+
+@media all and (max-width: 982px) {
+
+    .border {
+        position: relative;
+        left: 30px;
+    }
+
+    .decoration1 {
+        position: relative;
+        left: 35px;
     }
 
     .item_search {
@@ -378,12 +2134,92 @@ input::placeholder {
 
     .image_cart {
         position: relative;
-        left: 271px;
+        left: 274px;
+    }
+
+    .shoppingcart_text {
+        position: relative;
+        left: 260px;
     }
 
     .num_cart {
         position: relative;
         left: 261px;
+    }
+
+    .fastimage {
+        position: relative;
+        left: 30px;
+    }
+
+    .itemlist_text {
+        position: relative;
+        left: 30px;
+    }
+
+    .border2 {
+        position: relative;
+        left: 30px;
+    }
+
+    #item_display {
+        position: relative;
+        left: 30px;
+    }
+
+    .border3 {
+        position: relative;
+        left: 25px;
+    }
+
+    .decoration2 {
+        position: relative;
+        top: 500px;
+        left: 430px;
+    }
+
+    .content3 {
+        position: relative;
+        top: 550px;
+        left: 220px;
+    } 
+}
+
+@media all and (max-width: 912px) {
+    
+    .border {
+        position: relative;
+        left: 25px;
+    }
+
+    .decoration1 {
+        position: relative;
+        left: 25px;
+    }
+
+    .item_search {
+        position: relative;
+        left: 150px;
+    }
+
+    .magnifyingglass {
+        position: relative;
+        left: 165px;
+    }
+
+    .shoppingcart_text {
+        position: relative;
+        left: 260px;
+    }
+
+    .image_cart {
+        position: relative;
+        left: 270px;
+    }
+
+    .num_cart {
+        position: relative;
+        left: 258px;
     }
 
     .fastimage {
@@ -414,13 +2250,13 @@ input::placeholder {
     .decoration2 {
         position: relative;
         top: 500px;
-        left: 400px;
+        left: 440px;
     }
 
     .content3 {
         position: relative;
         top: 550px;
-        left: 340px;
+        left: 230px;
     }
 }
 
@@ -432,14 +2268,11 @@ input::placeholder {
     }
 
     .decoration1 {
-        position: relative;
-        left: 130px;
-        top: 10px;
-    }
-
-    .decoration1 img {
         width: 100px;
         height: 100px;
+        position: relative;
+        left: 160px;
+        top: 0px;
     }
 
     .item_search {
@@ -447,7 +2280,7 @@ input::placeholder {
         height: 35px;
         position: relative;
         top: 60px;
-        left: 150px;
+        left: 220px;
         border-radius: 12px;
     }
 
@@ -467,7 +2300,7 @@ input::placeholder {
         width: 60px;
         height: 35px;
         position: relative;
-        left: 160px;
+        left: 230px;
         top: 62px;
         padding: 5px 8px 8px 8px;
         border: none;
@@ -477,7 +2310,7 @@ input::placeholder {
         width: 534px;
         border: 1px solid #656565;
         position: relative;
-        left: 150px;
+        left: 160px;
         top: 0px;
     }
 
@@ -489,7 +2322,7 @@ input::placeholder {
         width: 33px;
         height: 31px;
         position: relative;
-        left: 240px;
+        left: 290px;
         top: 70px;
         border: none;
         background-color: white;
@@ -499,7 +2332,7 @@ input::placeholder {
         width: 10px;
         height: 10px;
         position: relative;
-        left: 230px;
+        left: 277px;
         top: 55px;
         padding: 5px 5px 5px 5px; 
         border: 2px solid #333;
@@ -519,7 +2352,7 @@ input::placeholder {
         border-radius: 10px;
         position: relative;
         top: 50px;
-        left: 150px;
+        left: 160px;
     }
 
     .itemlist_text {
@@ -527,7 +2360,7 @@ input::placeholder {
         height: 25px;
         position: relative;
         top: 90px;
-        left: 150px;
+        left: 160px;
         font-family: sans-serif;
         font-size: 20px;
         font-weight: 400;
@@ -540,7 +2373,7 @@ input::placeholder {
         border: 1px solid #656565;
         position: relative;
         top: 90px;
-        left: 150px;
+        left: 160px;
     }
 
     #item_display {
@@ -549,7 +2382,7 @@ input::placeholder {
         grid-template-columns: repeat(3, 188px);
         position: relative;
         top: 140px;
-        left: 150px;
+        left: 160px;
     }   
 
     .items {
@@ -569,19 +2402,16 @@ input::placeholder {
         width: 534px;
         border: 1px solid #656565;
         position: relative;
-        left: 150px; 
+        left: 160px; 
         top: 350px;
     }
 
     .decoration2 {
-        position: relative;
-        top: 450px;
-        left: 350px;
-    }
-
-    .decoration2 img {
         width: 100px;
         height: 100px;
+        position: relative;
+        top: 450px;
+        left: 390px;
     }
 
     .content3 {
@@ -591,7 +2421,7 @@ input::placeholder {
         font-size: 12px;
         position: relative;
         top: 520px;
-        left: 260px;
+        left: 200px;
     }
 
     .soldout_message {
@@ -623,6 +2453,226 @@ input::placeholder {
     }
 }
 
+@media all and (max-width: 850px) {
+
+    .image_cart {
+        position: relative;
+        left: 290px;
+    }
+}
+
+@media all and (max-width: 830px) {
+
+    .border {
+        position: relative;
+        left: 150px;
+    }
+
+    .decoration1 {
+        position: relative;
+        left: 150px;
+    }
+
+    .item_search {
+        position: relative;
+        left: 195px;
+    }
+
+    .magnifyingglass {
+        position: relative;
+        left: 205px;
+    }
+
+    .image_cart {
+        position: relative;
+        left: 280px;
+    }
+
+    .num_cart {
+        position: relative;
+        left: 267px;
+    }
+
+    .fastimage {
+        position: relative;
+        left: 150px;
+    }
+
+    .itemlist_text {
+        position: relative;
+        left: 150px;
+    }
+
+    .border2 {
+        position: relative;
+        left: 150px;
+    }
+
+    #item_display {
+        position: relative;
+        left: 150px;
+    }
+
+    .border3 {
+        position: relative;
+        left: 150px;
+    }
+
+    .decoration2 {
+        position: relative;
+        top: 430px;
+        left: 380px;
+    }
+
+    .content3 {
+        position: relative;
+        top: 500px;
+        left: 200px;
+    }
+}
+
+@media all and (max-width: 800px) {
+
+    .border {
+        position: relative;
+        left: 140px;
+    }
+
+    .decoration1 {
+        position: relative;
+        left: 140px;
+    }
+
+    .item_search {
+        position: relative;
+        left: 190px;
+    }
+
+    .magnifyingglass {
+        position: relative;
+        left: 195px;
+    }
+
+    .image_cart {
+        position: relative;
+        left: 270px;
+    }
+
+    .num_cart {
+        position: relative;
+        left: 257px;
+    }
+
+    .fastimage {
+        position: relative;
+        left: 140px;
+    }
+
+    .itemlist_text {
+        position: relative;
+        left: 140px;
+    }
+
+    .border2 {
+        position: relative;
+        left: 140px;
+    }
+
+    #item_display {
+        position: relative;
+        left: 140px;
+    }
+
+    .border3 {
+        position: relative;
+        top: 300px;
+        left: 140px;
+    }
+
+    .decoration2 {
+        position: relative;
+        top: 350px;
+        left: 370px;
+    }
+
+    .content3 {
+        position: relative;
+        top: 400px;
+        left: 180px;
+    }
+}
+
+@media all and (max-width: 790px) {
+
+    .border {
+        position: relative;
+        left: 130px;
+    }
+
+    .decoration1 {
+        position: relative;
+        left: 130px;
+    }
+
+    .item_search {
+        position: relative;
+        left: 170px;
+    }
+
+    .magnifyingglass {
+        position: relative;
+        left: 180px;
+    }
+
+    .image_cart {
+        position: relative;
+        left: 261px;
+    }
+
+    .num_cart {
+        position: relative;
+        left: 248px;
+    }
+
+    .fastimage {
+        position: relative;
+        left: 130px;
+    }
+
+    .itemlist_text {
+        position: relative;
+        left: 130px;
+    }
+
+    .border2 {
+        position: relative;
+        left: 130px;
+    }
+
+    #item_display {
+        position: relative;
+        left: 130px;
+    }
+
+    .border3 {
+        position: relative;
+        top: 300px;
+        left: 130px;
+    }
+
+    .decoration2 {
+        position: relative;
+        top: 350px;
+        left: 360px;
+    }
+
+    .content3 {
+        position: relative;
+        top: 400px;
+        left: 170px;
+    }
+}
+
 @media all and (max-width: 768px) {
 
     .border {
@@ -632,27 +2682,27 @@ input::placeholder {
 
     .decoration1 {
         position: relative;
-        left: 100px;
+        left: 120px;
     }
 
     .item_search {
         position: relative;
-        left: 100px;
+        left: 160px;
     }
 
     .magnifyingglass {
         position: relative;
-        left: 110px;
+        left: 170px;
     }
 
     .image_cart {
         position: relative;
-        left: 205px;
+        left: 250px;
     }
 
     .num_cart {
         position: relative;
-        left: 195px;
+        left: 236px;
     }
 
     .fastimage {
@@ -689,8 +2739,831 @@ input::placeholder {
 
     .content3 {
         position: relative;
-        top: 380px;
-        left: 260px;
+        top: 400px;
+        left: 160px;
+    }
+}
+
+@media all and (max-width: 750px) {
+
+    .border {
+        position: relative;
+        left: 110px;
+    }
+
+    .decoration1 {
+        position: relative;
+        top: 0px;
+        left: 110px;
+    }
+
+    .item_search {
+        position: relative;
+        left: 160px;
+    }
+
+    .magnifyingglass {
+        position: relative;
+        left: 170px;
+    }
+
+    .image_cart {
+        position: relative;
+        left: 241px;
+    }
+
+    .num_cart {
+        position: relative;
+        left: 228px;
+    }
+
+    .fastimage {
+        position: relative;
+        left: 110px;
+    }
+
+    .itemlist_text {
+        position: relative;
+        left: 110px;
+    }
+
+    .border2 {
+        position: relative;
+        left: 110px;
+    }
+
+    #item_display {
+        position: relative;
+        left: 110px;
+    }
+
+    .border3 {
+        position: relative;
+        top: 300px;
+        left: 110px;
+    }
+
+    .decoration2 {
+        position: relative;
+        top: 350px;
+        left: 340px;
+    }
+
+    .content3 {
+        position: relative;
+        top: 400px;
+        left: 150px;
+    }
+}
+
+@media all and (max-width: 730px) {
+
+    .border {
+        position: relative;
+        left: 100px;
+    }
+
+    .decoration1 {
+        position: relative;
+        top: 0px;
+        left: 100px;
+    }
+
+    .item_search {
+        position: relative;
+        left: 150px;
+    }
+
+    .magnifyingglass {
+        position: relative;
+        left: 155px;
+    }
+
+    .image_cart {
+        position: relative;
+        left: 232px;
+    }
+
+    .num_cart {
+        position: relative;
+        left: 220px;
+    }
+
+    .fastimage {
+        position: relative;
+        left: 100px;
+    }
+
+    .itemlist_text {
+        position: relative;
+        left: 100px;
+    }
+
+    .border2 {
+        position: relative;
+        left: 100px;
+    }
+
+    #item_display {
+        position: relative;
+        left: 100px;
+    }
+
+    .border3 {
+        position: relative;
+        top: 300px;
+        left: 100px;
+    }
+
+    .decoration2 {
+        position: relative;
+        top: 350px;
+        left: 330px;
+    }
+
+    .content3 {
+        position: relative;
+        top: 400px;
+        left: 140px;
+    }
+}
+
+@media all and (max-width: 720px) {
+
+    .border {
+        position: relative;
+        left: 95px;
+    }
+
+    .decoration1 {
+        position: relative;
+        left: 100px;
+    }
+
+    .item_search {
+        position: relative;
+        left: 140px;
+    }
+
+    .magnifyingglass {
+        position: relative;
+        left: 145px;
+    }
+
+    .image_cart {
+        position: relative;
+        left: 227px;
+    }
+
+    .num_cart {
+        position: relative;
+        left: 214px;
+    }
+
+    .fastimage {
+        position: relative;
+        left: 95px;
+    }
+
+    .itemlist_text {
+        position: relative;
+        left: 95px;
+    }
+
+    .border2 {
+        position: relative;
+        left: 95px;
+    }
+
+    #item_display {
+        position: relative;
+        left: 95px;
+    }
+
+    .border3 {
+        position: relative;
+        top: 300px;
+        left: 95px;
+    }
+
+    .decoration2 {
+        position: relative;
+        top: 350px;
+        left: 310px;
+    }
+
+    .content3 {
+        position: relative;
+        top: 400px;
+        left: 130px;
+    }
+}
+
+@media all and (max-width: 716px) {
+    
+    .border {
+        position: relative;
+        left: 90px;
+    }
+
+    .decoration1 {
+        position: relative;
+        left: 90px;
+    }
+
+    .item_search {
+        position: relative;
+        left: 145px;
+    }
+
+    .magnifyingglass {
+        position: relative;
+        left: 155px;
+    }
+
+    .image_cart {
+        position: relative;
+        left: 220px;
+    }
+
+    .num_cart {
+        position: relative;
+        left: 207px;
+    }
+
+    .fastimage {
+        position: relative;
+        left: 90px;
+    }
+
+    .itemlist_text {
+        position: relative;
+        left: 90px;
+    }
+
+    .border2 {
+        position: relative;
+        left: 90px;
+    }
+
+    #item_display {
+        position: relative;
+        left: 90px;
+    }
+
+    .border3 {
+        position: relative;
+        top: 300px;
+        left: 90px;
+    }
+
+    .decoration2 {
+        position: relative;
+        top: 350px;
+        left: 300px;
+    }
+
+    .content3 {
+        position: relative;
+        top: 400px;
+        left: 120px;
+    }
+}
+
+@media all and (max-width: 700px) {
+
+    .border {
+        position: relative;
+        left: 85px;
+    }
+
+    .decoration1 {
+        position: relative;
+        left: 80px;
+    }
+
+    .item_search {
+        position: relative;
+        left: 135px;
+    }
+
+    .magnifyingglass {
+        position: relative;
+        left: 145px;
+    }
+
+    .image_cart {
+        position: relative;
+        left: 215px;
+    }
+
+    .num_cart {
+        position: relative;
+        left: 202px;
+    }
+
+    .fastimage {
+        position: relative;
+        left: 85px;
+    }
+
+    .itemlist_text {
+        position: relative;
+        left: 85px;
+    }
+
+    .border2 {
+        position: relative;
+        left: 85px;
+    }
+
+    #item_display {
+        position: relative;
+        left: 85px;
+    }
+
+    .border3 {
+        position: relative;
+        top: 300px;
+        left: 85px;
+    }
+
+    .decoration2 {
+        position: relative;
+        top: 350px;
+        left: 300px;
+    }
+
+    .content3 {
+        position: relative;
+        top: 400px;
+        left: 110px;
+    }
+}
+
+@media all and (max-width: 690px) {
+
+    .border {
+        position: relative;
+        left: 80px;
+    }
+
+    .decoration1 {
+        position: relative;
+        left: 80px;
+    }
+
+    .image_cart {
+        position: relative;
+        left: 212px;
+    }
+
+    .num_cart {
+        position: relative;
+        left: 200px;
+    }
+
+    .fastimage {
+        position: relative;
+        left: 80px;
+    }
+
+    .itemlist_text {
+        position: relative;
+        left: 80px;
+    }
+
+    .border2 {
+        position: relative;
+        left: 80px;
+    }
+
+    #item_display {
+        position: relative;
+        left: 80px;
+    }
+
+    .border3 {
+        position: relative;
+        top: 300px;
+        left: 80px;
+    }
+}
+
+@media all and (max-width: 670px) {
+
+    .border {
+        position: relative;
+        left: 70px;
+    }
+
+    .decoration1 {
+        position: relative;
+        left: 70px;
+    }
+
+    .image_cart {
+        position: relative;
+        left: 202px;
+    }
+
+    .num_cart {
+        position: relative;
+        left: 190px;
+    }
+
+    .fastimage {
+        position: relative;
+        left: 70px;
+    }
+
+    .itemlist_text {
+        position: relative;
+        left: 70px;
+    }
+
+    .border2 {
+        position: relative;
+        left: 70px;
+    }
+
+    #item_display {
+        position: relative;
+        left: 70px;
+    }
+
+    .border3 {
+        position: relative;
+        top: 300px;
+        left: 70px;
+    }
+}
+
+@media all and (max-width: 660px) {
+
+    .border {
+        position: relative;
+        left: 65px;
+    }
+
+    .decoration1 {
+        position: relative;
+        left: 70px;
+    }
+
+    .item_search {
+        position: relative;
+        left: 120px;
+    }
+
+    .magnifyingglass {
+        position: relative;
+        left: 130px;
+    }
+
+    .image_cart {
+        position: relative;
+        left: 196px;
+    }
+
+    .num_cart {
+        position: relative;
+        left: 183px;
+    }
+
+    .fastimage {
+        position: relative;
+        left: 65px;
+    }
+
+    .itemlist_text {
+        position: relative;
+        left: 65px;
+    }
+
+    .border2 {
+        position: relative;
+        left: 65px;
+    }
+
+    #item_display {
+        position: relative;
+        left: 65px;
+    }
+
+    .border3 {
+        position: relative;
+        top: 300px;
+        left: 65px;
+    }
+
+    .decoration2 {
+        position: relative;
+        top: 350px;
+        left: 290px;
+    }
+
+    .content3 {
+        position: relative;
+        top: 400px;
+        left: 100px;
+    }
+}
+
+@media all and (max-width: 640px) {
+
+    .border {
+        position: relative;
+        left: 55px;
+    }
+
+    .decoration1 {
+        position: relative;
+        left: 55px;
+    }
+
+    .item_search {
+        position: relative;
+        left: 100px;
+    }
+
+    .magnifyingglass {
+        position: relative;
+        left: 110px;
+    }
+
+    .image_cart {
+        position: relative;
+        left: 187px;
+    }
+
+    .num_cart {
+        position: relative;
+        left: 174px;
+    }
+
+    .fastimage {
+        position: relative;
+        left: 50px;
+    }
+
+    .itemlist_text {
+        position: relative;
+        left: 55px;
+    }
+
+    .border2 {
+        position: relative;
+        left: 55px;
+    }
+
+    #item_display {
+        position: relative;
+        left: 55px;
+    }
+
+    .border3 {
+        position: relative;
+        top: 300px;
+        left: 55px;
+    }
+
+    .decoration2 {
+        position: relative;
+        top: 350px;
+        left: 280px;
+    }
+
+    .content3 {
+        position: relative;
+        top: 400px;
+        left: 90px;
+    }
+}
+
+@media all and (max-width: 630px) {
+
+    .border {
+        position: relative;
+        left: 50px;
+    }
+
+    .decoration1 {
+        position: relative;
+        left: 50px;
+    }
+
+    .item_search {
+        position: relative;
+        left: 95px;
+    }
+
+    .magnifyingglass {
+        position: relative;
+        left: 100px;
+    }
+
+    .image_cart {
+        position: relative;
+        left: 182px;
+    }
+
+    .num_cart {
+        position: relative;
+        left: 169px;
+    }
+
+    .fastimage {
+        position: relative;
+        left: 50px;
+    }
+
+    .itemlist_text {
+        position: relative;
+        left: 50px;
+    }
+
+    .border2 {
+        position: relative;
+        left: 50px;
+    }
+
+    #item_display {
+        position: relative;
+        left: 50px;
+    }
+
+    .border3 {
+        position: relative;
+        top: 300px;
+        left: 50px;
+    }
+
+    .decoration2 {
+        position: relative;
+        top: 350px;
+        left: 270px;
+    }
+
+    .content3 {
+        position: relative;
+        top: 400px;
+        left: 80px;
+    }
+}
+
+@media all and (max-width: 620px) {
+
+    .border {
+        position: relative;
+        left: 45px;
+    }
+
+    .decoration1 {
+        position: relative;
+        left: 45px;
+    }
+
+    .item_search {
+        position: relative;
+        left: 90px;
+    }
+
+    .magnifyingglass {
+        position: relative;
+        left: 95px;
+    }
+
+    .image_cart {
+        position: relative;
+        left: 177px;
+    }
+
+    .num_cart {
+        position: relative;
+        left: 164px;
+    }
+
+    .fastimage {
+        position: relative;
+        left: 45px;
+    }
+
+    .itemlist_text {
+        position: relative;
+        left: 45px;
+    }
+
+    .border2 {
+        position: relative;
+        left: 45px;
+    }
+
+    #item_display {
+        position: relative;
+        left: 45px;
+    }
+
+    .border3 {
+        position: relative;
+        top: 300px;
+        left: 45px;
+    }
+
+    .decoration2 {
+        position: relative;
+        top: 350px;
+        left: 270px;
+    }
+
+    .content3 {
+        position: relative;
+        top: 400px;
+        left: 80px;
+    }
+}
+
+@media all and (max-width: 600px) {
+
+    .border {
+        position: relative;
+        left: 30px;
+    }
+
+    .decoration1 {
+        position: relative;
+        left: 30px;
+    }
+
+    .item_search {
+        position: relative;
+        left: 90px;
+    }
+
+    .magnifyingglass {
+        position: relative;
+        left: 100px;
+    }
+
+    .image_cart {
+        position: relative;
+        left: 161px;
+    }
+
+    .num_cart {
+        position: relative;
+        left: 148px;
+    }
+
+    .fastimage {
+        position: relative;
+        left: 30px;
+    }
+
+    .itemlist_text {
+        position: relative;
+        left: 30px;
+    }
+
+    .border2 {
+        position: relative;
+        left: 30px;
+    }
+
+    #item_display {
+        position: relative;
+        left: 30px;
+    }
+
+    .border3 {
+        position: relative;
+        top: 300px;
+        left: 30px;
+    }
+
+    .decoration2 {
+        position: relative;
+        top: 350px;
+        left: 250px;
+    }
+
+    .content3 {
+        position: relative;
+        top: 400px;
+        left: 70px;
+    }
+}
+
+@media all and (max-width: 570px) {
+
+    .item_search {
+        position: relative;
+        left: 80px;
+    }
+
+    .magnifyingglass {
+        position: relative;
+        left: 85px;
     }
 }
 
@@ -703,28 +3576,28 @@ input::placeholder {
 
     .decoration1 {
         position: relative;
-        left: 10px;
-        top: 10px;
+        left: 30px;
+        top: 0px;
     }
 
     .item_search {
         position: relative;
-        left: 10px;
+        left: 70px;
     }
 
     .magnifyingglass {
         position: relative;
-        left: 20px;
+        left: 80px;
     }
 
     .image_cart {
         position: relative;
-        left: 110px;
+        left: 155px;
     }
 
     .num_cart {
         position: relative;
-        left: 100px;
+        left: 142px;
     }
 
     .fastimage {
@@ -734,7 +3607,7 @@ input::placeholder {
 
     .itemlist_text {
         position: relative;
-        left: 10px;
+        left: 25px;
     }
 
     .border2 {
@@ -759,11 +3632,53 @@ input::placeholder {
 
     .content3 {
         position: relative;
-        left: 155px;
+        left: 55px;
     }
 }
 
-@media all and (max-width: 430px) {
+@media all and (max-width: 520px) {
+
+    .image_cart {
+        position: relative;
+        left: 157px;
+    }
+
+    .num_cart {
+        position: relative;
+        left: 144px;
+    }
+}
+
+@media all and (max-width: 512px) {
+
+    .decoration1 {
+        position: relative;
+        left: 30px;
+        top: 0px;
+    }
+
+    .item_search {
+        position: relative;
+        left: 80px;
+    }
+
+    .magnifyingglass {
+        position: relative;
+        left: 90px;
+    }
+
+    .image_cart {
+        position: relative;
+        left: 157px;
+    }
+
+    .content3 {
+        position: relative;
+        left: 60px;
+    }
+}
+
+@media all and (max-width: 480px) {
 
     .layout {
         width: 390px;
@@ -771,24 +3686,21 @@ input::placeholder {
     }
 
     .decoration1 {
-        position: relative;
-        left: 30px;
-        top: 10px;
-}
-
-    .decoration1 img {
         width: 54px;
         height: 54px;
+        position: relative;
+        left: 55px;
+        top: 10px;
     }
 
     .item_search {
-        width: 186px;
+        width: 206px;
         height: 26px;
         position: relative;
-        top: 30px;
-        left: -30px;
+        top: 25px;
+        left: 70px;
         border-radius: 12px;
-}
+    }
 
     input::placeholder {
         height: 14px;
@@ -800,18 +3712,18 @@ input::placeholder {
         color: #D0D0D0;
         position: relative;
         left: 10px;
-}
+    }
 
     .magnifyingglass {
         background-color: #deb089;
         width: 40px;
         height: 26px;
         position: relative;
-        left: -25px;
-        top: 32px;
+        left: 75px;
+        top: 27px;
         padding: 1px 1px 1px 1px;
         border-radius: 8px;
-}
+    }
 
     .magnifyingglass_image {
         width: 10px;
@@ -822,33 +3734,33 @@ input::placeholder {
         width: 358px;
         border: 1px solid #656565;
         position: relative;
-        left: 35px;
+        left: 60px;
         top: -45px;
-}
+    }
 
     .shoppingcart_text {
         display: none;
-}
+    }
 
     .image_cart {
         position: absolute;
-        top: 75px;
-        left: 365px;
+        top: 72px;
+        left: 387px;
         border: none;
         background-color: white;
-}
+    }
 
     .image_cart img {
         width: 26px;
         height: 24px;
-}
+    }
 
     .num_cart {
         width: 10px;
         height: 10px;
         position: relative;
-        left: 18px;
-        top: 18px;
+        left: 99px;
+        top: 14px;
         border: 2px solid #333;
         border-radius: 50%;
         color: #fff;
@@ -858,7 +3770,7 @@ input::placeholder {
         font-weight: 400;
         line-height: 12.1px;
         text-align: center;
-}
+    }
 
     .fastimage {
         width: 356px;
@@ -866,29 +3778,29 @@ input::placeholder {
         border-radius: 10px;
         position: relative;
         top: -10px;
-        left: 35px;
-}
+        left: 60px;
+    }
 
     .itemlist_text {
         width: 106px;
         height: 25px;
         position: relative;
         top: 15px;
-        left: 35px;
+        left: 60px;
         font-family: sans-serif;
         font-size: 20px;
         font-weight: 400;
         line-height: 27.32px;
         text-align: left;  
-}
+    }
 
     .border2 {
         width: 358px;
         border: 1px solid #656565;
         position: relative;
         top: 15px;
-        left: 35px;
-}
+        left: 60px;
+    }
 
     #item_display {
         width: 200px;
@@ -896,8 +3808,8 @@ input::placeholder {
         grid-template-columns: repeat(2, 190px);
         position: relative;
         top: 70px;
-        left: 35px;
-}
+        left: 60px;
+    }
 
     #item_display img {
         width: 171px;
@@ -908,19 +3820,16 @@ input::placeholder {
         width: 358px;
         border: 1px solid #656565;
         position: relative;
-        left: 35px;
+        left: 60px;
         top: 180px;
-}
+    }
     
     .decoration2 {
-        position: relative;
-        top: 240px;
-        left: 180px;
-}
-
-    .decoration2 img {
         width: 54px;
         height: 54px;
+        position: relative;
+        top: 240px;
+        left: 200px;
     }
 
     .content3 {
@@ -929,8 +3838,8 @@ input::placeholder {
         font-weight: 400px;
         font-size: 12px;
         position: relative;
-        top: 220px;
-        left: 80px;
+        top: 280px;
+        left: 40px;
     }
 
     .soldout_message {
@@ -947,7 +3856,7 @@ input::placeholder {
         line-height: 19.12px;
         text-align: center;
         padding: 10px 8px 1px 8px;
-}
+    }
 
     .noitem_display {
         position: relative;
@@ -960,7 +3869,384 @@ input::placeholder {
         line-height: 21px;
         letter-spacing: -0.05em;
         text-align: left;
+    }
+}
 
+@media all and (max-width: 460px) {
+
+    .border {
+        position: relative;
+        left: 50px;
+    }
+
+    .decoration1 {
+        position: relative;
+        left: 50px;
+    }
+
+    .image_cart {
+        position: relative;
+        top: 30px;
+        left: 72px;
+    }
+
+    .fastimage {
+        position: relative;
+        left: 50px;
+    }
+
+    .itemlist_text {
+        position: relative;
+        left: 50px;
+    }
+
+    .border2 {
+        position: relative;
+        left: 50px;
+    }
+
+    .num_cart {
+        position: relative;
+        left: 54px;
+    }
+
+    #item_display {
+        position: relative;
+        left: 50px;
+    }
+
+    .item_search {
+        position: relative;
+        top: 25px;
+        left: 60px;
+        border-radius: 12px;
+    }
+
+    .magnifyingglass {
+        position: relative;
+        left: 65px;
+        top: 27px;
+    }
+
+    .border3 {
+        position: relative;
+        left: 50px;
+    }
+
+    .decoration2 {
+        position: relative;
+        left: 210px;
+    }
+
+    .content3 {
+        position: relative;
+        top: 280px;
+        left: 40px;
+    }
+}
+
+@media all and (max-width: 440px) {
+
+    .border {
+        position: relative;
+        left: 43px;
+    }
+
+    .decoration1 {
+        position: relative;
+        left: 43px;
+    }
+
+    .image_cart {
+        position: relative;
+        top: 30px;
+        left: 65px;
+    }
+
+    .fastimage {
+        position: relative;
+        left: 43px;
+    }
+
+    .itemlist_text {
+        position: relative;
+        left: 43px;
+    }
+
+    .border2 {
+        position: relative;
+        left: 43px;
+    }
+
+    .num_cart {
+        position: relative;
+        left: 47px;
+    }
+
+    #item_display {
+        position: relative;
+        left: 43px;
+    }
+
+    .item_search {
+        position: relative;
+        top: 25px;
+        left: 58px;
+        border-radius: 12px;
+    }
+
+    .magnifyingglass {
+        position: relative;
+        left: 63px;
+        top: 27px;
+    }
+
+    .border3 {
+        position: relative;
+        left: 43px;
+    }
+
+    .decoration2 {
+        position: relative;
+        left: 200px;
+    }
+
+    .content3 {
+        position: relative;
+        top: 280px;
+        left: 30px;
+    }
+}
+
+@media all and (max-width: 430px) {
+
+    .border {
+        position: relative;
+        left: 35px;
+    }
+
+    .decoration1 {
+        position: relative;
+        left: 35px;
+    }
+
+    .image_cart {
+        position: relative;
+        top: 30px;
+        left: 58px;
+    }
+
+    .fastimage {
+        position: relative;
+        left: 35px;
+    }
+
+    .itemlist_text {
+        position: relative;
+        left: 35px;
+    }
+
+    .border2 {
+        position: relative;
+        left: 35px;
+    }
+
+    .num_cart {
+        position: relative;
+        left: 40px;
+    }
+
+    #item_display {
+        position: relative;
+        left: 35px;
+    }
+
+    .item_search {
+        position: relative;
+        top: 30px;
+        left: 50px;
+        border-radius: 12px;
+    }
+
+    .magnifyingglass {
+        position: relative;
+        left: 55px;
+        top: 32px;
+    }
+
+    .border3 {
+        position: relative;
+        left: 35px;
+    }
+
+    .decoration2 {
+        position: relative;
+        left: 190px;
+    }
+
+    .content3 {
+        position: relative;
+        top: 280px;
+        left: 20px;
+    }
+}
+
+@media all and (max-width: 414px) {
+
+    .border {
+        position: relative;
+        left: 30px;
+    }
+
+    .decoration1 {
+        position: relative;
+        left: 30px;
+    }
+
+    .image_cart {
+        position: relative;
+        top: 30px;
+        left: 55px;
+    }
+
+    .fastimage {
+        position: relative;
+        left: 30px;
+    }
+
+    .itemlist_text {
+        position: relative;
+        left: 30px;
+    }
+
+    .border2 {
+        position: relative;
+        left: 30px;
+    }
+
+    .num_cart {
+        position: relative;
+        left: 38px;
+    }
+
+    #item_display {
+        position: relative;
+        left: 30px;
+    }
+
+    .item_search {
+        position: relative;
+        top: 30px;
+        left: 50px;
+        border-radius: 12px;
+    }
+
+    .magnifyingglass {
+        position: relative;
+        left: 55px;
+        top: 32px;
+    }
+
+    .border3 {
+        position: relative;
+        left: 30px;
+    }
+
+    .decoration2 {
+        position: relative;
+        left: 180px;
+    }
+
+    .content3 {
+        position: relative;
+        top: 280px;
+        left: 20px;
+    }  
+}
+
+@media all and (max-width: 412px) {
+
+    .image_cart {
+        position: relative;
+        left: 55px;
+    }
+
+    .num_cart {
+        position: relative;
+        left: 37px;
+    }
+}
+
+@media all and (max-width: 384px) {
+
+    .border {
+        position: relative;
+        left: 30px;
+    }
+
+    .decoration1 {
+        position: relative;
+        left: 30px;
+    }
+
+    .image_cart {
+        position: relative;
+        top: 30px;
+        left: 53px;
+    }
+
+    .fastimage {
+        position: relative;
+        left: 30px;
+    }
+
+    .itemlist_text {
+        position: relative;
+        left: 30px;
+    }
+
+    .border2 {
+        position: relative;
+        left: 30px;
+    }
+
+    .num_cart {
+        position: relative;
+        left: 35px;
+    }
+
+    #item_display {
+        position: relative;
+        left: 30px;
+    }
+
+    .item_search {
+        position: relative;
+        top: 30px;
+        left: 50px;
+        border-radius: 12px;
+    }
+
+    .magnifyingglass {
+        position: relative;
+        left: 55px;
+        top: 32px;
+    }
+
+    .border3 {
+        position: relative;
+        left: 30px;
+    }
+
+    .decoration2 {
+        position: relative;
+        left: 180px;
+    }
+
+    .content3 {
+        position: relative;
+        top: 280px;
+        left: 20px;
     }
 }
 
@@ -973,29 +4259,29 @@ input::placeholder {
 
     .decoration1 {
         position: relative;
-        left: 20px;
+        left: 25px;
     }
 
     .item_search {
         position: relative;
-        left: -55px;
+        left: 45px;
     }
 
     .magnifyingglass {
         position: relative;
-        left: -50px;
+        left: 50px;
     }
 
     .image_cart {
         position: absolute;
-        left: 352px;
-        top: 76px;
+        left: 354px;
+        top: 73px;
     }
 
     .num_cart {
         position: relative;
-        top: 20px;
-        left: 3px;
+        top: 15px;
+        left: 66px;
     }
 
     .fastimage {
@@ -1032,8 +4318,8 @@ input::placeholder {
 
     .content3 {
         position: relative;
-        top: 220px;
-        left: 70px;
+        top: 300px;
+        left: 10px;
     }
 }
 
@@ -1041,61 +4327,124 @@ input::placeholder {
 
     .border {
         position: relative;
-        left: 20px;
+        left: 25px;
     }
 
     .border3 {
         position: relative;
-        left: 20px;
+        left: 25px;
         top: 400px;
     }
 
     .decoration1 {
         position: relative;
-        left: 10px;
+        left: 25px;
     }
 
     .image_cart {
         position: absolute;
-        top: 80px;
-        left: 350px;
+        top: 75px;
+        left: 353px;
     }
 
     .num_cart {
         position: relative;
-        top: 23px;
-        left: 2px;
+        top: 17px;
+        left: 64px;
     }
 
     .fastimage {
         position: relative;
-        left: 20px;
+        left: 25px;
     }
 
     .itemlist_text {
         position: relative;
-        left: 20px;
+        left: 25px;
     }
 
     .border2 {
         position: relative;
-        left: 20px;
+        left: 25px;
     }
 
     #item_display {
         position: relative;
-        left: 20px;
+        left: 25px;
     }
 
     .decoration2 {
         position: relative;
         left: 180px;
-        top: 500px;
+        top: 480px;
+    }
+
+    .content3 {
+        position: relative;
+        left: 10px;
+        top: 550px;
+    }
+}
+
+@media all and (max-width: 328px) {
+
+    .border {
+        position: relative;
+        left: 25px;
+    }
+
+    .border3 {
+        position: relative;
+        left: 25px;
+        top: 400px;
+    }
+
+    .decoration1 {
+        position: relative;
+        left: 25px;
+    }
+
+    .image_cart {
+        position: absolute;
+        top: 75px;
+        left: 353px;
+    }
+
+    .num_cart {
+        position: relative;
+        top: 17px;
+        left: 64px;
+    }
+
+    .fastimage {
+        position: relative;
+        left: 25px;
+    }
+
+    .itemlist_text {
+        position: relative;
+        left: 25px;
+    }
+
+    .border2 {
+        position: relative;
+        left: 25px;
+    }
+
+    #item_display {
+        position: relative;
+        left: 25px;
+    }
+
+    .decoration2 {
+        position: relative;
+        left: 180px;
+        top: 450px;
     }
 
     .content3 {
         position: relative;
         left: 70px;
-        top: 450px;
+        top: 500px;
     }
 }
