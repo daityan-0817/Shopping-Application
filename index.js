@@ -1,6 +1,6 @@
 const searchButton = qs('#magnifyingglass')
 const searchInput = qs('#search_window')
-const items = qs('#item_display')
+const items_display = qs('#item_display')
 const layout = qs('#layout')
 const cartButton = qs('#image_cart')
 const cartNum = 'cartnum'
@@ -8,61 +8,58 @@ const itemStock = 'item_stock'
 const defaultData = getItemData()
 const newData = itemStockData()
 const itemNameList = []
+const changeData = newData ? newData : defaultData
 
-function itemDisplay() {
-
-  for(let item of defaultData) {
-    itemNameList.push(item.itemName)
-  }
+function itemDisplay(items) {
   
-  const changeData = newData ? newData : defaultData
-    
-  for(let item of changeData) {
+  if(items.length === 0) {
 
-    if(item.itemName.includes(searchInput.value)) {
-
-      const soldOutItem = [item.stock].includes(0)
-
-      const listItem = document.createElement('div')
-      listItem.setAttribute('class','items')
-      listItem.innerHTML = 
-      ` 
-      <img src="${item.image}"/>
-      <di>${item.itemName}</div>
-      <div>￥${item.price}</div>
-      `
-      items.appendChild(listItem)
-
-      if(soldOutItem) {
-
-        const soldOutMessage = document.createElement('div')
-        soldOutMessage.setAttribute('class','soldout_message')
-        soldOutMessage.innerText = 'sold out'
-        listItem.appendChild(soldOutMessage)
-        }else {
-
-        listItem.addEventListener('click', () => {
-          location.href =  `/detail/?id=${item.id}&imgsrc=${item.image}=${item.itemName}=${item.price}`
-        })
-      }
-    }
-  }
-
-  if(!itemNameList.some(elem => elem.includes(searchInput.value))) {
     const noItemDisplay = document.createElement('span')
     noItemDisplay.setAttribute('class', 'noitem_display')
     noItemDisplay.innerText = '検索条件に該当する商品がありません'
-    items.appendChild(noItemDisplay) 
+    items_display.appendChild(noItemDisplay)  
   }
-}
+    
+  for(let item of items) {
+
+    const soldOutItem = [item.stock].includes(0)
+
+    const listItem = document.createElement('div')
+    listItem.setAttribute('class','items')
+    listItem.innerHTML = 
+    ` 
+    <img src="${item.image}"/>
+    <di>${item.itemName}</div>
+    <div>￥${item.price}</div>
+    `
+    items_display.appendChild(listItem)
+
+    if(soldOutItem) {
+
+      const soldOutMessage = document.createElement('div')
+      soldOutMessage.setAttribute('class','soldout_message')
+      soldOutMessage.innerText = 'sold out'
+      listItem.appendChild(soldOutMessage)
+    }else {
+
+      listItem.addEventListener('click', () => {
+        location.href =  `/detail/?id=${item.id}&imgsrc=${item.image}=${item.itemName}=${item.price}`
+      })
+    }
+  }
+} 
   
-itemDisplay()
+itemDisplay(changeData)
 
 searchButton.addEventListener('click', () => {
 
-  items.innerHTML = ''
+  items_display.innerHTML = ''
+  
+  const searchValue = searchInput.value
+  const searchResult = changeData.filter(e => e.itemName.includes(searchValue))
+  
+  itemDisplay(searchResult)
 
-  itemDisplay()
 })
 
 function getCartNum() {
