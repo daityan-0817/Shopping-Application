@@ -1,6 +1,6 @@
 const searchButton = qs('#magnifyingglass')
 const searchInput = qs('#search_window')
-const items_display = qs('#item_display')
+const ITEMS = qs('#item_display')
 const layout = qs('#layout')
 const cartButton = qs('#image_cart')
 const cartNum = 'cartnum'
@@ -17,12 +17,12 @@ function itemDisplay(items) {
     const noItemDisplay = document.createElement('span')
     noItemDisplay.setAttribute('class', 'noitem_display')
     noItemDisplay.innerText = '検索条件に該当する商品がありません'
-    items_display.appendChild(noItemDisplay)  
+    ITEMS.appendChild(noItemDisplay)  
   }
     
   for(let item of items) {
 
-    const soldOutItem = [item.stock].includes(0)
+    const soldOutItem = item.stock === 0
 
     const listItem = document.createElement('div')
     listItem.setAttribute('class','items')
@@ -32,7 +32,7 @@ function itemDisplay(items) {
     <di>${item.itemName}</div>
     <div>￥${item.price}</div>
     `
-    items_display.appendChild(listItem)
+    ITEMS.appendChild(listItem)
 
     if(soldOutItem) {
 
@@ -53,24 +53,23 @@ itemDisplay(changeData)
 
 searchButton.addEventListener('click', () => {
 
-  items_display.innerHTML = ''
+  ITEMS.innerHTML = ''
   
   const searchValue = searchInput.value
   const searchResult = changeData.filter(e => e.itemName.includes(searchValue))
   
   itemDisplay(searchResult)
-
 })
 
 function getCartNum() {
   
-  const date = localStorage.getItem(cartNum)
+  const data = localStorage.getItem(cartNum)
 
-  if(date) {
-    const display = document.createElement('span')
-    display.setAttribute('class','num_cart')
-    display.innerText = date
-    layout.appendChild(display)
+  if(data) {
+    const number = document.createElement('span')
+    number.setAttribute('class','num_cart')
+    number.innerText = data
+    layout.appendChild(number)
   }
 }
 
@@ -78,16 +77,16 @@ getCartNum()
 
 function itemStockData() {
 
-  const date = localStorage.getItem(itemStock)
+  const data = localStorage.getItem(itemStock)
 
-  return JSON.parse(date)
+  return JSON.parse(data)
 }
  
 cartButton.addEventListener('click', () => {
 
-  const date = localStorage.getItem(cartNum)
+  const data = localStorage.getItem(cartNum)
 
-  if(date) {
+  if(data) {
     location.href = '/cart'
   }
 })
