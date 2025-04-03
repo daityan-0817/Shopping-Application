@@ -917,7 +917,7 @@ body {
     .decoration2 {
         position: relative;
         top: 830px;
-        left: 430px;
+        left: 440px;
     }
 
     .content {
@@ -935,19 +935,19 @@ body {
     .text {
         position: relative;
         top: 350px;
-        left: 270px;
+        left: 280px;
     }
 
     #returntocart {
         position: relative;
         top: 400px;
-        left: 340px;
+        left: 350px;
     }
 
     .content2 {
         position: relative;
         top: 880px;
-        left: 360px;
+        left: 370px;
     }
 }
 
@@ -1384,7 +1384,7 @@ body {
 
     #returntocart {
         position: relative;
-        left: 230px;
+        left: 220px;
     }
 
     .border2 {
@@ -1394,12 +1394,12 @@ body {
 
     .decoration2 {
         position: relative;
-        left: 340px;
+        left: 350px;
     }
 
     .content2 {
         position: relative;
-        left: 250px;
+        left: 260px;
     }
 }
 
@@ -1560,19 +1560,19 @@ body {
     .border {
         position: relative;
         top: 0px;
-        left: 30px;
+        left: 35px;
     }
 
     .border2 {
         position: relative;
         top: 750px;
-        left: 30px;
+        left: 35px;
     }
 
     .decoration {
         position: relative;
         top: -20px;
-        left: 10px;
+        left: 20px;
     }
 
     .decoration2 {
@@ -1584,7 +1584,7 @@ body {
     .imagecart {
         position: relative;
         top: 70px;
-        left: 385px;
+        left: 390px;
     }
 
     .text {

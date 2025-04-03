@@ -1495,32 +1495,32 @@ body {
 
     .border {
         position: relative;
-        left: 50px;
+        left: 75px;
     }
 
     .content {
         position: relative;
-        left: 660px;
+        left: 690px;
     }
 
     .decoration {
         position: relative;
-        left: 50px;
+        left: 80px;
     }
 
     .image_cart {
         position: relative;
-        left: 692px;
+        left: 715px;
     }
 
     .num_cart {
         position: relative;
-        left: 667px;
+        left: 689px;
     }
 
     .itemlist {
         position: relative;
-        left: 50px;
+        left: 75px;
     }
 
     .item_name {
@@ -1550,17 +1550,17 @@ body {
 
     #totaltext {
         position: relative;
-        left: 50px;
+        left: 75px;
     }
 
     #totalborder {
         position: relative;
-        left: 50px;
+        left: 75px;
     }
 
     #totalcash {
         position: relative;
-        left: 385px;
+        left: 412px;
     }
 
     .customer_information {
@@ -1570,19 +1570,19 @@ body {
 
     .lastborder {
         position: relative;
-        left: 50px;
+        left: 75px;
     }
 
     .decoration2 {
         position: relative;
         top: 420px;
-        left: 450px;
+        left: 470px;
     }
 
     .text {
         position: relative;
         top: 80px;
-        left: -190px;
+        left: -170px;
     }
 }
 
@@ -1675,6 +1675,102 @@ body {
     }
 
     .text {
+        position: relative;
+        top: 80px;
+        left: -145px;
+    }
+}
+
+@media all and (max-width: 912px) {
+
+    .border {
+        position: relative;
+        left: 90px;
+    }
+
+    .content {
+        position: relative;
+        left: 700px;
+    }
+
+    .decoration {
+        position: relative;
+        left: 95px;
+    }
+
+    .image_cart {
+        position: relative;
+        left: 733px;
+    }
+
+    .num_cart {
+        position: relative;
+        left: 707px;
+    }
+
+    .itemlist {
+        position: relative;
+        left: 95px;
+    }
+
+    .item_name {
+        position: relative;
+        left: -190px;
+    }
+
+    .item_size {
+        position: relative;
+        left: -190px;
+    }
+
+    .item_quantity {
+        position: relative;
+        left: 360px;
+    }
+
+    .listitem_border {
+        position: relative;
+        left: 360px;
+    }
+
+    .item_price {
+        position: relative;
+        left: 245px;
+    }
+
+    #totaltext {
+        position: relative;
+        left: 95px;
+    }
+
+    #totalborder {
+        position: relative;
+        left: 95px;
+    }
+
+    #totalcash {
+        position: relative;
+        left: 432px;
+    }
+
+    .customer_information {
+        position: absolute;
+        left: 770px;
+    }
+
+    .lastborder {
+        position: relative;
+        left: 90px;
+    }
+
+    .decoration2 {
+        position: relative;
+        top: 420px;
+        left: 495px;
+    }
+
+    .text {
+        width: 500px;
         position: relative;
         top: 80px;
         left: -145px;
@@ -2139,6 +2235,95 @@ body {
     }
 }
 
+@media all and (max-width: 820px) {
+
+    .border {
+        position: relative;
+        left: 145px;
+    }
+
+    .decoration {
+        position: relative;
+        left: 135px;
+    }
+
+    .image_cart {
+        position: relative;
+        left: 495px;
+    }
+
+    .num_cart {
+        position: relative;
+        left: 469px;
+    }
+
+    .itemlist {
+        position: relative;
+        left: 240px;
+    }
+
+    .item_name {
+        position: relative;
+        left: -130px
+    }
+
+    .item_size {
+        position: relative;
+        left: -130px;
+    }
+
+    .item_quantity {
+        position: relative;
+        left: 420px;
+    }
+
+    .listitem_border {
+        position: relative;
+        left: 420px;
+    }
+
+    .item_price {
+        position: relative;
+        left: 365px;
+    }
+
+    #totaltext {
+        position: relative;
+        left: 240px;
+    }
+
+    #totalborder {
+        position: relative;
+        left: 240px;
+    }
+
+    #totalcash {
+        position: relative;
+        left: 475px;
+    }
+
+    .customer_information {
+        position: relative;
+        left: 345px;
+    }
+
+    .lastborder {
+        position: relative;
+        left: 145px;
+    }
+
+    .decoration2 {
+        position: relative;
+        left: 360px;
+    }
+
+    .text {
+        position: relative;
+        top: 80px;
+        left: -260px;
+    }
+}
+
 @media all and (max-width: 800px) {
 
     .border {
@@ -2313,6 +2498,94 @@ body {
     .text {
         position: relative;
         left: -280px;
+    }
+}
+
+@media all and (max-width: 768px) {
+
+    .border {
+        position: relative;
+        left: 115px;
+    }
+
+    .decoration {
+        position: relative;
+        left: 105px;
+    }
+
+    .image_cart {
+        position: relative;
+        left: 465px;
+    }
+
+    .num_cart {
+        position: relative;
+        left: 440px;
+    }
+
+    .itemlist {
+        position: relative;
+        left: 220px;
+    }
+
+    .item_name {
+        position: relative;
+        left: -140px
+    }
+
+    .item_size {
+        position: relative;
+        left: -140px;
+    }
+
+    .item_quantity {
+        position: relative;
+        left: 410px;
+    }
+
+    .listitem_border {
+        position: relative;
+        left: 410px;
+    }
+
+    .item_price {
+        position: relative;
+        left: 356px;
+    }
+
+    #totaltext {
+        position: relative;
+        left: 210px;
+    }
+
+    #totalborder {
+        position: relative;
+        left: 210px;
+    }
+
+    #totalcash {
+        position: relative;
+        left: 445px;
+    }
+
+    .customer_information {
+        position: relative;
+        left: 330px;
+    }
+
+    .lastborder {
+        position: relative;
+        left: 115px;
+    }
+
+    .decoration2 {
+        position: relative;
+        left: 340px;
+    }
+
+    .text {
+        position: relative;
+        left: -270px;
     }
 }
 
@@ -2592,6 +2865,45 @@ body {
     .customer_address {
         position: relative;
         left: 0px;
+    }
+}
+
+@media all and (max-width: 540px) {
+
+    .border {
+        position: relative;
+        left: 28px;
+    }
+
+    .lastborder {
+        position: relative;
+        left: 28px;
+    }
+
+    .decoration {
+        position: relative;
+        left: 10px;
+    }
+
+    .decoration2 {
+        position: relative;
+        left: 250px;
+    }
+
+    .text {
+        position: relative;
+        top: 50px;
+        left: -370px;
+    }
+
+    .image_cart {
+        position: relative;
+        left: 379px;
+    }
+
+    .num_cart {
+        position: relative;
+        left: 354px;
     }
 }
 
@@ -3034,6 +3346,7 @@ body {
 }
 
 @media all and (max-width: 414px) {
+    
     .border {
         position: relative;
         left: 35px;
@@ -3041,12 +3354,12 @@ body {
 
     .decoration {
         position: relative;
-        left: -10px;
+        left: -5px;
     }
 
     .image_cart {
         position: relative;
-        left: 217px;
+        left: 215px;
     }
 
     .itemlist {
@@ -3106,7 +3419,7 @@ body {
 
     .num_cart {
         position: relative;
-        left: 196px;
+        left: 194px;
     }
 
     .decoration2 {
@@ -3278,7 +3591,7 @@ body {
 
     .border {
         position: relative;
-        left: 40px;
+        left: 35px;
     }
 
     .decoration {
@@ -3288,27 +3601,27 @@ body {
 
     .image_cart {
         position: relative;
-        left: 221px;
+        left: 215px;
     }
 
     .itemlist {
         position: relative;
-        left: 40px;
+        left: 35px;
     }
 
     #totaltext {
         position: relative;
-        left: 45px;
+        left: 35px;
     }
 
     #totalcash {
         position: relative;
-        left: 280px; 
+        left: 270px; 
     }
 
     #totalborder {
         position: relative;
-        left: 45px;
+        left: 35px;
     }
 
     .customer_information {
@@ -3323,7 +3636,12 @@ body {
 
     .num_cart {
         position: relative;
-        left: 200px;
+        left: 194px;
+    }
+
+    .decoration2 {
+        position: relative;
+        left: 180px;
     }
 
     .text {
