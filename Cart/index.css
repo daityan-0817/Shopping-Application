@@ -928,166 +928,6 @@ input[type="radio"]:checked + label::after {
     }
 }
 
-@media all and (max-width: 1270px) {
-
-    .border {
-        position: relative;
-        left: 170px;
-    }
-
-    .decoration {
-        position: relative;
-        left: 160px;
-    }
-
-    .content {
-        position: relative;
-        left: 800px;
-    }
-
-    .image_cart {
-        position: relative;
-        left: 820px;
-    }
-
-    .num_cart {
-        position: relative;
-        left: 800px;
-    }
-
-    .customer_information {
-        position: absolute;
-        top: 390px;
-        left: 740px;
-    }
-
-    #item_display {
-        position: relative;
-        left: -80px;
-    }
-
-    #totaltext {
-        position: relative;
-        left: 260px;
-    }
-
-    #totalborder {
-        position: relative;
-        left: 260px;
-    }
-
-    #totalcash {
-        position: relative;
-        left: 590px;
-    }
-
-    #confirm_button {
-        position: absolute;
-        left: 735px;
-        top: 950px;
-    }
-
-    #lastborder {
-        position: relative;
-        left: 250px;
-    }
-
-    #continue_shopping_button {
-        position: relative;
-        left: 450px;
-    }
-
-    .decoration2 {
-        position: relative;
-        left: 600px;
-    }
-
-    .text {
-        position: relative;
-        left: -50px;
-    }
-}
-
-@media all and (max-width: 1240px) {
-
-    .border {
-        position: relative;
-        left: 160px;
-    }
-
-    .decoration {
-        position: relative;
-        left: 150px;
-    }
-
-    .content {
-        position: relative;
-        left: 790px;
-    }
-
-    .image_cart {
-        position: relative;
-        left: 810px;
-    }
-
-    .num_cart {
-        position: relative;
-        left: 790px;
-    }
-
-    .customer_information {
-        position: absolute;
-        top: 390px;
-        left: 740px;
-    }
-
-    #item_display {
-        position: relative;
-        left: -90px;
-    }
-
-    #totaltext {
-        position: relative;
-        left: 260px;
-    }
-
-    #totalborder {
-        position: relative;
-        left: 260px;
-    }
-
-    #totalcash {
-        position: relative;
-        left: 590px;
-    }
-
-    #confirm_button {
-        position: absolute;
-        left: 735px;
-        top: 950px;
-    }
-
-    #lastborder {
-        position: relative;
-        left: 250px;
-    }
-
-    #continue_shopping_button {
-        position: relative;
-        left: 450px;
-    }
-
-    .decoration2 {
-        position: relative;
-        left: 580px;
-    }
-
-    .text {
-        position: relative;
-        left: -70px;
-    }
-}
-
 @media all and (max-width: 1220px) {
 
     .border {
@@ -1328,87 +1168,6 @@ input[type="radio"]:checked + label::after {
     }
 }
 
-@media all and (max-width: 1170px) {
-
-    .border {
-        position: relative;
-        left: 115px;
-    }
-
-    .decoration {
-        position: relative;
-        top: 100px;
-        left: 110px;
-    }
-
-    .content {
-        position: relative;
-        left: 745px;
-    }
-
-    .image_cart {
-        position: relative;
-        left: 765px;
-    }
-
-    .num_cart {
-        position: relative;
-        left: 746px;
-    }
-
-    .customer_information {
-        position: absolute;
-        top: 390px;
-        left: 700px;
-    }
-
-    #item_display {
-        position: relative;
-        left: -135px;
-    }
-
-    #totaltext {
-        position: relative;
-        left: 260px;
-    }
-
-    #totalborder {
-        position: relative;
-        left: 260px;
-    }
-
-    #totalcash {
-        position: relative;
-        left: 595px;
-    }
-
-    #confirm_button {
-        position: absolute;
-        left: 695px;
-        top: 950px;
-    }
-
-    #lastborder {
-        position: relative;
-        left: 250px;
-    }
-
-    #continue_shopping_button {
-        position: relative;
-        left: 450px;
-    }
-
-    .decoration2 {
-        position: relative;
-        left: 540px;
-    }
-
-    .text {
-        position: relative;
-        left: -110px;
-    }
-}
-
 @media all and (max-width: 1160px) {
 
     .border {
@@ -1489,111 +1248,31 @@ input[type="radio"]:checked + label::after {
     }
 }
 
-@media all and (max-width: 1140px) {
-
-    .border {
-        position: relative;
-        left: 95px;
-    }
-
-    .decoration {
-        position: relative;
-        left: 90px;
-    }
-
-    .content {
-        position: relative;
-        left: 730px;
-    }
-
-    .image_cart {
-        position: relative;
-        left: 745px;
-    }
-
-    .num_cart {
-        position: relative;
-        left: 726px;
-    }
-
-    .customer_information {
-        position: absolute;
-        top: 390px;
-        left: 670px;
-    }
-
-    #item_display {
-        position: relative;
-        left: -160px;
-    }
-
-    #totaltext {
-        position: relative;
-        left: 250px;
-    }
-
-    #totalborder {
-        position: relative;
-        left: 250px;
-    }
-
-    #totalcash {
-        position: relative;
-        left: 585px;
-    }
-
-    #confirm_button {
-        position: absolute;
-        left: 665px;
-        top: 950px;
-    }
-
-    #lastborder {
-        position: relative;
-        left: 255px;
-    }
-
-    #continue_shopping_button {
-        position: relative;
-        left: 440px;
-    }
-
-    .decoration2 {
-        position: relative;
-        left: 530px;
-    }
-
-    .text {
-        position: relative;
-        left: -120px;
-    }
-}
-
 @media all and (max-width: 1130px) {
 
     .border {
         position: relative;
-        left: 90px;
+        left: 110px;
     }
 
     .decoration {
         position: relative;
-        left: 85px;
+        left: 105px;
     }
 
     .content {
         position: relative;
-        left: 720px;
+        left: 740px;
     }
 
     .image_cart {
         position: relative;
-        left: 740px;
+        left: 760px;
     }
 
     .num_cart {
         position: relative;
-        left: 722px;
+        left: 740px;
     }
 
     .customer_information {
@@ -1604,7 +1283,7 @@ input[type="radio"]:checked + label::after {
 
     #item_display {
         position: relative;
-        left: -160px;
+        left: -140px;
     }
 
     #totaltext {
@@ -1630,7 +1309,7 @@ input[type="radio"]:checked + label::after {
 
     #lastborder {
         position: relative;
-        left: 250px;
+        left: 240px;
     }
 
     #continue_shopping_button {
@@ -1646,86 +1325,6 @@ input[type="radio"]:checked + label::after {
     .text {
         position: relative;
         left: -130px;
-    }
-}
-
-@media all and (max-width: 1120px) {
-
-    .border {
-        position: relative;
-        left: 85px;
-    }
-
-    .decoration {
-        position: relative;
-        left: 80px;
-    }
-
-    .content {
-        position: relative;
-        left: 715px;
-    }
-
-    .image_cart {
-        position: relative;
-        left: 735px;
-    }
-
-    .num_cart {
-        position: relative;
-        left: 716px;
-    }
-
-    .customer_information {
-        position: absolute;
-        top: 390px;
-        left: 655px;
-    }
-
-    #item_display {
-        position: relative;
-        left: -165px;
-    }
-
-    #totaltext {
-        position: relative;
-        left: 260px;
-    }
-
-    #totalborder {
-        position: relative;
-        left: 260px;
-    }
-
-    #totalcash {
-        position: relative;
-        left: 595px;
-    }
-
-    #confirm_button {
-        position: absolute;
-        left: 650px;
-        top: 950px;
-    }
-
-    #lastborder {
-        position: relative;
-        left: 250px;
-    }
-
-    #continue_shopping_button {
-        position: relative;
-        left: 450px;
-    }
-
-    .decoration2 {
-        position: relative;
-        left: 510px;
-    }
-
-    .text {
-        position: relative;
-        left: -140px;
     }
 }
 
@@ -1969,202 +1568,42 @@ input[type="radio"]:checked + label::after {
     }
 }
 
-@media all and (max-width: 1070px) {
+@media all and (max-width: 1024px) {
 
     .border {
         position: relative;
-        left: 75px;
+        left: 52px;
     }
 
     .decoration {
         position: relative;
-        left: 65px;
+        left: 47px;
     }
 
     .content {
         position: relative;
-        left: 700px;
+        left: 680px;
     }
 
     .image_cart {
-        position: relative;
-        left: 725px;
-    }
-
-    .num_cart {
-        position: relative;
-        left: 706px;
-    }
-
-    .customer_information {
-        position: absolute;
-        top: 390px;
-        left: 650px;
-    }
-
-    #item_display {
-        position: relative;
-        left: -180px;
-    }
-
-    #totaltext {
-        position: relative;
-        left: 260px;
-    }
-
-    #totalborder {
-        position: relative;
-        left: 260px;
-    }
-
-    #totalcash {
-        position: relative;
-        left: 595px;
-    }
-
-    #confirm_button {
-        position: absolute;
-        left: 645px;
-        top: 950px;
-    }
-
-    #lastborder {
-        position: relative;
-        left: 255px;
-    }
-
-    #continue_shopping_button {
-        position: relative;
-        left: 450px;
-    }
-
-    .decoration2 {
-        position: relative;
-        left: 490px;
-    }
-
-    .text {
-        position: relative;
-        left: -160px;
-    }
-}
-
-@media all and (max-width: 1060px) {
-
-    .border {
-        position: relative;
-        left: 70px;
-    }
-
-    .decoration {
-        position: relative;
-        left: 60px;
-    }
-
-    .content {
-        position: relative;
-        left: 700px;
-    }
-
-    .image_cart {
-        position: relative;
-        left: 720px;
-    }
-
-    .num_cart {
-        position: relative;
-        left: 701px;
-    }
-
-    .customer_information {
-        position: absolute;
-        top: 390px;
-        left: 650px;
-    }
-
-    #item_display {
-        position: relative;
-        left: -180px;
-    }
-
-    #totaltext {
-        position: relative;
-        left: 260px;
-    }
-
-    #totalborder {
-        position: relative;
-        left: 260px;
-    }
-
-    #totalcash {
-        position: relative;
-        left: 595px;
-    }
-
-    #confirm_button {
-        position: absolute;
-        left: 645px;
-        top: 950px;
-    }
-
-    #lastborder {
-        position: relative;
-        left: 250px;
-    }
-
-    #continue_shopping_button {
-        position: relative;
-        left: 450px;
-    }
-
-    .decoration2 {
-        position: relative;
-        left: 490px;
-    }
-
-    .text {
-        position: relative;
-        left: -160px;
-    }
-}
-
-@media all and (max-width: 1024px) and (min-height: 1366px) {
-
-    .border {
-        position: relative;
-        left: 60px;
-    }
-
-    .decoration {
-        position: relative;
-        left: 30px;
-    }
-
-    .content {
-        position: relative;
-        left: 630px;
-    }
-
-    .image_cart {
-        position: relative;
-        left: 710px;
-    }
-
-    .num_cart {
         position: relative;
         left: 695px;
     }
 
+    .num_cart {
+        position: relative;
+        left: 676px;
+    }
+
     #item_display {
         position: relative;
-        left: -180px;
+        left: -200px;
     }
 
     .customer_information {
         position: absolute;
         top: 360px;
-        left: 645px;
+        left: 630px;
     }
 
     #prefectures_text {
@@ -2177,89 +1616,44 @@ input[type="radio"]:checked + label::after {
 
     #confirm_button {
         position: absolute;
-        left: 635px;
+        left: 625px;
         top: 920px;
     }
 
     #lastborder {
         position: relative;
-        left: 235px;
+        left: 252px;
     }
 
     .decoration2 {
         position: relative;
         top: 580px;
-        left: 450px;
+        left: 440px;
     }
 
     .text {
         position: relative;
         top: 50px;
-        right: 200px;
+        left: -210px;
     }
 }
 
-@media all and (max-width: 900px) {
+@media all and (max-width: 1024px) and (min-height: 1366px) {
 
     .border {
         position: relative;
-        left: 45px;
+        left: 50px;
     }
 
     .decoration {
         position: relative;
-        left: 35px;
+        left: 45px;
     }
 
     .content {
         position: relative;
-        left: 675px;
+        left: 680px;
     }
-
-    .image_cart {
-        position: relative;
-        left: 696px;
-    }
-
-    .num_cart {
-        position: relative;
-        left: 677px;
-    }
-
-    #item_display {
-        position: relative;
-        left: -210px;
-    }
-
-    .customer_information {
-        position: absolute;
-        left: 610px;
-    }
-
-    #confirm_button {
-        position: absolute;
-        left: 610px;
-    }
-
-    #lastborder {
-        position: relative;
-        left: 255px;
-    }
-
-    .decoration2 {
-        position: relative;
-        left: 450px;
-        top: 580px;
-    }
-
-    .text {
-        position: relative;
-        left: -200px;
-        top: 10px;
-    } 
-}
-
-@media all and (max-width: 890px) {
 
     .image_cart {
         position: relative;
@@ -2268,22 +1662,130 @@ input[type="radio"]:checked + label::after {
 
     .num_cart {
         position: relative;
-        left: 675px;
-    }
-}
-
-@media all and (max-width: 860px) {
-
-    .num_cart {
-        position: relative;
         left: 676px;
     }
 
+    #item_display {
+        position: relative;
+        left: -200px;
+    }
+
+    .customer_information {
+        position: absolute;
+        top: 360px;
+        left: 630px;
+    }
+
+    #prefectures_text {
+        width: 150px;
+    }
+
+    #cash_on_delivery_text {
+        width: 50px;
+    }
+
+    #confirm_button {
+        position: absolute;
+        left: 625px;
+        top: 920px;
+    }
+
+    #lastborder {
+        position: relative;
+        left: 250px;
+    }
+
+    .decoration2 {
+        position: relative;
+        top: 580px;
+        left: 430px;
+    }
+
     .text {
-        width: 400px;
         position: relative;
         top: 50px;
+        left: -220px;
     }
+}
+
+@media all and (max-width: 912px) {
+
+    .border {
+        position: relative;
+        left: 15px;
+    }
+
+    .decoration {
+        position: relative;
+        left: 20px;
+    }
+
+    .content {
+        position: relative;
+        left: 645px;
+    }
+
+    .image_cart {
+        position: relative;
+        left: 663px;
+    }
+
+    .num_cart {
+        position: relative;
+        left: 644px;
+    }
+
+    #item_display {
+        position: relative;
+        left: -235px;
+    }
+
+    #totaltext {
+        position: relative;
+        left: 250px;
+    }
+
+    #totalborder {
+        position: relative;
+        left: 250px;
+    }
+
+    #totalcash {
+        position: relative;
+        left: 585px;
+    }
+
+    #continue_shopping_button {
+        position: relative;
+        left: 440px;
+    }
+
+    .customer_information {
+        position: absolute;
+        left: 590px;
+    }
+
+    #confirm_button {
+        position: absolute;
+        left: 590px;
+    }
+
+    #lastborder {
+        position: relative;
+        left: 248px;
+    }
+
+    .decoration2 {
+        position: relative;
+        left: 400px;
+        top: 580px;
+    }
+
+    .text {
+        position: relative;
+        left: -240px;
+        top: 10px;
+    } 
 }
 
 @media all and (max-width: 854px) {
@@ -2331,7 +1833,7 @@ input[type="radio"]:checked + label::after {
         margin-top: 0px;
         position: relative;
         top: 90px;
-        left: 455px;
+        left: 495px;
     }
 
     .itemlist img {
@@ -2424,7 +1926,7 @@ input[type="radio"]:checked + label::after {
         height: 36px;
         position: relative;
         top: 180px;
-        left: 455px;
+        left: 495px;
         font-family: sans-serif;
         font-size: 26px;
         font-weight: 900;
@@ -2437,7 +1939,7 @@ input[type="radio"]:checked + label::after {
         width: 98px;
         height: 39px;
         position: relative;
-        left: 690px;
+        left: 730px;
         top: 140px;
         font-family: YuGothic;
         font-size: 26px;
@@ -2451,7 +1953,7 @@ input[type="radio"]:checked + label::after {
         border: 1px solid #656565;
         position: relative;
         top: 180px;
-        left: 455px;
+        left: 495px;
     }
     
     #continue_shopping_button {
@@ -2461,7 +1963,7 @@ input[type="radio"]:checked + label::after {
         color: #DEB089;
         position: relative;
         top: 170px;
-        left: 545px;
+        left: 595px;
         font-family: YuGothic;
         font-size: 14px;
         font-weight: 700;
@@ -2474,7 +1976,7 @@ input[type="radio"]:checked + label::after {
         width: 534px;
         position: relative;
         top: 1200px;
-        left: 370px;
+        left: 390px;
     }
     
     .decoration2 {
@@ -2693,11 +2195,11 @@ input[type="radio"]:checked + label::after {
     }
 }
 
-@media all and (max-width: 830px) {
+@media all and (max-width: 820px) {
 
     .border {
         position: relative;
-        left: 150px;
+        left: 140px;
     }
 
     .decoration {
@@ -2708,12 +2210,12 @@ input[type="radio"]:checked + label::after {
 
     .image_cart {
         position: relative;
-        left: 505px;
+        left: 495px;
     }
 
     .num_cart {
         position: relative;
-        left: 485px;
+        left: 475px;
     }
 
     .itemlist {
@@ -2743,172 +2245,22 @@ input[type="radio"]:checked + label::after {
 
     .customer_information {
         position: relative;
-        left: 280px;
+        left: 265px;
     }
 
     #confirm_button {
         position: relative;
-        left: 250px;
+        left: 230px;
     }
 
     .decoration2 {
         position: relative;
-        left: 30px;
+        left: 10px;
     }
 
     #lastborder {
         position: relative;
-        left: 360px;
-    }
-
-    .text {
-        position: relative;
-        top: 0px;
-        left: -300px;
-    }
-}
-
-@media all and (max-width: 820px) {
-
-    .border {
-        position: relative;
-        left: 140px;
-    }
-
-    .decoration {
-        position: relative;
-        top: 10px;
-        left: 120px;
-    }
-
-    .image_cart {
-        position: relative;
-        left: 497px;
-    }
-
-    .num_cart {
-        position: relative;
-        left: 478px;
-    }
-
-    .itemlist {
-        position: relative;
-        left: 450px;
-    }
-
-    #totaltext {
-        position: relative;
-        left: 450px;
-    }
-
-    #totalborder {
-        position: relative;
-        left: 450px;
-    }
-
-    #totalcash {
-        position: relative;
-        left: 685px;
-    }
-
-    #continue_shopping_button {
-        position: relative;
-        left: 540px;
-    }
-
-    .customer_information {
-        position: relative;
-        left: 280px;
-    }
-
-    #confirm_button {
-        position: relative;
-        left: 250px;
-    }
-
-    .decoration2 {
-        position: relative;
-        left: 20px;
-    }
-
-    #lastborder {
-        position: relative;
-        left: 355px;
-    }
-
-    .text {
-        position: relative;
-        top: 0px;
-        left: -310px;
-    }
-}
-
-@media all and (max-width: 816px) {
-
-    .border {
-        position: relative;
-        left: 140px;
-    }
-
-    .decoration {
-        position: relative;
-        top: 10px;
-        left: 120px;
-    }
-
-    .image_cart {
-        position: relative;
-        left: 497px;
-    }
-
-    .num_cart {
-        position: relative;
-        left: 479px;
-    }
-
-    .itemlist {
-        position: relative;
-        left: 450px;
-    }
-
-    #totaltext {
-        position: relative;
-        left: 450px;
-    }
-
-    #totalborder {
-        position: relative;
-        left: 450px;
-    }
-
-    #totalcash {
-        position: relative;
-        left: 685px;
-    }
-
-    #continue_shopping_button {
-        position: relative;
-        left: 540px;
-    }
-
-    .customer_information {
-        position: relative;
-        left: 280px;
-    }
-
-    #confirm_button {
-        position: relative;
-        left: 250px;
-    }
-
-    .decoration2 {
-        position: relative;
-        left: 20px;
-    }
-
-    #lastborder {
-        position: relative;
-        left: 355px;
+        left: 375px;
     }
 
     .text {
@@ -2922,97 +2274,58 @@ input[type="radio"]:checked + label::after {
 
     .border {
         position: relative;
-        left: 135px;
+        left: 130px;
     }
 
     .decoration {
         position: relative;
         top: 10px;
-        left: 120px;
+        left: 110px;
     }
 
     .image_cart {
         position: relative;
-        left: 491px;
+        left: 487px;
     }
 
     .num_cart {
         position: relative;
-        left: 472px;
+        left: 468px;
     }
 
     .itemlist {
         position: relative;
-        left: 420px;
+        left: 480px;
     }
 
     #totaltext {
         position: relative;
-        left: 420px;
+        left: 480px;
     }
 
     #totalborder {
         position: relative;
-        left: 420px;
+        left: 480px;
     }
 
     #totalcash {
         position: relative;
-        left: 655px;
+        left: 715px;
     }
 
     #continue_shopping_button {
         position: relative;
-        left: 510px;
+        left: 568px;
     }
 
     .customer_information {
         position: relative;
-        left: 260px;
+        left: 270px;
     }
 
     #confirm_button {
         position: relative;
-        left: 230px;
-    }
-
-    .decoration2 {
-        position: relative;
-        left: 0px;
-    }
-
-    #lastborder {
-        position: relative;
-        left: 345px;
-    }
-
-    .text {
-        position: relative;
-        top: 0px;
-        left: -330px;
-    }
-}
-
-@media all and (max-width: 780px) {
-
-    .border {
-        position: relative;
-        left: 125px;
-    }
-
-    .decoration {
-        position: relative;
-        left: 100px;
-    }
-
-    .image_cart {
-        position: relative;
-        left: 481px;
-    }
-
-    .num_cart {
-        position: relative;
-        left: 462px;
+        left: 240px;
     }
 
     .decoration2 {
@@ -3020,87 +2333,88 @@ input[type="radio"]:checked + label::after {
         left: 10px;
     }
 
-    .text {
-        position: relative;
-        left: -310px;
-    }
-
     #lastborder {
         position: relative;
-        left: 335px;
+        left: 365px;
+    }
+
+    .text {
+        position: relative;
+        top: 0px;
+        left: -320px;
     }
 }
 
-@media all and (max-width: 770px) {
+@media all and (max-width: 768px) {
 
     .border {
         position: relative;
-        left: 120px;
+        left: 110px;
     }
 
     .decoration {
         position: relative;
-        left: 100px;
+        left: 90px;
     }
 
     .image_cart {
         position: relative;
-        left: 478px;
+        left: 467px;
     }
 
     .num_cart {
         position: relative;
-        left: 459px;
+        left: 448px;
     }
 
     .itemlist {
         position: relative;
-        left: 420px;
+        left: 450px;
     }
 
     #totaltext {
         position: relative;
-        left: 420px;
+        left: 450px;
     }
 
     #totalborder {
         position: relative;
-        left: 420px;
+        left: 450px;
     }
 
     #totalcash {
         position: relative;
-        left: 655px;
+        left: 685px;
     }
 
     #continue_shopping_button {
         position: relative;
-        left: 510px;
+        left: 540px;
     }
 
     .customer_information {
         position: relative;
-        left: 255px;
+        left: 245px;
     }
 
     #confirm_button {
         position: relative;
-        left: 220px;
+        left: 210px;
     }
 
     .decoration2 {
         position: relative;
-        left: -10px;
-    }
-
-    #lastborder {
-        position: relative;
-        left: 330px;
+        left: -20px;
     }
 
     .text {
         position: relative;
-        left: -340px;
+        left: -350px;
+    }
+
+    #lastborder {
+        position: relative;
+        left: 350px;
     }
 }
 
@@ -3196,7 +2510,7 @@ input[type="radio"]:checked + label::after {
 
     .num_cart {
         position: relative;
-        left: 436px;
+        left: 439px;
     }
 
     .itemlist {
@@ -3250,7 +2564,7 @@ input[type="radio"]:checked + label::after {
     }
 }
 
-@media all and (max-width: 710px) {
+@media all and (max-width: 712px) {
 
     .border {
         position: relative;
@@ -3274,27 +2588,27 @@ input[type="radio"]:checked + label::after {
 
     .itemlist {
         position: relative;
-        left: 380px;
+        left: 430px;
     }
 
     #totaltext {
         position: relative;
-        left: 380px;
+        left: 420px;
     }
 
     #totalborder {
         position: relative;
-        left: 380px;
+        left: 420px;
     }
 
     #totalcash {
         position: relative;
-        left: 615px;
+        left: 658px;
     }
 
     #continue_shopping_button {
         position: relative;
-        left: 470px;
+        left: 510px;
     }
 
     .customer_information {
@@ -3304,23 +2618,23 @@ input[type="radio"]:checked + label::after {
 
     #confirm_button {
         position: relative;
-        left: 180px;
+        left: 190px;
     }
 
     .decoration2 {
         position: relative;
-        left: -50px;
+        left: -40px;
     }
 
     #lastborder {
         position: relative;
-        left: 300px;
+        left: 330px;
     }
 
     .text {
         position: relative;
         top: -10px;
-        left: -370px;
+        left: -360px;
     }
 }
 
@@ -3328,318 +2642,12 @@ input[type="radio"]:checked + label::after {
 
     .border {
         position: relative;
-        left: 80px;
+        left: 55px;
     }
 
     .decoration {
         position: relative;
-        left: 60px;
-    }
-
-    .image_cart {
-        position: relative;
-        left: 436px;
-    }
-
-    .num_cart {
-        position: relative;
-        left: 417px;
-    }
-
-    #lastborder {
-        position: relative;
-        left: 288px;
-    }
-
-    .decoration2 {
-        position: relative;
-        left: -50px;
-    }
-
-    .text {
-        position: relative;
-        left: -370px;
-    }
-}
-
-@media all and (max-width: 680px) {
-
-    .border {
-        position: relative;
-        left: 75px;
-    }
-
-    .decoration {
-        position: relative;
-        left: 60px;
-    }
-
-    .image_cart {
-        position: relative;
-        left: 432px
-    }
-
-    .num_cart {
-        position: relative;
-        left: 413px;
-    }
-
-    .itemlist {
-        position: relative;
-        left: 360px;
-    }
-
-    #totaltext {
-        position: relative;
-        left: 360px;
-    }
-
-    #totalborder {
-        position: relative;
-        left: 360px;
-    }
-
-    #totalcash {
-        position: relative;
-        left: 590px;
-    }
-
-    #continue_shopping_button {
-        position: relative;
-        left: 450px;
-    }
-
-    .customer_information {
-        position: relative;
-        left: 200px;
-    }
-
-    #confirm_button {
-        position: relative;
-        left: 170px;
-    }
-
-    .decoration2 {
-        position: relative;
-        left: -60px;
-    }
-
-    #lastborder {
-        position: relative;
-        left: 282px;
-    }
-
-    .text {
-        position: relative;
-        top: -10px;
-        left: -390px;
-    }
-}
-
-@media all and (max-width: 670px) {
-
-    .border {
-        position: relative;
-        left: 70px;
-    }
-
-    .decoration {
-        position: relative;
-        left: 50px;
-    }
-
-    .image_cart {
-        position: relative;
-        left: 427px;
-    }
-
-    .num_cart {
-        position: relative;
-        left: 408px;
-    }
-
-    .itemlist {
-        position: relative;
-        left: 380px;
-    }
-
-    #totaltext {
-        position: relative;
-        left: 380px;
-    }
-
-    #totalborder {
-        position: relative;
-        left: 380px;
-    }
-
-    #totalcash {
-        position: relative;
-        left: 615px;
-    }
-
-    #continue_shopping_button {
-        position: relative;
-        left: 470px;
-    }
-
-    .customer_information {
-        position: relative;
-        left: 200px;
-    }
-
-    #confirm_button {
-        position: relative;
-        left: 170px;
-    }
-
-    .decoration2 {
-        position: relative;
-        left: -60px;
-    }
-
-    .text {
-        position: relative;
-        left: -380px;
-    }
-}
-
-@media all and (max-width: 660px) {
-
-    .border {
-        position: relative;
-        left: 65px;
-    }
-
-    .decoration {
-        position: relative;
-        left: 40px;
-    }
-
-    .image_cart {
-        position: relative;
-        left: 420px;
-    }
-
-    .num_cart {
-        position: relative;
-        left: 400px;
-    }
-
-    .itemlist {
-        position: relative;
-        left: 380px;
-    }
-
-    .customer_information {
-        position: relative;
-        left: 205px;
-    }
-
-    #confirm_button {
-        position: relative;
-        left: 170px;
-    }
-
-    #lastborder {
-        position: relative;
-        left: 270px;
-    }
-
-    .decoration2 {
-        position: relative;
-        left: -60px;
-    }
-
-    .text {
-        position: relative;
-        left: -390px;
-    }
-}
-
-@media all and (max-width: 650px) {
-
-    .border {
-        position: relative;
-        left: 60px;
-    }
-
-    .decoration {
-        position: relative;
-        left: 40px;
-    }
-
-    .image_cart {
-        position: relative;
-        left: 417px;
-    }
-
-    .num_cart {
-        position: relative;
-        left: 399px;
-    }
-
-    .itemlist {
-        position: relative;
-        left: 370px;
-    }
-
-    #totaltext {
-        position: relative;
-        left: 370px;
-    }
-
-    #totalborder {
-        position: relative;
-        left: 370px;
-    }
-
-    #totalcash {
-        position: relative;
-        left: 605px;
-    }
-
-    #continue_shopping_button {
-        position: relative;
-        left: 460px;
-    }
-
-    .customer_information {
-        position: relative;
-        left: 200px;
-    }
-
-    #confirm_button {
-        position: relative;
-        left: 170px;
-    }
-
-    #lastborder {
-        position: relative;
-        left: 270px;
-    }
-
-    .decoration2 {
-        position: relative;
-        left: -70px;
-    }
-
-    .text {
-        position: relative;
-        left: -390px;
-    }
-}
-
-@media all and (max-width: 640px) {
-
-    .border {
-        position: relative;
-        left: 53px;
-    }
-
-    .decoration {
-        position: relative;
-        left: 35px;
+        left: 30px;
     }
 
     .image_cart {
@@ -3650,54 +2658,6 @@ input[type="radio"]:checked + label::after {
     .num_cart {
         position: relative;
         left: 391px;
-    }
-
-    .customer_information {
-        position: relative;
-        left: 190px;
-    }
-
-    #confirm_button {
-        position: relative;
-        left: 160px;
-    }
-
-    #lastborder {
-        position: relative;
-        left: 263px;
-    }
-
-    .decoration2 {
-        position: relative;
-        left: -70px;
-    }
-
-    .text {
-        position: relative;
-        left: -400px;
-    }
-}
-
-@media all and (max-width: 630px) {
-
-    .border {
-        position: relative;
-        left: 50px;
-    }
-
-    .decoration {
-        position: relative;
-        left: 30px;
-    }
-
-    .image_cart {
-        position: relative;
-        left: 406px;
-    }
-
-    .num_cart {
-        position: relative;
-        left: 388px;
     }
 
     .itemlist {
@@ -3727,17 +2687,17 @@ input[type="radio"]:checked + label::after {
 
     .customer_information {
         position: relative;
-        left: 190px;
+        left: 185px;
     }
 
     #confirm_button {
         position: relative;
-        left: 160px;
+        left: 155px;
     }
 
     #lastborder {
         position: relative;
-        left: 257px;
+        left: 287px;
     }
 
     .decoration2 {
@@ -3747,7 +2707,7 @@ input[type="radio"]:checked + label::after {
 
     .text {
         position: relative;
-        left: -390px;
+        left: -400px;
     }
 }
 
@@ -3799,84 +2759,11 @@ input[type="radio"]:checked + label::after {
     }
 }
 
-@media all and (max-width: 610px) {
-
-    .border {
-        position: relative;
-        left: 38px;
-    }
-
-    .decoration {
-        position: relative;
-        left: 20px;
-    }
-
-    .image_cart {
-        position: relative;
-        left: 394px;
-    }
-
-    .num_cart {
-        position: relative;
-        left: 375px;
-    }
-
-    .itemlist {
-        position: relative;
-        left: 350px;
-    }
-
-    #totaltext {
-        position: relative;
-        left: 350px;
-    }
-
-    #totalborder {
-        position: relative;
-        left: 350px;
-    }
-
-    #totalcash {
-        position: relative;
-        left: 585px;
-    }
-
-    #continue_shopping_button {
-        position: relative;
-        left: 440px;
-    }
-
-    .customer_information {
-        position: relative;
-        left: 180px;
-    }
-
-    #confirm_button {
-        position: relative;
-        left: 145px;
-    }
-
-    #lastborder {
-        position: relative;
-        left: 250px;
-    }
-
-    .decoration2 {
-        position: relative;
-        left: -90px;
-    }
-
-    .text {
-        position: relative;
-        left: -410px;
-    }
-}
-
 @media all and (max-width: 600px) {
 
     .border {
         position: relative;
-        left: 35px;
+        left: 32px;
     }
 
     .decoration {
@@ -3886,17 +2773,17 @@ input[type="radio"]:checked + label::after {
 
     .image_cart {
         position: relative;
-        left: 391px;
+        left: 385px;
     }
 
     .num_cart {
         position: relative;
-        left: 372px;
+        left: 365px;
     }
 
     .itemlist {
         position: relative;
-        left: 340px;
+        left: 330px;
     }
 
     #totaltext {
@@ -3921,28 +2808,28 @@ input[type="radio"]:checked + label::after {
 
     .customer_information {
         position: relative;
-        left: 170px;
+        left: 162px;
     }
 
     #confirm_button {
         position: relative;
-        left: 135px;
+        left: 130px;
     }
 
     .decoration2 {
         position: relative;
-        left: -90px;
+        left: -100px;
     }
 
     #lastborder {
         position: relative;
-        left: 245px;
+        left: 265px;
     }
 
     .text {
         position: relative;
         top: 0px;
-        left: -420px;
+        left: -430px;
     }
 }
 
@@ -4025,76 +2912,11 @@ input[type="radio"]:checked + label::after {
     }
 }
 
-@media all and (max-width: 580px) {
-
-    .border {
-        position: relative;
-        left: 25px;
-    }
-
-    .decoration {
-        position: relative;
-        left: 5px;
-    }
-
-    .image_cart {
-        position: relative;
-        left: 382px;
-    }
-
-    .num_cart {
-        position: relative;
-        left: 363px;
-    }
-
-    .itemlist {
-        position: relative;
-        left: 320px;
-    }
-
-    #totaltext {
-        position: relative;
-        left: 320px;
-    }
-
-    #totalborder {
-        position: relative;
-        left: 320px;
-    }
-
-    #totalcash {
-        position: relative;
-        left: 560px;
-    }
-
-    #continue_shopping_button {
-        position: relative;
-        left: 410px;
-    }
-
-    #lastborder {
-        position: relative;
-        left: 235px;
-    }
-
-    .decoration2 {
-        position: relative;
-        left: -110px;
-        top: 570px;
-    }
-
-    .text {
-        position: relative;
-        left: -440px;
-        top: 0px;
-    }
-}
-
 @media all and (max-width: 570px) {
 
     .border {
         position: relative;
-        left: 15px;
+        left: 21px;
     }
 
     .decoration {
@@ -4104,12 +2926,12 @@ input[type="radio"]:checked + label::after {
 
     .image_cart {
         position: relative;
-        left: 371px;
+        left: 377px;
     }
 
     .num_cart {
         position: relative;
-        left: 352px;
+        left: 358px;
     }
 
     .decoration2 {
@@ -4124,11 +2946,11 @@ input[type="radio"]:checked + label::after {
 
     #lastborder {
         position: relative;
-        left: 228px;
+        left: 230px;
     }
 }
 
-@media all and (max-width: 560px) {
+@media all and (max-width: 540px) {
 
     .border {
         position: relative;
@@ -4137,30 +2959,7 @@ input[type="radio"]:checked + label::after {
 
     .decoration {
         position: relative;
-        left: -5px;
-    }
-
-    .image_cart {
-        position: relative;
-        left: 372px;
-    }
-
-    .num_cart {
-        position: relative;
-        left: 353px;
-    }
-}
-
-@media all and (max-width: 540px) {
-
-    .border {
-        position: relative;
-        left: 13px;
-    }
-
-    .decoration {
-        position: relative;
-        left: -5px;
+        left: -7px;
     }
 
     .image_cart {
@@ -4173,84 +2972,54 @@ input[type="radio"]:checked + label::after {
         left: 350px;
     }
 
-    .itemlist {
-        position: relative;
-        left: 320px;
-    }
-
-    #totaltext {
-        position: relative;
-        left: 320px;
-    }
-
-    #totalborder {
-        position: relative;
-        left: 320px;
-    }
-
-    #totalcash {
-        position: relative;
-        left: 555px;
-    }
-
-    #continue_shopping_button {
-        position: relative;
-        left: 410px;
-    }
-
     .customer_information {
         position: relative;
-        left: 150px;
+        left: 140px;
     }
 
     #confirm_button {
         position: relative;
-        left: 115px;
+        left: 110px;
     }
 
-    #lastborder {
+    .itemlist {
         position: relative;
-        left: 226px;
+        left: 340px;
+    }
+
+    #totaltext {
+        position: relative;
+        left: 340px;
+    }
+
+    #totalborder {
+        position: relative;
+        left: 340px;
+    }
+
+    #totalcash {
+        position: relative;
+        left: 575px;
+    }
+
+    #continue_shopping_button {
+        position: relative;
+        left: 430px;
     }
 
     .decoration2 {
         position: relative;
         left: -120px;
-        top: 570px;
     }
 
     .text {
         position: relative;
         left: -450px;
-        top: 0px;
-    }   
-}
-
-@media all and (max-width: 500px) {
-
-    .border {
-        position: relative;
-        left: 16px;
     }
 
-    .image_cart {
+    #lastborder {
         position: relative;
-        left: 372px;
-    }
-
-    .num_cart {
-        position: relative;
-        left: 352px;
-    }
-
-    .decoration2 {
-        position: relative;
-        left: -110px;
-    }
-
-    .text {
-        position: relative;
-        left: -435px
+        left: 250px;
     }
 }
 
@@ -4268,7 +3037,7 @@ input[type="radio"]:checked + label::after {
         
     .decoration {
         position: relative;
-        left: 15px;
+        left: 22px;
         top: -15px;
         border: none;
         background-color: white;
@@ -4294,14 +3063,14 @@ input[type="radio"]:checked + label::after {
         width: 26px;
         height: 24px;
         position: relative;
-        left: 248px;
+        left: 246px;
         top: 55px;
     }
         
     .itemlist {
         position: relative;
         top: 70px;
-        left: 270px;
+        left: 290px;
     }
     
     .itemlist img {
@@ -4395,7 +3164,7 @@ input[type="radio"]:checked + label::after {
         height: 36px;
         position: relative;
         top: 100px;
-        left: 270px;
+        left: 290px;
         font-family: sans-serif;
         font-size: 26px;
         font-weight: 900;
@@ -4408,7 +3177,7 @@ input[type="radio"]:checked + label::after {
         width: 98px;
         height: 39px;
         position: relative;
-        left: 515px;
+        left: 536px;
         top: 65px;
         font-family: YuGothic;
         font-size: 26px;
@@ -4422,7 +3191,7 @@ input[type="radio"]:checked + label::after {
         border: 1px solid #656565;
         position: relative;
         top: 100px;
-        left: 270px;
+        left: 290px;
     }
         
     #continue_shopping_button {
@@ -4432,7 +3201,7 @@ input[type="radio"]:checked + label::after {
         color: #DEB089;
         position: relative;
         top: 90px;
-        left: 370px;
+        left: 390px;
         font-family: YuGothic;
         font-size: 14px;
         font-weight: 700;
@@ -4445,29 +3214,29 @@ input[type="radio"]:checked + label::after {
         width: 358px;
         position: relative;
         top: 1050px;
-        left: 275px;
+        left: 295px;
     }
         
     .decoration2 {
         width: 54px;
         height: 54px;
         position:relative;
-        left: -130px;
+        left: -140px;
         top: 450px;
     }
         
     .text{
         position: relative;
-        left: -480px;
+        left: -490px;
         top: -120px;  
     }
         
     .num_cart {
-        width: 10px;
-        height: 10px;
+        width: 5px;
+        height: 5px;
         position: relative;
-        left: 231px;
-        top: 38px;
+        left: 230px;
+        top: 43px;
         padding: 5px 5px 5px 5px;
         border: 2px solid #333;
         border-radius: 50%;
@@ -4476,7 +3245,7 @@ input[type="radio"]:checked + label::after {
         font-family: Inter;
         font-size: 10px;
         font-weight: 400;
-        line-height: 12.1px;
+        line-height: 6px;
         text-align: center;
     }
         
@@ -4489,7 +3258,7 @@ input[type="radio"]:checked + label::after {
         height: 662px;
         position: relative;
         top: 0px;
-        left: 65px;
+        left: 60px;
     }
         
     #customer_text {
@@ -4653,7 +3422,7 @@ input[type="radio"]:checked + label::after {
         width: 344px;
         height: 70px;
         position: relative;
-        left: 75px;
+        left: 65px;
         top: 150px;
         border: none;
         border-radius: 10px;
@@ -4670,39 +3439,11 @@ input[type="radio"]:checked + label::after {
     }
 }
 
-@media all and (max-width: 470px) {
-
-    .customer_information {
-        position: relative;
-        left: 60px;
-    }
-
-    #confirm_button {
-        position: relative;
-        left: 65px;
-    }
-
-    #lastborder {
-        position: relative;
-        left: 265px;
-    }
-
-    .decoration2 {
-        position: relative;
-        left: -140px;
-    }
-
-    .text {
-        position: relative;
-        left: -490px;
-    }
-}
-
-@media all and (max-width: 450px) {
+@media all and (max-width: 430px) {
 
     .border {
         position: relative;
-        left: 47px;
+        left: 40px;
     }
 
     .decoration {
@@ -4712,529 +3453,113 @@ input[type="radio"]:checked + label::after {
 
     .image_cart {
         position: relative;
-        left: 236px;
+        left: 226px;
     }
 
     .num_cart {
         position: relative;
-        left: 219px;
+        left: 210px;
     }
 
     .itemlist {
         position: relative;
-        left: 260px;
+        left: 270px;
     }
 
     #totaltext {
         position: relative;
-        left: 260px;
+        left: 270px;
     }
 
     #totalborder {
         position: relative;
-        left: 260px;
+        left: 270px;
     }
 
     #totalcash {
         position: relative;
-        left: 505px;
+        left: 515px;
     }
 
     #continue_shopping_button {
         position: relative;
-        left: 360px;
+        left: 370px;
     }
 
     .customer_information {
         position: relative;
-        left: 45px;
+        left: 35px;
     }
 
     #confirm_button {
         position: relative;
-        left: 50px;
+        left: 43px;
     }
 
     #lastborder {
         position: relative;
-        left: 255px;
+        left: 270px;
     }
 
     .decoration2 {
         position: relative;
-        left: -150px;
+        left: -160px;
         top: 470px;
     }
 
     .text {
         position: relative;
-        left: -500px;
+        left: -510px;
         top: -100px;
     }
 }
 
-@media all and (max-width: 431px) {
+@media all and (max-width: 414px) {
 
-    body {
-        height: 1600px;
+    .border {
+        position: relative;
+        left: 39px;
     }
-    
-    .layout {
-        width: 390px;
-        height: 54px;
-        display: flex;
-    }
-        
+
     .decoration {
         position: relative;
-        left: -10px;
         top: -15px;
-        border: none;
-        background-color: white;
+        left: 0px;
     }
-    
-    .decoration img {
-        width: 54px;
-        height: 54px;
-    }
-        
-    .border {
-        width: 358px;
-        border: 1px solid #656565;
-        position: relative;
-        left: 35px;
-    }
-        
-    .content {
-        display: none;
-    }
-        
+
     .image_cart {
-        width: 26px;
-        height: 24px;
         position: relative;
         left: 225px;
-        top: 55px;
-    }
-        
-    .itemlist {
-        position: relative;
-        top: 70px;
-        left: 240px;
-    }
-    
-    .itemlist img {
-        width: 171px;
-        height: 171px;
-    }
-        
-    .listitem_border {
-        width: 162px;
-        border: 1px solid #656565;
-        position: relative;
-        left: 190px;
-        bottom: 70px;
-    }
-        
-    .item_name {
-        font-family: sans-serif;
-        font-size: 18px;
-        font-weight: 400;
-        line-height: 24.59px;
-        text-align: left;
-        color: #333333;
-        position: relative;
-        bottom: 210px;
-        left: 190px;
-    }
-        
-    .item_size {
-        width: 180px;
-        font-family: YuGothic;
-        font-size: 14px;
-        font-weight: 500;
-        line-height: 21px;
-        text-align: left;
-        position: relative;
-        bottom: 200px;
-        left: 220px;
-    }
-        
-    .itemsize_text {
-        font-family: sans-serif;
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 19.12px;
-        text-align: left;
-        position: relative;
-        left: 190px;
-        bottom: 220px;
-    }
-        
-    .item_quantity {
-        position: relative;
-        left: 190px;
-        bottom: 40px;
-        font-family: YuGothic;
-        font-size: 14px;
-        font-weight: 500;
-        line-height: 21px;
-        text-align: left;
-    }
-        
-    .item_price {
-        width: 56px;
-        height: 27px;
-        position: relative;
-        left: 290px;
-        bottom: 70px;
-        font-family: YuGothic;
-        font-size: 18px;
-        font-weight: 500;
-        line-height: 27px;
-        text-align: left;
-    }
-        
-    #delbutton {
-        width: 120px;
-        border: none;
-        background-color: white;
-        color: #DEB089;
-        position: relative;
-        bottom: 65px;
-        left: 280px;
-        font-family: YuGothic;
-        font-size: 14px;
-        font-weight: 500;
-        line-height: 21px;
-    }
-        
-    #totaltext {
-        width: 59px;
-        height: 36px;
-        position: relative;
-        top: 100px;
-        left: 240px;
-        font-family: sans-serif;
-        font-size: 26px;
-        font-weight: 900;
-        line-height: 35.52px;
-        text-align: left;
-        color:#333333;
-    }
-        
-    #totalcash {
-        width: 98px;
-        height: 39px;
-        position: relative;
-        left: 485px;
-        top: 65px;
-        font-family: YuGothic;
-        font-size: 26px;
-        font-weight: 700;
-        line-height: 39px;
-        text-align: left;
-    }
-        
-    #totalborder {
-        width: 358px;
-        border: 1px solid #656565;
-        position: relative;
-        top: 100px;
-        left: 240px;
-    }
-        
-    #continue_shopping_button {
-        font-size: 14px;
-        border: none;
-        background-color: white;
-        color: #DEB089;
-        position: relative;
-        top: 90px;
-        left: 340px;
-        font-family: YuGothic;
-        font-size: 14px;
-        font-weight: 700;
-        line-height: 21px;
-        text-align: left;
-    }
-        
-    #lastborder {
-        border: 1px solid #656565;
-        width: 358px;
-        position: relative;
-        top: 1000px;
-        left: 245px;
-    }
-        
-    .decoration2 {
-        width: 54px;
-        height: 54px;
-        position:relative;
-        left: -160px;
-        top: 380px;
-    }
-        
-    .text{
-        position: relative;
-        left: -510px;
-        top: -200px;  
-    }
-        
-    .num_cart {
-        width: 10px;
-        height: 10px;
-        position: relative;
-        left: 210px;
-        top: 38px;
-        padding: 5px 5px 5px 5px;
-        border: 2px solid #333;
-        border-radius: 50%;
-        color: #fff;
-        background-color: #deb089;
-        font-family: Inter;
-        font-size: 10px;
-        font-weight: 400;
-        line-height: 12.1px;
-        text-align: center;
-    }
-        
-    .asterisk {
-        color: red;
-    }
-        
-    .customer_information {
-        width: 358px;
-        height: 662px;
-        position: relative;
-        top: 0px;
-        left: 35px;
-    }
-        
-    #customer_text {
-        width: 126px;
-        height: 27px;
-        position: relative;
-        top: 190px;
-        left: 110px;
-        font-size: 18px;
-    }
-        
-    #customer_name_text {
-        font-size: 14px;
-        position: relative;
-        top: 240px;
-        left: 15px;
-    }
-        
-    #input_name {
-        width: 330px;
-        height: 40px;
-        border-radius: 10px;
-        position: relative;
-        top: 240px;
-        left: 15px;
-    }
-        
-    #customer_email_text {
-        font-size: 14px;
-        position: relative;
-        top: 280px;
-        left: 15px;
-    }
-        
-    #input_email {
-        width: 330px;
-        height: 40px;
-        border-radius: 10px;
-        position: relative;
-        top: 280px;
-        left: 15px;
-    }
-        
-    #addres_text {
-        font-size: 14px;
-        position: relative;
-        top: 320px;
-        left: 15px;
-    }
-        
-    #post_code_text {
-        width: 150px;
-        font-size: 12px;
-        position: relative;
-        top: 340px;
-        left: 15px;
-    }
-        
-    #input_postcode {
-        width: 150px;
-        height: 40px;
-        border-radius: 10px;
-        position: relative;
-        top: 340px;
-        left: 15px;
-    }
-        
-    #prefectures_text {
-        width: 145px;
-        font-size: 12px;
-        position: relative;
-        left: 195px;
-        top: 280px;
-    }
-        
-    #input_prefectures {
-        width: 150px;
-        height: 40px;
-        border-radius: 10px;
-        position: relative;
-        left: 190px;
-        top: 278px;
-    }
-        
-    #municipalities_text {
-        width: 340px;
-        font-size: 12px;
-        position: relative;
-        top: 300px;
-        left: 15px; 
-    }
-        
-    #input_municipalities {
-        width: 330px;
-        height: 40px;
-        border-radius: 10px;
-        position: relative;
-        top: 300px;
-        left: 15px;
-    }
-        
-    #paymentmethod_text {
-        position: relative;
-        top: 330px; 
-        left: 15px;
-    }
-        
-    #credit_card_text {
-        width: 97px;
-        height: 18px;
-        font-size: 12px;
-        font-weight: 500px;
-        position: relative;
-        top: 350px;
-        left: 15px;
-    }
-        
-    #credit_card {
-        position: relative;
-        width: 20px;
-        height: 20px;
-        top: 150px;
-    }
-        
-    #bank_transfer_text {
-        width: 97px;
-        height: 18px;
-        font-size: 12px;
-        font-weight: 500px;
-        position: relative;
-        top: 350px;
-        left: 15px;
-    }
-        
-    #bank_transfer {
-        position: relative;
-        width: 20px;
-        height: 20px;
-        top: 150px;
-    }
-        
-    #cash_on_delivery_text {
-        width: 57px;
-        height: 18px;
-        font-size: 12px;
-        font-weight: 500px;
-        position: relative;
-        top: 325px;
-        left: 260px;
-    } 
-        
-    #cash_on_delivery {
-        position:relative;
-        width: 20px;
-        height: 20px;
-        top: 150px;
-        right: 5px;
-    }
-        
-    #confirm_button {
-        width: 344px;
-        height: 70px;
-        position: relative;
-        left: 43px;
-        top: 140px;
-        border: none;
-        border-radius: 10px;
-        color: #ffff;
-        font-family: Inter;
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 16.94px;
-        background-color: #DEB089;
-    }
-    
-    #postcode_message {
-        width: 180px;
-    }
-}
-
-@media all and (max-width: 410px) {
-
-    .border {
-        position: relative;
-        left: 40px;
-    }
-
-    .decoration {
-        position: relative;
-        top: -15px;
-        left: -8px;
-    }
-
-    .image_cart {
-        position: relative;
-        left: 228px;
     }
 
     .num_cart {
         position: relative;
-        left: 213px;
+        left: 208px;
     }
 
     .itemlist {
         position: relative;
-        left: 245px;
+        left: 270px;
     }
 
     #totaltext {
         position: relative;
-        left: 245px;
+        left: 270px;
     }
 
     #totalborder {
         position: relative;
-        left: 245px;
+        left: 270px;
     }
 
     #totalcash {
         position: relative;
-        left: 490px;
+        left: 518px;
     }
 
     #continue_shopping_button {
         position: relative;
-        left: 345px;
+        left: 370px;
     }
 
     .item_price {
@@ -5249,29 +3574,29 @@ input[type="radio"]:checked + label::after {
 
     .customer_information {
         position: relative;
-        left: 37px;
+        left: 38px;
     }
 
     #confirm_button {
         position: relative;
-        left: 43px;
+        left: 48px;
     }
 
     #lastborder {
         position: relative;
-        left: 250px;
+        left: 275px;
     }
 
     .decoration2 {
         position: relative;
         left: -160px;
-        top: 400px;
+        top: 430px;
     }
 
     .text {
         position: relative;
         left: -510px;
-        top: -180px;
+        top: -150px;
     }
 }
 
@@ -5354,7 +3679,7 @@ input[type="radio"]:checked + label::after {
 
     .border {
         position: relative;
-        left: 40px;
+        left: 30px;
     }
 
     .decoration {
@@ -5364,39 +3689,64 @@ input[type="radio"]:checked + label::after {
 
     .image_cart {
         position: relative;
-        left: 228px;
+        left: 217px;
     }
 
     .num_cart {
         position: relative;
-        left: 211px;
+        left: 201px;
     }
 
     .itemlist {
         position: relative;
-        left: 250px;
+        left: 260px;
+    }
+
+    #totaltext {
+        position: relative;
+        left: 260px;
+    }
+
+    #totalborder {
+        position: relative;
+        left: 260px;
+    }
+
+    #totalcash {
+        position: relative;
+        left: 507px;
+    }
+
+    #continue_shopping_button {
+        position: relative;
+        left: 360px;
     }
 
     .customer_information {
         position: relative;
-        left: 46px;
+        left: 34px;
     }
 
     #confirm_button {
         position: relative;
-        left: 55px;
+        left: 40px;
+    }
+
+    #lastborder {
+        position: relative;
+        left: 265px;
     }
 
     .decoration2 {
         position: relative;
-        top: 300px;
-        left: 200px;
+        top: 360px;
+        left: 190px;
     }
 
     .text {
         position: relative;
-        top: -250px;
-        left: -500px;
+        top: -200px;
+        left: -520px;
     }
 }
 
@@ -5404,7 +3754,7 @@ input[type="radio"]:checked + label::after {
 
     .border {
         position: relative;
-        left: 45px;
+        left: 35px;
     }
 
     .decoration {
@@ -5414,37 +3764,37 @@ input[type="radio"]:checked + label::after {
 
     .image_cart {
         position: relative;
-        left: 232px;
+        left: 222px;
     }
 
     .num_cart {
         position: relative;
-        left: 214px;
+        left: 206px;
     }
 
     .itemlist {
         position: relative;
-        left: 255px;
+        left: 267px;
     }
 
     #totaltext {
         position: relative;
-        left: 255px;
+        left: 267px;
     }
 
     #totalborder {
         position: relative;
-        left: 255px;
+        left: 267px;
     }
 
     #totalcash {
         position: relative;
-        left: 503px;
+        left: 514px;
     }
 
     #continue_shopping_button {
         position: relative;
-        left: 360px;
+        left: 370px;
     }
 
     .customer_information {
@@ -5459,27 +3809,27 @@ input[type="radio"]:checked + label::after {
 
     #lastborder {
         position: relative;
-        left: 255px;
+        left: 273px;
     }
 
     .decoration2 {
         position: relative;
-        left: 200px;
-        top: 330px;
+        left: 190px;
+        top: 360px;
     }
 
     .text {
         position: relative;
-        top: -230px;
-        left: -500px;
+        top: -200px;
+        left: -510px;
     }
 }
 
-@media all and (max-width: 360px) {
+@media all and (max-width: 376px) {
 
     .border {
         position: relative;
-        left: 42px;
+        left: 37px;
     }
 
     .decoration {
@@ -5489,42 +3839,115 @@ input[type="radio"]:checked + label::after {
 
     .image_cart {
         position: relative;
-        left: 228px;
+        left: 224px;
     }
 
     .num_cart {
         position: relative;
-        left: 210px;
+        left: 208px;
     }
 
     .itemlist {
         position: relative;
-        left: 250px;
+        left: 270px;
     }
 
     #totaltext {
         position: relative;
-        left: 250px;
+        left: 270px;
     }
 
     #totalborder {
         position: relative;
-        left: 250px;
+        left: 270px;
     }
 
     #totalcash {
         position: relative;
-        left: 497px;
+        left: 516px;
     }
 
     #continue_shopping_button {
         position: relative;
-        left: 350px;
+        left: 370px;
     }
 
     .customer_information {
         position: relative;
-        left: 45px;
+        left: 40px;
+    }
+
+    #confirm_button {
+        position: relative;
+        left: 49px;
+    }
+
+    #lastborder {
+        position: relative;
+        left: 275px;
+    }
+
+    .decoration2 {
+        position: relative;
+        left: 190px;
+    }
+
+    .text {
+        position: relative;
+        left: -510px;
+    }
+}
+
+@media all and (max-width: 360px) {
+
+    .border {
+        position: relative;
+        left: 39px;
+    }
+
+    .decoration {
+        position: relative;
+        left: 0px;
+    }
+
+    .image_cart {
+        position: relative;
+        left: 225px;
+    }
+
+    .num_cart {
+        position: relative;
+        left: 209px;
+    }
+
+    .itemlist {
+        position: relative;
+        left: 270px;
+    }
+
+    #totaltext {
+        position: relative;
+        left: 270px;
+    }
+
+    #totalborder {
+        position: relative;
+        left: 270px;
+    }
+
+    #totalcash {
+        position: relative;
+        left: 517px;
+    }
+
+    #continue_shopping_button {
+        position: relative;
+        left: 370px;
+    }
+
+    .customer_information {
+        position: relative;
+        left: 40px;
     }
 
     #confirm_button {
@@ -5534,19 +3957,19 @@ input[type="radio"]:checked + label::after {
 
     #lastborder {
         position: relative;
-        left: 255px;
+        left: 275px;
     }
 
     .decoration2 {
         position: relative;
-        top: 320px;
+        top: 370px;
         left: 190px;
     }
 
     .text {
         position: relative;
-        left: -510px;
-        top: -240px;
+        left: -500px;
+        top: -190px;
     }
 }
 
@@ -5623,51 +4046,51 @@ input[type="radio"]:checked + label::after {
     }
 }
 
-@media all and (max-width: 340px) {
+@media all and (max-width: 344px) {
 
     .border {
         position: relative;
-        left: 35px;
+        left: 43px;
     }
 
     .decoration {
         position: relative;
-        left: -10px;
+        left: 5px;
     }
 
     .image_cart {
         position: relative;
-        left: 223px;
+        left: 226px;
     }
 
     .num_cart {
         position: relative;
-        left: 206px;
+        left: 210px;
     }
 
     .itemlist {
         position: relative;
-        left: 245px;
+        left: 275px;
     }
 
     #totaltext {
         position: relative;
-        left: 245px;
+        left: 275px;
     }
 
     #totalborder {
         position: relative;
-        left: 245px;
+        left: 275px;
     }
 
     #totalcash {
         position: relative;
-        left: 492px;
+        left: 522px;
     }
 
     #continue_shopping_button {
         position: relative;
-        left: 345px;
+        left: 377px;
     }
 
     .customer_information {
@@ -5677,12 +4100,12 @@ input[type="radio"]:checked + label::after {
 
     #confirm_button {
         position: relative;
-        left: 45px;
+        left: 49px;
     }
 
     #lastborder {
         position: relative;
-        left: 250px;
+        left: 277px;
     }
 
     .decoration2 {

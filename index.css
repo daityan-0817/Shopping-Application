@@ -47,7 +47,7 @@ input::placeholder {
     position: relative;
     left: 20px
 }
-      
+
 .magnifyingglass {
     background-color: #deb089;
     width: 90px;
@@ -154,7 +154,7 @@ input::placeholder {
     margin-top: 40px;
     margin-right: 25px;
 }
-       
+
 .border3 {
     width: 920px;
     border: 1px solid #656565;
@@ -218,7 +218,7 @@ input::placeholder {
 
     .decoration1 {
         position: relative;
-        top: 45px;
+        top: 40px;
         left: 255px;
     }
 
@@ -244,7 +244,7 @@ input::placeholder {
 
     .num_cart {
         position: relative;
-        left: 493px;
+        left: 491px;
     }
 
     .fastimage {
@@ -431,80 +431,7 @@ input::placeholder {
     }
 }
 
-@media all and (max-width: 1370px) {
-
-    .border {
-        position: relative;
-        left: 230px;
-    }
-
-    .decoration1 {
-        position: relative;
-        left: 225px;
-    }
-
-    .item_search {
-        position: relative;
-        left: 340px;
-    }
-
-    .magnifyingglass {
-        position: relative;
-        left: 350px;
-    }
-
-    .shoppingcart_text {
-        position: relative;
-        left: 460px;
-    }
-
-    .image_cart {
-        position: relative;
-        left: 475px;
-    }
-
-    .num_cart {
-        position: relative;
-        left: 463px;
-    }
-
-    .fastimage {
-        position: relative;
-        left: 230px;
-    }
-
-    .itemlist_text {
-        position: relative;
-        left: 230px;
-    }
-
-    .border2 {
-        position: relative;
-        left: 230px;
-    }
-
-    #item_display {
-        position: relative;
-        left: 230px;
-    }
-
-    .border3 {
-        position: relative;
-        left: 230px;
-    }
-
-    .decoration2 {
-        position: relative;
-        left: 620px;
-    }
-
-    .content3 {
-        position: relative;
-        left: 410px;
-    }
-}
-
-@media all and (max-width: 1352px) {
+@media all and (max-width: 1340px) {
 
     .border {
         position: relative;
@@ -569,79 +496,6 @@ input::placeholder {
     .decoration2 {
         position: relative;
         left: 600px;
-    }
-
-    .content3 {
-        position: relative;
-        left: 400px;
-    }
-}
-
-@media all and (max-width: 1330px) {
-
-    .border {
-        position: relative;
-        left: 210px;
-    }
-
-    .decoration1 {
-        position: relative;
-        left: 210px;
-    }
-
-    .item_search {
-        position: relative;
-        left: 300px;
-    }
-
-    .magnifyingglass {
-        position: relative;
-        left: 310px;
-    }
-
-    .shoppingcart_text {
-        position: relative;
-        left: 440px;
-    }
-
-    .image_cart {
-        position: relative;
-        left: 455px;
-    }
-
-    .num_cart {
-        position: relative;
-        left: 442px;
-    }
-
-    .fastimage {
-        position: relative;
-        left: 210px;
-    }
-
-    .itemlist_text {
-        position: relative;
-        left: 210px;
-    }
-
-    .border2 {
-        position: relative;
-        left: 210px;
-    }
-
-    #item_display {
-        position: relative;
-        left: 210px;
-    }
-
-    .border3 {
-        position: relative;
-        left: 210px;
-    }
-
-    .decoration2 {
-        position: relative;
-        left: 610px;
     }
 
     .content3 {
@@ -716,31 +570,31 @@ input::placeholder {
 @media all and (max-width: 1300px) {
 
     .border {
-         position: relative;
-         left: 190px;
-     }
- 
-     .decoration1 {
-         position: relative;
-         left: 190px;
-     }
- 
-     .item_search {
-         position: relative;
-         left: 270px;
-     }
- 
-     .magnifyingglass {
-         position: relative;
-         left: 275px;
-     }
- 
-     .shoppingcart_text {
-         position: relative;
-         left: 420px;
-     }
- 
-     .image_cart {
+        position: relative;
+        left: 190px;
+    }
+
+    .decoration1 {
+        position: relative;
+        left: 190px;
+    }
+
+    .item_search {
+        position: relative;
+        left: 270px;
+    }
+
+    .magnifyingglass {
+        position: relative;
+        left: 275px;
+    }
+
+    .shoppingcart_text {
+        position: relative;
+        left: 420px;
+    }
+
+    .image_cart {
         position: relative;
         left: 434px;
     }
@@ -749,41 +603,41 @@ input::placeholder {
         position: relative;
         left: 421px;
     }
- 
-     .fastimage {
-         position: relative;
-         left: 190px;
-     }
- 
-     .itemlist_text {
-         position: relative;
-         left: 190px;
-     }
- 
-     .border2 {
-         position: relative;
-         left: 190px;
-     }
- 
-     #item_display {
-         position: relative;
-         left: 190px;
-     }
- 
-     .border3 {
-         position: relative;
-         left: 190px;
-     }
- 
-     .decoration2 {
-         position: relative;
-         left: 600px;
-     }
- 
-     .content3 {
-         position: relative;
-         left: 390px;
-     }
+
+    .fastimage {
+        position: relative;
+        left: 190px;
+    }
+
+    .itemlist_text {
+        position: relative;
+        left: 190px;
+    }
+
+    .border2 {
+        position: relative;
+        left: 190px;
+    }
+
+    #item_display {
+        position: relative;
+        left: 190px;
+    }
+
+    .border3 {
+        position: relative;
+        left: 190px;
+    }
+
+    .decoration2 {
+        position: relative;
+        left: 600px;
+    }
+
+    .content3 {
+        position: relative;
+        left: 390px;
+    }
 } 
 
 @media all and (max-width: 1296px) {
@@ -856,79 +710,6 @@ input::placeholder {
     .content3 {
         position: relative;
         left: 380px;
-    }
-}
-
-@media all and (max-width: 1280px) {
-
-    .border {
-        position: relative;
-        left: 180px;
-    }
-
-    .decoration1 {
-        position: relative;
-        left: 180px;
-    }
-
-    .item_search {
-        position: relative;
-        left: 290px;
-    }
-
-    .magnifyingglass {
-        position: relative;
-        left: 300px;
-    }
-
-    .shoppingcart_text {
-        position: relative;
-        left: 410px;
-    }
-
-    .image_cart {
-        position: relative;
-        left: 425px;
-    }
-
-    .num_cart {
-        position: relative;
-        left: 412px;
-    }
-
-    .fastimage {
-        position: relative;
-        left: 180px;
-    }
-
-    .itemlist_text {
-        position: relative;
-        left: 180px;
-    }
-
-    .border2 {
-        position: relative;
-        left: 180px;
-    }
-
-    #item_display {
-        position: relative;
-        left: 180px;
-    }
-
-    .border3 {
-        position: relative;
-        left: 180px;
-    }
-
-    .decoration2 {
-        position: relative;
-        left: 580px;
-    }
-
-    .content3 {
-        position: relative;
-        left: 370px;
     }
 }
 
@@ -1075,74 +856,6 @@ input::placeholder {
     .content3 {
         position: relative;
         left: 350px;
-    }
-}
-
-@media all and (max-width: 1210px) {
-
-    .border {
-        position: relative;
-        left: 145px;
-    }
-
-    .decoration1 {
-        position: relative;
-        left: 150px;
-    }
-
-    .magnifyingglass {
-        position: relative;
-        left: 280px;
-    }
-
-    .shoppingcart_text {
-        position: relative;
-        left: 370px;
-    }
-
-    .image_cart {
-        position: relative;
-        left: 390px;
-    }
-
-    .num_cart {
-        position: relative;
-        left: 377px;
-    }
-
-    .fastimage {
-        position: relative;
-        left: 145px;
-    }
-
-    .itemlist_text {
-        position: relative;
-        left: 145px;
-    }
-
-    .border2 {
-        position: relative;
-        left: 145px;
-    }
-
-    #item_display {
-        position: relative;
-        left: 145px;
-    }
-
-    .border3 {
-        position: relative;
-        left: 145px;
-    }
-
-    .decoration2 {
-        position: relative;
-        left: 550px;
-    }
-
-    .content3 {
-        position: relative;
-        left: 340px;
     }
 }
 
@@ -1511,79 +1224,6 @@ input::placeholder {
     }
 }
 
-@media all and (max-width: 1110px) {
-
-    .border {
-        position: relative;
-        left: 95px;
-    }
-
-    .decoration1 {
-        position: relative;
-        left: 90px;
-    }
-
-    .item_search {
-        position: relative;
-        left: 205px;
-    }
-
-    .magnifyingglass {
-        position: relative;
-        left: 210px;
-    }
-
-    .shoppingcart_text {
-        position: relative;
-        left: 325px;
-    }
-
-    .image_cart {
-        position: relative;
-        left: 340px;
-    }
-
-    .num_cart {
-        position: relative;
-        left: 328px;
-    }
-
-    .fastimage {
-        position: relative;
-        left: 95px;
-    }
-
-    .itemlist_text {
-        position: relative;
-        left: 95px;
-    }
-
-    .border2 {
-        position: relative;
-        left: 95px;
-    }
-
-    #item_display {
-        position: relative;
-        left: 95px;
-    }
-
-    .border3 {
-        position: relative;
-        left: 95px;
-    }
-
-    .decoration2 {
-        position: relative;
-        left: 490px;
-    }
-
-    .content3 {
-        position: relative;
-        left: 280px;
-    }
-}
-
 @media all and (max-width: 1100px) {
 
     .border {
@@ -1803,158 +1443,6 @@ input::placeholder {
         position: relative;
         top: 500px;
         left: 280px;
-    }
-}
-
-@media all and (max-width: 1070px) {
-
-    .border {
-        position: relative;
-        left: 75px;
-    }
-
-    .decoration1 {
-        position: relative;
-        left: 71px;
-    }
-
-    .item_search {
-        position: relative;
-        left: 165px;
-    }
-
-    .magnifyingglass {
-        position: relative;
-        left: 173px;
-    }
-
-    .shoppingcart_text {
-        position: relative;
-        left: 310px;
-    }
-
-    .image_cart {
-        position: relative;
-        left: 320px;
-    }
-
-    .num_cart {
-        position: relative;
-        left: 307px;
-    }
-
-    .fastimage {
-        position: relative;
-        left: 75px;
-    }
-
-    .itemlist_text {
-        position: relative;
-        left: 75px;
-    }
-
-    .border2 {
-        position: relative;
-        left: 75px;
-    }
-
-    #item_display {
-        position: relative;
-        left: 75px;
-    }
-
-    .border3 {
-        position: relative;
-        top: 400px;
-        left: 75px;
-    }
-
-    .decoration2 {
-        position: relative;
-        top: 450px;
-        left: 480px;
-    }
-
-    .content3 {
-        position: relative;
-        top: 500px;
-        left: 270px;
-    }
-}
-
-@media all and (max-width: 1040px) {
-
-    .border {
-        position: relative;
-        left: 62px;
-    }
-
-    .decoration1 {
-        position: relative;
-        left: 60px;
-    }
-
-    .item_search {
-        position: relative;
-        left: 170px;
-    }
-
-    .magnifyingglass {
-        position: relative;
-        left: 180px;
-    }
-
-    .shoppingcart_text {
-        position: relative;
-        left: 290px;
-    }
-
-    .image_cart {
-        position: relative;
-        left: 307px;
-    }
-
-    .num_cart {
-        position: relative;
-        left: 294px;
-    }
-
-    .fastimage {
-        position: relative;
-        left: 62px;
-    }
-
-    .itemlist_text {
-        position: relative;
-        left: 62px;
-    }
-
-    .border2 {
-        position: relative;
-        left: 62px;
-    }
-
-    #item_display {
-        position: relative;
-        left: 62px;
-    }
-
-    .border3 {
-        position: relative;
-        top: 400px;
-        left: 62px;
-    }
-
-    .decoration2 {
-        position: relative;
-        top: 450px;
-        left: 460px;
-    }
-
-    .content3 {
-        position: relative;
-        top: 500px;
-        left: 250px;
     }
 }
 
@@ -2250,13 +1738,13 @@ input::placeholder {
     .decoration2 {
         position: relative;
         top: 500px;
-        left: 440px;
+        left: 420px;
     }
 
     .content3 {
         position: relative;
         top: 550px;
-        left: 230px;
+        left: 210px;
     }
 }
 
@@ -2284,7 +1772,7 @@ input::placeholder {
         border-radius: 12px;
     }
 
-     input::placeholder {
+    input::placeholder {
         width: 62px;
         height: 17px;
         font-family: Inter;
@@ -2315,7 +1803,7 @@ input::placeholder {
     }
 
     .shoppingcart_text {
-        display:none;
+        display: none;
     }
 
     .image_cart {
@@ -2329,11 +1817,11 @@ input::placeholder {
     }
 
     .num_cart {
-        width: 10px;
-        height: 10px;
+        width: 6px;
+        height: 6px;
         position: relative;
-        left: 277px;
-        top: 55px;
+        left: 279px;
+        top: 59px;
         padding: 5px 5px 5px 5px; 
         border: 2px solid #333;
         border-radius: 50%;
@@ -2342,7 +1830,6 @@ input::placeholder {
         font-family: Inter;
         font-size: 10px;
         font-weight: 400;
-        line-height: 12.1px;
         text-align: center;
     }
 
@@ -2453,14 +1940,6 @@ input::placeholder {
     }
 }
 
-@media all and (max-width: 850px) {
-
-    .image_cart {
-        position: relative;
-        left: 290px;
-    }
-}
-
 @media all and (max-width: 830px) {
 
     .border {
@@ -2490,7 +1969,8 @@ input::placeholder {
 
     .num_cart {
         position: relative;
-        left: 267px;
+        top: 60px;
+        left: 268px;
     }
 
     .fastimage {
@@ -2560,7 +2040,9 @@ input::placeholder {
 
     .num_cart {
         position: relative;
-        left: 257px;
+        top: 60px;
+        left: 258px;
+        line-height: 8px;
     }
 
     .fastimage {
@@ -2631,7 +2113,8 @@ input::placeholder {
 
     .num_cart {
         position: relative;
-        left: 248px;
+        top: 60px;
+        left: 250px;
     }
 
     .fastimage {
@@ -2673,11 +2156,11 @@ input::placeholder {
     }
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 770px) {
 
     .border {
         position: relative;
-        left: 120px;
+        left: 115px;
     }
 
     .decoration1 {
@@ -2685,206 +2168,49 @@ input::placeholder {
         left: 120px;
     }
 
-    .item_search {
-        position: relative;
-        left: 160px;
-    }
-
-    .magnifyingglass {
-        position: relative;
-        left: 170px;
-    }
-
     .image_cart {
         position: relative;
-        left: 250px;
+        left: 244px;
     }
 
     .num_cart {
         position: relative;
-        left: 236px;
+        left: 232px;
     }
 
     .fastimage {
         position: relative;
-        left: 120px;
+        left: 115px;
     }
 
     .itemlist_text {
         position: relative;
-        left: 120px;
+        left: 115px;
     }
 
     .border2 {
         position: relative;
-        left: 120px;
+        left: 115px;
     }
 
     #item_display {
         position: relative;
-        left: 120px;
+        left: 115px;
     }
 
     .border3 {
         position: relative;
-        top: 300px;
-        left: 120px;
+        left: 115px;
     }
 
     .decoration2 {
         position: relative;
-        top: 350px;
         left: 350px;
     }
 
     .content3 {
         position: relative;
-        top: 400px;
         left: 160px;
-    }
-}
-
-@media all and (max-width: 750px) {
-
-    .border {
-        position: relative;
-        left: 110px;
-    }
-
-    .decoration1 {
-        position: relative;
-        top: 0px;
-        left: 110px;
-    }
-
-    .item_search {
-        position: relative;
-        left: 160px;
-    }
-
-    .magnifyingglass {
-        position: relative;
-        left: 170px;
-    }
-
-    .image_cart {
-        position: relative;
-        left: 241px;
-    }
-
-    .num_cart {
-        position: relative;
-        left: 228px;
-    }
-
-    .fastimage {
-        position: relative;
-        left: 110px;
-    }
-
-    .itemlist_text {
-        position: relative;
-        left: 110px;
-    }
-
-    .border2 {
-        position: relative;
-        left: 110px;
-    }
-
-    #item_display {
-        position: relative;
-        left: 110px;
-    }
-
-    .border3 {
-        position: relative;
-        top: 300px;
-        left: 110px;
-    }
-
-    .decoration2 {
-        position: relative;
-        top: 350px;
-        left: 340px;
-    }
-
-    .content3 {
-        position: relative;
-        top: 400px;
-        left: 150px;
-    }
-}
-
-@media all and (max-width: 730px) {
-
-    .border {
-        position: relative;
-        left: 100px;
-    }
-
-    .decoration1 {
-        position: relative;
-        top: 0px;
-        left: 100px;
-    }
-
-    .item_search {
-        position: relative;
-        left: 150px;
-    }
-
-    .magnifyingglass {
-        position: relative;
-        left: 155px;
-    }
-
-    .image_cart {
-        position: relative;
-        left: 232px;
-    }
-
-    .num_cart {
-        position: relative;
-        left: 220px;
-    }
-
-    .fastimage {
-        position: relative;
-        left: 100px;
-    }
-
-    .itemlist_text {
-        position: relative;
-        left: 100px;
-    }
-
-    .border2 {
-        position: relative;
-        left: 100px;
-    }
-
-    #item_display {
-        position: relative;
-        left: 100px;
-    }
-
-    .border3 {
-        position: relative;
-        top: 300px;
-        left: 100px;
-    }
-
-    .decoration2 {
-        position: relative;
-        top: 350px;
-        left: 330px;
-    }
-
-    .content3 {
-        position: relative;
-        top: 400px;
-        left: 140px;
     }
 }
 
@@ -2892,154 +2218,12 @@ input::placeholder {
 
     .border {
         position: relative;
-        left: 95px;
-    }
-
-    .decoration1 {
-        position: relative;
-        left: 100px;
-    }
-
-    .item_search {
-        position: relative;
-        left: 140px;
-    }
-
-    .magnifyingglass {
-        position: relative;
-        left: 145px;
-    }
-
-    .image_cart {
-        position: relative;
-        left: 227px;
-    }
-
-    .num_cart {
-        position: relative;
-        left: 214px;
-    }
-
-    .fastimage {
-        position: relative;
-        left: 95px;
-    }
-
-    .itemlist_text {
-        position: relative;
-        left: 95px;
-    }
-
-    .border2 {
-        position: relative;
-        left: 95px;
-    }
-
-    #item_display {
-        position: relative;
-        left: 95px;
-    }
-
-    .border3 {
-        position: relative;
-        top: 300px;
-        left: 95px;
-    }
-
-    .decoration2 {
-        position: relative;
-        top: 350px;
-        left: 310px;
-    }
-
-    .content3 {
-        position: relative;
-        top: 400px;
-        left: 130px;
-    }
-}
-
-@media all and (max-width: 716px) {
-    
-    .border {
-        position: relative;
         left: 90px;
     }
 
     .decoration1 {
         position: relative;
         left: 90px;
-    }
-
-    .item_search {
-        position: relative;
-        left: 145px;
-    }
-
-    .magnifyingglass {
-        position: relative;
-        left: 155px;
-    }
-
-    .image_cart {
-        position: relative;
-        left: 220px;
-    }
-
-    .num_cart {
-        position: relative;
-        left: 207px;
-    }
-
-    .fastimage {
-        position: relative;
-        left: 90px;
-    }
-
-    .itemlist_text {
-        position: relative;
-        left: 90px;
-    }
-
-    .border2 {
-        position: relative;
-        left: 90px;
-    }
-
-    #item_display {
-        position: relative;
-        left: 90px;
-    }
-
-    .border3 {
-        position: relative;
-        top: 300px;
-        left: 90px;
-    }
-
-    .decoration2 {
-        position: relative;
-        top: 350px;
-        left: 300px;
-    }
-
-    .content3 {
-        position: relative;
-        top: 400px;
-        left: 120px;
-    }
-}
-
-@media all and (max-width: 700px) {
-
-    .border {
-        position: relative;
-        left: 85px;
-    }
-
-    .decoration1 {
-        position: relative;
-        left: 80px;
     }
 
     .item_search {
@@ -3054,50 +2238,49 @@ input::placeholder {
 
     .image_cart {
         position: relative;
-        left: 215px;
+        left: 221px;
     }
 
     .num_cart {
         position: relative;
-        left: 202px;
+        top: 60px;
+        left: 209px;
+        line-height: 8px;
     }
 
     .fastimage {
         position: relative;
-        left: 85px;
+        left: 90px;
     }
 
     .itemlist_text {
         position: relative;
-        left: 85px;
+        left: 90px;
     }
 
     .border2 {
         position: relative;
-        left: 85px;
+        left: 90px;
     }
 
     #item_display {
         position: relative;
-        left: 85px;
+        left: 90px;
     }
 
     .border3 {
         position: relative;
-        top: 300px;
-        left: 85px;
+        left: 90px;
     }
 
     .decoration2 {
         position: relative;
-        top: 350px;
-        left: 300px;
+        left: 320px;
     }
 
     .content3 {
         position: relative;
-        top: 400px;
-        left: 110px;
+        left: 130px;
     }
 }
 
@@ -3120,6 +2303,7 @@ input::placeholder {
 
     .num_cart {
         position: relative;
+        top: 60px;
         left: 200px;
     }
 
@@ -3145,132 +2329,21 @@ input::placeholder {
 
     .border3 {
         position: relative;
-        top: 300px;
         left: 80px;
-    }
-}
-
-@media all and (max-width: 670px) {
-
-    .border {
-        position: relative;
-        left: 70px;
-    }
-
-    .decoration1 {
-        position: relative;
-        left: 70px;
-    }
-
-    .image_cart {
-        position: relative;
-        left: 202px;
-    }
-
-    .num_cart {
-        position: relative;
-        left: 190px;
-    }
-
-    .fastimage {
-        position: relative;
-        left: 70px;
-    }
-
-    .itemlist_text {
-        position: relative;
-        left: 70px;
-    }
-
-    .border2 {
-        position: relative;
-        left: 70px;
-    }
-
-    #item_display {
-        position: relative;
-        left: 70px;
-    }
-
-    .border3 {
-        position: relative;
-        top: 300px;
-        left: 70px;
-    }
-}
-
-@media all and (max-width: 660px) {
-
-    .border {
-        position: relative;
-        left: 65px;
-    }
-
-    .decoration1 {
-        position: relative;
-        left: 70px;
-    }
-
-    .item_search {
-        position: relative;
-        left: 120px;
-    }
-
-    .magnifyingglass {
-        position: relative;
-        left: 130px;
-    }
-
-    .image_cart {
-        position: relative;
-        left: 196px;
-    }
-
-    .num_cart {
-        position: relative;
-        left: 183px;
-    }
-
-    .fastimage {
-        position: relative;
-        left: 65px;
-    }
-
-    .itemlist_text {
-        position: relative;
-        left: 65px;
-    }
-
-    .border2 {
-        position: relative;
-        left: 65px;
-    }
-
-    #item_display {
-        position: relative;
-        left: 65px;
-    }
-
-    .border3 {
-        position: relative;
-        top: 300px;
-        left: 65px;
     }
 
     .decoration2 {
         position: relative;
-        top: 350px;
-        left: 290px;
+        left: 310px;
     }
 
     .content3 {
         position: relative;
-        top: 400px;
-        left: 100px;
+        left: 120px;
     }
 }
 
-@media all and (max-width: 640px) {
+@media all and (max-width: 650px) {
 
     .border {
         position: relative;
@@ -3279,22 +2352,22 @@ input::placeholder {
 
     .decoration1 {
         position: relative;
-        left: 55px;
+        left: 60px;
     }
 
     .item_search {
         position: relative;
-        left: 100px;
+        left: 115px;
     }
 
     .magnifyingglass {
         position: relative;
-        left: 110px;
+        left: 125px;
     }
 
     .image_cart {
         position: relative;
-        left: 187px;
+        left: 185px;
     }
 
     .num_cart {
@@ -3304,7 +2377,7 @@ input::placeholder {
 
     .fastimage {
         position: relative;
-        left: 50px;
+        left: 55px;
     }
 
     .itemlist_text {
@@ -3324,161 +2397,16 @@ input::placeholder {
 
     .border3 {
         position: relative;
-        top: 300px;
         left: 55px;
     }
 
     .decoration2 {
         position: relative;
-        top: 350px;
-        left: 280px;
-    }
-
-    .content3 {
-        position: relative;
-        top: 400px;
-        left: 90px;
-    }
-}
-
-@media all and (max-width: 630px) {
-
-    .border {
-        position: relative;
-        left: 50px;
-    }
-
-    .decoration1 {
-        position: relative;
-        left: 50px;
-    }
-
-    .item_search {
-        position: relative;
-        left: 95px;
-    }
-
-    .magnifyingglass {
-        position: relative;
-        left: 100px;
-    }
-
-    .image_cart {
-        position: relative;
-        left: 182px;
-    }
-
-    .num_cart {
-        position: relative;
-        left: 169px;
-    }
-
-    .fastimage {
-        position: relative;
-        left: 50px;
-    }
-
-    .itemlist_text {
-        position: relative;
-        left: 50px;
-    }
-
-    .border2 {
-        position: relative;
-        left: 50px;
-    }
-
-    #item_display {
-        position: relative;
-        left: 50px;
-    }
-
-    .border3 {
-        position: relative;
-        top: 300px;
-        left: 50px;
-    }
-
-    .decoration2 {
-        position: relative;
-        top: 350px;
         left: 270px;
     }
 
     .content3 {
         position: relative;
-        top: 400px;
-        left: 80px;
-    }
-}
-
-@media all and (max-width: 620px) {
-
-    .border {
-        position: relative;
-        left: 45px;
-    }
-
-    .decoration1 {
-        position: relative;
-        left: 45px;
-    }
-
-    .item_search {
-        position: relative;
-        left: 90px;
-    }
-
-    .magnifyingglass {
-        position: relative;
-        left: 95px;
-    }
-
-    .image_cart {
-        position: relative;
-        left: 177px;
-    }
-
-    .num_cart {
-        position: relative;
-        left: 164px;
-    }
-
-    .fastimage {
-        position: relative;
-        left: 45px;
-    }
-
-    .itemlist_text {
-        position: relative;
-        left: 45px;
-    }
-
-    .border2 {
-        position: relative;
-        left: 45px;
-    }
-
-    #item_display {
-        position: relative;
-        left: 45px;
-    }
-
-    .border3 {
-        position: relative;
-        top: 300px;
-        left: 45px;
-    }
-
-    .decoration2 {
-        position: relative;
-        top: 350px;
-        left: 270px;
-    }
-
-    .content3 {
-        position: relative;
-        top: 400px;
         left: 80px;
     }
 }
@@ -3513,6 +2441,7 @@ input::placeholder {
     .num_cart {
         position: relative;
         left: 148px;
+        line-height: 8px;
     }
 
     .fastimage {
@@ -3543,138 +2472,12 @@ input::placeholder {
 
     .decoration2 {
         position: relative;
-        top: 350px;
-        left: 250px;
+        left: 240px;
     }
 
     .content3 {
         position: relative;
-        top: 400px;
-        left: 70px;
-    }
-}
-
-@media all and (max-width: 570px) {
-
-    .item_search {
-        position: relative;
-        left: 80px;
-    }
-
-    .magnifyingglass {
-        position: relative;
-        left: 85px;
-    }
-}
-
-@media all and (max-width: 540px) {
-
-    .border {
-        position: relative;
-        left: 25px
-    }
-
-    .decoration1 {
-        position: relative;
-        left: 30px;
-        top: 0px;
-    }
-
-    .item_search {
-        position: relative;
-        left: 70px;
-    }
-
-    .magnifyingglass {
-        position: relative;
-        left: 80px;
-    }
-
-    .image_cart {
-        position: relative;
-        left: 155px;
-    }
-
-    .num_cart {
-        position: relative;
-        left: 142px;
-    }
-
-    .fastimage {
-        position: relative;
-        left: 25px;
-    }
-
-    .itemlist_text {
-        position: relative;
-        left: 25px;
-    }
-
-    .border2 {
-        position: relative;
-        left: 25px;
-    }
-
-    #item_display {
-        position: relative;
-        left: 25px;
-    }
-
-    .border3 {
-        position: relative;
-        left: 25px;
-    }
-
-    .decoration2 {
-        position: relative;
-        left: 235px;
-    }
-
-    .content3 {
-        position: relative;
-        left: 55px;
-    }
-}
-
-@media all and (max-width: 520px) {
-
-    .image_cart {
-        position: relative;
-        left: 157px;
-    }
-
-    .num_cart {
-        position: relative;
-        left: 144px;
-    }
-}
-
-@media all and (max-width: 512px) {
-
-    .decoration1 {
-        position: relative;
-        left: 30px;
-        top: 0px;
-    }
-
-    .item_search {
-        position: relative;
-        left: 80px;
-    }
-
-    .magnifyingglass {
-        position: relative;
-        left: 90px;
-    }
-
-    .image_cart {
-        position: relative;
-        left: 157px;
-    }
-
-    .content3 {
-        position: relative;
-        left: 60px;
+        left: 50px;
     }
 }
 
@@ -3694,7 +2497,7 @@ input::placeholder {
     }
 
     .item_search {
-        width: 206px;
+        width: 200px;
         height: 26px;
         position: relative;
         top: 25px;
@@ -3746,8 +2549,6 @@ input::placeholder {
         position: absolute;
         top: 72px;
         left: 387px;
-        border: none;
-        background-color: white;
     }
 
     .image_cart img {
@@ -3756,11 +2557,11 @@ input::placeholder {
     }
 
     .num_cart {
-        width: 10px;
-        height: 10px;
+        width: 5px;
+        height: 5px;
         position: relative;
-        left: 99px;
-        top: 14px;
+        left: 105px;
+        top: 20px;
         border: 2px solid #333;
         border-radius: 50%;
         color: #fff;
@@ -3768,7 +2569,7 @@ input::placeholder {
         font-family: Inter;
         font-size: 10px;
         font-weight: 400;
-        line-height: 12.1px;
+        line-height: 6px;
         text-align: center;
     }
 
@@ -3829,7 +2630,7 @@ input::placeholder {
         height: 54px;
         position: relative;
         top: 240px;
-        left: 200px;
+        left: 215px;
     }
 
     .content3 {
@@ -3839,7 +2640,7 @@ input::placeholder {
         font-size: 12px;
         position: relative;
         top: 280px;
-        left: 40px;
+        left: 55px;
     }
 
     .soldout_message {
@@ -3872,152 +2673,6 @@ input::placeholder {
     }
 }
 
-@media all and (max-width: 460px) {
-
-    .border {
-        position: relative;
-        left: 50px;
-    }
-
-    .decoration1 {
-        position: relative;
-        left: 50px;
-    }
-
-    .image_cart {
-        position: relative;
-        top: 30px;
-        left: 72px;
-    }
-
-    .fastimage {
-        position: relative;
-        left: 50px;
-    }
-
-    .itemlist_text {
-        position: relative;
-        left: 50px;
-    }
-
-    .border2 {
-        position: relative;
-        left: 50px;
-    }
-
-    .num_cart {
-        position: relative;
-        left: 54px;
-    }
-
-    #item_display {
-        position: relative;
-        left: 50px;
-    }
-
-    .item_search {
-        position: relative;
-        top: 25px;
-        left: 60px;
-        border-radius: 12px;
-    }
-
-    .magnifyingglass {
-        position: relative;
-        left: 65px;
-        top: 27px;
-    }
-
-    .border3 {
-        position: relative;
-        left: 50px;
-    }
-
-    .decoration2 {
-        position: relative;
-        left: 210px;
-    }
-
-    .content3 {
-        position: relative;
-        top: 280px;
-        left: 40px;
-    }
-}
-
-@media all and (max-width: 440px) {
-
-    .border {
-        position: relative;
-        left: 43px;
-    }
-
-    .decoration1 {
-        position: relative;
-        left: 43px;
-    }
-
-    .image_cart {
-        position: relative;
-        top: 30px;
-        left: 65px;
-    }
-
-    .fastimage {
-        position: relative;
-        left: 43px;
-    }
-
-    .itemlist_text {
-        position: relative;
-        left: 43px;
-    }
-
-    .border2 {
-        position: relative;
-        left: 43px;
-    }
-
-    .num_cart {
-        position: relative;
-        left: 47px;
-    }
-
-    #item_display {
-        position: relative;
-        left: 43px;
-    }
-
-    .item_search {
-        position: relative;
-        top: 25px;
-        left: 58px;
-        border-radius: 12px;
-    }
-
-    .magnifyingglass {
-        position: relative;
-        left: 63px;
-        top: 27px;
-    }
-
-    .border3 {
-        position: relative;
-        left: 43px;
-    }
-
-    .decoration2 {
-        position: relative;
-        left: 200px;
-    }
-
-    .content3 {
-        position: relative;
-        top: 280px;
-        left: 30px;
-    }
-}
-
 @media all and (max-width: 430px) {
 
     .border {
@@ -4033,7 +2688,7 @@ input::placeholder {
     .image_cart {
         position: relative;
         top: 30px;
-        left: 58px;
+        left: 62px;
     }
 
     .fastimage {
@@ -4053,7 +2708,7 @@ input::placeholder {
 
     .num_cart {
         position: relative;
-        left: 40px;
+        left: 45px;
     }
 
     #item_display {
@@ -4063,15 +2718,15 @@ input::placeholder {
 
     .item_search {
         position: relative;
-        top: 30px;
-        left: 50px;
+        top: 25px;
+        left: 45px;
         border-radius: 12px;
     }
 
     .magnifyingglass {
         position: relative;
-        left: 55px;
-        top: 32px;
+        left: 50px;
+        top: 27px;
     }
 
     .border3 {
@@ -4095,61 +2750,61 @@ input::placeholder {
 
     .border {
         position: relative;
-        left: 30px;
+        left: 25px;
     }
 
     .decoration1 {
         position: relative;
-        left: 30px;
+        left: 25px;
     }
 
     .image_cart {
         position: relative;
         top: 30px;
-        left: 55px;
+        left: 52px;
     }
 
     .fastimage {
         position: relative;
-        left: 30px;
+        left: 25px;
     }
 
     .itemlist_text {
         position: relative;
-        left: 30px;
+        left: 25px;
     }
 
     .border2 {
         position: relative;
-        left: 30px;
+        left: 25px;
     }
 
     .num_cart {
         position: relative;
-        left: 38px;
+        left: 36px;
     }
 
     #item_display {
         position: relative;
-        left: 30px;
+        left: 25px;
     }
 
     .item_search {
         position: relative;
-        top: 30px;
-        left: 50px;
+        top: 25px;
+        left: 40px;
         border-radius: 12px;
     }
 
     .magnifyingglass {
         position: relative;
-        left: 55px;
-        top: 32px;
+        left: 45px;
+        top: 27px;
     }
 
     .border3 {
         position: relative;
-        left: 30px;
+        left: 25px;
     }
 
     .decoration2 {
@@ -4160,24 +2815,11 @@ input::placeholder {
     .content3 {
         position: relative;
         top: 280px;
-        left: 20px;
+        left: 10px;
     }  
 }
 
-@media all and (max-width: 412px) {
-
-    .image_cart {
-        position: relative;
-        left: 55px;
-    }
-
-    .num_cart {
-        position: relative;
-        left: 37px;
-    }
-}
-
-@media all and (max-width: 384px) {
+@media all and (max-width: 390px) {
 
     .border {
         position: relative;
@@ -4191,8 +2833,8 @@ input::placeholder {
 
     .image_cart {
         position: relative;
-        top: 30px;
-        left: 53px;
+        top: 28px;
+        left: 57px;
     }
 
     .fastimage {
@@ -4212,7 +2854,8 @@ input::placeholder {
 
     .num_cart {
         position: relative;
-        left: 35px;
+        top: 18px;
+        left: 40px;
     }
 
     #item_display {
@@ -4222,15 +2865,15 @@ input::placeholder {
 
     .item_search {
         position: relative;
-        top: 30px;
-        left: 50px;
+        top: 25px;
+        left: 45px;
         border-radius: 12px;
     }
 
     .magnifyingglass {
         position: relative;
-        left: 55px;
-        top: 32px;
+        left: 50px;
+        top: 28px;
     }
 
     .border3 {
@@ -4264,24 +2907,25 @@ input::placeholder {
 
     .item_search {
         position: relative;
-        left: 45px;
+        left: 40px;
     }
 
     .magnifyingglass {
         position: relative;
-        left: 50px;
+        top: 27px;
+        left: 45px;
     }
 
     .image_cart {
         position: absolute;
-        left: 354px;
+        left: 352px;
         top: 73px;
     }
 
     .num_cart {
         position: relative;
-        top: 15px;
-        left: 66px;
+        top: 20px;
+        left: 70px;
     }
 
     .fastimage {
@@ -4319,132 +2963,12 @@ input::placeholder {
     .content3 {
         position: relative;
         top: 300px;
-        left: 10px;
     }
 }
 
-@media all and (max-width: 344px) {
-
-    .border {
-        position: relative;
-        left: 25px;
-    }
-
-    .border3 {
-        position: relative;
-        left: 25px;
-        top: 400px;
-    }
-
-    .decoration1 {
-        position: relative;
-        left: 25px;
-    }
-
-    .image_cart {
-        position: absolute;
-        top: 75px;
-        left: 353px;
-    }
-
-    .num_cart {
-        position: relative;
-        top: 17px;
-        left: 64px;
-    }
-
-    .fastimage {
-        position: relative;
-        left: 25px;
-    }
-
-    .itemlist_text {
-        position: relative;
-        left: 25px;
-    }
-
-    .border2 {
-        position: relative;
-        left: 25px;
-    }
-
-    #item_display {
-        position: relative;
-        left: 25px;
-    }
-
-    .decoration2 {
-        position: relative;
-        left: 180px;
-        top: 480px;
-    }
-
-    .content3 {
-        position: relative;
-        left: 10px;
-        top: 550px;
-    }
-}
-
-@media all and (max-width: 328px) {
-
-    .border {
-        position: relative;
-        left: 25px;
-    }
-
-    .border3 {
-        position: relative;
-        left: 25px;
-        top: 400px;
-    }
-
-    .decoration1 {
-        position: relative;
-        left: 25px;
-    }
-
-    .image_cart {
-        position: absolute;
-        top: 75px;
-        left: 353px;
-    }
-
-    .num_cart {
-        position: relative;
-        top: 17px;
-        left: 64px;
-    }
-
-    .fastimage {
-        position: relative;
-        left: 25px;
-    }
-
-    .itemlist_text {
-        position: relative;
-        left: 25px;
-    }
-
-    .border2 {
-        position: relative;
-        left: 25px;
-    }
-
-    #item_display {
-        position: relative;
-        left: 25px;
-    }
-
-    .decoration2 {
-        position: relative;
-        left: 180px;
-        top: 450px;
-    }
-
+@media all and (max-width: 320px) {
     .content3 {
         position: relative;
         left: 70px;
-        top: 500px;
     }
 }

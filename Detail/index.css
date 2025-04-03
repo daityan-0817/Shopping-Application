@@ -514,89 +514,6 @@ body {
     }
 }
 
-@media all and (max-width: 1210px) {
-
-    .border {
-        position: relative;
-        left: 150px;
-    }
-
-    .decoration {
-        position: relative;
-        left: -100px;
-    }
-
-    .shoppingcart_text {
-        position: relative;
-        left: 500px;
-    }
-
-    .image_cart {
-        position: relative;
-        left: 528px;
-    }
-
-    .num_cart {
-        position: relative;
-        left: 503px;
-    }
-
-    #img {
-        position: relative;
-        left: 150px;
-    }
-
-    .name_text {
-        position: relative;
-        left: -110px;
-    }
-
-    .size_text {
-        position: relative;
-        left: 730px;
-    }
-
-    .numdisplay_size {
-        position: relative;
-        left: 870px
-    }
-
-    .quantity_text {
-        position: relative;
-        left: 730px;
-    }
-
-    .numdisplay_quantity {
-        position: relative;
-        left: 870px;
-    }
-
-    .price_text {
-        position: relative;
-        left: 730px;
-    }
-
-    #cart_button {
-        position: relative;
-        left: 730px;
-    }
-
-    .border2 {
-        position: relative;
-        left: 150px;
-    }
-
-    .decoration2 {
-        position: relative;
-        left: 560px;
-    }
-
-    .content6 {
-        position: relative;
-        left: 500px;
-    }
-}
-
 @media all and (max-width: 1202px) {
 
     .border {
@@ -920,12 +837,12 @@ body {
 
     .image_cart {
         position: relative;
-        left: 435px;
+        left: 430px;
     }
 
     .num_cart {
         position: relative;
-        left: 412px;
+        left: 405px;
     }
 
     #img {
@@ -1174,12 +1091,12 @@ body {
 
     .image_cart {
         position: relative;
-        left: 410px;
+        left: 407px;
     }
 
     .num_cart {
         position: relative;
-        left: 385px;
+        left: 380px;
     }
 
     #img {
@@ -1241,13 +1158,13 @@ body {
     .decoration2 {
         position: relative;
         top: 350px;
-        left: 440px;
+        left: 420px;
     }
 
     .content6 {
         position: relative;
         top: 400px;
-        left: 380px;
+        left: 360px;
     }
 }
 
@@ -1428,193 +1345,81 @@ body {
 
 @media all and (max-width: 830px) {
 
+    .border {
+        position: relative;
+        left: 140px;
+    }
+
     .decoration {
         position: relative;
-        left: -130px;
         top: -10px;
-    }
-    
-    .name_text {
-        width: 270px;
-        position: relative;
-        top: 110px;
-        left: -510px;
-    }
-    
-    .size_text {
-        position: relative;
-        left: 300px;
-        top: 150px;
-    }
-    
-    .quantity_text {
-        position: relative;
-        left: 300px;
-        top: 150px;
-    }
-    
-    .price_text {
-        position: relative;
-        left: 350px;
-        top: 150px;
-    }
-    
-    .numdisplay_size {
-        position: relative;
-        left: 430px;
-        top: 120px;
-    }
-    
-    .numdisplay_quantity {
-        position: relative;
-        left: 0px;
-        left: 430px;
-        top: 110px;
+        left: -125px;
     }
 
     .image_cart {
         position: relative;
-        top: 40px;
-        left: 235px;
+        left: 223px;
     }
-    
+
     .num_cart {
         position: relative;
-        left: 210px;
-        top: 62px;
+        left: 198px;
     }
-    
-    .border {
-        position: relative;
-        left: 150px;
-        top: 10px;
-    }
-    
+
     #img {
-        width: 348px;
         position: relative;
-        top: 70px;
-        left: 250px;
-    }
-        
-    #cart_button {
-        position: relative;
-        left: 250px;
-        top: 200px;
+        left: 230px;
     }
 
-    .border2 {
-        position: relative;
-        top: 380px;
-        left: 150px;
-    }
-    
-    .decoration2 {
-        position: relative;
-        top: 450px;
-        left: 380px;
-    }
-    
-    .content6 {
-        position: relative;
-        top: 500px;
-        left: 290px;
-    }
-}
-
-@media all and (max-width: 820px) {
-
-    .decoration {
-        position: relative;
-        left: -140px;
-        top: -10px;
-    }
-    
     .name_text {
-        width: 200px;
         position: relative;
-        top: 110px;
-        left: -500px;
+        left: -570px;
     }
-    
+
     .size_text {
         position: relative;
-        left: 300px;
-        top: 150px;
+        left: 320px;
     }
-    
+
     .quantity_text {
         position: relative;
-        left: 300px;
-        top: 150px;
+        left: 320px;
     }
-    
+
+    .numdisplay_size {
+        position: relative;
+        left: 440px;
+    }
+
+    .numdisplay_quantity {
+        position: relative;
+        left: 440px;
+    }
+
     .price_text {
         position: relative;
         left: 340px;
-        top: 150px;
-    }
-    
-    .numdisplay_size {
-        position: relative;
-        left: 430px;
-        top: 120px;
-    }
-    
-    .numdisplay_quantity {
-        position: relative;
-        left: 0px;
-        left: 430px;
-        top: 110px;
     }
 
-    .image_cart {
-        position: relative;
-        top: 40px;
-        left: 227px;
-    }
-    
-    .num_cart {
-        position: relative;
-        left: 201px;
-        top: 62px;
-    }
-    
-    .border {
-        position: relative;
-        left: 140px;
-        top: 10px;
-    }
-    
-    #img {
-        width: 348px;
-        position: relative;
-        top: 70px;
-        left: 230px;
-    }
-        
     #cart_button {
         position: relative;
-        left: 240px;
-        top: 200px;
+        left: 250px;
     }
 
     .border2 {
         position: relative;
-        top: 380px;
         left: 140px;
     }
-    
+
     .decoration2 {
         position: relative;
-        top: 450px;
-        left: 360px;
+        top: 430px;
+        left: 370px;
     }
-    
+
     .content6 {
         position: relative;
-        top: 500px;
-        left: 270px;
+        left: 290px;
     }
 }
 
@@ -1712,13 +1517,13 @@ body {
     .decoration2 {
         position: relative;
         top: 450px;
-        left: 350px;
+        left: 360px;
     }
     
     .content6 {
         position: relative;
         top: 500px;
-        left: 260px;
+        left: 270px;
     }
 }
 
@@ -1933,212 +1738,6 @@ body {
     }
 }
 
-@media all and (max-width: 680px) {
-
-    .decoration {
-        position: relative;
-        left: -210px;
-        top: -10px;
-    }
-
-    .decoration img {
-        width: 100px;
-        height: 100px;
-    }
-    
-    .name_text {
-        position: relative;
-        top: 110px;
-        left: -570px;
-    }
-    
-    .size_text {
-        position: relative;
-        left: 230px;
-        top: 150px;
-    }
-    
-    .quantity_text {
-        position: relative;
-        left: 230px;
-        top: 150px;
-    }
-    
-    .price_text {
-        position: relative;
-        left: 290px;
-        top: 150px;
-    }
-    
-    .numdisplay_size {
-        position: relative;
-        left: 380px;
-        top: 120px;
-    }
-    
-    .numdisplay_quantity {
-        position: relative;
-        left: 380px;
-        top: 110px;
-    }
-
-    .image_cart {
-        position: relative;
-        top: 40px;
-        left: 160px;
-    }
-    
-    .num_cart {
-        position: relative;
-        left: 135px;
-        top: 62px;
-    }
-    
-    .border {
-        position: relative;
-        left: 75px;
-        top: 10px;
-    }
-    
-    #img {
-        position: relative;
-        top: 70px;
-        left: 180px;
-    }
-
-    #img img {
-        width: 348px;
-        height: 348px;
-    }
-        
-    #cart_button {
-        position: relative;
-        left: 180px;
-        top: 200px;
-    }
-
-    .border2 {
-        position: relative;
-        top: 380px;
-        left: 75px;
-    }
-    
-    .decoration2 {
-        position: relative;
-        top: 450px;
-        left: 310px;
-    }
-    
-    .content6 {
-        position: relative;
-        top: 500px;
-        left: 220px;
-    }
-}
-
-@media all and (max-width: 670px) {
-
-    .decoration {
-        position: relative;
-        left: -210px;
-        top: -10px;
-    }
-
-    .decoration img {
-        width: 100px;
-        height: 100px;
-    }
-    
-    .name_text {
-        position: relative;
-        top: 110px;
-        left: -570px;
-    }
-    
-    .size_text {
-        position: relative;
-        left: 230px;
-        top: 150px;
-    }
-    
-    .quantity_text {
-        position: relative;
-        left: 230px;
-        top: 150px;
-    }
-    
-    .price_text {
-        position: relative;
-        left: 270px;
-        top: 150px;
-    }
-    
-    .numdisplay_size {
-        position: relative;
-        left: 380px;
-        top: 120px;
-    }
-    
-    .numdisplay_quantity {
-        position: relative;
-        left: 380px;
-        top: 110px;
-    }
-
-    .image_cart {
-        position: relative;
-        top: 40px;
-        left: 150px;
-    }
-    
-    .num_cart {
-        position: relative;
-        left: 126px;
-        top: 62px;
-    }
-    
-    .border {
-        position: relative;
-        left: 65px;
-        top: 10px;
-    }
-    
-    #img {
-        position: relative;
-        top: 70px;
-        left: 170px;
-    }
-
-    #img img {
-        width: 348px;
-        height: 348px;
-    }
-        
-    #cart_button {
-        position: relative;
-        left: 170px;
-        top: 200px;
-    }
-
-    .border2 {
-        position: relative;
-        top: 380px;
-        left: 65px;
-    }
-    
-    .decoration2 {
-        position: relative;
-        top: 450px;
-        left: 290px;
-    }
-    
-    .content6 {
-        position: relative;
-        top: 500px;
-        left: 210px;
-    }
-}
-
 @media all and (max-width: 640px) {
 
     .decoration {
@@ -2250,8 +1849,8 @@ body {
 
     .decoration {
         position: relative;
-        left: -270px;
-        top: 0px;
+        left: -240px;
+        top: -10px;
     }
 
     .decoration img {
@@ -2302,12 +1901,12 @@ body {
     .image_cart {
         position: relative;
         top: 40px;
-        left: 120px;
+        left: 116px;
     }
     
     .num_cart {
         position: relative;
-        left: 95px;
+        left: 90px;
         top: 62px;
     }
     
@@ -2350,113 +1949,6 @@ body {
         position: relative;
         top: 500px;
         left: 160px;
-    }
-}
-
-@media all and (max-width: 599px) {
-
-    .decoration {
-        position: relative;
-        left: -215px;
-        top: -10px;
-    }
-
-    .decoration img {
-        width: 100px;
-        height: 100px;
-    }
-    
-    .shoppingcart_text {
-        display: none;
-    }
-    
-    .name_text {
-        position: relative;
-        top: 110px;
-        left: -590px;
-    }
-    
-    .size_text {
-        position: relative;
-        left: 230px;
-        top: 150px;
-    }
-    
-    .quantity_text {
-        position: relative;
-        left: 230px;
-        top: 150px;
-    }
-    
-    .price_text {
-        position: relative;
-        left: 260px;
-        top: 150px;
-    }
-    
-    .numdisplay_size {
-        position: relative;
-        left: 360px;
-        top: 120px;
-    }
-    
-    .numdisplay_quantity {
-        position: relative;
-        left: 360px;
-        top: 110px;
-    }
-
-    .image_cart {
-        position: relative;
-        top: 40px;
-        left: 150px;
-    }
-    
-    .num_cart {
-        position: relative;
-        left: 126px;
-        top: 62px;
-    }
-    
-    .border {
-        position: relative;
-        left: 65px;
-        top: 10px;
-    }
-    
-    #img {
-        position: relative;
-        top: 70px;
-        left: 160px;
-    }
-
-    #img img {
-        width: 348px;
-        height: 348px;
-    }
-        
-    #cart_button {
-        position: relative;
-        left: 165px;
-        top: 190px;
-    }
-
-    .border2 {
-        position: relative;
-        top: 380px;
-        left: 65px;
-    }
-    
-    .decoration2 {
-        position: relative;
-        top: 450px;
-        left: 280px;
-    }
-    
-    .content6 {
-        position: relative;
-        top: 500px;
-        left: 200px;
     }
 }
 
@@ -2672,12 +2164,11 @@ body {
     }
     
     .num_cart {
-        width: 10px;
-        height: 10px;
+        width: 5px;
+        height: 4px;
         position: relative;
-        left: 60px;
-        top: 0px;
-        padding: 5px 7px 5px 7px;
+        left: 55px;
+        top: 8px;
         border: 2px solid #333;
         border-radius: 50%;
         color: #fff;
@@ -2685,7 +2176,7 @@ body {
         font-family: Inter;
         font-size: 10px;
         font-weight: 400;
-        line-height: 12.1px;
+        line-height: 5px;
         text-align: center;
     }
     
@@ -2781,8 +2272,8 @@ body {
 
     .num_cart {
         position: relative;
-        left: 20px;
-        top: 1px;
+        left: 17px;
+        top: 9px;
     }
 
     #img {
@@ -2813,51 +2304,6 @@ body {
     }
 }
 
-@media all and (max-width: 440px) {
-
-    .decoration {
-        position: relative;
-        left: -220px;
-    }
-
-    .decoration2 {
-        position: relative;
-        left: 200px;
-    }
-
-    .border {
-        position: relative;
-        left: 40px;
-    }
-
-    .border2 {
-        position: relative;
-        left: 40px;
-    }
-
-    .image_cart {
-        position: relative;
-        top: 5px;
-        left: 40px;
-    }
-
-    .num_cart {
-        position: relative;
-        left: 16px;
-        top: 2px;
-    }
-
-    #cart_button {
-        position: relative;
-        left: 50px;
-    }
-
-    .content6 {
-        position: relative;
-        left: 90px;
-    }   
-}
-
 @media all and (max-width: 432px) {
 
     .border {
@@ -2867,7 +2313,7 @@ body {
 
     .decoration {
         position: relative;
-        left: -230px;
+        left: -235px;
     }
 
     .decoration2 {
@@ -2877,12 +2323,14 @@ body {
 
     .image_cart {
         position: relative;
-        left: 34px;
+        top: 6px;
+        left: 26px;
     }
 
     .num_cart {
         position: relative;
-        left: 11px;
+        top: 7px;
+        left: 5px;
     }
 
     .name_text {
@@ -2910,53 +2358,6 @@ body {
     }
 }
 
-@media all and (max-width: 430px) {
-
-    .border {
-        position: relative;
-        left: 35px;
-    }
-
-    .decoration {
-        position: relative;
-        left: -230px;
-    }
-
-    .image_cart {
-        position: relative;
-        left: 35px;
-    }
-
-    .num_cart {
-        position: relative;
-        left: 13px;
-    }
-
-    .name_text {
-        width: 200px;
-        position: relative;
-        left: -700px;
-    }
-
-    #img {
-        width: 180px;
-        position: relative;
-        top: 50px;
-        left: 130px;
-    }
-
-    .border2 {
-        position: relative;
-        left: 35px;
-    }
-
-    .content6 {
-        position: relative;
-        top: 290px;
-        left: 80px;
-    }
-}
-
 @media all and (max-width: 415px) {
 
     .border {
@@ -2966,17 +2367,19 @@ body {
 
     .decoration {
         position: relative;
-        left: -250px;
+        left: -240px;
     }
 
     .image_cart {
         position: relative;
-        left: 26px;
+        top: 7px;
+        left: 18px;
     }
 
     .num_cart {
         position: relative;
-        left: 5px;
+        top: 9px;
+        left: -3px;
     }
 
     #img {
@@ -3029,150 +2432,7 @@ body {
     }
 }
 
-@media all and (max-width: 412px) {
-
-    .border {
-        position: relative;
-        left: 25px;
-    }
-
-    .decoration {
-        position: relative;
-        left: -270px;
-    }
-
-    .image_cart {
-        position: absolute;
-        left: 353px;
-        top: 60px;
-        
-    }
-
-    .num_cart {
-        position: relative;
-        left: 2px;
-        top: 1px;
-    }
-
-    #img {
-        width: 200px;
-        position: relative;
-        top: 50px;
-        left: 115px;
-    }
-
-    .name_text {
-        width: 200px;
-        position: relative;
-        top: 60px;
-        left: -710px;
-    }
-    
-    .size_text {
-        position: relative;
-        left: 100px;
-        top: 90px;
-    }
-    
-    .quantity_text {
-        position: relative;
-        left: 100px;
-        top: 80px;
-    }
-    
-    .price_text {
-        position: relative;
-        left: 130px;
-        top: 70px;
-    }
-    
-    .numdisplay_size {
-        position: relative;
-        left: 230px;
-        top: 60px;
-    }
-    
-    .numdisplay_quantity {
-        position: relative;
-        left: 230px;
-        top: 45px;
-    }
-
-    #cart_button {
-        position: relative;
-        left: 33px;
-    }
-
-    .border2 {
-        position: relative;
-        top: 250px;
-        left: 25px;
-    }
-
-    .decoration2 {
-        position: relative;
-        left: 180px;
-        top: 300px;
-    }
-
-    .content6 {
-        position: relative;
-        left: 70px;
-        top: 330px;
-    }
-}
-
 @media all and (max-width: 394px) {
-
-    .border {
-        position: relative;
-        left: 20px;
-    }
-
-    .decoration {
-        position: relative;
-        left: -265px;
-    }
-
-    .image_cart {
-        position: absolute;
-        left: 347px;
-        top: 60px;
-    }
-
-    .num_cart {
-        position: relative;
-        left: -4px;
-        top: 1px;
-    }
-
-    #img {
-        position: relative;
-        right: 100px;
-    }
-
-    #cart_button {
-        position: relative;
-        left: 22px;
-    }
-
-    .border2 {
-        position: relative;
-        left: 20px;
-    }
-
-    .decoration2 {
-        position: relative;
-        left: 170px;
-    }
-
-    .content6 {
-        position: relative;
-        left: 60px;
-    }
-}
-
-@media all and (max-width: 384px) {
 
     .border {
         position: relative;
@@ -3186,25 +2446,24 @@ body {
 
     .image_cart {
         position: absolute;
-        left: 343px;
+        left: 342px;
         top: 60px;
     }
 
     .num_cart {
         position: relative;
-        left: -6px;
-        top: 2px;
+        left: -12px;
+        top: 8px;
     }
 
     #img {
         position: relative;
-        top: 50px;
-        left: 120px;
+        right: 100px;
     }
 
     #cart_button {
         position: relative;
-        left: 20px;
+        left: 22px;
     }
 
     .border2 {
@@ -3233,105 +2492,13 @@ body {
 
     .num_cart {
         position: relative;
-        left: -8px;
-        top: 1px;
+        left: -13px;
+        top: 8px;
     }
 
     #cart_button {
         position: relative;
         left: 22px;
-    }
-}
-
-@media all and (max-width: 360px) {
-
-    .border {
-        position: relative;
-        left: 15px;
-    }
-
-    .decoration {
-        position: relative;
-        left: -270px;
-    }
-
-    .image_cart {
-        position: absolute;
-        left: 342px;
-        top: 60px;
-    }
-
-    .num_cart {
-        position: relative;
-        left: -8px;
-        top: 1px;
-    }
-
-    #img {
-        width: 200px;
-        position: relative;
-        top: 50px;
-        left: 115px;
-    }
-
-    .name_text {
-        width: 200px;
-        position: relative;
-        top: 60px;
-        left: -710px;
-    }
-    
-    .size_text {
-        position: relative;
-        left: 100px;
-        top: 90px;
-    }
-    
-    .quantity_text {
-        position: relative;
-        left: 100px;
-        top: 80px;
-    }
-    
-    .price_text {
-        position: relative;
-        left: 130px;
-        top: 70px;
-    }
-    
-    .numdisplay_size {
-        position: relative;
-        left: 230px;
-        top: 60px;
-    }
-    
-    .numdisplay_quantity {
-        position: relative;
-        left: 230px;
-        top: 45px;
-    }
-
-    #cart_button {
-        position: relative;
-        left: 21px;
-    }
-
-    .border2 {
-        position: relative;
-        top: 250px;
-        left: 15px;
-    }
-
-    .decoration2 {
-        position: relative;
-        left: 170px;
-        top: 300px;
-    }
-
-    .content6 {
-        position: relative;
-        left: 60px;
-        top: 330px;
     }
 }
 
@@ -3381,8 +2548,8 @@ body {
 
     .num_cart {
         position: relative;
-        left: -8px;
-        top: 1px;
+        left: -13px;
+        top: 8px;
     }
 
     #img {
@@ -3433,8 +2600,8 @@ body {
 
     .num_cart {
         position: relative;
-        left: -8px;
-        top: 1px;
+        left: -13px;
+        top: 8px;
     }
 
     #img {
