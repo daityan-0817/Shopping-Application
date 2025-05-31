@@ -56,7 +56,7 @@ function getCartNum() {
         display.setAttribute('class','num_cart')
         display.innerText = JSON.parse(date)
         layout.appendChild(display)
-      }
+    }
 
     return JSON.parse(date)
 }
@@ -76,7 +76,7 @@ function screenDrawingItem() {
     const totalCashDate = getTotalCashDate()
 
     for(let item of itemDate) {
-       
+    
         const listItem = document.createElement('div')
         listItem.setAttribute('class', 'itemlist')
         listItem.innerHTML = `<img src="${item.item_image}"/>`
@@ -116,7 +116,7 @@ function screenDrawingItem() {
             removeItem(item.item_id)
             getItemQuantity(item.item_quantity)
             location.reload()
-       }) 
+        }) 
     }    
 
     const totalText = document.createElement('p')
@@ -139,10 +139,6 @@ function screenDrawingItem() {
     continueShoppingButton.addEventListener('click', () => {
         location.href = '/'
     })
-
-    const lastborder = document.createElement('p')
-    lastborder.setAttribute('id', 'lastborder')
-    items.appendChild(lastborder)
 }
 
 screenDrawingItem()

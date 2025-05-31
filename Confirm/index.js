@@ -143,7 +143,7 @@ function itemStockMinus() {
     for(let item of itemDate) {
 
         const minus = stockDate.map((elem) => {
-           
+        
             elem.stock = elem.itemName === item.item_name ? parseInt(elem.stock) - parseInt(item.item_quantity) : elem.stock
 
             return elem

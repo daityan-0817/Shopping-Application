@@ -1,7 +1,3 @@
-body {
-    overflow-x: hidden;
-}
-
 .layout {
     width: 920px;
     height: 145px;
@@ -21,8 +17,8 @@ body {
     width: 145px;
     height: 145px;
     position: relative;
-    left: 210px;
-    top: 70px;
+    left: 250px;
+    top: 50px;
     background-color: white;
     border: none;
 }
@@ -31,7 +27,7 @@ body {
     width: 92px;
     height: 19px;
     position: relative;
-    left: 850px;
+    left: 880px;
     top: 170px;
 }
 
@@ -69,7 +65,7 @@ body {
     height: 145px;
     position: relative;
     top: 450px;
-    left: 650px;
+    left: 640px;
 }
 
 .content2 {
@@ -81,7 +77,7 @@ body {
     line-height: 16px;
     text-align: left;
     position: relative;
-    left: 580px;
+    left: 570px;
     top: 500px;
 }
 
@@ -101,276 +97,48 @@ body {
     top: 250px;
 }
 
-@media all and (max-width: 1440px) {
+@media all and (max-width: 1350px) {
 
     .border {
-        position: relative;
-        top: 10px;
-        left: 260px;
+        top: 0px;
+        left: 220px;
     }
 
     .border2 {
-        position: relative;
         top: 400px;
-        left: 260px;
+        left: 220px;
     }
 
     .decoration {
-        position: relative;
-        top: 10px;
-        left: 250px;
+        top: 0px;
+        left: 220px;
     }
 
     .decoration2 {
-        position: relative;
-        left: 660px;
-    }
-
-    .content {
-        position: relative;
-        top: 120px;
-        left: 870px;
+        left: 620px;
     }
 
     .imagecart {
-        position: relative;
-        top: 115px;
-        left: 910px;
-    }
-
-    .text {
-        position: relative;
-        top: 150px;
-        left: 500px;
-    }
-
-    #returntocart {
-        position: relative;
-        top: 200px;
-        left: 570px;
-    }
-
-    .content2 {
-        position: relative;
-        left: 600px;
-    } 
-}
-
-@media all and (max-width: 1420px) {
-
-    .border {
-        position: relative;
-        top: 0px;
-        left: 250px;
-    }
-
-    .border2 {
-        position: relative;
-        top: 400px;
-        left: 250px;
-    }
-
-    .decoration {
-        position: relative;
-        top: 0px;
-        left: 240px;
-    }
-
-    .decoration2 {
-        position: relative;
-        left: 650px;
-    }
-
-    .imagecart {
-        position: relative;
         top: 105px;
-        left: 900px;
+        left: 867px;
     }
 
     .content {
-        position: relative;
-        top: 115px;
-        left: 860px;
-    }
-
-    .text {
-        position: relative;
-        top: 150px;
-        left: 490px;
-    }
-
-    #returntocart {
-        position: relative;
-        top: 200px;
-        left: 560px;
-    }
-
-    .content2 {
-        position: relative;
-        left: 580px;
-    }
-}
-
-@media all and (max-width: 1390px) {
-
-    .border {
-        position: relative;
-        top: 0px;
-        left: 230px;
-    }
-
-    .border2 {
-        position: relative;
-        top: 400px;
-        left: 230px;
-    }
-
-    .decoration {
-        position: relative;
-        top: 0px;
-        left: 230px;
-    }
-
-    .decoration2 {
-        position: relative;
-        left: 640px;
-    }
-
-    .imagecart {
-        position: relative;
-        top: 105px;
-        left: 880px;
-    }
-
-    .content {
-        position: relative;
         top: 115px;
         left: 840px;
     }
 
     .text {
-        position: relative;
-        top: 150px;
-        left: 500px;
-    }
-
-    #returntocart {
-        position: relative;
-        top: 200px;
-        left: 550px;
-    }
-
-    .content2 {
-        position: relative;
-        left: 580px;
-    }
-}
-
-@media all and (max-width: 1370px) {
-
-    .border {
-        position: relative;
-        top: 0px;
-        left: 220px;
-    }
-
-    .border2 {
-        position: relative;
-        top: 400px;
-        left: 220px;
-    }
-
-    .decoration {
-        position: relative;
-        left: 210px;
-    }
-
-    .decoration2 {
-        position: relative;
-        left: 620px;
-    }
-
-    .imagecart {
-        position: relative;
-        top: 105px;
-        left: 870px;
-    }
-
-    .content {
-        position: relative;
-        top: 115px;
-        left: 835px;
-    }
-
-    .text {
-        position: relative;
         top: 150px;
         left: 450px;
     }
 
     #returntocart {
-        position: relative;
         top: 200px;
         left: 520px;
     }
 
     .content2 {
-        position: relative;
-        left: 560px;
-    }
-}
-
-@media all and (max-width: 1350px) {
-
-    .border {
-        position: relative;
-        top: 0px;
-        left: 220px;
-    }
-
-    .border2 {
-        position: relative;
-        top: 400px;
-        left: 220px;
-    }
-
-    .decoration {
-        position: relative;
-        top: 0px;
-        left: 210px;
-    }
-
-    .decoration2 {
-        position: relative;
-        left: 620px;
-    }
-
-    .imagecart {
-        position: relative;
-        top: 105px;
-        left: 870px;
-    }
-
-    .content {
-        position: relative;
-        top: 115px;
-        left: 835px;
-    }
-
-    .text {
-        position: relative;
-        top: 150px;
-        left: 450px;
-    }
-
-    #returntocart {
-        position: relative;
-        top: 200px;
-        left: 520px;
-    }
-
-    .content2 {
-        position: relative;
         left: 560px;
     }
 }
@@ -378,54 +146,45 @@ body {
 @media all and (max-width: 1300px) {
 
     .border {
-        position: relative;
         top: 0px;
         left: 190px;
     }
 
     .border2 {
-        position: relative;
         top: 400px;
         left: 190px;
     }
 
     .decoration {
-        position: relative;
         top: 0px;
         left: 190px;
     }
 
     .decoration2 {
-        position: relative;
         left: 590px;
     }
 
     .content {
-        position: relative;
         top: 115px;
-        left: 800px;
+        left: 810px;
     }
 
     .imagecart {
-        position: relative;
         top: 105px;
-        left: 839px;
+        left: 837px;
     }
 
     .text {
-        position: relative;
         top: 150px;
         left: 400px;
     }
 
     #returntocart {
-        position: relative;
         top: 200px;
         left: 490px;
     }
 
     .content2 {
-        position: relative;
         left: 520px;
     } 
 } 
@@ -433,54 +192,45 @@ body {
 @media all and (max-width: 1280px) {
 
     .border {
-        position: relative;
         top: 0px;
         left: 180px;
     }
 
     .border2 {
-        position: relative;
         top: 400px;
         left: 180px;
     }
 
     .decoration {
-        position: relative;
         top: 0px;
         left: 185px;
     }
 
     .decoration2 {
-        position: relative;
         left: 570px;
     }
 
     .content {
-        position: relative;
         top: 115px;
-        left: 795px;
+        left: 800px;
     }
 
     .imagecart {
-        position: relative;
         top: 105px;
-        left: 830px;
+        left: 828px;
     }
 
     .text {
-        position: relative;
         top: 150px;
         left: 400px;
     }
 
     #returntocart {
-        position: relative;
         top: 200px;
         left: 480px;
     }
 
     .content2 {
-        position: relative;
         left: 510px;
     }
 }
@@ -488,216 +238,90 @@ body {
 @media all and (max-width: 1200px) {
 
     .border {
-        position: relative;
         top: 0px;
         left: 150px;
     }
 
     .border2 {
-        position: relative;
         top: 400px;
         left: 150px;
     }
 
     .decoration {
-        position: relative;
         top: 0px;
         left: 140px;
     }
 
     .decoration2 {
-        position: relative;
         left: 560px;
     }
 
     .imagecart {
-        position: relative;
         top: 105px;
-        left: 800px;
+        left: 798px;
     }
 
     .content {
-        position: relative;
         top: 115px;
-        left: 760px;
+        left: 770px;
     }
 
     .text {
-        position: relative;
         top: 150px;
         left: 380px;
     }
 
     #returntocart {
-        position: relative;
         top: 200px;
         left: 470px;
     }
 
     .content2 {
-        position: relative;
         left: 500px;
-    }
-}
-
-@media all and (max-width: 1190px) {
-
-    .border {
-        position: relative;
-        top: 0px;
-        left: 140px;
-    }
-
-    .border2 {
-        position: relative;
-        top: 400px;
-        left: 140px;
-    }
-
-    .decoration {
-        position: relative;
-        top: 0px;
-        left: 140px;
-    }
-
-    .decoration2 {
-        position: relative;
-        left: 540px;
-    }
-
-    .content {
-        position: relative;
-        top: 115px;
-        left: 750px;
-    }
-
-    .imagecart {
-        position: relative;
-        left: 789px;
-    }
-
-    .text {
-        position: relative;
-        top: 150px;
-        left: 380px;
-    }
-
-    #returntocart {
-        position: relative;
-        top: 200px;
-        left: 450px;
-    }
-
-    .content2 {
-        position: relative;
-        left: 480px;
-    }
-}
-
-@media all and (max-width: 1170px) {
-
-    .border {
-        position: relative;
-        top: 0px;
-        left: 125px;
-    }
-
-    .border2 {
-        position: relative;
-        top: 400px;
-        left: 125px;
-    }
-
-    .decoration {
-        position: relative;
-        top: 0px;
-        left: 130px;
-    }
-
-    .decoration2 {
-        position: relative;
-        left: 540px;
-    }
-
-    .content {
-        position: relative;
-        top: 115px;
-        left: 735px;
-    }
-
-    .imagecart {
-        position: relative;
-        left: 773px;
-    }
-
-    .text {
-        position: relative;
-        top: 150px;
-        left: 370px;
-    }
-
-    #returntocart {
-        position: relative;
-        top: 200px;
-        left: 440px;
-    }
-
-    .content2 {
-        position: relative;
-        left: 470px;
     }
 }
 
 @media all and (max-width: 1150px) {
 
     .border {
-        position: relative;
         top: 0px;
         left: 120px;
     }
 
     .border2 {
-        position: relative;
         top: 400px;
         left: 120px;
     }
 
     .decoration {
-        position: relative;
         top: 0px;
         left: 120px;
     }
 
     .decoration2 {
-        position: relative;
         left: 520px;
     }
 
     .content {
-        position: relative;
         top: 115px;
-        left: 735px;
+        left: 737px;
     }
 
     .imagecart {
-        position: relative;
-        left: 770px;
+        left: 768px;
     }
 
     .text {
-        position: relative;
         top: 150px;
         left: 360px;
     }
 
     #returntocart {
-        position: relative;
         top: 200px;
         left: 430px;
     }
 
     .content2 {
-        position: relative;
         left: 460px;
     }
 }
@@ -705,485 +329,214 @@ body {
 @media all and (max-width: 1100px) {
 
     .border {
-        position: relative;
         top: 0px;
         left: 90px;
     }
 
     .border2 {
-        position: relative;
         top: 400px;
         left: 90px;
     }
 
     .decoration {
-        position: relative;
         top: 0px;
         left: 90px;
     }
 
     .decoration2 {
-        position: relative;
         left: 500px;
     }
 
     .content {
-        position: relative;
         top: 115px;
-        left: 705px;
+        left: 715px;
     }
 
     .imagecart {
-        position: relative;
-        left: 740px;
+        left: 738px;
     }
 
     .text {
-        position: relative;
         top: 150px;
         left: 340px;
     }
 
     #returntocart {
-        position: relative;
         top: 200px;
         left: 410px;
     }
 
     .content2 {
-        position: relative;
         left: 440px;
-    }
-}
-
-@media all and (max-width: 1090px) {
-
-    .text {
-        position: relative;
-        left: 320px;
-    }
-
-    #returntocart {
-        position: relative;
-        left: 380px;
-    }
-
-    .content {
-        position: relative;
-        left: 700px;
-    }
-
-    .imagecart {
-        position: relative;
-        left: 737px;
-    }
-
-    .decoration2 {
-        position: relative;
-        left: 480px;
-    }
-
-    .content2 {
-        position: relative;
-        left: 410px;
     }
 }
 
 @media all and (max-width: 1050px) {
 
     .border {
-        position: relative;
         left: 65px;
     }
 
     .border2 {
-        position: relative;
         left: 65px;
     }
 
     .content {
-        position: relative;
-        left: 675px;
+        left: 685px;
     }
 
     .imagecart {
-        position: relative;
         left: 713px;
     }
 
     .text {
-        position: relative;
         top: 150px;
         left: 300px;
     }
 
     #returntocart {
-        position: relative;
         top: 200px;
         left: 370px;
     }
 
     .decoration {
-        position: relative;
         left: 60px;
     }
 
     .decoration2 {
-        position: relative;
         left: 470px;
     }
 
     .content2 {
-        position: relative;
         left: 410px;
     } 
 } 
 
-@media all and (max-width: 1030px) {
+@media all and (max-width: 1020px) {
 
     .border {
-        position: relative;
         top: 0px;
-        left: 55px;
+        left: 50px;
     }
 
     .border2 {
-        position: relative;
         top: 400px;
-        left: 55px;
+        left: 50px;
     }
 
     .decoration {
-        position: relative;
         top: 0px;
         left: 50px;
     }
 
     .decoration2 {
-        position: relative;
-        left: 450px;
+        left: 430px;
     }
 
     .content {
-        position: relative;
         top: 115px;
         left: 670px;
     }
 
     .imagecart {
-        position: relative;
-        bottom: 45px;
-        left: 705px;
+        left: 697px;
     }
 
     .text {
-        position: relative;
-        top: 150px;
-        left: 300px;
-    }
-
-    #returntocart {
-        position: relative;
-        top: 200px;
-        left: 360px;
-    }
-
-    .content2 {
-        position: relative;
-        left: 390px;
-    }
-}
-
-@media all and (max-width: 1024px) and (min-height: 1366px) {
-
-    .border {
-        position: relative;
-        top: 0px;
-        left: 50px;
-    }
-
-    .border2 {
-        position: relative;
-        top: 750px;
-        left: 50px;
-    }
-
-    .decoration {
-        position: relative;
-        top: 0px;
-        left: 50px;
-    }
-
-    .decoration2 {
-        position: relative;
-        top: 830px;
-        left: 440px;
-    }
-
-    .content {
-        position: relative;
-        top: 115px;
-        left: 660px;
-    }
-
-    .imagecart {
-        position: relative;
-        bottom: 45px;
-        left: 696px;
-    }
-
-    .text {
-        position: relative;
-        top: 350px;
-        left: 280px;
-    }
-
-    #returntocart {
-        position: relative;
-        top: 400px;
-        left: 350px;
-    }
-
-    .content2 {
-        position: relative;
-        top: 880px;
-        left: 370px;
-    }
-}
-
-@media all and (max-width: 1020px) {
-
-    .border {
-        position: relative;
-        top: 0px;
-        left: 50px;
-    }
-
-    .border2 {
-        position: relative;
-        top: 400px;
-        left: 50px;
-    }
-
-    .decoration {
-        position: relative;
-        top: 0px;
-        left: 50px;
-    }
-
-    .decoration2 {
-        position: relative;
-        left: 430px;
-    }
-
-    .content {
-        position: relative;
-        top: 115px;
-        left: 665px;
-    }
-
-    .imagecart {
-        position: relative;
-        left: 700px;
-    }
-
-    .text {
-        position: relative;
         top: 150px;
         left: 270px;
     }
 
     #returntocart {
-        position: relative;
         top: 200px;
         left: 340px;
     }
 
     .content2 {
-        position: relative;
         left: 370px;
-    }
-}
-
-@media all and (max-width: 1000px) {
-
-    .border {
-        position: relative;
-        top: 0px;
-        left: 40px;
-    }
-
-    .border2 {
-        position: relative;
-        top: 400px;
-        left: 40px;
-    }
-
-    .decoration {
-        position: relative;
-        top: 0px;
-        left: 30px;
-    }
-
-    .imagecart {
-        position: relative;
-        left: 689px;
-    }
-
-    .content {
-        position: relative;
-        left: 655px;
     }
 }
 
 @media all and (max-width: 990px) {
 
     .border {
-        position: relative;
         left: 35px;
     }
 
     .border2 {
-        position: relative;
         left: 35px;
     }
 
     .content {
-        position: relative;
-        left: 645px;
+        left: 655px;
     }
 
     .imagecart {
-        position: relative;
         left: 684px;
     }
 
     .text {
-        position: relative;
         left: 270px;
     }
 
     #returntocart {
-        position: relative;
         left: 350px;
     }
 
     .decoration2 {
-        position: relative;
         left: 440px;
     }
 
     .content2 {
-        position: relative;
         left: 380px;
-    }
-}
-
-@media all and (max-width: 950px) {
-
-    .border {
-        position: relative;
-        top: 0px;
-        left: 15px;
-    }
-
-    .border2 {
-        position: relative;
-        top: 400px;
-        left: 15px;
-    }
-
-    .decoration {
-        position: relative;
-        top: 0px;
-        left: 10px;
-    }
-
-    .imagecart {
-        position: relative;
-        left: 664px;
-    }
-
-    .content {
-        position: relative;
-        left: 630px;
-    }
-
-    .text {
-        position: relative;
-        left: 260px;
-    }
-
-    #returntocart {
-        position: relative;
-        left: 330px;
-    }
-
-    .decoration2 {
-        position: relative;
-        left: 420px;
-    }
-
-    .content2 {
-        position: relative;
-        left: 350px;
     }
 }
 
 @media all and (max-width: 912px) {
 
     .border {
-        position: relative;
         top: 0px;
         left: 10px;
     }
 
     .border2 {
-        position: relative;
         top: 750px;
         left: 10px;
     }
 
     .decoration {
-        position: relative;
         top: 0px;
-        left: 0px;
+        left: 10px;
     }
 
     .decoration2 {
-        position: relative;
         top: 850px;
-        left: 400px;
+        left: 420px;
     }
 
     .content {
-        position: relative;
         top: 115px;
-        left: 620px;
+        left: 625px;
     }
 
     .imagecart {
-        position: relative;
         bottom: 45px;
-        right: 245px;
+        left: 655px;
     }
 
     .text {
-        position: relative;
         top: 350px;
-        left: 240px;
+        left: 250px;
     }
 
     #returntocart {
-        position: relative;
         top: 400px;
-        left: 310px;
+        left: 320px;
     }
 
     .content2 {
-        position: relative;
         top: 930px;
-        left: 330px;
+        left: 350px;
     }
 }
 
@@ -1198,13 +551,11 @@ body {
     .border {
         width: 534px;
         border: 1px solid #656565;
-        position: relative;
         left: 160px;
         top: 20px;
     }
 
     .decoration {
-        position: relative;
         left: 130px;
         top: 0px;
     }
@@ -1221,7 +572,6 @@ body {
     .imagecart {
         width: 33px;
         height: 31px;
-        position: relative;
         left: 514px;
         top: 90px;
     }
@@ -1233,7 +583,6 @@ body {
         font-weight: 500;
         line-height: 39px;
         text-align: left;
-        position: relative;
         top: 300px;
         left: 190px;
     }
@@ -1241,7 +590,6 @@ body {
     .border2 {
         width: 534px;
         border: 1px solid #656565;
-        position: relative;
         top: 700px;
         left: 160px;
     }
@@ -1249,7 +597,6 @@ body {
     .decoration2 {
         width: 100px;
         height: 100px;
-        position: relative;
         top: 800px;
         left: 380px;
     }
@@ -1262,7 +609,6 @@ body {
         font-weight: 400;
         line-height: 16px;
         text-align: left;
-        position: relative;
         left: 290px;
         top: 860px;
     }
@@ -1278,7 +624,6 @@ body {
         line-height: 21px;
         border: none;
         border-radius: 10px;
-        position: relative;
         left: 250px;
         top: 400px;
     }
@@ -1287,118 +632,61 @@ body {
 @media all and (max-width: 820px) {
 
     .border {
-        position: relative;
         left: 140px;
     }
 
     .decoration {
-        position: relative;
         left: 120px;
     }
 
     .imagecart {
-        position: relative;
         left: 495px;
     }
 
     .border2 {
-        position: relative;
         left: 140px;
     }
 
     .decoration2 {
-        position: relative;
         left: 370px;
     }
 
     .content2 {
-        position: relative;
         left: 290px;
-    }
-}
-
-@media all and (max-width: 790px) {
-
-    .border {
-        position: relative;
-        left: 130px;
-    }
-
-    .decoration {
-        position: relative;
-        left: 110px;
-    }
-
-    .imagecart {
-        position: relative;
-        left: 485px;
-    }
-
-    .text {
-        position: relative;
-        left: 170px;
-    }
-
-    #returntocart {
-        position: relative;
-        left: 230px;
-    }
-
-    .border2 {
-        position: relative;
-        left: 130px;
-    }
-
-    .decoration2 {
-        position: relative;
-        left: 360px;
-    }
-
-    .content2 {
-        position: relative;
-        left: 280px;
     }
 }
 
 @media all and (max-width: 768px) {
 
     .border {
-        position: relative;
         left: 120px;
     }
 
     .decoration {
-        position: relative;
         left: 100px;
     }
 
     .imagecart {
-        position: relative;
         left: 475px;
     }
 
     .text {
-        position: relative;
         left: 150px;
     }
 
     #returntocart {
-        position: relative;
         left: 220px;
     }
 
     .border2 {
-        position: relative;
         left: 120px;
     }
 
     .decoration2 {
-        position: relative;
         left: 350px;
     }
 
     .content2 {
-        position: relative;
         left: 260px;
     }
 }
@@ -1406,101 +694,42 @@ body {
 @media all and (max-width: 712px) {
 
     .border {
-        position: relative;
         top: 0px;
         left: 90px;
     }
 
     .border2 {
-        position: relative;
         top: 750px;
         left: 90px;
     }
 
     .decoration {
-        position: relative;
         top: -20px;
         left: 70px;
     }
 
     .decoration2 {
-        position: relative;
         top: 800px;
         left: 300px;
     }
 
     .imagecart {
-        position: relative;
         top: 70px;
         left: 444px;
     }
 
     .text {
-        position: relative;
         top: 350px;
         left: 120px;
     }
 
     #returntocart {
-        position: relative;
         top: 400px;
         left: 175px;
     }
 
     .content2 {
-        position: relative;
         top: 840px;
-        left: 210px;
-    }
-}
-
-@media all and (max-width: 690px) {
-
-    .border {
-        position: relative;
-        top: 0px;
-        left: 80px;
-    }
-
-    .border2 {
-        position: relative;
-        top: 750px;
-        left: 80px;
-    }
-
-    .decoration {
-        position: relative;
-        top: -20px;
-        left: 60px;
-    }
-
-    .decoration2 {
-        position: relative;
-        top: 800px;
-        left: 300px;
-    }
-
-    .imagecart {
-        position: relative;
-        top: 70px;
-        left: 434px;
-    }
-
-    .text {
-        position: relative;
-        top: 350px;
-        left: 110px;
-    }
-
-    #returntocart {
-        position: relative;
-        top: 400px;
-        left: 170px;
-    }
-
-    .content2 {
-        position: relative;
-        top: 820px;
         left: 210px;
     }
 }
@@ -1508,48 +737,40 @@ body {
 @media all and (max-width: 650px) {
 
     .border {
-        position: relative;
         top: 0px;
         left: 52px;
     }
 
     .border2 {
-        position: relative;
         top: 750px;
         left: 52px;
     }
 
     .decoration {
-        position: relative;
         top: -20px;
         left: 30px;
     }
 
     .decoration2 {
-        position: relative;
         top: 800px;
         left: 270px;
     }
 
     .imagecart {
-        position: relative;
         top: 70px;
         left: 405px;
     }
 
     .text {
-        position: relative;
         left: 90px;
     }
 
     #returntocart {
-        position: relative;
         top: 400px;
         left: 150px;
     }
 
     .content2 {
-        position: relative;
         top: 820px;
         left: 180px;
     }
@@ -1558,49 +779,41 @@ body {
 @media all and (max-width: 600px) {
 
     .border {
-        position: relative;
         top: 0px;
         left: 35px;
     }
 
     .border2 {
-        position: relative;
         top: 750px;
         left: 35px;
     }
 
     .decoration {
-        position: relative;
         top: -20px;
         left: 20px;
     }
 
     .decoration2 {
-        position: relative;
         top: 800px;
         left: 250px;
     }
 
     .imagecart {
-        position: relative;
         top: 70px;
         left: 390px;
     }
 
     .text {
-        position: relative;
         top: 350px;
         left: 60px;
     }
 
     #returntocart {
-        position: relative;
         top: 400px;
         left: 125px;
     }
 
     .content2 {
-        position: relative;
         top: 840px;
         left: 160px;
     }
@@ -1615,11 +828,9 @@ body {
     .layout {
         width: 358px;
         height: 54px;
-        display: flex;
     }
 
     .decoration {
-        position: relative;
         top: -20px;
         left: 25px;
     }
@@ -1632,14 +843,12 @@ body {
     .imagecart {
         width: 26px;
         height: 24px;
-        position: relative;
         left: 257px;
         top: 52px;
     }
 
     .border {
-        width: 358px;
-        position: relative; 
+        width: 358px; 
         top: 30px;
         left: 70px;
     }
@@ -1653,27 +862,23 @@ body {
         line-height: 21px;
         letter-spacing: -0.05em;
         text-align: left;
-        position: relative;
         left: 125px;
     }
 
     #returntocart {
         width: 358px;
         height: 70px;
-        position: relative;
         left: 70px;
     }
 
     .border2 {
         width: 358px;
-        position: relative;
         left: 70px;
     }
 
     .decoration2 {
         width: 54px;
         height: 54px;
-        position: relative;
         top: 780px;
         left: 220px;
     }
@@ -1686,7 +891,6 @@ body {
         font-weight: 400;
         line-height: 13.66px;
         text-align: left;
-        position: relative;
         left: 140px;
         top: 820px;
     }
@@ -1695,43 +899,35 @@ body {
 @media all and (max-width: 450px) {
 
     .border {
-        position: relative;
         left: 45px;
     }
 
     .border2 {
-        position: relative;
         left: 45px;
     }
 
     .decoration {
-        position: relative;
         left: 2px;
         top: -15px;
     }
 
     .imagecart {
-        position: relative;
         left: 232px;
     }
 
     .text {
-        position: relative;
         left: 100px;
     }
 
     #returntocart {
-        position: relative;
         left: 45px;
     }
 
     .decoration2 {
-        position: relative;
         left: 200px;
     }
 
     .content2 {
-        position: relative;
         left: 110px;
     }
 }
@@ -1739,42 +935,34 @@ body {
 @media all and (max-width: 430px) {
 
     .border {
-        position: relative;
         left: 35px;
     }
 
     .border2 {
-        position: relative;
         left: 35px;
     }
 
     .decoration {
-        position: relative;
         left: -10px;
     }
 
     .imagecart {
-        position: relative;
         left: 220px;
     }
 
     .text {
-        position: relative;
         left: 95px;
     }
 
     #returntocart {
-        position: relative;
         left: 35px;
     }
 
     .decoration2 {
-        position: relative;
         left: 185px;
     }
 
     .content2 {
-        position: relative;
         top: 820px;
         left: 100px;
     }
@@ -1783,23 +971,19 @@ body {
 @media all and (max-width: 414px) {
 
     .border {
-        position: relative;
         left: 26px;
     }
 
     .border2 {
-        position: relative;
         left: 26px;
     }
 
     .decoration {
-        position: relative;
         left: -20px;
     }
 
     .imagecart {
-        position: relative;
-        left: 213px;
+        left: 212px;
     }
 
     .text {
@@ -1820,7 +1004,7 @@ body {
     .content2 {
         position: relative;
         top: 820px;
-        left: 93px;
+        left: 96px;
     }
 }
 
@@ -1831,100 +1015,84 @@ body {
     }
 
     .border {
-        position: relative;
         top: 0px;
         left: 18px;
     }
 
     .border2 {
-        position: relative;
         top: 700px;
         left: 18px;
     }
 
     .decoration {
-        position: relative;
         top: -45px;
         left: -25px;
     }
 
     .decoration2 {
-        position: relative;
         top: 750px;
         left: 170px;
     }
 
     .imagecart {
-        position: relative;
         top: 22px;
         left: 205px;
     }
 
     .text {
-        position: relative;
         top: 350px;
-        left: 70px;
+        left: 80px;
     }
 
     #returntocart {
-        position: relative;
         top: 400px;
         left: 18px;
     }
 
     .content2 {
-        position: relative;
         top: 780px;
-        left: 80px;
+        left: 85px;
     }
 }
 
 @media all and (max-width: 384px) {
 
     .border {
-        position: relative;
         top: 0px;
         left: 11px;
     }
 
     .border2 {
-        position: relative;
         top: 700px;
         left: 11px;
     }
 
     .decoration {
-        position: relative;
         top: -45px;
         left: -30px;
     }
 
     .decoration2 {
-        position: relative;
         top: 740px;
         left: 165px;
     }
 
     .imagecart {
-        position: relative;
         top: 22px;
-        left: 198px;
+        left: 197px;
     }
 
     .text {
-        position: relative;
         top: 350px;
         left: 68px;
     }
 
     #returntocart {
-        position: relative;
         top: 400px;
         left: 14px;
     }
 
     .content2 {
-        position: relative;
         top: 770px;
         left: 78px;
     }
@@ -1933,49 +1101,41 @@ body {
 @media all and (max-width: 376px) {
 
     .border {
-        position: relative;
         top: 0px;
         left: 10px;
     }
 
     .border2 {
-        position: relative;
         top: 700px;
         left: 10px;
     }
 
     .decoration {
-        position: relative;
         top: -45px;
         left: -35px;
     }
 
     .decoration2 {
-        position: relative;
         top: 740px;
         left: 160px;
     }
 
     .imagecart {
-        position: relative;
         top: 22px;
         left: 197px;
     }
 
     .text {
-        position: relative;
         top: 350px;
         left: 70px;
     }
 
     #returntocart {
-        position: relative;
         top: 400px;
         left: 10px;
     }
 
     .content2 {
-        position: relative;
         top: 770px;
         left: 80px;
     }
@@ -1984,49 +1144,41 @@ body {
 @media all and (max-width: 360px) {
 
     .border {
-        position: relative;
         top: 0px;
         left: 2px;
     }
 
     .border2 {
-        position: relative;
         top: 700px;
         left: 2px;
     }
 
     .decoration {
-        position: relative;
         top: -45px;
         left: -40px;
     }
 
     .decoration2 {
-        position: relative;
         top: 740px;
         left: 150px;
     }
 
     .imagecart {
-        position: relative;
         top: 22px;
         left: 188px;
     }
 
     .text {
-        position: relative;
         top: 350px;
         left: 60px;
     }
 
     #returntocart {
-        position: relative;
         top: 400px;
         left: 3px;
     }
 
     .content2 {
-        position: relative;
         top: 770px;
         left: 70px;
     }

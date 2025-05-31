@@ -1,12 +1,8 @@
-body {
-    overflow-x: hidden;
-}
-
 .layout {
-        width: 920px;
-        height: 145px;
-        margin-top: 42px;
-        display: flex;
+    width: 920px;
+    height: 145px;
+    margin-top: 42px;
+    display: flex;
 }
 
 .decoration {
@@ -31,7 +27,7 @@ body {
     width: 92px;
     height: 19px;
     position: relative;
-    left: 860px;
+    left: 870px;
     top: 160px;
 }
 
@@ -39,7 +35,7 @@ body {
     width: 33px;
     height: 31px;
     position: relative;
-    left: 904px;
+    left: 894px;
     top: 155px;
 }
 
@@ -69,7 +65,7 @@ body {
     height: 145px;
     position: relative;
     top: 450px;
-    left: 650px;
+    left: 640px;
 }
 
 .content2 {
@@ -101,837 +97,291 @@ body {
     top: 250px;
 }
 
-@media all and (max-width: 1440px) {
+@media all and (max-width: 1380px) {
 
     .border {
-        position: relative;
-        left: 260px;
-    }
-
-    .decoration {
-        position: relative;
-        top: 50px;
-        left: 250px;
-    }
-
-    .content {
-        position: relative;
-        top: 165px;
-        left: 880px;
-    }
-
-    .imagecart {
-        position: relative;
-        top: 155px;
-        left: 910px;
-    }
-
-    .text {
-        position: relative;
-        left: 500px;
-    }
-
-    #return_shopping {
-        position: relative;
-        left: 570px;
-    }
-
-    .border2 {
-        position: relative;
-        left: 260px;
-    }
-
-    .decoration2 {
-        position: relative;
-        left: 660px;
-    }
-
-    .content2 {
-        position: relative;
-        left: 600px;
-    }
-}
-
-@media all and (max-width: 1400px) {
-
-    .border {
-        position: relative;
-        left: 250px;
-    }
-
-    .decoration {
-        position: relative;
-        left: 235px;
-    }
-
-    .content {
-        position: relative;
-        left: 870px;
-    }
-
-    .imagecart {
-        position: relative;
-        top: 155px;
-        left: 900px;
-    }
-
-    .text {
-        position: relative;
-        left: 490px;
-    }
-
-    #return_shopping {
-        position: relative;
-        left: 560px;
-    }
-
-    .border2 {
-        position: relative;
-        left: 250px;
-    }
-
-    .decoration2 {
-        position: relative;
-        left: 650px;
-    }
-
-    .content2 {
-        position: relative;
-        left: 590px;
-    }
-}
-
-@media all and (max-width: 1390px) {
-
-    .border {
-        position: relative;
-        left: 240px;
-    }
-
-    .decoration {
-        position: relative;
-        left: 230px;
-    }
-
-    .content {
-        position: relative;
-        left: 865px;
-    }
-
-    .imagecart {
-        position: relative;
-        top: 155px;
-        left: 890px;
-    }
-
-    .text {
-        position: relative;
-        left: 480px;
-    }
-
-    #return_shopping {
-        position: relative;
-        left: 550px;
-    }
-
-    .border2 {
-        position: relative;
-        left: 240px;
-    }
-
-    .decoration2 {
-        position: relative;
-        left: 640px;
-    }
-
-    .content2 {
-        position: relative;
-        left: 580px;
-    }
-}
-
-@media all and (max-width: 1370px) {
-
-    .border {
-        position: relative;
-        left: 230px;
-    }
-
-    .decoration {
-        position: relative;
         left: 220px;
     }
 
+    .decoration {
+        left: 210px;
+    }
+
     .content {
-        position: relative;
-        left: 855px;
+        left: 845px;
     }
 
     .imagecart {
-        position: relative;
         top: 155px;
-        left: 882px;
+        left: 870px;
     }
 
     .text {
-        position: relative;
-        left: 480px;
+        left: 470px;
     }
 
     #return_shopping {
-        position: relative;
-        left: 550px;
+        left: 540px;
     }
 
     .border2 {
-        position: relative;
-        left: 230px;
+        left: 220px;
     }
 
     .decoration2 {
-        position: relative;
-        left: 640px;
+        left: 630px;
     }
 
     .content2 {
-        position: relative;
-        left: 580px;
+        left: 570px;
     }
 }
 
 @media all and (max-width: 1350px) {
 
     .border {
-        position: relative;
-        left: 220px;
+        left: 205px;
     }
 
     .decoration {
-        position: relative;
-        left: 210px;
+        left: 205px;
     }
 
     .content {
-        position: relative;
-        left: 845px;
-    }
-
-    .imagecart {
-        position: relative;
-        top: 155px;
-        left: 870px;
-    }
-
-    .text {
-        position: relative;
-        left: 470px;
-    }
-
-    #return_shopping {
-        position: relative;
-        left: 540px;
-    }
-
-    .border2 {
-        position: relative;
-        left: 220px;
-    }
-
-    .decoration2 {
-        position: relative;
-        left: 630px;
-    }
-
-    .content2 {
-        position: relative;
-        left: 570px;
-    }
-}
-
-@media all and (max-width: 1330px) {
-
-    .border {
-        position: relative;
-        left: 210px;
-    }
-
-    .decoration {
-        position: relative;
-        left: 200px;
-    }
-
-    .content {
-        position: relative;
-        left: 835px;
-    }
-
-    .imagecart {
-        position: relative;
-        top: 155px;
-        left: 862px;
-    }
-
-    .text {
-        position: relative;
-        left: 460px;
-    }
-
-    #return_shopping {
-        position: relative;
-        left: 530px;
-    }
-
-    .border2 {
-        position: relative;
-        left: 210px;
-    }
-
-    .decoration2 {
-        position: relative;
-        left: 620px;
-    }
-
-    .content2 {
-        position: relative;
-        left: 560px;
-    }
-}
-
-@media all and (max-width: 1310px) {
-
-    .border {
-        position: relative;
-        left: 200px;
-    }
-
-    .decoration {
-        position: relative;
-        left: 190px;
-    }
-
-    .content {
-        position: relative;
         left: 825px;
     }
 
     .imagecart {
-        position: relative;
-        top: 155px;
-        left: 852px;
+        left: 850px;
     }
 
     .text {
-        position: relative;
-        left: 450px;
+        left: 430px;
     }
 
     #return_shopping {
-        position: relative;
-        left: 520px;
+        left: 500px;
     }
 
     .border2 {
-        position: relative;
-        left: 200px;
+        left: 205px;
     }
 
     .decoration2 {
-        position: relative;
-        left: 610px;
-    }
-
-    .content2 {
-        position: relative;
-        left: 550px;
-    }
-}
-
-@media all and (max-width: 1300px) {
-
-    .border {
-        position: relative;
-        left: 195px;
-    }
-
-    .decoration {
-        position: relative;
-        left: 195px;
-    }
-
-    .content {
-        position: relative;
-        left: 820px;
-    }
-
-    .imagecart {
-        position: relative;
-        left: 846px;
-    }
-
-    .text {
-        position: relative;
-        left: 420px;
-    }
-
-    #return_shopping {
-        position: relative;
-        left: 490px;
-    }
-
-    .border2 {
-        position: relative;
-        left: 195px;
-    }
-
-    .decoration2 {
-        position: relative;
-        left: 580px;
-    }
-
-    .content2 {
-        position: relative;
-        left: 520px;
-    }
-}
-
-@media all and (max-width: 1290px) {
-
-    .border {
-        position: relative;
-        left: 185px;
-    }
-
-    .decoration {
-        position: relative;
-        left: 175px;
-    }
-
-    .content {
-        position: relative;
-        left: 805px;
-    }
-
-    .imagecart {
-        position: relative;
-        left: 835px;
-    }
-
-
-    .border2 {
-        position: relative;
-        left: 185px;
-    }
-
-    .decoration2 {
-        position: relative;
         left: 590px;
     }
 
     .content2 {
-        position: relative;
         left: 530px;
+    }
+}
+
+@media all and (max-width: 1280px) {
+
+    .border {
+        left: 175px;
+    }
+
+    .decoration {
+        left: 185px;
+    }
+
+    .content {
+        left: 795px;
+    }
+
+    .imagecart {
+        left: 825px;
+    }
+
+    .text {
+        left: 410px;
+    }
+
+    #return_shopping {
+        left: 470px;
+    }
+
+    .border2 {
+        left: 175px;
+    }
+
+    .decoration2 {
+        left: 570px;
+    }
+
+    .content2 {
+        left: 510px;
     }
 }
 
 @media all and (max-width: 1266px) {
 
     .imagecart {
-        position: relative;
-        left: 830px;
+        left: 823px;
     }
 
     .text {
-        position: relative;
-        left: 420px;
+        left: 410px;
     }
 
     #return_shopping {
-        position: relative;
-        left: 490px;
+        left: 480px;
     }
 }
 
 @media all and (max-width: 1250px) {
 
     .border {
-        position: relative;
         left: 170px;
     }
 
     .decoration {
-        position: relative;
-        left: 160px;
+        left: 170px;
     }
 
     .content {
-        position: relative;
-        left: 785px;
+        left: 795px;
     }
 
     .imagecart {
-        position: relative;
         left: 819px;
     }
 
     .text {
-        position: relative;
         left: 410px;
     }
 
     #return_shopping {
-        position: relative;
         left: 470px;
     }
 
     .border2 {
-        position: relative;
         left: 170px;
     }
 
     .decoration2 {
-        position: relative;
-        left: 550px
+        left: 560px
     }
 
     .content2 {
-        position: relative;
-        left: 490px;
-    }
-}
-
-@media all and (max-width: 1230px) {
-
-    .border {
-        position: relative;
-        left: 160px;
-    }
-
-    .decoration {
-        position: relative;
-        left: 150px;
-    }
-
-    .content {
-        position: relative;
-        left: 780px;
-    }
-
-
-    .imagecart {
-        position: relative;
-        left: 810px;
-    }
-
-    .text {
-        position: relative;
-        left: 390px;
-    }
-
-    #return_shopping {
-        position: relative;
-        left: 450px;
-    }
-
-    .border2 {
-        position: relative;
-        left: 160px;
-    }
-
-    .decoration2 {
-        position: relative;
-        left: 540px
-    }
-
-    .content2 {
-        position: relative;
-        left: 470px;
+        left: 500px;
     }
 }
 
 @media all and (max-width: 1200px) {
 
     .border {
-        position: relative;
         left: 140px;
     }
 
     .decoration {
-        position: relative;
         left: 130px;
     }
 
     .content {
-        position: relative;
         left: 760px;
     }
 
     .imagecart {
-        position: relative;
         left: 790px;
     }
 
     .text {
-        position: relative;
         left: 380px;
     }
 
     #return_shopping {
-        position: relative;
-        left: 440px;
+        left: 450px;
     }
 
     .border2 {
-        position: relative;
         left: 140px;
     }
 
     .decoration2 {
-        position: relative;
         left: 530px
     }
 
     .content2 {
-        position: relative;
-        left: 460px;
-    }
-}
-
-@media all and (max-width: 1190px) {
-
-    .border {
-        position: relative;
-        left: 140px;
-    }
-
-    .decoration {
-        position: relative;
-        left: 130px;
-    }
-
-    .content {
-        position: relative;
-        left: 760px;
-    }
-
-    .imagecart {
-        position: relative;
-        left: 790px;
-    }
-
-    .text {
-        position: relative;
-        left: 370px;
-    }
-
-    #return_shopping {
-        position: relative;
-        left: 430px;
-    }
-
-    .border2 {
-        position: relative;
-        left: 140px;
-    }
-
-    .decoration2 {
-        position: relative;
-        left: 530px
-    }
-
-    .content2 {
-        position: relative;
-        left: 460px;
+        left: 470px;
     }
 }
 
 @media all and (max-width: 1150px) {
 
     .border {
-        position: relative;
         left: 110px;
     }
 
     .decoration {
-        position: relative;
-        left: 100px;
+        left: 110px;
     }
 
     .content {
-        position: relative;
         left: 730px;
     }
 
     .imagecart {
-        position: relative;
         left: 760px;
     }
 
     .text {
-        position: relative;
         left: 370px;
     }
 
     #return_shopping {
-        position: relative;
         left: 430px;
     }
 
     .border2 {
-        position: relative;
         left: 110px;
     }
 
     .decoration2 {
-        position: relative;
-        left: 510px;
+        left: 520px;
     }
 
     .content2 {
-        position: relative;
-        left: 450px;
-    }
-}
-
-@media all and (max-width: 1120px) {
-
-    .border {
-        position: relative;
-        left: 100px;
-    }
-
-    .decoration {
-        position: relative;
-        left: 90px;
-    }
-
-    .content {
-        position: relative;
-        left: 720px;
-    }
-
-    .imagecart {
-        position: relative;
-        left: 750px;
-    }
-
-    .text {
-        position: relative;
-        left: 330px;
-    }
-
-    #return_shopping {
-        position: relative;
-        left: 410px;
-    }
-
-    .border2 {
-        position: relative;
-        left: 100px;
-    }
-
-    .decoration2 {
-        position: relative;
-        left: 490px
-    }
-
-    .content2 {
-        position: relative;
-        left: 430px;
+        left: 460px;
     }
 }
 
 @media all and (max-width: 1100px) {
 
     .border {
-        position: relative;
         left: 90px;
     }
 
     .decoration {
-        position: relative;
-        left: 80px;
+        left: 90px;
     }
 
     .content {
-        position: relative;
         left: 710px;
     }
 
     .imagecart {
-        position: relative;
-        left: 742px;
+        left: 735px;
     }
 
     .text {
-        position: relative;
         left: 320px;
     }
 
     #return_shopping {
-        position: relative;
         left: 400px;
     }
 
     .border2 {
-        position: relative;
         left: 90px;
     }
 
     .decoration2 {
-        position: relative;
         left: 490px
     }
 
     .content2 {
-        position: relative;
-        left: 430px;
-    }
-}
-
-@media all and (max-width: 1090px) {
-
-    .border {
-        position: relative;
-        left: 90px;
-    }
-
-    .decoration {
-        position: relative;
-        left: 80px;
-    }
-
-    .content {
-        position: relative;
-        left: 710px;
-    }
-
-    .imagecart {
-        position: relative;
-        left: 740px;
-    }
-
-    .text {
-        position: relative;
-        left: 320px;
-    }
-
-    #return_shopping {
-        position: relative;
-        left: 400px;
-    }
-
-    .border2 {
-        position: relative;
-        left: 90px;
-    }
-
-    .decoration2 {
-        position: relative;
-        left: 490px
-    }
-
-    .content2 {
-        position: relative;
         left: 430px;
     }
 }
@@ -939,47 +389,38 @@ body {
 @media all and (max-width: 1050px) {
 
     .border {
-        position: relative;
-        left: 65px;
+        left: 63px;
     }
 
     .decoration {
-        position: relative;
-        left: 50px;
+        left: 60px;
     }
 
     .content {
-        position: relative;
         left: 685px;
     }
 
     .imagecart {
-        position: relative;
-        left: 715px;
+        left: 712px;
     }
 
     .text {
-        position: relative;
-        left: 310px;
+        left: 300px;
     }
 
     #return_shopping {
-        position: relative;
-        left: 390px;
+        left: 380px;
     }
 
     .border2 {
-        position: relative;
-        left: 65px;
+        left: 63px;
     }
 
     .decoration2 {
-        position: relative;
         left: 470px
     }
 
     .content2 {
-        position: relative;
         left: 410px;
     }
 }
@@ -987,47 +428,38 @@ body {
 @media all and (max-width: 1032px) {
 
     .border {
-        position: relative;
         left: 60px;
     }
 
     .decoration {
-        position: relative;
-        left: 50px;
+        left: 60px;
     }
 
     .content {
-        position: relative;
         left: 680px;
     }
 
     .imagecart {
-        position: relative;
-        left: 710px;
+        left: 708px;
     }
 
     .text {
-        position: relative;
         left: 290px;
     }
 
     #return_shopping {
-        position: relative;
         left: 370px;
     }
 
     .border2 {
-        position: relative;
         left: 60px;
     }
 
     .decoration2 {
-        position: relative;
         left: 460px
     }
 
     .content2 {
-        position: relative;
         left: 400px;
     }
 }
@@ -1035,374 +467,156 @@ body {
 @media all and (max-width: 1024px) {
 
     .border {
-        position: relative;
         left: 50px;
     }
 
     .decoration {
-        position: relative;
         left: 50px;
     }
 
     .content {
-        position: relative;
         left: 670px;
     }
 
     .imagecart {
-        position: relative;
-        left: 700px;
+        left: 698px;
     }
 
     .text {
-        position: relative;
         left: 295px;
     }
 
     #return_shopping {
-        position: relative;
         left: 370px;
     }
 
     .border2 {
-        position: relative;
         left: 50px;
     }
 
     .decoration2 {
-        position: relative;
-        left: 470px
+        left: 460px
     }
 
     .content2 {
-        position: relative;
-        left: 410px;
-    }
-}
-
-@media all and (max-width: 1024px) and (min-height: 1366px){
-
-    .decoration {
-        position: relative;
-        left: 50px;
-        top: 40px;
-    }
-
-    .text {
-        position: relative;
-        left: 270px;
-        top: 400px;
-    }
-
-    #return_shopping {
-        position: relative;
-        left: 350px;
-        top: 460px;
-    }
-
-    .border2 {
-        position: relative;
-        top: 750px;
-    }
-
-    .decoration2 {
-        position: relative;
-        left: 440px;
-        top: 800px;
-    }
-
-    .content2 {
-        position: relative;
-        left: 370px;
-        top: 880px;
+        left: 400px;
     }
 }
 
 @media all and (max-width: 1000px) {
 
     .border {
-        position: relative;
         left: 40px;
     }
 
     .decoration {
-        position: relative;
         left: 40px;
     }
 
     .content {
-        position: relative;
         left: 655px;
     }
 
     .imagecart {
-        position: relative;
         left: 690px;
     }
 
     .text {
-        position: relative;
         left: 270px;
     }
 
     #return_shopping {
-        position: relative;
         left: 350px;
     }
 
     .border2 {
-        position: relative;
         left: 40px;
     }
 
     .decoration2 {
-        position: relative;
         left: 440px
     }
 
     .content2 {
-        position: relative;
         left: 380px;
-    }
-}
-
-@media all and (max-width: 996px) {
-
-    .border {
-        position: relative;
-        left: 40px;
-    }
-
-    .decoration {
-        position: relative;
-        left: 30px;
-    }
-
-    .content {
-        position: relative;
-        left: 650px;
-    }
-
-    .imagecart {
-        position: relative;
-        left: 690px;
-    }
-
-    .text {
-        position: relative;
-        left: 280px;
-    }
-
-    #return_shopping {
-        position: relative;
-        left: 350px;
-    }
-
-    .border2 {
-        position: relative;
-        left: 40px;
-    }
-
-    .decoration2 {
-        position: relative;
-        left: 450px
-    }
-
-    .content2 {
-        position: relative;
-        left: 390px;
     }
 }
 
 @media all and (max-width: 950px) {
 
     .border {
-        position: relative;
         left: 15px;
     }
 
     .decoration {
-        position: relative;
         left: 10px;
     }
 
     .content {
-        position: relative;
         left: 630px;
     }
 
     .imagecart {
-        position: relative;
-        left: 665px;
+        left: 662px;
     }
 
     .text {
-        position: relative;
         left: 250px;
     }
 
     #return_shopping {
-        position: relative;
         left: 320px;
     }
 
     .border2 {
-        position: relative;
         left: 15px;
     }
 
     .decoration2 {
-        position: relative;
         left: 420px
     }
 
     .content2 {
-        position: relative;
         left: 360px;
-    }
-}
-
-@media all and (max-width: 936px) {
-
-    .border {
-        position: relative;
-        left: 5px;
-    }
-
-    .decoration {
-        position: relative;
-        left: 0px;
-    }
-
-    .content {
-        position: relative;
-        left: 620px;
-    }
-
-    .imagecart {
-        position: relative;
-        left: 654px;
-    }
-
-    .text {
-        position: relative;
-        left: 250px;
-    }
-
-    #return_shopping {
-        position: relative;
-        left: 320px;
-    }
-
-    .border2 {
-        position: relative;
-        left: 5px;
-    }
-
-    .decoration2 {
-        position: relative;
-        left: 420px
-    }
-
-    .content2 {
-        position: relative;
-        left: 350px;
     }
 }
 
 @media all and (max-width: 912px) {
 
     .border {
-        position: relative;
         left: 5px;
     }
 
     .decoration {
-        position: relative;
         left: -10px;
     }
 
     .content {
-        position: relative;
         left: 620px;
     }
 
     .imagecart {
-        position: relative;
         left: 655px;
     }
 
     .text {
-        position: relative;
         left: 240px;
     }
 
     #return_shopping {
-        position: relative;
         left: 310px;
     }
 
     .border2 {
-        position: relative;
         left: 5px;
     }
 
     .decoration2 {
-        position: relative;
         left: 400px
     }
 
     .content2 {
-        position: relative;
         left: 340px;
-    }
-}
-
-@media all and (max-width: 901px) {
-
-    .border {
-        position: relative;
-        left: 5px;
-    }
-
-    .decoration {
-        position: relative;
-        left: -20px;
-    }
-
-    .content {
-        position: relative;
-        left: 600px;
-    }
-
-    .imagecart {
-        position: relative;
-        left: 655px;
-    }
-
-    .text {
-        position: relative;
-        left: 240px;
-    }
-
-    #return_shopping {
-        position: relative;
-        left: 310px;
-    }
-
-    .border2 {
-        position: relative;
-        left: 5px;
-    }
-
-    .decoration2 {
-        position: relative;
-        left: 390px
-    }
-
-    .content2 {
-        position: relative;
-        left: 330px;
     }
 }
 
@@ -1415,7 +629,6 @@ body {
     }
     
     .decoration {
-        position: relative;
         left: 135px;
         top: 0px;
         border: none;
@@ -1430,7 +643,6 @@ body {
     .border {
         width: 534px;
         border: 1px solid #656565;
-        position: relative;
         left: 160px;
         top: 20px;
     }
@@ -1442,7 +654,6 @@ body {
     .imagecart {
         width: 33px;
         height: 31px;
-        position: relative;
         left: 516px;
         top: 92px;
     }
@@ -1454,7 +665,6 @@ body {
         font-weight: 500;
         line-height: 39px;
         text-align: left;
-        position: relative;
         top: 300px;
         left: 260px;
     }
@@ -1462,7 +672,6 @@ body {
     .border2 {
         width: 534px;
         border: 1px solid #656565;
-        position: relative;
         top: 700px;
         left: 160px;
     }
@@ -1470,7 +679,6 @@ body {
     .decoration2 {
         width: 100px;
         height: 100px;
-        position: relative;
         top: 750px;
         left: 390px;
     }
@@ -1483,7 +691,6 @@ body {
         font-weight: 400;
         line-height: 16px;
         text-align: left;
-        position: relative;
         left: 300px;
         top: 800px;
     }
@@ -1499,201 +706,84 @@ body {
         line-height: 21px;
         border: none;
         border-radius: 10px;
-        position: relative;
         left: 260px;
         top: 400px;
     }
 }
 
-@media all and (max-width: 830px) {
+@media all and (max-width: 820px) {
 
     .border {
-        position: relative;
-        left: 150px;
-    }
-
-    .decoration {
-        position: relative;
-        left: 145px;
-    }
-
-    .content {
-        position: relative;
-        left: 600px;
-    }
-
-    .imagecart {
-        position: relative;
-        left: 505px;
-    }
-
-    .text {
-        position: relative;
-        left: 220px;
-    }
-
-    #return_shopping {
-        position: relative;
-        left: 230px;
-    }
-
-    .border2 {
-        position: relative;
-        left: 140px;
-    }
-
-    .decoration2 {
-        position: relative;
-        left: 360px
-    }
-
-    .content2 {
-        position: relative;
-        left: 275px;
-    }
-}
-
-@media all and (max-width: 800px) {
-
-    .border {
-        position: relative;
         left: 135px;
     }
 
     .decoration {
-        position: relative;
         top: 0px;
         left: 120px;
     }
 
     .content {
-        position: relative;
         left: 600px;
     }
 
     .imagecart {
-        position: relative;
         left: 490px;
     }
 
     .text {
-        position: relative;
         left: 230px;
     }
 
     #return_shopping {
-        position: relative;
         left: 235px;
     }
 
     .border2 {
-        position: relative;
         left: 135px;
     }
 
     .decoration2 {
-        position: relative;
         top: 780px;
         left: 360px
     }
 
     .content2 {
-        position: relative;
         top: 860px;
         left: 280px;
     } 
 }
 
-@media all and (max-width: 790px) {
-
-    .border {
-        position: relative;
-        left: 130px;
-    }
-
-    .decoration {
-        position: relative;
-        top: 0px;
-        left: 110px;
-    }
-
-    .content {
-        position: relative;
-        left: 600px;
-    }
-
-    .imagecart {
-        position: relative;
-        left: 485px;
-    }
-
-    .text {
-        position: relative;
-        left: 230px;
-    }
-
-    #return_shopping {
-        position: relative;
-        left: 235px;
-    }
-
-    .border2 {
-        position: relative;
-        left: 130px;
-    }
-
-    .decoration2 {
-        position: relative;
-        top: 780px;
-        left: 360px
-    }
-
-    .content2 {
-        position: relative;
-        top: 860px;
-        left: 280px;
-    }
-}
-
 @media all and (max-width: 768px) {
 
     .border {
-        position: relative;
         left: 115px;
     }
 
     .decoration {
-        position: relative;
         left: 100px;
     }
 
     .imagecart {
-        position: relative;
         left: 470px;
     }
 
     .text {
-        position: relative;
         left: 210px;
     }
 
     #return_shopping {
-        position: relative;
         left: 215px;
     }
 
     .border2 {
-        position: relative;
         left: 115px;
     }
 
     .decoration2 {
-        position: relative;
         left: 340px
     }
 
     .content2 {
-        position: relative;
         left: 260px;
     }
 }
@@ -1701,49 +791,40 @@ body {
 @media all and (max-width: 712px) {
 
     .border {
-        position: relative;
         left: 105px;
     }
 
     .decoration {
-        position: relative;
         top: 0px;
         left: 85px;
     }
 
     .content {
-        position: relative;
         left: 600px;
     }
 
     .imagecart {
-        position: relative;
         left: 460px;
     }
 
     .text {
-        position: relative;
         left: 200px;
     }
 
     #return_shopping {
-        position: relative;
         left: 200px;
     }
 
     .border2 {
-        position: relative;
         left: 105px;
     }
 
     .decoration2 {
-        position: relative;
         top: 750px;
         left: 330px
     }
 
     .content2 {
-        position: relative;
         top: 800px;
         left: 240px;
     }
@@ -1752,47 +833,38 @@ body {
 @media all and (max-width: 640px) {
 
     .border {
-        position: relative;
         left: 95px;
     }
 
     .decoration {
-        position: relative;
         left: 70px;
     }
 
     .content {
-        position: relative;
         left: 600px;
     }
 
     .imagecart {
-        position: relative;
         left: 450px;
     }
 
     .text {
-        position: relative;
         left: 180px;
     }
 
     #return_shopping {
-        position: relative;
         left: 190px;
     }
 
     .border2 {
-        position: relative;
         left: 95px;
     }
 
     .decoration2 {
-        position: relative;
         left: 320px
     }
 
     .content2 {
-        position: relative;
         top: 780px;
         left: 230px;
     }
@@ -1801,42 +873,34 @@ body {
 @media all and (max-width: 600px) {
 
     .border {
-        position: relative;
         left: 100px;
     }
 
     .decoration {
-        position: relative;
         left: 80px;
     }
 
     .imagecart {
-        position: relative;
         left: 453px;
     }
 
     .text {
-        position: relative;
         left: 190px;
     }
 
     #return_shopping {
-        position: relative;
         left: 190px;
     }
 
     .border2 {
-        position: relative;
         left: 100px;
     }
 
     .decoration2 {
-        position: relative;
         left: 320px
     }
 
     .content2 {
-        position: relative;
         top: 820px;
         left: 240px;
     }
@@ -1851,7 +915,6 @@ body {
     }
     
     .decoration {
-        position: relative;
         top: -60px;
         left: -10px;
         border: none;
@@ -1866,7 +929,6 @@ body {
     .border {
         width: 358px;
         border: 1px solid #656565;
-        position: relative;
         left: 35px;
         top: -10px;
     }
@@ -1878,7 +940,6 @@ body {
     .imagecart {
         width: 26px;
         height: 24px;
-        position: relative;
         left: 220px;
         top: 10px;
     }
@@ -1891,7 +952,6 @@ body {
         font-weight: 500;
         line-height: 39px;
         text-align: left;
-        position: relative;
         top: 200px;
         left: 40px;
     }
@@ -1899,7 +959,6 @@ body {
     .border2 {
         width: 358px;
         border: 1px solid #656565;
-        position: relative;
         top: 500px;
         left: 35px;
     }
@@ -1907,7 +966,6 @@ body {
     .decoration2 {
         width: 54px;
         height: 54px;
-        position: relative;
         top: 580px;
         left: 180px;
     }
@@ -1920,7 +978,6 @@ body {
         font-weight: 400;
         line-height: 16px;
         text-align: left;
-        position: relative;
         left: 80px;
         top: 630px;
     }
@@ -1936,7 +993,6 @@ body {
         line-height: 21px;
         border: none;
         border-radius: 10px;
-        position: relative;
         left: 35px;
         top: 300px;
     }   
@@ -1945,239 +1001,122 @@ body {
 @media all and (max-width: 414px) {
 
     .border {
-        position: relative;
         left: 25px;
     }
 
     .decoration {
-        position: relative;
         top: -55px;
         left: -20px;
     }
 
     .imagecart {
-        position: relative;
         top: 13px;
         left: 213px;
     }
 
     .text {
-        position: relative;
         left: 27px;
     }
 
     #return_shopping {
-        position: relative;
         left: 27px;
     }
 
     .border2 {
-        position: relative;
         left: 25px;
     }
 
     .decoration2 {
-        position: relative;
-        left: 180px;
+        left: 185px;
     }
 
     .content2 {
-        position: relative;
         top: 620px;
-        left: 70px;
+        left: 75px;
     }
 }
 
 @media all and (max-width: 394px) {
 
     .border {
-        position: relative;
         left: 15px;
     }
 
     .decoration {
-        position: relative;
         left: -30px;
     }
 
     .imagecart {
-        position: relative;
         left: 202px;
     }
 
     .text {
-        position: relative;
         left: 15px;
     }
 
     #return_shopping {
-        position: relative;
         left: 15px;
     }
 
     .border2 {
-        position: relative;
         left: 15px;
     }
 
     .decoration2 {
-        position: relative;
         top: 560px;
-        left: 170px;
+        left: 175px;
     }
 
     .content2 {
-        position: relative;
         top: 600px;
-        left: 60px;
-    }
-}
-
-@media all and (max-width: 384px) {
-
-    .border {
-        position: relative;
-        left: 12px;
-    }
-
-    .decoration {
-        position: relative;
-        top: -55px;
-        left: -30px;
-    }
-
-    .imagecart {
-        position: relative;
-        top: 13px;
-        left: 199px;
-    }
-
-    .text {
-        position: relative;
-        left: 12px;
-    }
-
-    #return_shopping {
-        position: relative;
-        left: 13px;
-    }
-
-    .border2 {
-        position: relative;
-        left: 12px;
-    }
-
-    .decoration2 {
-        position: relative;
-        top: 560px;
-        left: 160px;
-    }
-
-    .content2 {
-        position: relative;
-        top: 600px;
-        left: 50px;
+        left: 68px;
     }
 }
 
 @media all and (max-width: 376px) {
 
     .border {
-        position: relative;
-        left: 7px;
+        left: 8px;
     }
 
     .decoration {
-        position: relative;
         left: -35px;
     }
 
     .imagecart {
-        position: relative;
-        left: 195px;
+        left: 193px;
     }
 
     .text {
-        position: relative;
-        left: 10px;
+        left: 8px;
     }
 
     #return_shopping {
-        position: relative;
-        left: 9px;
+        left: 8px;
     }
 
     .border2 {
-        position: relative;
-        left: 7px;
+        left: 8px;
     }
 
     .decoration2 {
-        position: relative;
-        top: 550px;
+        top: 530px;
         left: 160px;
     }
 
     .content2 {
-        position: relative;
-        left: 50px;
-    }
-}
-
-@media all and (max-width: 360px) {
-
-    .border {
-        position: relative;
-        left: 2px;
-    }
-
-    .decoration {
-        position: relative;
-        left: -45px;
-    }
-
-    .imagecart {
-        position: relative;
-        left: 188px;
-    }
-
-    .text {
-        position: relative;
-        left: 2px;
-    }
-
-    #return_shopping {
-        position: relative;
-        left: 2px;
-    }
-
-    .border2 {
-        position: relative;
-        left: 2px;
-    }
-
-    .decoration2 {
-        position: relative;
-        top: 530px;
-        left: 150px;
-    }
-
-    .content2 {
-        position: relative;
-        top: 550px;
-        left: 45px;
+        top: 570px;
+        left: 62px;
     }
 }
 
 @media all and (max-width: 344px) {
 
     .decoration2 {
-        position: relative;
         top: 550px;
     }
 
     .content2 {
-        position: relative;
-        top: 630px;
+        top: 600px;
     }
 }
