@@ -1,3 +1,7 @@
+body {
+    overflow-x: hidden;
+}
+
 .layout {
     width: 920px;
     height: 145px;
